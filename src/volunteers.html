@@ -1,0 +1,17 @@
+{% extends "base/_base.html" %}
+
+{% import 'base/_volunteer_macro.html' as volunteer_macro %}
+
+{% set page_title = message.page_title_volunteers %}
+
+{% block content %}
+
+
+{% for role in volunteers.role_list %}
+  {% set volunteer_role = message[role] %}
+  {% set extra_class = loop.cycle('pycon-odd-seg', 'pycon-even-seg') %}
+  {{ volunteer_macro.volunteer_block(volunteer_role, volunteers[role], extra_class) }}
+{% endfor %}
+
+
+{% endblock %}

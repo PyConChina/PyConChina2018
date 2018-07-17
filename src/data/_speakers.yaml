@@ -1,0 +1,624 @@
+####################################################################
+# 魔都
+####################################################################
+id_liaoruiqi:
+  name: 廖瑞奇
+  name_en: "Ruiqi Liao"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/liaoruiqi.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/liaoruiqi.jpg
+  intro: "达达 - 京东到家配送算法团队负责人，在机器学习、物流算法、计算广告等领域有着丰富的实践经验。2016 年初加入达达，从 0 到 1 建立起达达的算法团队。目前主要负责订单指派、动态定价、路径规划等相关工作，希望利用人工智能的力量改变同城配送的效率与成本，实现更为智能的即时物流。"
+  intro_en: "Leader of Dada-Jingdong Home distribution algorithm team, Ruiqi Liao have rich experience in machine learning, logistics algorithm and computing advertising. In early 2016, Liao joined Dada, and build the algorithm team from scratch. Now, he is mainly responsible for order assignment, dynamic pricing, path planning and some related work, wishing to optimize the effectiveness and cost of distribution with the power of AI, and achieve more intelligent real-time logistics."
+  shanghai_topic:
+    title: "人工智能与即时物流：达达 - 京东到家的算法实践"
+    title_en: "AI and Real-time Logistics: Dada-Jingdong Home Algorithm Practice"
+    preview: "作为国内最大的众包物流平台，达达拥有数百万兼职配送员，每天为数百万订单提供即时配送服务。在即时物流算法这一全新的领域里，达达在订单智能指派、供需预测、动态定价、路径规划等多个方面进行了探索和实践。机器学习和人工智能技术的应用有效提升了平台的运行效率，实现了平台的高度自动化运行。本次分享将首次为大家介绍达达在相关领域的一些实践经验。"
+    preview_en: "As the largest logistics platform in China, Dada has millions of part-time distribution staff, providing real-time delivery services for millions of orders per day. In the real-time logistics algorithm area, Dada has explored and practiced many aspects such as intelligent order assignment, supply and demand forecasting, dynamic pricing, path planning and so on. The user of Machine learning and artificial intelligence effectively enhanced the operational efficiency of the platform, achieving a high degree of automation platform operation. This sharing will be the first time to introduce Dada's experience in the relevant areas."
+    slide: #
+
+id_feilianghong:
+  name: 费良宏
+  name_en: "Lianghong Fei"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/feilianghong.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/feilianghong.jpg
+  intro: "AWS 首席云计算技术顾问，拥有超过 20 年在 IT 行业以及软件开发领域的工作经验。在此之前他曾经任职于 Microsoft、Apple 等知名企业，任职架构师、技术顾问等职务，参与过多个大型软件项目的设计、开发与项目管理。目前专注于云计算以及互联网等技术领域，致力于帮助中国的开发者构建基于云计算的新一代的互联网应用。"
+  intro_en: "Chief Cloud Computing Technical Consultant of AWS, Lianghong Fei has more than 20 years of experience in IT industry and software development. He once worked for a number of well-known companies such as Microsoft and Apple, served as architect, technical consultant, and participated in the design, development and project management of several large software projects. Currently, focused on cloud computing and the Internet and other technical areas, Fei is committed to helping Chinese developers to build the next generation Internet applications based on cloud computing."
+  shanghai_topic:
+    title: "Getting Start MXNet with Python"
+    title_en: "Getting Start MXNet with Python"
+    preview: "深度学习技术的进步推动了计算机视觉、自然语言处理以及推荐系统等领域的快速发展。这一变化很重要的原因就是是充分利用了 GPU 加速计算并具备了高度灵活和开发人员友好的深度学习框架的出现以及发展。在本议题中将为您介绍 MXNet 框架的特点以及如何利用此框架进行深度学习应用的开发。Apache MXNet 是一个开源的、精简的、具有灵活和高度可扩展能力的深度学习框架，它支持深度学习模型中的最新技术，包括卷积神经网络（CNN）和长短期记忆网络（LSTM）等。 您还将学习如何快速开始使用 AWS 云中的 NVIDIA GPU，以及如何在几分钟内轻松扩展到数百个 GPU ，实现分布式的大规模集群上的模型训练。"
+    preview_en: "The advancement of deep learning has led to the rapid development of computer vision, natural language processing and recommendation systems. Part of the reason of this change is the use of GPU to accelerate the calculation, and the appearance of highly flexible and developer-friendly deep learning frameworks. In this topic, Lianghong Fei will introduce the features of the MXNet framework and how to use this framework for deep learning applications development. Apache MXNet is an open source, streamlined, flexible and highly scalable deep learning framework, which supports the latest technologies in deep learning, including convolution neural networks (CNNs) and long short-term memory networks (LSTMs). You will also learn how to quickly start using the NVIDIA GPU in the AWS cloud, and how to easily scale to hundreds of GPUs in a few minutes to train a deep learning network model on a distributed large-scale cluster."
+    slide:
+
+id_wangjianfeng:
+  name: 王剑峰
+  name_en: "Jianfeng Wang"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/wangjianfeng.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/wangjianfeng.jpg
+  intro: "上海开阖软件有限公司 创始人兼 CEO，Python 开源企业信息化项目 GoodERP 发起者，9 年 Python 开发经验，12 年 SAP 二次开发经验，5 年会计从业经验，曾任 OpenERP 中文社区社区经理，曾担任 37 个 Odoo 实施项目经理。"
+  intro_en: "Founder and CEO of Shanghai KaiHe Software Co. Ltd., Jianfeng Wang is the sponsor of Project GoodERP - an open source ERP software, who has 9 years experience of Python development, 12 years SAP secondary development experience, and 5 years accounting experience. Wang is the former OpenERP Chinese community community manager and project manager of 37 Odoo projects."
+  shanghai_topic:
+    title: "用 Python 开发 GoodERP"
+    title_en: "Develop GoodERP with Python"
+    preview: "作为 Python 在企业信息化中的应用典范，简述 GoodERP 如何借助 Python 语言的简洁、优雅特性实现 ERP 开源项目的大规模协同开发。希望能够吸引更多专业或业余的 Python 开发者参与到这个项目中来。用更快实现、更易维护的技术来解决身边的问题，一起构建一个 “用户数最多的中国本土开源 ERP 项目”。"
+    preview_en: "Introduce GoodERP's way of large-scale collaborative development using the feature of Python - simple and elegent, Jianfeng Wang hopes to attract more professional or amateur Python developers to participate in this project, and build a most-used Chinese open source ERP project."
+    slide:
+
+id_lijiaxuan:
+  name: 李嘉璇
+  name_en: "Jiaxuan Li"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/lijiaxuan.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/lijiaxuan.jpg
+  intro: "《TensorFlow 技术解析与实战》（版权也已被台湾引进）作者，51CTO WOTI、Oreilly Strata、Boolan 等大会深度学习讲师。对深度学习框架的架构、源码分析及在不同领域的应用有浓厚兴趣。有处理图像、社交文本数据情感分析、数据挖掘等实战经验。曾任职百度研发工程师，目前研究构建高性能的神经网络模型及 TensorFlow 下的压缩工具链，包括模型量化、常数化、剪枝。"
+  intro_en: "Author of \"TensorFlow: technical analysis and practice\", WOTI of 51CTO, lecturer of Oreilly Strata, Boolan and other Deep Learning conference, Jiaxuan Li has a strong interest in framework, source code, and applications in different areas of Deep Learning. She has rich experiences on image processing, emotional analysis of social network text and data mining. She once worked in Baidu R & D engineers, and now she is researching on how to build high-performance neural network model and tool chain under TensorFlow, such as model quantization, constant, and pruning."
+  shanghai_topic:
+    title: "TensorFlow 下的构建高性能神经网络模型的最佳实践"
+    title_en: "Best Practice of Constructing High-Performance Neural Network Model with TensorFlow"
+    preview: "神经网络算法在图像、语音等领域都大幅度超越传统算法，但在应用到实际项目中却面临两个问题：计算量巨大及模型体积过大，不利于移动端和嵌入式的场景；模型内存占用过大，导致功耗和电量消耗过高。因此，如何对神经网络模型进行优化，使尽可能不损失精度的情况下，能减少模型的体积，并且计算量也降低，就是我们将深度学习在更广泛地场景下应用时要解决的问题。本次讲解主要着眼于在安防、工业物联网、智能机器人等设备，需要解决图像、语音场景下深度学习的加速问题，减小模型大小及计算量，构建高性能神经网络模型。"
+    preview_en: "Compare with traditional algorithm, Neural Network achieved huge success in image, voice and other fields, but still facing two problems when applying to actual project: huge amount of computation and huge size of model means it is not conducive to mobile and embedded scenes, huge memory occupation resulting in huge power consumption. Therefore, how to optimize the neural network, making it smaller both in size and and the amount of calculation without loseing the accuracy, is the key problem we should solve before put Deep Learning into a broader application field. This topic focuses on the equipments used in security, industrial networking, intelligent robots and other area, aiming to accelerat the image and voice processing scene, reduceing the size of the model, and building the high-performance neural network model."
+    slide:
+
+id_xiehanjian:
+  name: 谢晗剑
+  name_en: "Jan Xie"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/xiehanjian.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/xiehanjian.jpg
+  intro: "秘猿科技首席执行官 & 联合创始人。区块链专业社区 EthFans 联合创始人。以太坊核心研发团队成员。DEVCON2 、DEVCON3 大会演讲嘉宾。开源数字资产交易所 Peatio 核心开发者。拥有超过 10 年的软件系统架构与开发经验。"
+  intro_en: "CEO & Co-Founder of Cryptape Technology. Co-Founder of EthFans, a rofessional community of block chain. Core member of Ethereum. Speaker of DEVCON2 and DEVCON3 conference. Core developer of Peatio, an open source digital asset exchange. Jan Xie has more than 10 years' experience in software system architecture and development."
+  shanghai_topic:
+    title: "探秘以太坊的Python实现"
+    title_en: "Ethereum on Python"
+    preview: "Pyethereum 是全球第二大的区块链项目以太坊的 Python 实现，此项目属于以太坊基金会，是官方的重要实现之一。此项目由以太坊创始人 Vitalik Buterin 本人直接参与，是以太坊的各种最新设计与想法的试验田。秘猿科技的核心团队参与了本项目并负责重要的编码，架构和code review 工作。今天，秘猿科技的 CEO 兼联合创始人谢晗剑（Jan Xie）将从 pyethereum 的视角，为大家深入剖析以太坊与智能合约。"
+    preview_en: "Pyethereum, belonging to the Ethereum Foundation, is Python implementation of the world's second largest block-chain project, Ethereum. This project is directly involved by Vitalik Buterin, founder of the Ethereum, and implements the latest thoughts and design of Ethereum. The core team of the Cryptape Technology participated in the project and was responsible for core coding, architecture designing and code reviewing. Today, Jan Xie, CEO and co-founder of Cryptape Technology, will take an in-depth analysis of the Ethereum and Smart Contracts from the perspective of Pyethereum."
+    slide:
+
+id_gaominquan:
+  name: 高民权
+  name_en: "Minquan Gao"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/gaominquan.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/gaominquan.jpg
+  intro: "浙江大学计算机研究生（目前已签约阿里巴巴集团高级工程师），专注领域为机器学习（自然语言理解， 文本自动生成， ChatBot）。 Python 使用 6 年。 研究生期间曾作为联合创始人创建宁波乔克兄弟杭州互联网中心。"
+  intro_en: "Graduate student of Zhejiang University, Minquan Gao focus on the field of machine learning (natural language understanding, text automatically generation, and ChatBot). 6 years' experience of Python using. During the graduate school, Gao created Hangzhou Internet Center of Ningbo QiaoKe Brothers as the co-founder."
+  shanghai_topic:
+    title: "The Pragmatic Guide of Sequence2Sequence based on Tensorflow"
+    title_en: ""
+    preview: "计算机自动翻译，计算机自动文本生成， 自动文本摘要，音乐自动生成，以及 Image Caption 等问题的核心都是 Sequence2Sequence。 Seq2Seq 是一种解决面向序列化问题的解决方法， 具有广泛的应用场景和前景， 但是这种模型难实现， 难训练， 入门较难。 在本议题中， 将会解释 Seq2Seq 的原理以及其实现方法，并以目前主流的 tensorflow 为框架， 解释在 tensorflow 下如何实现 Seq2Seq，并结合实践经验， 讨论 Seq2Seq 的实际应用中需要注意的问题， 以及介绍目前国际最先进的 Seq2Seq 改进方法。"
+    preview_en: "The core of computer automatic translation, text generation, text summary, music generation, and Image Caption, is Sequence2Sequence. Seq2Seq is a solution to the serialization-oriented problem, with a wide range of application scenarios and prospects。 But this model is difficult to achieve and train, meanwhile it is painful to beginners. In this topic, Gao  will explain the principles and implementation of Seq2Seq using Tensorflow. At the same time, he will also discuss the problem we should pay attention when we put Seq2Seq into applications. State-of-the-art Seq2Seq improvement methords will also be introduced."
+    slide:
+
+id_houkai:
+  name: 侯凯
+  name_en: "Kai Hou"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/houkai.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/houkai.jpg
+  intro: "爱因互动科技发展（北京）有限公司高级开发工程师， 有 8 年 Python 相关开发经历。 现在主要负责聊天机器人服务化的相关开发"
+  intro_en: "Senior development engineer of Einplus (Beijing) Co., Ltd., Kai Hou has 8 years of Python  development experience. Hou is now mainly responsible for the development of chat robots"
+  shanghai_topic:
+    title: "ChatBot 服务化的工程实践"
+    title_en: "Engineering Practice of ChatBot Servicelization"
+    preview: "该话题主要介绍了爱因互动基于 Python 技术栈, 开发和交付 ChatBot 的一些工程实践. 内容涉及 ChatBot 服务的基本结构和部署流程, 以及 ChatBot 使用的算法模型的训练和更新的服务化. 同时也会向大家介绍我们在上述流程中用到的一些 Python 工具库"
+    preview_en: "This topic introduces some engineering practices based on the Python technology stack,  development, and delivery of ChatBot, which involves the basic structure and deployment process of the ChatBot service , as well as the servicelization of training and updating. Some Python tool packages used in ChatBot service will also be introduced."
+    slide:
+
+id_gezhixiong:
+  name: 葛志雄
+  name_en: "Zhixiong Ge"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/gezhixiong.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/gezhixiong.jpg
+  intro: "资深开发工程师，曾在高频套利私募担任交易总监，峰值交易量市场占比超过 70%，年交易量高达千亿级别。现在在知名企业任职资深开发工程师，做智能金融方向的开发工作。国内知名开源项目 potato（原 pyalgotrade-cn）发起人，是首个整合了分布式计算框架的开源交易系统，可以支持上万个交易单元。对向量化计算在回测中的应用有丰富的经验，开发过 cta 和多因子类的向量化回测平台，相比于事件驱动平台速度提升 200 倍。"
+  intro_en: "Zhixiong Ge is a Senior development engineer. Ge was a director of the transaction of a  high-frequency arbitrage, whiose peak trading volume accounted for more than 70% of the entire market, and the annual trading volume of whom up to 100 billion level. Ge is working for a well-known enterprises, doing the development work of intelligent financial. Ge is the sponsor of potato (formerly pyalgotrade-cn), the first integrated computing framework of the open source trading system, which can support tens of thousands of trading units. Ge has a wealth of experience in the application of vectorization computation in the back-testing, and has developed some vectorized multi-factor classes back-testing platform, which is 200 times faster than the event-driven platforms."
+  shanghai_topic:
+    title: "如何搭建支持千亿级别成交量的交易系统"
+    title_en: "How to build a 100 billion level trading system"
+    preview: "近 5 年来，程序化交易在整个二级市场中的交易量占比不断上升，但是相比于国外，还有非常大的发展空间。程序化交易相比人工交易有很大优势，如报单速度，精确控制成本，全天候多市场监控。套利交易，是程序化交易的发源地。因为套利交易具有持续时间短，监控品种多的特点，对交易系统的稳定性和强健性有着极高的要求。2015 年牛市中，A 股市场交易量突破万亿，也是套利交易获利最丰厚的一年。此后，金融机构也对交易系统的研发越来越重视。对高频私募来说，交易系统的重要性甚至要超过交易策略。因此，对 IT 人员也是提供了极大的发展机会。"
+    preview_en: "The Procedural transactions proportion of trading volume in the secondary market is rising over the past five years, but compared to abroad, there is still a very large space for promotion. Programmatic transactions, compared to manual transactions, have great advantages, such as the speed of reporting, costs control, and all-day multi-market monitoring. Arbitrage is the birthplace of procedural transactions. Because arbitrage transactions have features of short duration and multi monitoring of the characteristics, the trading system should have very high stability and robustness. In 2015, A-share market trading volume exceeded one trillion, and it is  also the godel year of arbitrage transactions. Since then, financial institutions have also paid more and more attention to the development of trading systems. For high-frequency private placement, the importance of trading systems is even more than trading strategy. It is also a great chances for IT practitioners."
+    slide:
+
+id_yaotangren:
+  name: 姚唐仁
+  name_en: "Tangren Yao"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/yaotangren.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/yaotangren.jpg
+  intro: "七牛云人工智能实验室首席架构师，负责机器学习平台的设计与研发。在分布式系统，分布式存储领域有丰富的设计与实现的经验。曾在 IBM 系统与科技实验室从事高端企业存储设计与研发工作，在华为担任云存储架构师。"
+  intro_en: "Chief architect of AI library of Qiniu Cloud, Tangren Yao is responsible for the design and development of machine learning platform. Yao has rich experience in design and implementation in the distributed system and distributed storage field. Yao engaged in high-end enterprise storage design and research in IBM system and technology laboratories, and cloud storage architect in Huawei."
+  shanghai_topic:
+    title: "富媒体弹性机器学习平台"
+    title_en: "Flexible Rich Media Machine Learning Platform"
+    preview: "机器学习是 AI 领域最受关注的方向，从理论模型到产品化的过程中，如何提升模型训练的效率和精度，简化训练和验证数据集的处理，有效利用计算力资源来缩短产品化的周期，这些都是 AI 产品研发落地成功的关键因素。本次演讲从如何构建一款富媒体弹性机器学习平台出发，将分享七牛云在构建弹性机器学习平台中的经验以及该平台在行业场景中的应用。"
+    preview_en: "Machine learning is the most important direction in the field of AI. How to improve the efficiency and accuracy of model training, how to simplify the training and verification of data sets, how to make the effective use of computing power resources to shorten the product cycle - these are the key factors for the success of AI product from development to landing. Based on how to build a rich media flexible machine learning platform, this topic will share the experience of building a flexible machine learning platform and its industry scene applications."
+    slide:
+
+id_huhaoran:
+  name: 胡昊然
+  name_en: "Haoran Hu"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/huhaoran.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/huhaoran.jpg
+  intro: "华为 CloudBU 性能与工具部 高级工程师，曾在 IBM 系统实验室工作近 4 年"
+  intro_en: "Senior Engineer of CloudBU Performance and Tools in Huawei. Worked for nearly four years at IBM Systems Lab"
+  shanghai_topic:
+    title: "华为 Openstack CPython(Loong) 解释器分析"
+    title_en: "Profiling Openstack Using Huawei CPython(Loong) Interpreter"
+    preview: "CPython 编程语言原生的 tracing 能力比较薄弱。为了帮助华为公有云开发人员，测试人员和 DevOps 人员更好地调试复杂场景下的 OpenStack，我们对 CPython 解释器进行了一系列的改造（内部名：loong 解释器），主要工作有以下几个部分：CPython 解释器的修改（定时器，关键事件探针，关键内存数据统计），做出 CPython 解释器所使用的 toolkits 集合，以及处理相关数据的 toolkits。同时，我们建立了一个内部 Huawei Openstack 的数据监控分析平台，动态地监控和分析 OpenStack 的一些指标，帮助开发识别了 OpenStack 在特定流模型下的热点，协助定位了一些疑难问题，并根据线上真实故障在研发环境模拟，不断测试预案演练方案。"
+    preview_en: "CPython programming language native tracing ability is relatively weak. In order to help HUAWEI public cloud developers, testers and DevOps personnel better debug OpenStack in complex scenarios, we have made a series of modifications to the CPython interpreter (internal name: Loong interpreter) with the following work: the modified the CPython interpreter (timer, key events probe, key memory data statistics), made a collection of CPython toolkits, and a toolkit for handling related data. At the same time, we set up an internal Huawei Openstack monitoring data analysis platform, monitoring and analysis of OpenStack dynamicly, helping the development of identified OpenStack hotspots in specific flow model, helping locate some problems, and simulation test plan exercise program  in the development environment according to the real faults."
+    slide:
+
+id_gaojin:
+  name: 高金
+  name_en: "Jin Gao"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/gaojin.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/gaojin.jpg
+  intro: "现任博易智软爬虫工程师。知乎专栏 “爬虫从入门到精通” 作者。对爬虫有很深入的了解。"
+  intro_en: "The crawler engineer of BoYiZhi soft. Author of \"Crawler: from entry to proficient\" on Zhihu. Jin Gao have a deep understanding of the reptile."
+  shanghai_topic:
+    title: "使用 docker 来创建可扩展的分布式爬虫"
+    title_en: "Create an Extensible Distributed Crawler with Docker"
+    preview: "对于爬虫来说，抓取速度一直是一个问题。本主题是利用了 docker 的特性 “一次 build,run anywhere” 与 scrapy-redis 相结合，来创建一个可扩展的分布式爬虫。整个流程如下：爬虫代码编写完成后，push 到仓库后，自动进行 docker 镜像 build，build 完成后自动创建应用，可自定义容器数量（随时可以更改），这样一个自动可扩展的分布式爬虫就完成了。"
+    preview_en: "Crawling speed has always been a problem for crawlers. This topic takes advantage of the key feature of docker, \"once build, run anywhere\", with scrapy-redis, to create a scalable distributed crawler. The whole process is as follows: Code the crawler, Push the code to codelab, build docker automatically, create application automatically. One can customize the number of containers. So that an automatic scalable distributed crawler is complete."
+    slide:
+
+id_zhangweipeng:
+  name: 张卫鹏
+  name_en: "Weipeng Zhang"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/zhangweipeng.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/zhangweipeng.jpg
+  intro: "天壤网络科技天弈围棋项目负责人，专注于深度学习和强化学习，曾任电商广告决策系统负责人，目前为天弈围棋项目负责人。毕业于上海交通大学 Apex 实验室机器学习方向硕士，曾在 IBM 中国研究院负责 IBM 全球产品推荐系统，发表国际会议论文 4 篇，并发明美国专利 6 篇。活跃于机器学习与数据挖掘平台 Kaggle，在平台用户中排名 TOP1%。在机器学习和深度学习方向有比较深入的研究与实践。"
+  intro_en: "Focusing on deep learning and reinforcement learning, served as the head of advertising decision-making system, Weipeng Zhang is currently in charge of the project go project in Tianrang Network and Technology. Zhang graduated from Shanghai Jiao Tong University Apex laboratory, master of machine learning direction. He was in charge of IBM global product recommendation system at IBM Chinese Research Institute, published 4 international conference papers, and invented 6 American patents. He is active in Kaggle, a machine learning and data mining platform , ranking TOP1% among  users. He has a more in-depth research and practice in machine learning and deep learning."
+  shanghai_topic:
+    title: "TensorFlow 培训"
+    title_en: "Training of TensorFlow "
+    preview: "1. TensorFlow 新手入门
+  - 简介
+  - 下载与安装
+2. TensorFlow 的基础使用
+  - 数据流图介绍
+  - Graph，session，tensor，variable 等基本概念介绍
+3. 基于 TensorFlow 实现 MNIST 多分类
+  - Softmax 简介
+  - 实现一个简单的多分类程序
+4. 使用 TensorBoard 可视化学习
+  - 数据序列化
+  - 训练过程可视化
+  - 网络结构可视化
+5. 卷积神经网络
+  - 卷积神经网络介绍
+  - CIFAR-10 图像多分类问题
+  - 多 GPU 训练模型
+6. AlphaGo 的 policy 和 value 网络
+  - AlphaGo 核心算法简介
+  - Policy Network 模型结构与训练
+  - Value Network 模型结构与训练
+7. 总结"
+    preview_en: ""
+    slide:
+
+id_dinglaiqiang:
+  name: 丁来强
+  name_en: "Laiqiang Ding"
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2017/speakers/ding.jpg
+  avatar_en: ../asset/images/avatar-2017/speakers/ding.jpg
+  intro: "美国纳斯达克上市的顶级大数据技术平台公司的工程架构师，历任 EMC 首席工程师、趋势科技技术经理等。从业超过 10 年，熟悉大数据平台构建技术、大数据分析可视化技术，安全领域技术等。Python 专家，擅长 Python、C++、JS 与 Scala。在大数据处理与安全领域，拥有 6 项美国专利。PyCon 历届首席讲师，TDI 讲师，曾经在 PyCon2015、PyCon2016 分享过 6 场与多达 5 个议题，覆盖大数据分析可视化与工作流调度、函数式、设计模式与 Python 核心语言等方面，听众赞誉极高。"
+  intro_en: "Nasdaq's top big data technology platform engineering architect, Laiqiang Ding served as chief engineer of EMC, technical manager of Qushi technology. He has experience of more than 10 years, and familiar with big data platform construction technology, big data analysis visualization technology, security technology and so on. Ding is a Python expert, good at Python, C++, JS and Scala. In the field of big data processing and security, he owns 6 patents in the United States. As chief speaker and TDI speaker of PyCon, he shared 6 with as many as 5 topics in PyCon2015 and PyCon2016 , covering big data visualization and analysis of workflow scheduling, function mode, design mode and Python core language. The audience highly praised."
+  shanghai_topic:
+    title: "Python 大数据分析可视化高级培训"
+    title_en: "Advanced Training of Big Data Analysis And Visualization Using Python"
+    preview: "课程亮点：
+1、实战与 10 年 + 经验与技巧结合，掌握数据分析与可视化以及在 Python 中应用的最佳捷径。
+2、全真案例，借助案例与数据分析的知识与原理，借助最佳实践，帮助您提高分析能力，从而获取大数据带来的价值。
+3、关注业界流行工具包，以实战训练驱动对数据分析与可视化进行理解与运用。
+
+在课程中将会逐一解决的问题：
+1、学员不熟悉 Python，难以高效实用 Python 进行数据分析
+2、学员难以分析大的数据集，原因是数据杂乱与不规整
+3、学员没有数据清洗的知识与经验，无法实施快速分析
+4、分析系统本身复杂难用，不利于大数据分析与迭代式分析
+5、分析效率得不到保障，因为无法定位问题原因
+6、分析结论难于满足分析需求"
+    preview_en: ""
+    slide:
+
+####################################################################
+# 深圳
+####################################################################
+id_heshiyou:
+  name: 何世友
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/heshiyou.jpg
+  intro:  "爱范儿（广州爱范儿科技股份有限公司） CTO ，移动互联网新兵，90 年生人，自 09 年开始摸爬滚打。从校园创业到跨国团队技术顾问再到如今，积累了些许不成熟的管理试错。专注于高并发网络、机器学习、移动 app（部分硬件）、团队管理。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "ASGI 草案，Python 终于等到了"
+    title_en: "..."
+    preview: "从 CGI 到 WSGI，一晃十余年。自 10 年以来，HTTP2、WebSocket 等新协议逐渐发展壮大，显然 WSGI 已经力不从心，Python 急需新的 web 框架适应新协议。ASGI，由 Diango 团队发起，提出了一种新的异步网络编程思想，试图用一个框架兼容 HTTP、HTTP2、WebSocket 三种协议，它是怎么做到的呢？让我们一起来揭开它的神秘面纱。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/5《ASGI 草案，Python 终于等到了》何世友.pdf"
+
+id_panjunyong:
+  name: 潘俊勇
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/panjunyong.jpg
+  intro:  "广州润普网络科技有限公司 易度云（easydo.cn）创始人，python社区老兵，珠三角技术沙龙组委，一直在企业应用领域耕耘，专注企业内容管理和企业应用快速开发平台相关产品的研发。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "脚本化和Blockly可视化的应用开发实践"
+    title_en: "..."
+    preview: "技术变化越来越快，应用开发越来越复杂，缺乏持久保障。易开发在企业应用领域，通过建立应用开发平台，隔离技术变迁，实现全栈Python脚本化应用开发，部分逻辑使用Blockly可视化开发，简化应用开发，进而做到可持续的应用开发。演讲将在分析云和大数据时代应用开发之未来趋势，介绍脚本化应用开发平台的架构，以及Blockly可视化语言。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/1%20《脚本化和Blockly可视化的应用开发实践》潘俊勇.pdf"
+
+id_chanshi:
+  name: 馋师
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/chanshi.jpg
+  intro:  "互联网公司后端开发。五年Python编程经验。喜欢接触各类语言、平台、框架、工具、方法。开源参与者"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python开发辅助软件提升工作效率"
+    title_en: "..."
+    preview: "第一：用Python开发比AutoHotkey更好用的热键软件，并同时支持Windows、Linux、Mac OS三种系统。
+第二：通过Monkey Patching实现运行时调用栈追踪，用于快速研究代码流程（10分钟弄懂一个框架），及实现非侵入式流程测试（不用埋点，不用加测试专用的函数参数）。
+第三：使用逐行注释法明示代码书写意图，成倍提升代码可读性和项目维护效率。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/8《Python开发辅助软件提升工作效率》馋师.pdf"
+
+id_zhangqichuan:
+  name: 张其川
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhangqichuan.jpg
+  intro:  "CheungSSH总设计师"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "自动化运维和工具"
+    title_en: "..."
+    preview: "在大数据、云计算的时代，越来越多的公司开始拓展自己的业务，服务器数量急剧增加。面对如此庞大的服务器集群，普通的运维模式已经不再能满足我们的生产需要。需要自动化运维模式来有效地管理大量的服务器，本演讲介绍了一些自动化运维的开发经验和案例。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/6《自动化运维和工具》张其川.pdf"
+
+id_river:
+  name: river
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/river.jpg
+  intro:  "创业者，优趣工作室CTO,  QPython作者，前Zynga高级系统研发工程师，前绿盟科技研发工程师，前新浪邮件工程师"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python in Android"
+    title_en: "..."
+    preview: "在Android上为什么 以及如何进行安卓开发？相信这是很多安卓Python开发者的疑惑， 在这个主题中，我将给大家分享Python 在 Android中的应用场景。具体内容包括：1 在安卓上进行Python脚本编程；2 如何用Python进行原生App&WebApp开发；3 如何用Python进行游戏应用开发。 "
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/4《Python in Android》River.pdf"
+
+id_huguotao:
+  name: 胡国涛
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/huguotao.jpg
+  intro:  "优趣工作室 WEGO 项目组高级工程师， QPython产品组工程师，目前主要负责微信相关基础框架、组件的开发"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "WEGO 的开源之旅"
+    title_en: "..."
+    preview: "随着微信的发展，原来越多的公众号入驻微信平台带来了大量的开发需求。现在我们将我们使用的微信开发框架 WEGO 开源，希望能给更多的开发者带来便利。
+WEGO 是一个由 python 编写、方便集成、快速易用、轻便灵活的微信开发框架，自带有 web 管理界面，让开发者专注业务逻辑摆脱微信接口调试的烦恼。
+Github: https://github.com/wegostudio"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/7《WEGO 的开源之旅》胡国涛.pdf"
+
+id_shienming:
+  name: 石恩名
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/shienming.jpg
+  intro:  "广州优亿科技有限公司高级技术经理，负责大数据平台相关的采集转换和数据挖掘等相关的工作，以Python作为主要开发语言，专注于数据采集、机器学习、技术架构设计。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "一种可视化爬虫技术分享"
+    title_en: "..."
+    preview: "网络爬虫是Python擅长领域，包括Scrapy、Pyspider等大量开源爬虫框架，那么利用现有的框架如何构建一个高性能的可视化网络爬虫的产品？主要分享内容包括：
+1） 一个高性能的网络爬虫框架介绍。
+2） 构建一个可视化网络爬虫所遇到的问题。
+3） 对主要的问题的解决方案。
+4） 产品展示和介绍。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/9《一种可视化爬虫技术分享》石恩名.pdf"
+
+id_lili:
+  name: 李力
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/lili.jpg
+  intro:  "腾讯云调度管理系统研发负责人，腾讯云布道师，主要负责腾讯公有云/私有云后台框架的设计、实现及运营，在KVM虚拟化、sdn/vpc、linux container上有多年的实践经验。 "
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python用于公有云系统的实践"
+    title_en: "..."
+    preview: "大家都知道Python是云计算的好伙伴，通过Python语言OpenStack建立起了一系列庞大的项目。同样的，腾讯云的后台系统也大量使用了Python，在这里我们会分享Python在腾讯公有云系统中的一些应用实践，阐述在云计算的系统当中我们对Python的一些特性的依赖和喜爱，包括我们在大规模系统中的应用python技术的一些坑，让大家有所收获。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/3《Python用于公有云系统的实践》李力.pdf"
+
+id_tangyingkang:
+  name: 汤英康
+  city_shenzhen: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/tangyingkang.jpg
+  intro:  "Python程序员，就职于广州优亿科技，负责设计和开发大数据监控平台的相关产品。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "大数据监控告警系统"
+    title_en: "..."
+    preview: "随着业务量和数据量的快速增加，对于集群应用的监控和告警显得越发重要。优亿科技结合积累多年的电信行业大数据项目经验，整合了分布式数据采集、OpenTSDB海量数据存储、数据可视化、告警和Docker集群管理技术，最终推出一套完整的大数据监控告警平台产品方案。本主题将介绍该产品的系统架构，分享在设计和开发中积累的一些经验。 "
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/10《大数据监控告警系统》汤英康.pdf"
+
+####################################################################
+# 北京
+####################################################################
+id_hongqiangning:
+  name: 洪强宁
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/hongqiangning.jpg
+  intro:  "爱因互动CTO，创业中。前豆瓣首席架构师，前宜信大数据创新中心首席架构师。2002年开始使用Python，中国Python用户组（CPUG）的早期活跃者和创立者之一，有较深厚的大规模网站架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
+  intro_en: CTO...
+  beijing_topic:
+    title: "Python与对话机器人"
+    title_en: "..."
+    preview: "..."
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/1《Python与对话机器人》 洪强宁.pdf"
+
+
+id_tiantaotao:
+  name:  田涛涛
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/tiantaotao.jpg
+  intro: "阿里巴巴 阿里云高级技术专家，加入阿里云之前曾任职IBM中国开发中心DB2的管理和监控。目前负责阿里云管控系统和资源编排(ROS)开发。 "
+  intro_en: CTO...
+  topic:
+    title: "Infrastructure as Code In Aliyun"
+    title_en: "Infrastructure as Code In Aliyun"
+    preview: "随着越来越多的IT基础设施迁移进入云端，需要更方便的方案降低用户入云的门槛，有序的实现资源的配置管理和生命周期管理，并且通过可复用的方式快速的创建资源和运行环境。社区中已有的很多自动化的管理工具例如Ansible可以实现一部分的自动化工作，我们将结合Ansible与阿里云的云服务资源编排(ROS)通过一种标准化的方式完成云资源的创建和应用交付，实现云端的Infrastructure as Code(基础设施即代码)。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/3《Infrastructure as Code In Aliyun》田涛涛.pdf"
+
+id_zhanghuayi:
+  name: 张华翼
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhanghuayi.jpg
+  intro: "豆瓣网高级系统工程师，负责私有云建设，服务化框架研发和全站性能提升。目前关注 Docker，私有云，微服务等领域。"
+  intro_en: ''
+  beijing_topic:
+    title: "使用 Python 构建服务化架构中的基础设施"
+    title_en: "..."
+    preview: "1. 分布式追踪系统：服务化架构中调用链可能非常复杂，利用 Python 动态语言的特性可以实现一个简洁透明的分布式追踪系统，帮助收集调用信息，定位系统性能瓶颈。 2. 动态接口查询引擎：在向服务化架构迁移的过程中会遇到性能以及接口设计粒度的问题。利用数据流抽象和 Python 的闭包序列化，实现将多次服务调用打包为一次，或者组合多个已有接口动态生成新接口。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/6《使用 Python 构建服务化架构中的基础设施》张华翼.pdf"
+
+
+id_lvzhaogang:
+  name: 吕召刚
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/lvzhaogang.jpg
+  intro: "彪洋科技，12+年的软件研发与架构经验，关心每一行代码，每一个变量和方法的命名，有代码洁癖。曾在大众点评负责搜索引擎研发，任开发经理，从无到有架构和实现了支持日均上亿PV的高可用搜索系统；做过10多个Python应用，大部分用的Django的，为Django的高效和强大所倾倒，现在创业公司负责研发，做Marketing Automation产品。"
+  intro_en: ...
+  beijing_topic:
+    title: "引爆你的生产力-挖出Django的潜能"
+    title_en: "..."
+    preview: "Django自带的Admin非常强大，能高效开发出管理系统；如何还能更高效？比如预期要2周开发完成的系统如何1天内完成。既然数据库里已经有数据的定义，为何要在Model里面再定义一次？这个主题分享如何自动生成代码，与现有系统的数据库集成，如何与现有的账号集成，如何在自带的admin页面增加除增删改查之外的定制功能，如何集成bootstrap，以及集成restapi。建议有兴趣参加这个主题的同学提前装好Django，参会时带上笔记本，以便在分享中得到最大的收获。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/11 《引爆你的生产力-挖出Django的潜能》吕召刚.pdf"
+
+id_yangshuguang:
+  name: 阳曙光
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/yangshuguang.jpg
+  intro: "猎聘网工程师，7年python开发经验，2015年加入猎聘从事大数据相关的python开发工作。深入研究过纯python开发的任务调度工具luigi，airflow的源码。2017年用python开发了用于猎聘网大数研究院的任务调度工具。 "
+  intro_en: ...
+  beijing_topic:
+    title: "数据流水线任务智能调度系统"
+    title_en: "..."
+    preview: "数据流水线上需要运行各种任务，包括执行Hive SQL、MR程序、Python数据处理脚本、导出数据、邮件发送数据等。如何保证这些任务按照依赖关系执行是很大的一个挑战。我们用Python开发的任务调度系统能够自动解决依赖，并且能够按设置优先级来执行任务。同时还能解决了数据恢复及由于上游数据问题需要部分执行的问题。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/7《用Python开发数据流水线任务智能调度系统》阳曙光.pdf"
+
+
+id_moyu:
+  name: 莫瑜
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/moyu.jpg
+  intro: "海豚浏览器算法开发主管，前微软搜索技术中心工程师，有多年搜索引擎，音乐检索/哼唱搜索，推荐系统算法研发经验。曾业余时间与同事合著《编程之美》。持续关注和实践大规模数据算法性能优化和人工智能技术。"
+  intro_en: ...
+  beijing_topic:
+    title: "来一块二向箔，分析用 - Python高维数据可视化"
+    title_en: "..."
+    preview: "高维数据普遍存在于大数据和人工智能应用场景中，比如，我们需要把文本，图像等数据的语义编码成高维向量。而，理解高维数据对于生存在三维世界的人们来说是极其困难的。如何更好地对高维数据进行可视化，以便于数据分析和优化是一项常见的工作。 看过《三体》的朋友都知道黑科技- 二向箔，高维数据的可视化很大程度上就是，通过降维技术更好地展示高维数据的分布。 这个小分享希望介绍python社区的若干高维数据可视化方法和实践。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/8 《来一块二向箔，分析用 - Python高维数据可视化》莫瑜.pdf"
+
+id_wangyuchi:
+  name: 王玉驰
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/guifei.jpg
+  intro: "知乎基础架构运维工程师，现在主要负责内部系统运维产品及项目管理"
+  intro_en: ...
+  beijing_topic:
+    title: "使用 Python 将系统运维产品化"
+    title_en: "..."
+    preview: "介绍知乎使用基于 Python 的工具将系统运维工作产品化的经验。 主要包括：（1）知乎的系统运维平台从无到有的构建过程。我们选择 Python 技术栈以及之后的技术选型经历。（2）将分散的自动化工具比如 saltstack， fabric, pxe 整合成统一平台的过程。（3）我们在这个过程中的沉淀下来的一些系统运维工作指导原则。"
+    preview_en: ...
+    slide: http://ocgxshkaw.bkt.clouddn.com/10%E3%80%8A%E7%94%A8Python%E6%8A%80%E6%9C%AF%E6%A0%88%E6%9E%84%E5%BB%BA%E7%9F%A5%E4%B9%8E%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4%E5%B9%B3%E5%8F%B0%E3%80%8B%E7%8E%8B%E7%8E%89%E9%A9%B0.pdf
+
+
+id_yangbaohua:
+  name: 杨保华
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/yangbaohua.jpg
+  intro: "现为 IBM 高级研究员，多年云计算、分布式系统研发和架构经验。是 OpenStack、HyperLedger 等开源社区积极贡献者，SDN、容器虚拟化、区块链等技术的推广者。Python 多年忠实粉丝。"
+  intro_en: ...
+  beijing_topic:
+    title: "快速构建区块链服务平台"
+    title_en: "..."
+    preview: "区块链技术是金融科技（Fintech）领域的一项重要技术创新。作为去中心化记账（DLT）平台的核心技术，区块链被认为在资产管理、金融、征信、物联网、经济贸易结算等众多领域都拥有广泛的应用前景。众多银行和信息巨头联合成立的 HyperLedger 等开源项目，试图推动区块链技术的发展和加速应用场景的落地。
+
+如何快速构建区块链平台，并快速开发基于区块链的应用是目前亟待解决的核心问题。IBM 是区块链领域的领军企业，开源了四万多行的开发区块链项目，在全球成立了数个区块链实验室。
+
+演讲将介绍基于 Python 实现的区块链服务平台项目，该项目作为区块链云服务的核心引擎，已经上线运行了半年时间，稳定支持数千条区块链的正常运行。将介绍该平台的核心特性、开发和运营过程中的实践经验，并进行必要的案例展示。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/9 《快速构建区块链服务平台》杨保华.pdf"
+
+id_huangxin:
+  name: 黄鑫
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/huangxin.jpg
+  intro:  "FreeWheel资深DevOPS。负责公司内部持续部署，采用 SaltStack 实现配置管理，降低维护成本。并为上层提供易用的接口，用于构建丰富的应用。"
+  intro_en: ...
+  beijing_topic:
+    title: "SaltStack 实践"
+    title_en: "..."
+    preview: "本主题分享了在toB企业内部改造部署系统的实践。介绍采用 SaltStack 带来的便利以及需要注意的几点。介绍 SaltStack 的基本组件和使用方式，配置管理的实现，常见自动化操作的任务编排实现，基于Jinja2模版语言带来的强大表达能力，模块化实现以及插件拓展机制，实践中可以改良的几个地方。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/4《SaltStack 实践》黄鑫.pdf"
+
+id_chenshixin:
+  name: 陈世欣
+  city_beijing: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/chenshixin.jpg
+  intro: "昭合投资合伙人，InnoSpace创业导师，1999年进入易趣网，从事互联网行业，2001年起任安家网副总经理；2005年后分别担任Movoto.com中国公司总经理；和家网CTO；2Style4You公司CTO；永泰红磡养老产业集团战略研究总监、创猿投资董事合伙人；曾任永泰红磡、波罗蜜全球购、KIC赫曼德、卓企华屋、万耀企龙、特易资讯、华一房产等互联网战略、产品、运营、技术顾问。曾作为平安大学、苏宁大学、中国银联、中国电信、复旦大学MBA教研组、众戴金融等机构内训讲师。"
+  intro_en: ...
+  beijing_topic:
+    title: "用Python做增长黑客的实践"
+    title_en: "..."
+    preview: "介绍了在Movoto、和家网、2Style4you等公司使用Python进行增长黑客的实践，并介绍了python可能用于增长黑客的其他领域。"
+    preview_en: ...
+    slide: "http://ocgxshkaw.bkt.clouddn.com/5《用Python做增长黑客的实践》陈世欣.pdf"
+
+####################################################################
+# 杭州
+####################################################################
+id_zhanghaibo:
+  name: 张海波
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhanghaibo.jpg
+  intro: "阿里巴巴技术专家. 多年 python 主要语言开发经验,曾经就职于爱奇艺, 乐视网, 芒果 TV, 直接主要用 python 解决海量数据分析和计算问题. 目前就职于阿里中间件，致力于解决快速开发。 "
+  intro_en: ""
+  hangzhou_topic:
+    title: "django REST 快速开发"
+    title_en: ""
+    preview: "基于django restful 框架做快速 API开发,
+        大环境,微服务盛行的情况下 API 重要, 快速构建 API 的方法能极大提高企业生产力,快速应对需求和迭代变化,
+        主要讲解下 如何 设计 restful 以及如何快速开发一个 restful 的 api...  以及一些和 API 相关的衍生"
+    preview_en: ""
+    slide: #
+
+id_maiweiqi:
+  name: 麦伟祺
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/maiweiqi.jpg
+  intro: "杭州云柚科技有限公司，曾是重庆方物科技有限公司联合创始人，作为技术负责人。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "Graphene让Web应用迭代加速"
+    title_en: ""
+    preview: "随着需求变化愈发的激烈，对迭代速度的要求也越来越高。Graphene是GraphQL的Python实现，能帮助web开发者开发出能持续快速迭代的应用。演讲会介绍GraphQL的基本原理，包括理念和基本定义；GraphQL与REST的对比；Graphene的基本用法，并用demo展示如何让Web应用的迭代速度加快。"
+    preview_en: ""
+    slide: #
+
+
+id_liyiwei:
+  name: 李毅为
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/liyiwei.jpg
+  intro: "阿里巴巴集团安全部资深开发工程师。曾就职于绿盟科技、百度云安全部。C/Python 程序员。负责阿里巴巴集团主机白盒安全产品、网络防护类产品研发。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "Python在主机白盒安全检测中的应用"
+    title_en: ""
+    preview: "安全领域有非常多优秀的 Python 工具和框架。本议题介绍主机白盒安全检测的概念和阿里巴巴在海量服务器的场景下对主机白盒安全检测的需求。深度介绍如何使用 Python 、一系列 Python 开源框架和 MongoDB 完成阿里巴巴主机白盒安全检测系统，为安全领域上层丰富的业务场景提供技术支持。"
+    preview_en: ""
+    slide: #
+
+
+id_zhuxiadong:
+  name: 竺夏栋
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhuxiadong.jpg
+  intro: "现任职“优云软件”运维自动化产品架构师，同时负责“优云软件”Python开发人员的团队建设。过去三年有一段不成功的创业经历..."
+  intro_en: ""
+  hangzhou_topic:
+    title: "Head First SaltStack"
+    title_en: ""
+    preview: "主题介绍了作者是如何在短时间内利用Python的一些运行时特性作为分析手段迅速掌握SaltStack这款自动化运维框架背后的运行原理与架构。希望通过本主题，与会嘉宾不仅能够了解到SaltStack的体系架构设计，更重要的，是如何去剖析一款框架的方法。因此，本主题会被设计成非运维开发领域的Python爱好者也感兴趣、能有所收获的大纲形式。"
+    preview_en: ""
+    slide: http://ocgxshkaw.bkt.clouddn.com/6%20%E3%80%8AHead%20First%20SaltStack%E3%80%8B%E7%AB%BA%E5%A4%8F%E6%A0%8B.pdf
+
+id_zhongjinwei:
+  name: 钟锦威
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhongjinwei.jpg
+  intro: "特维轮网络科技(杭州)有限公司Python 程序员，喜欢 Python 和 瞎哔哔。曾在抽象科技负责项目开发与运维工作。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "Python技术创业小记"
+    title_en: ""
+    preview: "作者在过去三年的创业经历中，是如何倚靠Python生态摸着石头过河，从无到有，逐步实现前后端分离、REST API、TDD、ATDD、自动部署等，追求用出Django、Flask等Web框架的最佳实践，同时通过实践检验了这些框架的优缺点。在这里与大家分享下，这一路走来，遇到了哪些坑，解决了哪些问题，最后总结Python语言在创业团队中应用的优劣。"
+    preview_en: ""
+    slide: #
+
+id_dengjingzhi:
+  name: 邓静芝
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/dengjingzhi.jpg
+  intro: "杭州模世科技创始人/CEO"
+  intro_en: ""
+  hangzhou_topic:
+    title: "MatrixData在气象数据开放大赛的获奖作品分享"
+    title_en: ""
+    preview: "国信优易数据杯2017全国开放大数据创新创意大赛，暨国家气象信息中心首届气象数据开放大赛，MatrixData团队经过长达3个月的初赛、复赛，最终在总决赛中获奖。队长dengjingzhiData就此次参赛做主题分享，介绍参赛历程，详细解读MatrixData获奖项目《气象数据在药品供应链优化中的应用》，内容涉及Pandas数据处理、Scikit-learn机器学习等Python工具链的运用。"
+    preview_en: ""
+    slide: #
+
+id_bendarnell:
+  name: "Ben Darnell"
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/BenDarnell.jpeg
+  intro: "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. "
+  intro_en: "Ben Darnell is the CTO and co-founder of Cockroach Labs where he works on the distributed consensus protocols that underpin its transactional model. He has been the maintainer of the Tornado web framework since 2010. He started his career at Google and then went on to a series of startups including Dropbox, FriendFeed, Brizzly, and Viewfinder. "
+  hangzhou_topic:
+    title: "Tornado (and Twisted) in the age of asyncio"
+    title_en: "Tornado (and Twisted) in the age of asyncio"
+    preview: ""
+    preview_en: ""
+    slide: http://ocgxshkaw.bkt.clouddn.com/5%20%E3%80%8ATornado%20%28and%20Twisted%29%20in%20the%20age%20of%20asyncio%E3%80%8BBen%20Darnell.pdf
+
+
+id_chenhaibo:
+  name: 陈海波
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/chenhaibo.jpg
+  intro: "FarBox、MarkEditor、Bitcron、LazyHosts 等不少产品的创造"
+  intro_en: ""
+  hangzhou_topic:
+    title: "工者利其器——Python的工具创作者"
+    title_en: ""
+    preview: "介绍MarkEditor、LazyHosts、Bitcron等工具型相关实际项目中的一些经验和问题的解决思路。涉及桌面端软件、Web 开发的一些小问题、大问题。"
+    preview_en: ""
+    slide: http://zrey.com/pycon
+
+
+id_zhangliaoyuan:
+  name: 张燎原
+  city_hangzhou: 1
+  avatar: http://ocgxshkaw.bkt.clouddn.com/zhangliaoyuan.jpg
+  intro: "诺基亚Hangzhou TC Chief Coach，软件匠艺践行者，热衷编写代码和开源。一直致力于通过有效的工程实践来帮助团队高质量的产品交付，涉及测试驱动开发、代码重构、遗留代码的维护和持续交付。平时利用闲暇做一些图书的翻译工作，生活在杭州。作为资深码农，喜欢读书，及天马行空的思辩。同时是杭州谷歌开发者社区、PyCon杭州社区、杭州敏捷社区的组织者。"
+  intro_en: ""
+  hangzhou_topic:
+    title: "《Python代码道场》"
+    title_en: ""
+    preview: "Python代码道场是让一群程序员聚在一起编程解决一些挑战；通过这种有趣的刻意的练习来提高技能。一边编程，一边互相学习。 每个人可以从Coding Dojo中学到：解决问题的思路、编程技巧、面向对象设计、演进式设计、结对编程、测试驱动开发、持续集成等等。其实即使从别人犯的错误中，我们也能够学到很多。"
+    preview_en: ""
+    slide: #

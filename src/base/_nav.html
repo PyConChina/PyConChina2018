@@ -1,0 +1,13 @@
+{% import 'base/_nav_macro.html' as nav_macro %}
+
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+  <div class="ui container">
+    {{ nav_macro.nav_menu(site, nav) }}
+  </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+  {{ nav_macro.sidebar_nav_menu(site, nav) }}
+</div>

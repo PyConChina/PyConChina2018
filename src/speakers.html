@@ -1,0 +1,18 @@
+{% extends "base/_base.html" %}
+
+{% import 'base/_speaker_macro.html' as speaker_macro %}
+
+{% set page_title = message.page_title_speakers %}
+
+{% block content %}
+
+
+<!-- FIXME: DRY -->
+{% for city in agenda.city_list %}
+  {% set speaker_city = agenda[city].name + message.speakers %}
+  {% set extra_class = loop.cycle('pycon-odd-seg', 'pycon-even-seg') %}
+  {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city), extra_class) }}
+{% endfor %}
+
+
+{% endblock %}

@@ -1,0 +1,6 @@
+staticjinja
+webassets
+cssmin
+colorama
+click
+fabric
