@@ -1,15 +1,17 @@
 # 城市列表
 city_list:
+ - beijing
  - shanghai
  - hangzhou
+ - shenzhen
 
 ####################################################################
-# 上海
+# 北京
 ####################################################################
-shanghai:
-  city: shanghai
-  name: 上海
-  name_en: Shanghai
+beijing:
+  city: beijing
+  name: 北京
+  name_en: beijing
   completed: false
   address: 上海市浦东新区博云路2号
   address_en: "No.2 Boyun Road, Pudong, Shanghai"
@@ -19,37 +21,84 @@ shanghai:
   traffic_en: "Jinke Road Station at Metro Line 2"
   maplink: 'http://f.amap.com/0FFE0i'
   video: 'http://e.vhall.com/597478279'
-  date: 2017-10-22  8:50 ~ 17:20
+  date: 2017-10-22    8:50 ~ 17:20
   notices: ""
   morning:
     - time: "8:50-9:00"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - { time: "9:00-9:45", speaker: id_feilianghong }
-    - { time: "9:45-10:30", speaker: id_lijiaxuan    }
+    - { time: "9:00-9:45", speaker: id_hongqiangning }
+    - { time: "9:45-10:30", speaker: id_hongqiangning    }
     - time: "10:30-11:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "10:40-11:25", speaker: id_houkai }
-    - { time: "11:25-12:10", speaker: id_yaotangren }
+    - { time: "10:40-11:25", speaker: id_hongqiangning }
+    - { time: "11:25-12:10", speaker: id_hongqiangning }
   noon:
     - time: "12:10-13:10"
       topic: "午餐"
       topic_en: "Lunch"
   afternoon:
-    - { time: "13:10-13:55", speaker: id_gaominquan }
-    - { time: "13:55-14:40", speaker: id_liaoruiqi }
-    - { time: "14:40-15:25", speaker: id_wangjianfeng }
+    - { time: "13:10-13:55", speaker: id_hongqiangning }
+    - { time: "13:55-14:40", speaker: id_hongqiangning }
+    - { time: "14:40-15:25", speaker: id_hongqiangning }
     - time: "15:25-15:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "15:40-16:25", speaker: id_xiehanjian }
-    - { time: "16:25-17:10", speaker: id_gezhixiong }
-    - { time: "17:10-17:20", speaker: id_gaojin }
-    - { time: "17:20-17:30", speaker: id_huhaoran }
+    - { time: "15:40-16:25", speaker: id_hongqiangning }
+    - { time: "16:25-17:10", speaker: id_hongqiangning }
+    - { time: "17:10-17:20", speaker: id_hongqiangning }
+    - { time: "17:20-17:30", speaker: id_hongqiangning }
   lightening_talks:
   cancel_talks:
 
+
+####################################################################
+# 上海
+####################################################################
+shanghai:
+  city: shanghai
+  name: 上海
+  name_en: shanghai
+  completed: false
+  address: 上海市浦东新区博云路2号
+  address_en: "No.2 Boyun Road, Pudong, Shanghai"
+  venue: 浦软大厦会议厅
+  venue_en: "Meeting Hall at SPSP Building"
+  traffic: 地铁2号线金科路站
+  traffic_en: "Jinke Road Station at Metro Line 2"
+  maplink: 'http://f.amap.com/0FFE0i'
+  video: 'http://e.vhall.com/597478279'
+  date: 2018-10-13    8:50 ~ 17:20
+  notices: ""
+  morning:
+    - time: "8:50-9:00"
+      topic: "大会开场演讲和日程介绍"
+      topic_en: "Check-in"
+    - { time: "9:00-9:45", speaker: id_liaoruiqi }
+    - { time: "9:45-10:30", speaker: id_liaoruiqi    }
+    - time: "10:30-11:40"
+      topic: "茶歇"
+      topic_en: "Tea Break"
+    - { time: "10:40-11:25", speaker: id_liaoruiqi }
+    - { time: "11:25-12:10", speaker: id_liaoruiqi }
+  noon:
+    - time: "12:10-13:10"
+      topic: "午餐"
+      topic_en: "Lunch"
+  afternoon:
+    - { time: "13:10-13:55", speaker: id_liaoruiqi }
+    - { time: "13:55-14:40", speaker: id_liaoruiqi }
+    - { time: "14:40-15:25", speaker: id_liaoruiqi }
+    - time: "15:25-15:40"
+      topic: "茶歇"
+      topic_en: "Tea Break"
+    - { time: "15:40-16:25", speaker: id_liaoruiqi }
+    - { time: "16:25-17:10", speaker: id_liaoruiqi }
+    - { time: "17:10-17:20", speaker: id_liaoruiqi }
+    - { time: "17:20-17:30", speaker: id_liaoruiqi }
+  lightening_talks:
+  cancel_talks:
 
 ####################################################################
 # 杭州
@@ -57,37 +106,91 @@ shanghai:
 hangzhou:
   city: hangzhou
   name: 杭州
-  name_en: Hangzhou
+  name_en: hangzhou
   completed: false
-  address: "杭州市滨江区信诚路567号诺基亚通信杭州全球研发中心苏黎世会议室"
-  address_en: "Hangzhou Nokia office"
-  venue: "苏黎世会议室"
-  venue_en: "Nokia office"
-  traffic: "横街埠/ B支6,B支3路 - 江南大道环兴路口:294路(社区通勤高峰线),B支5路,352, 225(夜间线),113,315 - 信诚路江南大道口:107路"
-  traffic_en: ""
-  maplink: 'http://j.map.baidu.com/d0U1F'
-  video: 'http://e.vhall.com/799148004'
-  date: 2017-10-21 9:00 ～ 17:00
+  address: 上海市浦东新区博云路2号
+  address_en: "No.2 Boyun Road, Pudong, Shanghai"
+  venue: 浦软大厦会议厅
+  venue_en: "Meeting Hall at SPSP Building"
+  traffic: 地铁2号线金科路站
+  traffic_en: "Jinke Road Station at Metro Line 2"
+  maplink: 'http://f.amap.com/0FFE0i'
+  video: 'http://e.vhall.com/597478279'
+  date: 2018-10-13    8:50 ~ 17:20
   notices: ""
   morning:
-    - time: "10:00-10:10"
+    - time: "8:50-9:00"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - { time: "10:10-10:55", speaker: id_zhanghaibo }
-    - { time: "10:55-11:40", speaker: id_liyiwei }
-    - { time: "11:40-11:50", speaker: id_maiweiqi }
+    - { time: "9:00-9:45", speaker: id_zhanghaibo }
+    - { time: "9:45-10:30", speaker: id_zhanghaibo    }
+    - time: "10:30-11:40"
+      topic: "茶歇"
+      topic_en: "Tea Break"
+    - { time: "10:40-11:25", speaker: id_zhanghaibo }
+    - { time: "11:25-12:10", speaker: id_zhanghaibo }
   noon:
-    - time: "11:50-13:00"
-      topic: "午餐和交流"
-      topic_en: ""
+    - time: "12:10-13:10"
+      topic: "午餐"
+      topic_en: "Lunch"
   afternoon:
-    - { time: "13:00-13:45", speaker: id_dengjingzhi }
-    - { time: "13:45-14:30", speaker: id_bendarnell }
-    - { time: "14:30-15:15", speaker: id_zhuxiadong }
-    - time: "15:15-15:30"
-      topic: "茶歇&抽奖&合影"
-      topic_en: ""
-    - { time: "15:30-16:15", speaker: id_zhongjinwei }
-    - { time: "16:15-17:30", speaker: id_chenhaibo }
+    - { time: "13:10-13:55", speaker: id_zhanghaibo }
+    - { time: "13:55-14:40", speaker: id_zhanghaibo }
+    - { time: "14:40-15:25", speaker: id_zhanghaibo }
+    - time: "15:25-15:40"
+      topic: "茶歇"
+      topic_en: "Tea Break"
+    - { time: "15:40-16:25", speaker: id_zhanghaibo }
+    - { time: "16:25-17:10", speaker: id_zhanghaibo }
+    - { time: "17:10-17:20", speaker: id_zhanghaibo }
+    - { time: "17:20-17:30", speaker: id_zhanghaibo }
   lightening_talks:
   cancel_talks:
+
+####################################################################
+# 深圳
+####################################################################
+shenzhen:
+  city: shenzhen
+  name: 深圳
+  name_en: shenzhen
+  completed: false
+  address: 上海市浦东新区博云路2号
+  address_en: "No.2 Boyun Road, Pudong, Shanghai"
+  venue: 浦软大厦会议厅
+  venue_en: "Meeting Hall at SPSP Building"
+  traffic: 地铁2号线金科路站
+  traffic_en: "Jinke Road Station at Metro Line 2"
+  maplink: 'http://f.amap.com/0FFE0i'
+  video: 'http://e.vhall.com/597478279'
+  date: 2018-10-13    8:50 ~ 17:20
+  notices: ""
+  morning:
+    - time: "8:50-9:00"
+      topic: "大会开场演讲和日程介绍"
+      topic_en: "Check-in"
+    - { time: "9:00-9:45", speaker: id_heshiyou }
+    - { time: "9:45-10:30", speaker: id_heshiyou    }
+    - time: "10:30-11:40"
+      topic: "茶歇"
+      topic_en: "Tea Break"
+    - { time: "10:40-11:25", speaker: id_heshiyou }
+    - { time: "11:25-12:10", speaker: id_heshiyou }
+  noon:
+    - time: "12:10-13:10"
+      topic: "午餐"
+      topic_en: "Lunch"
+  afternoon:
+    - { time: "13:10-13:55", speaker: id_heshiyou }
+    - { time: "13:55-14:40", speaker: id_heshiyou }
+    - { time: "14:40-15:25", speaker: id_heshiyou }
+    - time: "15:25-15:40"
+      topic: "茶歇"
+      topic_en: "Tea Break"
+    - { time: "15:40-16:25", speaker: id_heshiyou }
+    - { time: "16:25-17:10", speaker: id_heshiyou }
+    - { time: "17:10-17:20", speaker: id_heshiyou }
+    - { time: "17:20-17:30", speaker: id_heshiyou }
+  lightening_talks:
+  cancel_talks:
+

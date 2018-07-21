@@ -3,16 +3,19 @@
 #########################################
 page_title_index: 首页
 page_title_index_en: HOME
-page_title_beijing: 北京日程
-page_title_beijing_en: Schedule in Beijing
-page_title_shanghai: 上海日程
-page_title_shanghai_en: Schedule in Shanghai
 page_title_sponsors: 赞助
 page_title_sponsors_en: Sponsors
 page_title_speakers: 讲师
 page_title_speakers_en: Speakers
 page_title_volunteers: 志愿
 page_title_volunteers_en: Volunteers
+page_title_donators: 蠎人赞助
+page_title_donators_en: Personal Sponsorship
+
+page_title_beijing: 北京日程
+page_title_beijing_en: Schedule in Beijing
+page_title_shanghai: 上海日程
+page_title_shanghai_en: Schedule in Shanghai
 page_title_guangzhou: 广州日程
 page_title_guangzhou_en: Schedule in GuangZhou
 page_title_zhuhai: 珠海日程
@@ -21,15 +24,15 @@ page_title_suzhou: 苏州日程
 page_title_suzhou_en: Schedule in Suzhou
 page_title_hangzhou: 杭州日程
 page_title_hangzhou_en: Schedule in Hangzhou
-page_title_donators: 蠎人赞助
-page_title_donators_en: Personal Sponsorship
+page_title_shenzhen: 深圳日程
+page_title_shenzhen_en: Schedule in Shenzhen
 #########################################
 # index
 #########################################
 pycon_intro_title: PyCon China
 pycon_intro_title_en: PyCon China
-pycon_intro: "PyCon大会是Python语言社群全球性的盛会，PyConChina是由CPyUG(华蠎用户组)获得授权举办的中国PyCon年会。过去5年在北京、上海、广州、珠海、杭州、苏州、西安、合肥等地举办过十几次大会。<br />今年第六届大会PyConChina2017，是由PyChina.org发起，CPyUG/TopGeek 等社区协办的针对Python开发者所举办的最盛大和权威的Python相关技术会议。"
-pycon_intro_en: "PyCon, the party of world-wide Pythoneers! Supported by PSF(Python Software Foundation), this is the sixth year of PyCon China. Organized by CPyUG(Chinese Python User Group), PyCon China will be held simultaneously in Shanghai/Hangzhou this year!"
+pycon_intro: "PyCon 是 Python 语言社群的全球性技术盛会，PyConChina 是由 PyCon 官方授权 CPyUG (华蠎用户组)举办的 Python 年会。过去7年在北京、上海、广州、珠海、杭州、苏州、西安、合肥等地成功举办20余次。<br/>第八届中国 Python 开发者大会 PyConChina2018 ，由 PyChina.org 发起，CPyUG/TopGeek 等社区协办，将在北京、上海、深圳、杭州、成都（待定）举办。致力于推动各类 Python 相关的技术在互联网、企业应用等领域的研发和应用。"
+pycon_intro_en: ""
 booking_now: 报名参加
 booking_now_en: Enroll
 user_evaluation_left: 用户评价left
@@ -89,5 +92,7 @@ technicians: 技术组
 technicians_en: Technical Volunteers
 conference: 会务组
 conference_en: Conference Volunteers
-hangzhou_booking_now: 报名杭州场
+beijing_booking_now: 报名北京场
 shanghai_booking_now: 报名上海场
+hangzhou_booking_now: 报名杭州场
+shenzhen_booking_now: 报名深圳场

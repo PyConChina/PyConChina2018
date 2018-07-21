@@ -22,6 +22,10 @@
   url: "schedule.html"
   url_en: "en/schedule.html"
   children:
+  - title: 北京
+    title_en: Beijing
+    url: "beijing.html"
+    url_en: "en/beijing.html"
   - title: 上海
     title_en: Shanghai
     url: "shanghai.html"
@@ -30,6 +34,10 @@
     title_en: Hangzhou
     url: "hangzhou.html"
     url_en: "en/hangzhou.html"
+  - title: 深圳
+    title_en: Shenzhen
+    url: "shenzhen.html"
+    url_en: "en/shenzhen.html"
 - title: 志愿者
   title_en: VOLUNTEERS
   url: "volunteers.html"
