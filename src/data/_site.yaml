@@ -10,13 +10,13 @@ base_url: "."
 base_url_en: ".."
 
 beijing:
-  booking_url: #
+  booking_url: ""
 
 shanghai:
-  booking_url: #
+  booking_url: ""
 
 hangzhou:
-  booking_url: #
+  booking_url: ""
 
 shenzhen:
-  booking_url: #
+  booking_url: ""

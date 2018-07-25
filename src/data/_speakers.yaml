@@ -1,82 +1,4 @@
 ####################################################################
-# 魔都
-####################################################################
-
-id_chenxiaoyou:
-  name: 陈晓优
-  city_shanghai: 1
-  avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
-  intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
-  intro_en: ""
-  shanghai_topic:
-    title: "区块链资产管理中的Python"
-    title_en: ""
-    preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
-    preview_en: ""
-    slide: #
-
-id_zhangxiaojie:
-  name: 张校捷
-  city_shanghai: 1
-  avatar: ./asset/images/avatar-2018/speakers/zhangxiaojie.png
-  intro: "大家好，我是Victor，现在在英伟达担任深度学习架构工程师，主要负责基于GPU的深度学习模型的优化相关的研究。在工作中主要Python的主要应用场景是建立深度学习模型，主要使用的深度学习框架是PyTorch和TensorFlow。希望能在PyCon上给大家带来一下PyTorch的经验分享。"
-  intro_en: ""
-  shanghai_topic:
-    title: "PyTorch入门指北"
-    title_en: ""
-    preview: "本演讲主要包含以下内容：
-1. PyTorch简介
-主要介绍PyTorch动态图的特性，以其PyTorch和其他深度学习框架的比较。
-2. PyTorch新特性介绍（主要针对0.4版本）
-介绍PyTorch 0.4（如果1.0发布的话，可能包括1.0）的新特性，帮助大家把代码迁移到新版本上
-3. 如何使用PyTorch建立一个简单的神经网络
-介绍PyTorch的简单使用方法（nn.Module的使用）
-5. PyTorch的并行训练
-介绍如何使用多GPU训练PyTorch模型（使用apex库）
-4. 使用ONNX部署PyTorch模型
-介绍如何通过ONNX格式来固化模型，并且在Caffe2上部署模型
-5. PyTorch踩坑指北
-介绍写PyTorch的时候可能会碰到的各种坑
-6. 总结"
-    preview_en: ""
-    slide: #
-
-
-####################################################################
-# 深圳
-####################################################################
-id_zhouxiaomao:
-  name: 周小毛
-  city_shenzhen: 1
-  avatar: ./asset/images/avatar-2018/speakers/zhouxiaomao.png
-  intro:  "目前在艾润物联线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。"
-  intro_en: "..."
-  shenzhen_topic:
-    title: "Python在嵌入式系统开发中的应用"
-    title_en: "..."
-    preview: "演讲主要结合本人工作经历，阐述python在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：
-1. 嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。
-2. Python能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用python，具体包括后台web开发，即时通信开发，GUI开发等等
-3. 比较python开发相对于传统嵌入式开发的优势。
-4. 简单阐述嵌入式开发使用python的基本流程，主要阐述python开发环境的搭建过程。
-5. 最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。"
-    preview_en: ...
-    slide: #
-
-id_chenshaoshen:
-  name: 陈绍琛
-  city_shenzhen: 1
-  avatar: ./asset/images/avatar-2018/speakers/chenshaoshen.png
-  intro:  "深圳花果山科技有限公司技术总监, 2009年毕业于哈尔滨工程大学硕士学位。曾就职于诺基亚，华为等公司，2013年初加入深圳花果山科技有限公司工作至今。爱好编程，中医，传统武术等。"
-  intro_en: "..."
-  shenzhen_topic:
-    title: "Python在中小电商的应用与实践"
-    title_en: "..."
-    preview: "以一个pythoner的角度见证一个电商5年的沉浮发展，分享在此过程中如何利用各种开源方案解决性能优化，如何在不断变化的业务与不断调整的商业模型中为公司提供高效的工具让其处于有利的竞争地位。探讨80后程序员在不断发展的形势面前如何保持自己的竞争力，如何组建自己的团队，如何健康的生活。"
-    preview_en: ...
-    slide: #
-
-####################################################################
 # 北京
 ####################################################################
 id_cuiyoucai:
@@ -107,14 +29,80 @@ id_zhangjintao:
     slide: #
 
 
-####################################################################
-# 杭州
-####################################################################
+id_zhouxiaomao:
+  name: 周小毛
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/zhouxiaomao.png
+  intro:  "目前在艾润物联线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python在嵌入式系统开发中的应用"
+    title_en: "..."
+    preview: "演讲主要结合本人工作经历，阐述python在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：
+1. 嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。
+2. Python能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用python，具体包括后台web开发，即时通信开发，GUI开发等等
+3. 比较python开发相对于传统嵌入式开发的优势。
+4. 简单阐述嵌入式开发使用python的基本流程，主要阐述python开发环境的搭建过程。
+5. 最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。"
+    preview_en: ...
+    slide: #
+
+id_chenshaoshen:
+  name: 陈绍琛
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/chenshaoshen.png
+  intro:  "深圳花果山科技有限公司技术总监, 2009年毕业于哈尔滨工程大学硕士学位。曾就职于诺基亚，华为等公司，2013年初加入深圳花果山科技有限公司工作至今。爱好编程，中医，传统武术等。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python在中小电商的应用与实践"
+    title_en: "..."
+    preview: "以一个pythoner的角度见证一个电商5年的沉浮发展，分享在此过程中如何利用各种开源方案解决性能优化，如何在不断变化的业务与不断调整的商业模型中为公司提供高效的工具让其处于有利的竞争地位。探讨80后程序员在不断发展的形势面前如何保持自己的竞争力，如何组建自己的团队，如何健康的生活。"
+    preview_en: ...
+    slide: #
+
+id_chenxiaoyou:
+  name: 陈晓优
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
+  intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
+  intro_en: ""
+  shanghai_topic:
+    title: "区块链资产管理中的Python"
+    title_en: ""
+    preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
+    preview_en: ""
+    slide: #
+
+id_zhangxiaojie:
+  name: 张校捷
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/zhangxiaojie.png
+  intro: "大家好，我是Victor，现在在英伟达担任深度学习架构工程师，主要负责基于GPU的深度学习模型的优化相关的研究。在工作中主要Python的主要应用场景是建立深度学习模型，主要使用的深度学习框架是PyTorch和TensorFlow。希望能在PyCon上给大家带来一下PyTorch的经验分享。"
+  intro_en: ""
+  shanghai_topic:
+    title: "PyTorch入门指北"
+    title_en: ""
+    preview: "本演讲主要包含以下内容：
+1. PyTorch简介
+主要介绍PyTorch动态图的特性，以其PyTorch和其他深度学习框架的比较。
+2. PyTorch新特性介绍（主要针对0.4版本）
+介绍PyTorch 0.4（如果1.0发布的话，可能包括1.0）的新特性，帮助大家把代码迁移到新版本上
+3. 如何使用PyTorch建立一个简单的神经网络
+介绍PyTorch的简单使用方法（nn.Module的使用）
+5. PyTorch的并行训练
+介绍如何使用多GPU训练PyTorch模型（使用apex库）
+4. 使用ONNX部署PyTorch模型
+介绍如何通过ONNX格式来固化模型，并且在Caffe2上部署模型
+5. PyTorch踩坑指北
+介绍写PyTorch的时候可能会碰到的各种坑
+6. 总结"
+    preview_en: ""
+    slide: #
 
 id_qingxuye:
   name: 秦续业
   name_en: "Qin Xuye"
-  city_hangzhou: 1
+  city_beijing: 1
   avatar: ./asset/images/avatar-2018/speakers/qinxuye.png
   intro: "阿里巴巴计算平台事业部技术专家。主要工作是将 Python 生态和大数据环境进行结合。过去工作包含编写了 pyodps DataFrame 框架，这个框架能让用户编写类似 pandas 的代码，但支持在 MaxCompute 大数据平台、pandas 和传统数据库上执行。现在的工作主要是 Mars，这是一个基于矩阵的统一计算框架，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。未来会将 pandas 和 scikit-learn 分布式化。"
   intro_en: ""
@@ -124,3 +112,22 @@ id_qingxuye:
     preview: "基于矩阵的统一计算框架 Mars，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。目前，Mars 兼容 70% 常见 Numpy 接口。本次分享会介绍目前我们的工作，会介绍 Mars 的实现原理，并且对未来的上层建筑包括 DataFrame 和机器学习进行展望。"
     preview_en: ""
     slide: #
+
+
+####################################################################
+# 魔都
+####################################################################
+
+
+
+####################################################################
+# 杭州
+####################################################################
+
+
+
+####################################################################
+# 深圳
+####################################################################
+
+
