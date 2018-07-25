@@ -10,13 +10,13 @@ base_url: "."
 base_url_en: ".."
 
 beijing:
-  booking_url: http://www.huodongxing.com/go/pyconchina2018bj
+  booking_url: #
 
 shanghai:
-  booking_url: http://www.huodongxing.com/go/pyconchina2018sh
+  booking_url: #
 
 hangzhou:
-  booking_url: http://www.huodongxing.com/go/pyconchina2018hz
+  booking_url: #
 
 shenzhen:
-  booking_url: http://www.huodongxing.com/go/pyconchina2018ss
+  booking_url: #

@@ -28,18 +28,18 @@ technicians:
   name: 丁俊豪
   role: conference
   role_conference: 1
-  intro: DevOps， 爱Coding, 爱摄影， 你好， 我是挨踢小胖， 我在开源天空等你
-  avatar:  ./asset/images/avatar-2017/volunteers/dinjunhao.png
-  avatar_en:  ../asset/images/avatar-2017/volunteers/dinjunhao.png
+  intro: ...
+  avatar:  ./asset/images/avatar-2018/volunteers/dinjunhao.png
+  avatar_en:  ../asset/images/avatar-2018/volunteers/dinjunhao.png
   blog: http://www.ossky.org/
   weibo:
 -
   name: 晁倩
   role: conference
   role_conference: 1
-  intro: 沉鱼落雁鸟惊喧，羞花闭月花惆怅！可怜我，天生丽质难自弃， 一心只嫁Pythoner
-  avatar:  ./asset/images/avatar-2017/volunteers/aq.png
-  avatar_en:  ../asset/images/avatar-2017/volunteers/aq.png
+  intro: ...
+  avatar:  ./asset/images/avatar-2018/volunteers/aq.png
+  avatar_en:  ../asset/images/avatar-2018/volunteers/aq.png
   blog:
   weibo:
 -
@@ -47,8 +47,8 @@ technicians:
   role: conference
   role_conference: 1
   intro: 人生苦短
-  avatar:  ./asset/images/avatar-2017/volunteers/kavin.png
-  avatar_en:  ../asset/images/avatar-2017/volunteers/kavin.png
+  avatar:  ./asset/images/avatar-2018/volunteers/kavin.png
+  avatar_en:  ../asset/images/avatar-2018/volunteers/kavin.png
   blog:
   weibo:
 

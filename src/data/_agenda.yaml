@@ -27,28 +27,21 @@ beijing:
     - time: "8:50-9:00"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - { time: "9:00-9:45", speaker: id_hongqiangning }
-    - { time: "9:45-10:30", speaker: id_hongqiangning    }
+
     - time: "10:30-11:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "10:40-11:25", speaker: id_hongqiangning }
-    - { time: "11:25-12:10", speaker: id_hongqiangning }
+
   noon:
     - time: "12:10-13:10"
       topic: "午餐"
       topic_en: "Lunch"
   afternoon:
-    - { time: "13:10-13:55", speaker: id_hongqiangning }
-    - { time: "13:55-14:40", speaker: id_hongqiangning }
-    - { time: "14:40-15:25", speaker: id_hongqiangning }
+
     - time: "15:25-15:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "15:40-16:25", speaker: id_hongqiangning }
-    - { time: "16:25-17:10", speaker: id_hongqiangning }
-    - { time: "17:10-17:20", speaker: id_hongqiangning }
-    - { time: "17:20-17:30", speaker: id_hongqiangning }
+
   lightening_talks:
   cancel_talks:
 
@@ -75,28 +68,21 @@ shanghai:
     - time: "8:50-9:00"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - { time: "9:00-9:45", speaker: id_liaoruiqi }
-    - { time: "9:45-10:30", speaker: id_liaoruiqi    }
+
     - time: "10:30-11:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "10:40-11:25", speaker: id_liaoruiqi }
-    - { time: "11:25-12:10", speaker: id_liaoruiqi }
+
   noon:
     - time: "12:10-13:10"
       topic: "午餐"
       topic_en: "Lunch"
   afternoon:
-    - { time: "13:10-13:55", speaker: id_liaoruiqi }
-    - { time: "13:55-14:40", speaker: id_liaoruiqi }
-    - { time: "14:40-15:25", speaker: id_liaoruiqi }
+
     - time: "15:25-15:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "15:40-16:25", speaker: id_liaoruiqi }
-    - { time: "16:25-17:10", speaker: id_liaoruiqi }
-    - { time: "17:10-17:20", speaker: id_liaoruiqi }
-    - { time: "17:20-17:30", speaker: id_liaoruiqi }
+
   lightening_talks:
   cancel_talks:
 
@@ -122,28 +108,21 @@ hangzhou:
     - time: "8:50-9:00"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - { time: "9:00-9:45", speaker: id_zhanghaibo }
-    - { time: "9:45-10:30", speaker: id_zhanghaibo    }
+
     - time: "10:30-11:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "10:40-11:25", speaker: id_zhanghaibo }
-    - { time: "11:25-12:10", speaker: id_zhanghaibo }
+
   noon:
     - time: "12:10-13:10"
       topic: "午餐"
       topic_en: "Lunch"
   afternoon:
-    - { time: "13:10-13:55", speaker: id_zhanghaibo }
-    - { time: "13:55-14:40", speaker: id_zhanghaibo }
-    - { time: "14:40-15:25", speaker: id_zhanghaibo }
+
     - time: "15:25-15:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "15:40-16:25", speaker: id_zhanghaibo }
-    - { time: "16:25-17:10", speaker: id_zhanghaibo }
-    - { time: "17:10-17:20", speaker: id_zhanghaibo }
-    - { time: "17:20-17:30", speaker: id_zhanghaibo }
+
   lightening_talks:
   cancel_talks:
 
@@ -169,28 +148,21 @@ shenzhen:
     - time: "8:50-9:00"
       topic: "大会开场演讲和日程介绍"
       topic_en: "Check-in"
-    - { time: "9:00-9:45", speaker: id_heshiyou }
-    - { time: "9:45-10:30", speaker: id_heshiyou    }
+
     - time: "10:30-11:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "10:40-11:25", speaker: id_heshiyou }
-    - { time: "11:25-12:10", speaker: id_heshiyou }
+
   noon:
     - time: "12:10-13:10"
       topic: "午餐"
       topic_en: "Lunch"
   afternoon:
-    - { time: "13:10-13:55", speaker: id_heshiyou }
-    - { time: "13:55-14:40", speaker: id_heshiyou }
-    - { time: "14:40-15:25", speaker: id_heshiyou }
+
     - time: "15:25-15:40"
       topic: "茶歇"
       topic_en: "Tea Break"
-    - { time: "15:40-16:25", speaker: id_heshiyou }
-    - { time: "16:25-17:10", speaker: id_heshiyou }
-    - { time: "17:10-17:20", speaker: id_heshiyou }
-    - { time: "17:20-17:30", speaker: id_heshiyou }
+
   lightening_talks:
   cancel_talks:
 

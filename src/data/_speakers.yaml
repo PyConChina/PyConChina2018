@@ -1,68 +1,126 @@
 ####################################################################
 # 魔都
 ####################################################################
-id_liaoruiqi:
-  name: 廖瑞奇
-  name_en: "Ruiqi Liao"
+
+id_chenxiaoyou:
+  name: 陈晓优
   city_shanghai: 1
-  avatar: ./asset/images/avatar-2018/speakers/liaoruiqi.jpg
-  avatar_en: ../asset/images/avatar-2018/speakers/liaoruiqi.jpg
-  intro: "达达 - 京东到家配送算法团队负责人，在机器学习、物流算法、计算广告等领域有着丰富的实践经验。2016 年初加入达达，从 0 到 1 建立起达达的算法团队。目前主要负责订单指派、动态定价、路径规划等相关工作，希望利用人工智能的力量改变同城配送的效率与成本，实现更为智能的即时物流。"
-  intro_en: "Leader of Dada-Jingdong Home distribution algorithm team, Ruiqi Liao have rich experience in machine learning, logistics algorithm and computing advertising. In early 2016, Liao joined Dada, and build the algorithm team from scratch. Now, he is mainly responsible for order assignment, dynamic pricing, path planning and some related work, wishing to optimize the effectiveness and cost of distribution with the power of AI, and achieve more intelligent real-time logistics."
+  avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
+  intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
+  intro_en: ""
   shanghai_topic:
-    title: "人工智能与即时物流：达达 - 京东到家的算法实践"
-    title_en: "AI and Real-time Logistics: Dada-Jingdong Home Algorithm Practice"
-    preview: "作为国内最大的众包物流平台，达达拥有数百万兼职配送员，每天为数百万订单提供即时配送服务。在即时物流算法这一全新的领域里，达达在订单智能指派、供需预测、动态定价、路径规划等多个方面进行了探索和实践。机器学习和人工智能技术的应用有效提升了平台的运行效率，实现了平台的高度自动化运行。本次分享将首次为大家介绍达达在相关领域的一些实践经验。"
-    preview_en: "As the largest logistics platform in China, Dada has millions of part-time distribution staff, providing real-time delivery services for millions of orders per day. In the real-time logistics algorithm area, Dada has explored and practiced many aspects such as intelligent order assignment, supply and demand forecasting, dynamic pricing, path planning and so on. The user of Machine learning and artificial intelligence effectively enhanced the operational efficiency of the platform, achieving a high degree of automation platform operation. This sharing will be the first time to introduce Dada's experience in the relevant areas."
+    title: "区块链资产管理中的Python"
+    title_en: ""
+    preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
+    preview_en: ""
+    slide: #
+
+id_zhangxiaojie:
+  name: 张校捷
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2018/speakers/zhangxiaojie.png
+  intro: "大家好，我是Victor，现在在英伟达担任深度学习架构工程师，主要负责基于GPU的深度学习模型的优化相关的研究。在工作中主要Python的主要应用场景是建立深度学习模型，主要使用的深度学习框架是PyTorch和TensorFlow。希望能在PyCon上给大家带来一下PyTorch的经验分享。"
+  intro_en: ""
+  shanghai_topic:
+    title: "PyTorch入门指北"
+    title_en: ""
+    preview: "本演讲主要包含以下内容：
+1. PyTorch简介
+主要介绍PyTorch动态图的特性，以其PyTorch和其他深度学习框架的比较。
+2. PyTorch新特性介绍（主要针对0.4版本）
+介绍PyTorch 0.4（如果1.0发布的话，可能包括1.0）的新特性，帮助大家把代码迁移到新版本上
+3. 如何使用PyTorch建立一个简单的神经网络
+介绍PyTorch的简单使用方法（nn.Module的使用）
+5. PyTorch的并行训练
+介绍如何使用多GPU训练PyTorch模型（使用apex库）
+4. 使用ONNX部署PyTorch模型
+介绍如何通过ONNX格式来固化模型，并且在Caffe2上部署模型
+5. PyTorch踩坑指北
+介绍写PyTorch的时候可能会碰到的各种坑
+6. 总结"
+    preview_en: ""
     slide: #
 
 
 ####################################################################
 # 深圳
 ####################################################################
-id_heshiyou:
-  name: 何世友
+id_zhouxiaomao:
+  name: 周小毛
   city_shenzhen: 1
-  avatar: http://ocgxshkaw.bkt.clouddn.com/heshiyou.jpg
-  intro:  "爱范儿（广州爱范儿科技股份有限公司） CTO ，移动互联网新兵，90 年生人，自 09 年开始摸爬滚打。从校园创业到跨国团队技术顾问再到如今，积累了些许不成熟的管理试错。专注于高并发网络、机器学习、移动 app（部分硬件）、团队管理。"
+  avatar: ./asset/images/avatar-2018/speakers/zhouxiaomao.png
+  intro:  "目前在艾润物联线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。"
   intro_en: "..."
   shenzhen_topic:
-    title: "ASGI 草案，Python 终于等到了"
+    title: "Python在嵌入式系统开发中的应用"
     title_en: "..."
-    preview: "从 CGI 到 WSGI，一晃十余年。自 10 年以来，HTTP2、WebSocket 等新协议逐渐发展壮大，显然 WSGI 已经力不从心，Python 急需新的 web 框架适应新协议。ASGI，由 Diango 团队发起，提出了一种新的异步网络编程思想，试图用一个框架兼容 HTTP、HTTP2、WebSocket 三种协议，它是怎么做到的呢？让我们一起来揭开它的神秘面纱。"
+    preview: "演讲主要结合本人工作经历，阐述python在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：
+1. 嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。
+2. Python能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用python，具体包括后台web开发，即时通信开发，GUI开发等等
+3. 比较python开发相对于传统嵌入式开发的优势。
+4. 简单阐述嵌入式开发使用python的基本流程，主要阐述python开发环境的搭建过程。
+5. 最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。"
     preview_en: ...
-    slide: "http://ocgxshkaw.bkt.clouddn.com/5《ASGI 草案，Python 终于等到了》何世友.pdf"
+    slide: #
+
+id_chenshaoshen:
+  name: 陈绍琛
+  city_shenzhen: 1
+  avatar: ./asset/images/avatar-2018/speakers/chenshaoshen.png
+  intro:  "深圳花果山科技有限公司技术总监, 2009年毕业于哈尔滨工程大学硕士学位。曾就职于诺基亚，华为等公司，2013年初加入深圳花果山科技有限公司工作至今。爱好编程，中医，传统武术等。"
+  intro_en: "..."
+  shenzhen_topic:
+    title: "Python在中小电商的应用与实践"
+    title_en: "..."
+    preview: "以一个pythoner的角度见证一个电商5年的沉浮发展，分享在此过程中如何利用各种开源方案解决性能优化，如何在不断变化的业务与不断调整的商业模型中为公司提供高效的工具让其处于有利的竞争地位。探讨80后程序员在不断发展的形势面前如何保持自己的竞争力，如何组建自己的团队，如何健康的生活。"
+    preview_en: ...
+    slide: #
 
 ####################################################################
 # 北京
 ####################################################################
-id_hongqiangning:
-  name: 洪强宁
+id_cuiyoucai:
+  name: 崔庆才
   city_beijing: 1
-  avatar: http://ocgxshkaw.bkt.clouddn.com/hongqiangning.jpg
-  intro:  "爱因互动CTO，创业中。前豆瓣首席架构师，前宜信大数据创新中心首席架构师。2002年开始使用Python，中国Python用户组（CPUG）的早期活跃者和创立者之一，有较深厚的大规模网站架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
-  intro_en: CTO...
+  avatar: ./asset/images/avatar-2018/speakers/cuiyoucai.png
+  intro:  "北京航空航天大学硕士，《Python3网络爬虫开发实战》作者，静觅博客博主，爬虫博文阅读量已过百万，微软中国大数据工程师，天善智能、网易云课堂讲师，目前正在从事对话聊天方向研究。"
+  intro_en: ...
   beijing_topic:
-    title: "Python与对话机器人"
+    title: "健壮高效的网络爬虫"
     title_en: "..."
-    preview: "..."
+    preview: "本次演讲从抓取、解析、存储、反爬、加速五个方面介绍利用 Python 进行网络爬虫开发的相关知识点和技巧，介绍不同场景下如何采取不同措施高效地进行数据抓取的方法，包括Web抓取、App抓取、数据存储、代理选购、验证码破解、分布式抓取及管理、智能解析等多方面的内容，另外还会结合不同场景介绍常用的一些工具包，全部内容是演讲者在从事网络爬虫研究过程以来的经验精华总结。"
     preview_en: ...
-    slide: "http://ocgxshkaw.bkt.clouddn.com/1《Python与对话机器人》 洪强宁.pdf"
+    slide: #
+
+id_zhangjintao:
+  name: 张晋涛
+  name_en: Jintao Zhang
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/zhangjintao.png
+  intro:  "网易资深运维开发工程师，负责容器化及自动化运维体系建设。"
+  intro_en: ...
+  beijing_topic:
+    title: "基于Docker 的 CI/CD 实践 / CI/CD practical base on Docker"
+    title_en: "..."
+    preview: "随着容器化及 cloud native 等生态的形成，CI/CD 在软件开发过程中的价值日益突出，越来越多的公司需要对此进行改造和优化，但是千人千面，改造及实践往往有很多问题，无论是人员还是工具链上。本次主要是分享我们在生产中总结的最佳实践， 及分析在此过程中所遇到的问题，并会详细分享其中的技术细节，以及在此过程中所做优化，问题分析，及架构演化和我们所做的反思和总结，希望大家能从中有所启发，推进各自在生产环境中的落地。"
+    preview_en: ...
+    slide: #
+
 
 ####################################################################
 # 杭州
 ####################################################################
-id_zhanghaibo:
-  name: 张海波
+
+id_qingxuye:
+  name: 秦续业
+  name_en: "Qin Xuye"
   city_hangzhou: 1
-  avatar: http://ocgxshkaw.bkt.clouddn.com/zhanghaibo.jpg
-  intro: "阿里巴巴技术专家. 多年 python 主要语言开发经验,曾经就职于爱奇艺, 乐视网, 芒果 TV, 直接主要用 python 解决海量数据分析和计算问题. 目前就职于阿里中间件，致力于解决快速开发。 "
+  avatar: ./asset/images/avatar-2018/speakers/qinxuye.png
+  intro: "阿里巴巴计算平台事业部技术专家。主要工作是将 Python 生态和大数据环境进行结合。过去工作包含编写了 pyodps DataFrame 框架，这个框架能让用户编写类似 pandas 的代码，但支持在 MaxCompute 大数据平台、pandas 和传统数据库上执行。现在的工作主要是 Mars，这是一个基于矩阵的统一计算框架，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。未来会将 pandas 和 scikit-learn 分布式化。"
   intro_en: ""
-  hangzhou_topic:
-    title: "django REST 快速开发"
+  shanghai_topic:
+    title: "Mars——基于矩阵的统一计算框架"
     title_en: ""
-    preview: "基于django restful 框架做快速 API开发,
-        大环境,微服务盛行的情况下 API 重要, 快速构建 API 的方法能极大提高企业生产力,快速应对需求和迭代变化,
-        主要讲解下 如何 设计 restful 以及如何快速开发一个 restful 的 api...  以及一些和 API 相关的衍生"
+    preview: "基于矩阵的统一计算框架 Mars，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。目前，Mars 兼容 70% 常见 Numpy 接口。本次分享会介绍目前我们的工作，会介绍 Mars 的实现原理，并且对未来的上层建筑包括 DataFrame 和机器学习进行展望。"
     preview_en: ""
     slide: #
