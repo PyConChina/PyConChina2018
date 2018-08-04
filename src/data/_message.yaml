@@ -39,6 +39,7 @@ user_evaluation_left: 用户评价left
 user_evaluation_left_en: User evaluation left
 user_evaluation_right: 用户评价right
 user_evaluation_right_en: User evaluation right
+pycon_waiting: 暂未更新， 敬请期待...
 #########################################
 # Nav
 #########################################
@@ -96,3 +97,4 @@ beijing_booking_now: 报名北京场
 shanghai_booking_now: 报名上海场
 hangzhou_booking_now: 报名杭州场
 shenzhen_booking_now: 报名深圳场
+speech_apple_now: 申请演讲

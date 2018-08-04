@@ -38,10 +38,18 @@
     title_en: Shenzhen
     url: "shenzhen.html"
     url_en: "en/shenzhen.html"
-- title: 志愿者
-  title_en: VOLUNTEERS
+- title: 组委会
+  title_en: ORGANIZERS
   url: "volunteers.html"
   url_en: "en/volunteers.html"
+- title: 申请演讲
+  title_en: SPEECH
+  url: https://jinshuju.net/f/fjOUqZ
+  url_external: 1
+- title: 资料
+  title_en: SLIDES
+  url: ""
+  url_external: 1
 - title: 往届
   title_en: HISTORY
   children:
@@ -80,9 +88,6 @@
     url: "http://cn.pycon.org/2017/"
     url_en: "http://cn.pycon.org/2017/en/index.html"
     url_external: 1
-- title: SLIDES
-  url: ""
-  url_external: 1
 - title: EN
   title_en: 中文
   url: "en/index.html"

@@ -1,34 +1,39 @@
 meta:
-    #  -
-    #    level: diamond
-    #    name: 钻石赞助
-    #    name_en: Diamond
-    #  -
-    #    level: platinum
-    #    name: 白金赞助
-    #    name_en: Platinum
   -
-    level: gold
-    name: 黄金赞助
-    name_en: Gold
-  -
-    level: silver
-    name: 白银赞助
-    name_en: Silver
+    level: diamond
+    name: 钻石赞助
+    name_en: Diamond
+#    -
+#      level: platinum
+#      name: 白金赞助
+#      name_en: Platinum
+#  -
+#    level: gold
+#    name: 黄金赞助
+#    name_en: Gold
+#  -
+#    level: silver
+#    name: 白银赞助
+#    name_en: Silver
   -
     level: bronze
     name: 青铜赞助
     name_en: Bronze
+  -
+    level: book
+    name: 图书赞助
+    name_en: book
 
 #########################################
 # 钻石级
 #########################################
 diamond:
-#  -
-#    logo: http://pyconcn.qiniudn.com/zoomquiet/stuff14/logo/douban-logo.png?imageView2/2/w/180
-#    link: http://www.douban.com/
-#    intro: "豆瓣成立于2005年3月，目前已拥有1.3亿注册用户。豆瓣一直致力于帮助都市人群发现生活中有用的事物，通过桌面和移动应用来服务都市生活的不同领域。"
-#    intro_en: "Douban.com launched on March 6, 2005, is a Chinese SNS website allowing registered users to record information and create content related to film, books, music, and recent events and activities in Chinese cities."
+  -
+    logo: ./asset/images/avatar-2018//sponsors/getui-logo.png
+    logo_en: ../asset/images/avatar-2018//sponsors/getui-logo.png
+    link: http://www.getui.com/cn/index.html
+    intro: ""
+    intro_en: ""
 
 #########################################
 # 白金级
@@ -55,51 +60,54 @@ gold:
 # 白银级赞助
 #########################################
 silver:
-  -
-    #logo: http://ocgxshkaw.bkt.clouddn.com/huizhi-tek-logo.png
-    logo: ./asset/images/avatar-2018/huizhi-tek-logo.png
-    logo_en: ../asset/images/avatar-2018/huizhi-tek-logo.png
-    link: http://www.spsp.com.cn/
-    intro: "依托上海浦东软件园（SPSP）软件和信息产业集聚的优势，我们创建“汇智TEK”创新创业技术交流平台。通过分享“高”，“精”，“尖”行业领域趋势与技术，汇智TEK论坛旨在成为上海ICT产业高峰论坛之一、成为浦软汇聚更多专业技术人才的驱动力。"
-    intro_en: "Relying on the software and information industrial agglomeration advantages of Shanghai Pudong Software Park (SPSP), we set up an innovative and entrepreneurial technology exchange platform named WiseTEK. By sharing  state of the art of IT industry , WiseTEK forum is aimed at being one of Shanghai ICT industry summit forums and the driving force of SPSP for gathering more professional and technical talents."
-  -
-    #logo: http://ocgxshkaw.bkt.clouddn.com/51jingying-logo.png
-    logo: ./asset/images/avatar-2018/51jingying-logo.png
-    logo_en: ../asset/images/avatar-2018/51jingying-logo.png
-    link: http://www.51jingying.com/
-    intro: "无忧精英网是“前程无忧”（NASDAQ：JOBS）整合多重优势资源为职场精英打造的职业发展平台。
-    前程无忧资深职业顾问和猎头汇集行业知名企业高薪职位，为精英提供职业发展建议和更好的工作机会。同时，基于名片和海量数据的企业组织架构搜索为精英提供准确有效的商务人脉地图，通过线上递名片的全新模式，快速建立关系、挖掘机遇、拓展社交圈。秉承“遇见更好机会，成就极致人生”的核心理念，整合最前沿的移动互联网技术，无忧精英网为职场精英提供便捷高效的一站式职业发展服务。"
-    intro_en: "51jingying is 51job (Nasdaq: JOBS) integration of multiple advantages of resources for the workplace elite to create a career development platform. The Senior Career Advisors of 51job and Headhunters bring together well-known companies in the industry to provide career development advice and better job opportunities for the elite. At the same time, based on business cards and massive data of the enterprise organizational structure search for the elite to provide accurate and effective business contacts map, through the online delivery business card new model, quickly build relationships, mining opportunities, expand the social circle.
-    Adhering to the 'meet a better chance, the ultimate achievement of life,' the core concept of integration of the most cutting-edge mobile Internet technology, Care for the elite network for the workplace elite to provide convenient and efficient one-stop career development services."
-  -
-    #logo: http://ocgxshkaw.bkt.clouddn.com/253-lanchuang-logo.jpg
-    logo: ./asset/images/avatar-2018/253-lanchuang-logo.png
-    logo_en: ../asset/images/avatar-2018/253-lanchuang-logo.png
-    link: http://www.253.com/
-    intro: "上海创蓝文化传播有限公司成立于2009年，是短信验证码、短信通知、语音验证码、国际验证码、手机流量营销等产品集一体的云通讯服务PaaS平台！
-        2018年，创蓝品牌更名253，更加多元化的业务发展模式，满足移动互联网企业通信服务的多样需求。
-        至今，团队规模突破500人，深圳、长沙、北京、等全国29家城市合伙人团队相继构建完成。截至目前，累计客户突破20万家"
-    intro_en: "Shanghai ChuanglanCommunication Co. Ltd. was established in 2009, it is a verification code SMS,SMS notification, speech codes, international codes, phone traffic one set ofproduct marketing communications services PaaS cloud platform!
-        2018, Year of the Chuanglan brand changed its name to 253, more diversified business model to meet the
-        diverse mobile Internet business communications services needs.
-        So far, team size exceeded 500 people, Shenzhen, Changsha, Beijing, and other cities nationwide 29 partner teams have been constructed complete. Up to now, a total of 200,000 customers breakthrough."
-  -
+#  -
+#    #logo: http://ocgxshkaw.bkt.clouddn.com/huizhi-tek-logo.png
+#    logo: ./asset/images/avatar-2018/huizhi-tek-logo.png
+#    logo_en: ../asset/images/avatar-2018/huizhi-tek-logo.png
+#    link: http://www.spsp.com.cn/
+#    intro: "依托上海浦东软件园（SPSP）软件和信息产业集聚的优势，我们创建“汇智TEK”创新创业技术交流平台。通过分享“高”，“精”，“尖”行业领域趋势与技术，汇智TEK论坛旨在成为上海ICT产业高峰论坛之一、成为浦软汇聚更多专业技术人才的驱动力。"
+#    intro_en: "Relying on the software and information industrial agglomeration advantages of Shanghai Pudong Software Park (SPSP), we set up an innovative and entrepreneurial technology exchange platform named WiseTEK. By sharing  state of the art of IT industry , WiseTEK forum is aimed at being one of Shanghai ICT industry summit forums and the driving force of SPSP for gathering more professional and technical talents."
+#  -
+#    #logo: http://ocgxshkaw.bkt.clouddn.com/51jingying-logo.png
+#    logo: ./asset/images/avatar-2018/51jingying-logo.png
+#    logo_en: ../asset/images/avatar-2018/51jingying-logo.png
+#    link: http://www.51jingying.com/
+#    intro: "无忧精英网是“前程无忧”（NASDAQ：JOBS）整合多重优势资源为职场精英打造的职业发展平台。
+#    前程无忧资深职业顾问和猎头汇集行业知名企业高薪职位，为精英提供职业发展建议和更好的工作机会。同时，基于名片和海量数据的企业组织架构搜索为精英提供准确有效的商务人脉地图，通过线上递名片的全新模式，快速建立关系、挖掘机遇、拓展社交圈。秉承“遇见更好机会，成就极致人生”的核心理念，整合最前沿的移动互联网技术，无忧精英网为职场精英提供便捷高效的一站式职业发展服务。"
+#    intro_en: "51jingying is 51job (Nasdaq: JOBS) integration of multiple advantages of resources for the workplace elite to create a career development platform. The Senior Career Advisors of 51job and Headhunters bring together well-known companies in the industry to provide career development advice and better job opportunities for the elite. At the same time, based on business cards and massive data of the enterprise organizational structure search for the elite to provide accurate and effective business contacts map, through the online delivery business card new model, quickly build relationships, mining opportunities, expand the social circle.
+#    Adhering to the 'meet a better chance, the ultimate achievement of life,' the core concept of integration of the most cutting-edge mobile Internet technology, Care for the elite network for the workplace elite to provide convenient and efficient one-stop career development services."
+#  -
+#    #logo: http://ocgxshkaw.bkt.clouddn.com/253-lanchuang-logo.jpg
+#    logo: ./asset/images/avatar-2018/253-lanchuang-logo.png
+#    logo_en: ../asset/images/avatar-2018/253-lanchuang-logo.png
+#    link: http://www.253.com/
+#    intro: "上海创蓝文化传播有限公司成立于2009年，是短信验证码、短信通知、语音验证码、国际验证码、手机流量营销等产品集一体的云通讯服务PaaS平台！
+#        2018年，创蓝品牌更名253，更加多元化的业务发展模式，满足移动互联网企业通信服务的多样需求。
+#        至今，团队规模突破500人，深圳、长沙、北京、等全国29家城市合伙人团队相继构建完成。截至目前，累计客户突破20万家"
+#    intro_en: "Shanghai ChuanglanCommunication Co. Ltd. was established in 2009, it is a verification code SMS,SMS notification, speech codes, international codes, phone traffic one set ofproduct marketing communications services PaaS cloud platform!
+#        2018, Year of the Chuanglan brand changed its name to 253, more diversified business model to meet the
+#        diverse mobile Internet business communications services needs.
+#        So far, team size exceeded 500 people, Shenzhen, Changsha, Beijing, and other cities nationwide 29 partner teams have been constructed complete. Up to now, a total of 200,000 customers breakthrough."
+#  -
 
 #########################################
 # 青铜级赞助
 #########################################
 bronze:
   -
-    #logo: http://ocgxshkaw.bkt.clouddn.com/GoodERP-logo.jpg
-    logo: ./asset/images/avatar-2018/GoodERP-logo.jpg
-    logo_en: ../asset/images/avatar-2018/GoodERP-logo.jpg
-    link: http://www.gooderp.org/
-    intro: "GoodERP基于Python和Postgresql技术，是Gighub上以AGPL3协议开发的自由软件，实现了中国中小企业关注的财务+进销存的核心功能，并支持二次开发模块化扩展，可能是中国用户数最多的开源ERP"
-    intro_en: "GoodERP based on Python and Postgresql technology, is Gighub AGPL3 protocol developed on the free software to achieve the focus of China's SME financial + Invoicing core functions, and support the secondary development of modular expansion, may be the largest number of users in China"
+    logo: ./asset/images/avatar-2018/sponsors/bxb-logo.jpg
+    logo_en: ../asset/images/avatar-2018/sponsors/bxb-logo.jpg
+    link: ""
+    intro: ""
+    intro_en: ""
+
+#########################################
+# 图书赞助
+#########################################
+book:
   -
-    #logo: http://ocgxshkaw.bkt.clouddn.com/turing-logo.png
-    logo: ./asset/images/avatar-2018/turing-logo.png
-    logo_en: ../asset/images/avatar-2018/turing-logo.png
-    link: http://www.ituring.com.cn/
-    intro: "图灵公司始终以策划出版高质量的科技书籍为核心业务,推出了一系列高质量的畅销科技图书,是国内计算机图书市场最有影响力的出版单位之一. 图灵社区以为读者提供一流的内容为己任,拥有众多资深技术爱好者用户,是国内最专业的IT技术'交流+阅读'社区之一. 图灵社区经过不断升级改造和尝试实践,已迅速成为国内知名科技电子书出版销售平台."
-    intro_en: "Turing Co., Ltd persists in planning publishing high quality books of science and technology as the core business, launched a series of high quality best-selling technology books, it's one of China famous and influential computer books publisher and Professional technical & Reading community. Set up nine years, accumulative total sold more than 500 copies of books and have impress millions of readers. Turing Co., Ltd that provide first-class content is its responsibility. Rapid growth in recent years has been for domestic famous ebook sales platform of science and technology."
+    logo: ./asset/images/avatar-2018/sponsors/turing-logo.png
+    logo_en: ../asset/images/avatar-2018/sponsors/turing-logo.png
+    link: ""
+    intro: ""
+    intro_en: ""

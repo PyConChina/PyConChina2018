@@ -13,15 +13,16 @@ beijing:
   name: 北京
   name_en: beijing
   completed: false
-  address: 上海市浦东新区博云路2号
-  address_en: "No.2 Boyun Road, Pudong, Shanghai"
-  venue: 浦软大厦会议厅
-  venue_en: "Meeting Hall at SPSP Building"
-  traffic: 地铁2号线金科路站
-  traffic_en: "Jinke Road Station at Metro Line 2"
-  maplink: 'http://f.amap.com/0FFE0i'
-  video: 'http://e.vhall.com/597478279'
-  date: 2017-10-22    8:50 ~ 17:20
+  url: "beijing.html"
+  address: （北京东城）朝阳区东北三环七圣中街12号
+  address_en: ""
+  venue: 云南大厦新云南皇冠假日酒店
+  venue_en: ""
+  traffic: 地铁13号线光熙门站
+  traffic_en: ""
+  maplink: 'https://www.amap.com/place/B000A87KPU'
+  video: ''
+  date: 2018-10-14 9:00 ~ 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"
@@ -54,6 +55,7 @@ shanghai:
   name: 上海
   name_en: shanghai
   completed: false
+  url: "shanghai.html"
   address: 上海市浦东新区博云路2号
   address_en: "No.2 Boyun Road, Pudong, Shanghai"
   venue: 浦软大厦会议厅
@@ -62,7 +64,7 @@ shanghai:
   traffic_en: "Jinke Road Station at Metro Line 2"
   maplink: 'http://f.amap.com/0FFE0i'
   video: 'http://e.vhall.com/597478279'
-  date: 2018-10-13    8:50 ~ 17:20
+  date: 2018-10-21 9:00 ~ 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"
@@ -94,6 +96,7 @@ hangzhou:
   name: 杭州
   name_en: hangzhou
   completed: false
+  url: "hangzhou.html"
   address: 上海市浦东新区博云路2号
   address_en: "No.2 Boyun Road, Pudong, Shanghai"
   venue: 浦软大厦会议厅
@@ -102,7 +105,7 @@ hangzhou:
   traffic_en: "Jinke Road Station at Metro Line 2"
   maplink: 'http://f.amap.com/0FFE0i'
   video: 'http://e.vhall.com/597478279'
-  date: 2018-10-13    8:50 ~ 17:20
+  date: 2018-11-04 9:00 ~ 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"
@@ -134,6 +137,7 @@ shenzhen:
   name: 深圳
   name_en: shenzhen
   completed: false
+  url: "shenzhen.html"
   address: 上海市浦东新区博云路2号
   address_en: "No.2 Boyun Road, Pudong, Shanghai"
   venue: 浦软大厦会议厅
@@ -142,7 +146,7 @@ shenzhen:
   traffic_en: "Jinke Road Station at Metro Line 2"
   maplink: 'http://f.amap.com/0FFE0i'
   video: 'http://e.vhall.com/597478279'
-  date: 2018-10-13    8:50 ~ 17:20
+  date: 2018-10-27 9:00 ~ 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"

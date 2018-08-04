@@ -8,15 +8,16 @@ home_url: "./"
 home_url_en: "./en/"
 base_url: "."
 base_url_en: ".."
+speech_apply_url: https://jinshuju.net/f/fjOUqZ
 
 beijing:
-  booking_url: ""
+  booking_url: http://www.huodongxing.com/event/7451673665100?td=8211933664158
 
 shanghai:
-  booking_url: ""
+  booking_url: waiting.html
 
 hangzhou:
-  booking_url: ""
+  booking_url: waiting.html
 
 shenzhen:
-  booking_url: ""
+  booking_url: waiting.html

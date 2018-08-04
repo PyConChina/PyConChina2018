@@ -6,10 +6,12 @@ role_list:
 organizers:
 -
   name: StingChen(陈世欣)
+  name_en: StingChen(陈世欣)
   role: organizer
   role_organizer: 1
-  intro: 永泰红磡养老产业投资集团的信息技术总监;在14年的互联网生涯后,投身到到永泰红磡养老产业投资集团做夕阳事业,跨界发展. 他是TopGeek技术社区的创办人也是上海GDG的负责人,并参与CPyUG社区的管理. 还发起PMCamp产品经理社区,儿童社区乐创园等
-  avatar: http://dn-pyconcn.qbox.me/images/volunteer/chenshixin_2013.png
+  intro: Ahaschool-CTO, PyChina发起人
+  avatar: ./asset/images/avatar-2018/volunteers/chenshixin.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/chenshixin.png
   blog: http://sting.topgeek.org/
   weibo: http://weibo.com/stingchen
 -
@@ -17,40 +19,73 @@ organizers:
   name_en: Zoom.Quiet (大妈)
   role: organizer
   role_organizer: 1
-  avatar: http://dn-pyconcn.qbox.me/images/volunteer/zhouqi.png
-  intro: Python 中文社区创始人 / 管理员,热心于python社区的公益事业,大家熟知的社区"大妈";OBP及蟒营工程设计者 /主持人;参与并主持各种线上 / 线下活动,主持编撰了 "可爱的Python";坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造!目前就职于猎豹移动.
-  intro_en: One of originator for CPyUG(China Python User Group) / administrator; Enthusiastic python community welfare, well-known community "DAMA"; OBP and PythoniCamp project designer / manager; attend and originator all kinds of  online / offline tech evnets, presided compiled "lovely Python"; keeping usage Pythonic to reclaim people entering the FLOSS world learning / sharing / innovate! currently work for CMCM.
+  avatar: ./asset/images/avatar-2018/volunteers/dama.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/dama.png
+  intro: 优势眼动-合伙人, PyChina发起人
   blog: http://zoomquiet.io/
   weibo: http://weibo.com/zoomquiet
+-
+  name: (Manjusaka)李者璈
+  name_en: (Manjusaka)李者璈
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/manjusaka.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/manjusaka.png
+  intro: 闪银奇异-高级 Python 开发, PyCon2018 - 北京组委负责人
+  blog:
+  weibo:
+-
+  name: 邓良驹
+  name_en: 邓良驹
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/dengliangju.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/dengliangju.png
+  intro: 秘塔科技-工程总监, PyCon2018 - 北京Web专场负责人
+  blog:
+  weibo:
+-
+  name: 赖信涛
+  name_en: 赖信涛
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/laixintao.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/laixintao.png
+  intro: 蚂蚁金服-SRE, PyCon2018 - 北京Python语言特性专场负责人
+  blog:
+  weibo:
+-
+  name: 何翔宇
+  name_en: 何翔宇
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/hexiangyu.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/hexiangyu.png
+  intro: TCL 互联网事业部-Python 工程师, PyCon2018 - 北京核心组织者
+  blog:
+  weibo:
+-
+  name: 朱明放
+  name_en: 朱明放
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/zhumingfang.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/zhumingfang.png
+  intro: 中润国盛-安全研究员, PyCon2018 - 北京核心组织者
+  blog:
+  weibo:
+-
+  name: 钱章年
+  name_en: 钱章年
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/qianzhangnian.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/qianzhangnian.png
+  intro: 创盛视联数码科技（北京）有限公司-研发经理, PyCon2018 - 北京核心组织者
+  blog:
+  weibo:
 
 technicians:
--
-  name: 丁俊豪
-  role: conference
-  role_conference: 1
-  intro: ...
-  avatar:  ./asset/images/avatar-2018/volunteers/dinjunhao.png
-  avatar_en:  ../asset/images/avatar-2018/volunteers/dinjunhao.png
-  blog: http://www.ossky.org/
-  weibo:
--
-  name: 晁倩
-  role: conference
-  role_conference: 1
-  intro: ...
-  avatar:  ./asset/images/avatar-2018/volunteers/aq.png
-  avatar_en:  ../asset/images/avatar-2018/volunteers/aq.png
-  blog:
-  weibo:
--
-  name: kavin
-  role: conference
-  role_conference: 1
-  intro: 人生苦短
-  avatar:  ./asset/images/avatar-2018/volunteers/kavin.png
-  avatar_en:  ../asset/images/avatar-2018/volunteers/kavin.png
-  blog:
-  weibo:
 
 conference:
 

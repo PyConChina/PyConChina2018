@@ -11,16 +11,18 @@
       {% macro agenda_link(city) %}
       <div class="step">
         <!--<i class="{{ 'remove from calendar' if city.completed else 'in cart' }} icon"></i>-->
-        <div class="content">
-          <div class="title">{{ city.name }}</div>
-          <div class="description">{{ city.date }}</div>
-        </div>
+          <a class="ui huge primary" href="{{ city.url }}" target="_blank">
+            <div class="content">
+              <div class="title">{{ city.name }}</div>
+              <div class="description">{{ city.date }}</div>
+            </div>
+          </a>
       </div>
       {% endmacro %}
 
       <div class="six wide right floated column">
         <div class="ui vertical steps">
-          {% for city_name in agenda.city_list %} {{ agenda_link(agenda[city_name]) }} {% endfor %}
+          {% for city_name in agenda.city_list %}{{ agenda_link(agenda[city_name]) }}{% endfor %}
         </div>
       </div>
     </div>
@@ -30,6 +32,11 @@
         <a class="ui huge primary button" href="{{ site.shanghai.booking_url }}" target="_blank">{{ message.shanghai_booking_now }}</a>
         <a class="ui huge primary button" href="{{ site.hangzhou.booking_url }}" target="_blank">{{ message.hangzhou_booking_now }}</a>
         <a class="ui huge primary button" href="{{ site.shenzhen.booking_url }}" target="_blank">{{ message.shenzhen_booking_now }}</a>
+      </div>
+    </div>
+       <div class="row">
+      <div class="center aligned column">
+        <a class="ui huge primary button" href="{{ site.speech_apply_url }}" target="_blank">{{ message.speech_apple_now }}</a>
       </div>
     </div>
   </div>

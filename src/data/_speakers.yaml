@@ -1,10 +1,25 @@
 ####################################################################
 # 北京
 ####################################################################
+id_hongqiangning:
+  name: 洪强宁
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/hongqiangning.png
+  avatar_en: ../asset/images/avatar-2018/speakers/hongqiangning.png
+  intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上."
+  intro_en: ...
+  beijing_topic:
+    title: "我的Python之路（暂定）"
+    title_en: "..."
+    preview: ""
+    preview_en: ...
+    slide: #
+
 id_cuiyoucai:
   name: 崔庆才
   city_beijing: 1
   avatar: ./asset/images/avatar-2018/speakers/cuiyoucai.png
+  avatar_en: ../asset/images/avatar-2018/speakers/cuiyoucai.png
   intro:  "北京航空航天大学硕士，《Python3网络爬虫开发实战》作者，静觅博客博主，爬虫博文阅读量已过百万，微软中国大数据工程师，天善智能、网易云课堂讲师，目前正在从事对话聊天方向研究。"
   intro_en: ...
   beijing_topic:
@@ -18,45 +33,42 @@ id_zhangjintao:
   name: 张晋涛
   name_en: Jintao Zhang
   city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/zhangjintao.png
+  avatar: ./asset/images/avatar-2018/speakers/default.png
+  avatar_en: ../asset/images/avatar-2018/speakers/default.png
   intro:  "网易资深运维开发工程师，负责容器化及自动化运维体系建设。"
   intro_en: ...
   beijing_topic:
-    title: "基于Docker 的 CI/CD 实践 / CI/CD practical base on Docker"
-    title_en: "..."
+    title: "基于Docker 的 CI/CD 实践"
+    title_en: "CI/CD practical base on Docker"
     preview: "随着容器化及 cloud native 等生态的形成，CI/CD 在软件开发过程中的价值日益突出，越来越多的公司需要对此进行改造和优化，但是千人千面，改造及实践往往有很多问题，无论是人员还是工具链上。本次主要是分享我们在生产中总结的最佳实践， 及分析在此过程中所遇到的问题，并会详细分享其中的技术细节，以及在此过程中所做优化，问题分析，及架构演化和我们所做的反思和总结，希望大家能从中有所启发，推进各自在生产环境中的落地。"
     preview_en: ...
     slide: #
 
-
-id_zhouxiaomao:
-  name: 周小毛
+id_kongtaoxun:
+  name: 孔韬循
   city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/zhouxiaomao.png
-  intro:  "目前在艾润物联线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。"
-  intro_en: "..."
-  shenzhen_topic:
-    title: "Python在嵌入式系统开发中的应用"
+  avatar: ./asset/images/avatar-2018/speakers/default.png
+  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  intro:  "北京丁牛科技有限公司首席安全官，国内著名信息安全团队--破晓安全团队创始人，人民邮电出版社-异步社区-信息安全领域图书专家顾问 "
+  intro_en: ...
+  beijing_topic:
+    title: "待定"
     title_en: "..."
-    preview: "演讲主要结合本人工作经历，阐述python在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：
-1. 嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。
-2. Python能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用python，具体包括后台web开发，即时通信开发，GUI开发等等
-3. 比较python开发相对于传统嵌入式开发的优势。
-4. 简单阐述嵌入式开发使用python的基本流程，主要阐述python开发环境的搭建过程。
-5. 最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。"
+    preview: "..."
     preview_en: ...
     slide: #
 
-id_chenshaoshen:
-  name: 陈绍琛
+id_gashero:
+  name: gashero
   city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/chenshaoshen.png
-  intro:  "深圳花果山科技有限公司技术总监, 2009年毕业于哈尔滨工程大学硕士学位。曾就职于诺基亚，华为等公司，2013年初加入深圳花果山科技有限公司工作至今。爱好编程，中医，传统武术等。"
-  intro_en: "..."
-  shenzhen_topic:
-    title: "Python在中小电商的应用与实践"
+  avatar: ./asset/images/avatar-2018/speakers/default.png
+  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  intro:  "2005年开始研习Python，陆续分享了过百万字的Python笔记和翻译文档。前土豆网助理架构师，前果壳网创始技术总监，前deepglint工程师，前RoboTerra软件工程总监。无线电/航模/机器人爱好者。"
+  intro_en: ...
+  beijing_topic:
+    title: "解锁 GIL 的新姿势"
     title_en: "..."
-    preview: "以一个pythoner的角度见证一个电商5年的沉浮发展，分享在此过程中如何利用各种开源方案解决性能优化，如何在不断变化的业务与不断调整的商业模型中为公司提供高效的工具让其处于有利的竞争地位。探讨80后程序员在不断发展的形势面前如何保持自己的竞争力，如何组建自己的团队，如何健康的生活。"
+    preview: "..."
     preview_en: ...
     slide: #
 
@@ -64,6 +76,7 @@ id_chenxiaoyou:
   name: 陈晓优
   city_beijing: 1
   avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
+  avatar_en: ../asset/images/avatar-2018//speakers/chenxiaoyou.png
   intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
   intro_en: ""
   shanghai_topic:
@@ -72,47 +85,6 @@ id_chenxiaoyou:
     preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
     preview_en: ""
     slide: #
-
-id_zhangxiaojie:
-  name: 张校捷
-  city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/zhangxiaojie.png
-  intro: "大家好，我是Victor，现在在英伟达担任深度学习架构工程师，主要负责基于GPU的深度学习模型的优化相关的研究。在工作中主要Python的主要应用场景是建立深度学习模型，主要使用的深度学习框架是PyTorch和TensorFlow。希望能在PyCon上给大家带来一下PyTorch的经验分享。"
-  intro_en: ""
-  shanghai_topic:
-    title: "PyTorch入门指北"
-    title_en: ""
-    preview: "本演讲主要包含以下内容：
-1. PyTorch简介
-主要介绍PyTorch动态图的特性，以其PyTorch和其他深度学习框架的比较。
-2. PyTorch新特性介绍（主要针对0.4版本）
-介绍PyTorch 0.4（如果1.0发布的话，可能包括1.0）的新特性，帮助大家把代码迁移到新版本上
-3. 如何使用PyTorch建立一个简单的神经网络
-介绍PyTorch的简单使用方法（nn.Module的使用）
-5. PyTorch的并行训练
-介绍如何使用多GPU训练PyTorch模型（使用apex库）
-4. 使用ONNX部署PyTorch模型
-介绍如何通过ONNX格式来固化模型，并且在Caffe2上部署模型
-5. PyTorch踩坑指北
-介绍写PyTorch的时候可能会碰到的各种坑
-6. 总结"
-    preview_en: ""
-    slide: #
-
-id_qingxuye:
-  name: 秦续业
-  name_en: "Qin Xuye"
-  city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/qinxuye.png
-  intro: "阿里巴巴计算平台事业部技术专家。主要工作是将 Python 生态和大数据环境进行结合。过去工作包含编写了 pyodps DataFrame 框架，这个框架能让用户编写类似 pandas 的代码，但支持在 MaxCompute 大数据平台、pandas 和传统数据库上执行。现在的工作主要是 Mars，这是一个基于矩阵的统一计算框架，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。未来会将 pandas 和 scikit-learn 分布式化。"
-  intro_en: ""
-  shanghai_topic:
-    title: "Mars——基于矩阵的统一计算框架"
-    title_en: ""
-    preview: "基于矩阵的统一计算框架 Mars，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。目前，Mars 兼容 70% 常见 Numpy 接口。本次分享会介绍目前我们的工作，会介绍 Mars 的实现原理，并且对未来的上层建筑包括 DataFrame 和机器学习进行展望。"
-    preview_en: ""
-    slide: #
-
 
 ####################################################################
 # 魔都
