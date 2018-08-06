@@ -1,0 +1,91 @@
+role_list:
+ - organizers
+ - technicians
+ - conference
+
+organizers:
+-
+  name: StingChen(陈世欣)
+  name_en: StingChen(陈世欣)
+  role: organizer
+  role_organizer: 1
+  intro: Ahaschool-CTO, PyChina发起人
+  avatar: ./asset/images/avatar-2018/volunteers/chenshixin.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/chenshixin.png
+  blog: http://sting.topgeek.org/
+  weibo: http://weibo.com/stingchen
+-
+  name: Zoom.Quiet (大妈)
+  name_en: Zoom.Quiet (大妈)
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/dama.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/dama.png
+  intro: 优势眼动-合伙人, PyChina发起人
+  blog: http://zoomquiet.io/
+  weibo: http://weibo.com/zoomquiet
+-
+  name: (Manjusaka)李者璈
+  name_en: (Manjusaka)李者璈
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/manjusaka.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/manjusaka.png
+  intro: 闪银奇异-高级 Python 开发, PyCon2018 - 北京组委负责人
+  blog:
+  weibo:
+-
+  name: 邓良驹
+  name_en: 邓良驹
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/dengliangju.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/dengliangju.png
+  intro: 秘塔科技-工程总监, PyCon2018 - 北京Web专场负责人
+  blog:
+  weibo:
+-
+  name: 赖信涛
+  name_en: 赖信涛
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/laixintao.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/laixintao.png
+  intro: 蚂蚁金服-SRE, PyCon2018 - 北京Python语言特性专场负责人
+  blog:
+  weibo:
+-
+  name: 何翔宇
+  name_en: 何翔宇
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/hexiangyu.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/hexiangyu.png
+  intro: TCL 互联网事业部-Python 工程师, PyCon2018 - 北京核心组织者
+  blog:
+  weibo:
+-
+  name: 朱明放
+  name_en: 朱明放
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/zhumingfang.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/zhumingfang.png
+  intro: 中润国盛-安全研究员, PyCon2018 - 北京核心组织者
+  blog:
+  weibo:
+-
+  name: 钱章年
+  name_en: 钱章年
+  role: organizer
+  role_organizer: 1
+  avatar: ./asset/images/avatar-2018/volunteers/qianzhangnian.png
+  avatar_en: ../asset/images/avatar-2018/volunteers/qianzhangnian.png
+  intro: 创盛视联数码科技（北京）有限公司-研发经理, PyCon2018 - 北京核心组织者
+  blog:
+  weibo:
+
+technicians:
+
+conference:
+

@@ -1,0 +1,105 @@
+####################################################################
+# 北京
+####################################################################
+id_hongqiangning:
+  name: 洪强宁
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/hongqiangning.png
+  avatar_en: ../asset/images/avatar-2018/speakers/hongqiangning.png
+  intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上."
+  intro_en: ...
+  beijing_topic:
+    title: "我的Python之路（暂定）"
+    title_en: "..."
+    preview: ""
+    preview_en: ...
+    slide: #
+
+id_cuiyoucai:
+  name: 崔庆才
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/cuiyoucai.png
+  avatar_en: ../asset/images/avatar-2018/speakers/cuiyoucai.png
+  intro:  "北京航空航天大学硕士，《Python3网络爬虫开发实战》作者，静觅博客博主，爬虫博文阅读量已过百万，微软中国大数据工程师，天善智能、网易云课堂讲师，目前正在从事对话聊天方向研究。"
+  intro_en: ...
+  beijing_topic:
+    title: "健壮高效的网络爬虫"
+    title_en: "..."
+    preview: "本次演讲从抓取、解析、存储、反爬、加速五个方面介绍利用 Python 进行网络爬虫开发的相关知识点和技巧，介绍不同场景下如何采取不同措施高效地进行数据抓取的方法，包括Web抓取、App抓取、数据存储、代理选购、验证码破解、分布式抓取及管理、智能解析等多方面的内容，另外还会结合不同场景介绍常用的一些工具包，全部内容是演讲者在从事网络爬虫研究过程以来的经验精华总结。"
+    preview_en: ...
+    slide: #
+
+id_zhangjintao:
+  name: 张晋涛
+  name_en: Jintao Zhang
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/default.png
+  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  intro:  "网易资深运维开发工程师，负责容器化及自动化运维体系建设。"
+  intro_en: ...
+  beijing_topic:
+    title: "基于Docker 的 CI/CD 实践"
+    title_en: "CI/CD practical base on Docker"
+    preview: "随着容器化及 cloud native 等生态的形成，CI/CD 在软件开发过程中的价值日益突出，越来越多的公司需要对此进行改造和优化，但是千人千面，改造及实践往往有很多问题，无论是人员还是工具链上。本次主要是分享我们在生产中总结的最佳实践， 及分析在此过程中所遇到的问题，并会详细分享其中的技术细节，以及在此过程中所做优化，问题分析，及架构演化和我们所做的反思和总结，希望大家能从中有所启发，推进各自在生产环境中的落地。"
+    preview_en: ...
+    slide: #
+
+id_kongtaoxun:
+  name: 孔韬循
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/default.png
+  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  intro:  "北京丁牛科技有限公司首席安全官，国内著名信息安全团队--破晓安全团队创始人，人民邮电出版社-异步社区-信息安全领域图书专家顾问 "
+  intro_en: ...
+  beijing_topic:
+    title: "待定"
+    title_en: "..."
+    preview: "..."
+    preview_en: ...
+    slide: #
+
+id_gashero:
+  name: gashero
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/default.png
+  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  intro:  "2005年开始研习Python，陆续分享了过百万字的Python笔记和翻译文档。前土豆网助理架构师，前果壳网创始技术总监，前deepglint工程师，前RoboTerra软件工程总监。无线电/航模/机器人爱好者。"
+  intro_en: ...
+  beijing_topic:
+    title: "解锁 GIL 的新姿势"
+    title_en: "..."
+    preview: "..."
+    preview_en: ...
+    slide: #
+
+id_chenxiaoyou:
+  name: 陈晓优
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
+  avatar_en: ../asset/images/avatar-2018//speakers/chenxiaoyou.png
+  intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
+  intro_en: ""
+  shanghai_topic:
+    title: "区块链资产管理中的Python"
+    title_en: ""
+    preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
+    preview_en: ""
+    slide: #
+
+####################################################################
+# 魔都
+####################################################################
+
+
+
+####################################################################
+# 杭州
+####################################################################
+
+
+
+####################################################################
+# 深圳
+####################################################################
+
+
