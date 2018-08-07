@@ -1,0 +1,524 @@
+{
+  "agenda": {
+    "beijing": {
+      "address": "", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "beijing", 
+      "completed": false, 
+      "date": "2018-10-14 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "https://www.amap.com/place/B000A87KPU", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "Check-in"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "name": "beijing", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "Lunch"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "", 
+      "url": "beijing.html", 
+      "venue": "", 
+      "video": ""
+    }, 
+    "city_list": [
+      "beijing", 
+      "shanghai", 
+      "hangzhou", 
+      "shenzhen"
+    ], 
+    "hangzhou": {
+      "address": "No.2 Boyun Road, Pudong, Shanghai", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "hangzhou", 
+      "completed": false, 
+      "date": "2018-11-04 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "Check-in"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "name": "hangzhou", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "Lunch"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "Jinke Road Station at Metro Line 2", 
+      "url": "hangzhou.html", 
+      "venue": "Meeting Hall at SPSP Building", 
+      "video": "http://e.vhall.com/597478279"
+    }, 
+    "shanghai": {
+      "address": "No.2 Boyun Road, Pudong, Shanghai", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "shanghai", 
+      "completed": false, 
+      "date": "2018-10-21 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "Check-in"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "name": "shanghai", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "Lunch"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "Jinke Road Station at Metro Line 2", 
+      "url": "shanghai.html", 
+      "venue": "Meeting Hall at SPSP Building", 
+      "video": "http://e.vhall.com/597478279"
+    }, 
+    "shenzhen": {
+      "address": "No.2 Boyun Road, Pudong, Shanghai", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "shenzhen", 
+      "completed": false, 
+      "date": "2018-10-27 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "Check-in"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "Tea Break"
+        }
+      ], 
+      "name": "shenzhen", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "Lunch"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "Jinke Road Station at Metro Line 2", 
+      "url": "shenzhen.html", 
+      "venue": "Meeting Hall at SPSP Building", 
+      "video": "http://e.vhall.com/597478279"
+    }
+  }, 
+  "donators": [
+    "kavin"
+  ], 
+  "lang": "en", 
+  "lang_dir": "en", 
+  "lang_suffix": "_en", 
+  "message": {
+    "address": "Address", 
+    "afternoon": "Afternoon", 
+    "beijing_booking_now": "\u62a5\u540d\u5317\u4eac\u573a", 
+    "booking_now": "Enroll", 
+    "conference": "Conference Volunteers", 
+    "date": "Date", 
+    "donators": "Personal Sponsorship", 
+    "donators_orderby": "(sorted by time of sponsorship)", 
+    "hangzhou_booking_now": "\u62a5\u540d\u676d\u5dde\u573a", 
+    "map": "Map", 
+    "morning": "Morning", 
+    "noon": "Noon", 
+    "organizers": "Coordinators", 
+    "page_title_beijing": "Schedule in Beijing", 
+    "page_title_donators": "Personal Sponsorship", 
+    "page_title_guangzhou": "Schedule in GuangZhou", 
+    "page_title_hangzhou": "Schedule in Hangzhou", 
+    "page_title_index": "HOME", 
+    "page_title_shanghai": "Schedule in Shanghai", 
+    "page_title_shenzhen": "Schedule in Shenzhen", 
+    "page_title_speakers": "Speakers", 
+    "page_title_sponsors": "Sponsors", 
+    "page_title_suzhou": "Schedule in Suzhou", 
+    "page_title_volunteers": "Volunteers", 
+    "page_title_zhuhai": "Schedule in Zhuhai", 
+    "pycon_intro": "", 
+    "pycon_intro_title": "PyCon China", 
+    "pycon_waiting": "\u6682\u672a\u66f4\u65b0\uff0c \u656c\u8bf7\u671f\u5f85...", 
+    "pythoneer": "<b><A NAME=\"anchor\">pythoneer</a></b> ~ \"A pioneer within the Python programming language community.\" means Pythoneer COOL than Pythonista. btw Pythoner just Python beginner.", 
+    "shanghai_booking_now": "\u62a5\u540d\u4e0a\u6d77\u573a", 
+    "shenzhen_booking_now": "\u62a5\u540d\u6df1\u5733\u573a", 
+    "slide": "slides", 
+    "slogan": "MAY THE PYTHONIC BE WITH YOU", 
+    "slogan_title": "PyCon China 2018", 
+    "speakers": " Speakers", 
+    "speech_apple_now": "\u7533\u8bf7\u6f14\u8bb2", 
+    "technicians": "Technical Volunteers", 
+    "traffic": "Traffic", 
+    "user_evaluation_left": "User evaluation left", 
+    "user_evaluation_right": "User evaluation right", 
+    "venue": "Venue", 
+    "video": "video"
+  }, 
+  "nav": [
+    {
+      "title": "PyConChina2018", 
+      "url": "en/index.html"
+    }, 
+    {
+      "title": "SPEECH", 
+      "url": "en/speakers.html"
+    }, 
+    {
+      "children": [
+        {
+          "title": "SPONSORS", 
+          "url": "en/sponsor_com.html"
+        }, 
+        {
+          "title": "DONATOR", 
+          "url": "en/donators.html"
+        }
+      ], 
+      "title": "SUPPORT"
+    }, 
+    {
+      "children": [
+        {
+          "title": "Beijing", 
+          "url": "en/beijing.html"
+        }, 
+        {
+          "title": "Shanghai", 
+          "url": "en/shanghai.html"
+        }, 
+        {
+          "title": "Hangzhou", 
+          "url": "en/hangzhou.html"
+        }, 
+        {
+          "title": "Shenzhen", 
+          "url": "en/shenzhen.html"
+        }
+      ], 
+      "title": "SCHEDULE", 
+      "url": "en/schedule.html"
+    }, 
+    {
+      "title": "ORGANIZERS", 
+      "url": "en/volunteers.html"
+    }, 
+    {
+      "title": "SPEECH", 
+      "url": "https://jinshuju.net/f/fjOUqZ", 
+      "url_external": 1
+    }, 
+    {
+      "title": "SLIDES", 
+      "url": "", 
+      "url_external": 1
+    }, 
+    {
+      "children": [
+        {
+          "title": 2011, 
+          "url": "http://cn.pycon.org/2011/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2012, 
+          "url": "http://cn.pycon.org/2012/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2013, 
+          "url": "http://cn.pycon.org/2013/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2014, 
+          "url": "http://cn.pycon.org/2014/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2015, 
+          "url": "http://cn.pycon.org/2015/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2016, 
+          "url": "http://cn.pycon.org/2016/en/index.html", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2017, 
+          "url": "http://cn.pycon.org/2017/en/index.html", 
+          "url_external": 1
+        }
+      ], 
+      "title": "HISTORY"
+    }, 
+    {
+      "title": "\u4e2d\u6587", 
+      "url": "index.html"
+    }
+  ], 
+  "site": {
+    "author": "support@PyChina.org", 
+    "base_url": "..", 
+    "beijing": {
+      "booking_url": "http://www.huodongxing.com/event/7451673665100?td=8211933664158"
+    }, 
+    "description": "The official site for PyCon China 2018", 
+    "hangzhou": {
+      "booking_url": "waiting.html"
+    }, 
+    "home_url": "./en/", 
+    "name": "PyConChina2018", 
+    "shanghai": {
+      "booking_url": "waiting.html"
+    }, 
+    "shenzhen": {
+      "booking_url": "waiting.html"
+    }, 
+    "speech_apply_url": "https://jinshuju.net/f/fjOUqZ", 
+    "title": "PyCon 2018 China", 
+    "url": "http://cn.pycon.org/2018/"
+  }, 
+  "speakers": {
+    "id_chenxiaoyou": {
+      "avatar": "../asset/images/avatar-2018//speakers/chenxiaoyou.png", 
+      "city_beijing": 1, 
+      "intro": "", 
+      "name": "\u9648\u6653\u4f18", 
+      "shanghai_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": ""
+      }
+    }, 
+    "id_cuiyoucai": {
+      "avatar": "../asset/images/avatar-2018/speakers/cuiyoucai.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u5d14\u5e86\u624d"
+    }, 
+    "id_gashero": {
+      "avatar": "../asset/images/avatar-2018/speakers/default.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "gashero"
+    }, 
+    "id_hongqiangning": {
+      "avatar": "../asset/images/avatar-2018/speakers/hongqiangning.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u6d2a\u5f3a\u5b81"
+    }, 
+    "id_kongtaoxun": {
+      "avatar": "../asset/images/avatar-2018/speakers/default.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "..."
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "\u5b54\u97ec\u5faa"
+    }, 
+    "id_zhangjintao": {
+      "avatar": "../asset/images/avatar-2018/speakers/default.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "CI/CD practical base on Docker"
+      }, 
+      "city_beijing": 1, 
+      "intro": "...", 
+      "name": "Jintao Zhang"
+    }
+  }, 
+  "sponsors": {
+    "book": [
+      {
+        "intro": "", 
+        "link": "", 
+        "logo": "../asset/images/avatar-2018/sponsors/turing-logo.png"
+      }
+    ], 
+    "bronze": [
+      {
+        "intro": "", 
+        "link": "", 
+        "logo": "../asset/images/avatar-2018/sponsors/bxb-logo.jpg"
+      }
+    ], 
+    "diamond": [
+      {
+        "intro": "", 
+        "link": "http://www.getui.com/cn/index.html", 
+        "logo": "../asset/images/avatar-2018//sponsors/getui-logo.png"
+      }
+    ], 
+    "gold": null, 
+    "meta": [
+      {
+        "level": "diamond", 
+        "name": "Diamond"
+      }, 
+      {
+        "level": "bronze", 
+        "name": "Bronze"
+      }, 
+      {
+        "level": "book", 
+        "name": "book"
+      }
+    ], 
+    "platinum": null, 
+    "silver": null
+  }, 
+  "volunteers": {
+    "conference": null, 
+    "organizers": [
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/chenshixin.png", 
+        "blog": "http://sting.topgeek.org/", 
+        "intro": "Ahaschool-CTO, PyChina\u53d1\u8d77\u4eba", 
+        "name": "StingChen(\u9648\u4e16\u6b23)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/stingchen"
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/dama.png", 
+        "blog": "http://zoomquiet.io/", 
+        "intro": "\u4f18\u52bf\u773c\u52a8-\u5408\u4f19\u4eba, PyChina\u53d1\u8d77\u4eba", 
+        "name": "Zoom.Quiet (\u5927\u5988)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/zoomquiet"
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/manjusaka.png", 
+        "blog": null, 
+        "intro": "\u95ea\u94f6\u5947\u5f02-\u9ad8\u7ea7 Python \u5f00\u53d1, PyCon2018 - \u5317\u4eac\u7ec4\u59d4\u8d1f\u8d23\u4eba", 
+        "name": "(Manjusaka)\u674e\u8005\u7488", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/dengliangju.png", 
+        "blog": null, 
+        "intro": "\u79d8\u5854\u79d1\u6280-\u5de5\u7a0b\u603b\u76d1, PyCon2018 - \u5317\u4eacWeb\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u9093\u826f\u9a79", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/laixintao.png", 
+        "blog": null, 
+        "intro": "\u8682\u8681\u91d1\u670d-SRE, PyCon2018 - \u5317\u4eacPython\u8bed\u8a00\u7279\u6027\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u8d56\u4fe1\u6d9b", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/hexiangyu.png", 
+        "blog": null, 
+        "intro": "TCL \u4e92\u8054\u7f51\u4e8b\u4e1a\u90e8-Python \u5de5\u7a0b\u5e08, PyCon2018 - \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u4f55\u7fd4\u5b87", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "\u4e2d\u6da6\u56fd\u76db-\u5b89\u5168\u7814\u7a76\u5458, PyCon2018 - \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u6731\u660e\u653e", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "../asset/images/avatar-2018/volunteers/qianzhangnian.png", 
+        "blog": null, 
+        "intro": "\u521b\u76db\u89c6\u8054\u6570\u7801\u79d1\u6280\uff08\u5317\u4eac\uff09\u6709\u9650\u516c\u53f8-\u7814\u53d1\u7ecf\u7406, PyCon2018 - \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u94b1\u7ae0\u5e74", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }
+    ], 
+    "role_list": [
+      "organizers", 
+      "technicians", 
+      "conference"
+    ], 
+    "technicians": null
+  }
+}

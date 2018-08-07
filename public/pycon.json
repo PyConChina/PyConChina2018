@@ -1,0 +1,524 @@
+{
+  "agenda": {
+    "beijing": {
+      "address": "\uff08\u5317\u4eac\u4e1c\u57ce\uff09\u671d\u9633\u533a\u4e1c\u5317\u4e09\u73af\u4e03\u5723\u4e2d\u885712\u53f7", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "beijing", 
+      "completed": false, 
+      "date": "2018-10-14 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "https://www.amap.com/place/B000A87KPU", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "\u5927\u4f1a\u5f00\u573a\u6f14\u8bb2\u548c\u65e5\u7a0b\u4ecb\u7ecd"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "name": "\u5317\u4eac", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "\u5348\u9910"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "\u5730\u94c113\u53f7\u7ebf\u5149\u7199\u95e8\u7ad9", 
+      "url": "beijing.html", 
+      "venue": "\u4e91\u5357\u5927\u53a6\u65b0\u4e91\u5357\u7687\u51a0\u5047\u65e5\u9152\u5e97", 
+      "video": ""
+    }, 
+    "city_list": [
+      "beijing", 
+      "shanghai", 
+      "hangzhou", 
+      "shenzhen"
+    ], 
+    "hangzhou": {
+      "address": "\u4e0a\u6d77\u5e02\u6d66\u4e1c\u65b0\u533a\u535a\u4e91\u8def2\u53f7", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "hangzhou", 
+      "completed": false, 
+      "date": "2018-11-04 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "\u5927\u4f1a\u5f00\u573a\u6f14\u8bb2\u548c\u65e5\u7a0b\u4ecb\u7ecd"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "name": "\u676d\u5dde", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "\u5348\u9910"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "\u5730\u94c12\u53f7\u7ebf\u91d1\u79d1\u8def\u7ad9", 
+      "url": "hangzhou.html", 
+      "venue": "\u6d66\u8f6f\u5927\u53a6\u4f1a\u8bae\u5385", 
+      "video": "http://e.vhall.com/597478279"
+    }, 
+    "shanghai": {
+      "address": "\u4e0a\u6d77\u5e02\u6d66\u4e1c\u65b0\u533a\u535a\u4e91\u8def2\u53f7", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "shanghai", 
+      "completed": false, 
+      "date": "2018-10-21 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "\u5927\u4f1a\u5f00\u573a\u6f14\u8bb2\u548c\u65e5\u7a0b\u4ecb\u7ecd"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "name": "\u4e0a\u6d77", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "\u5348\u9910"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "\u5730\u94c12\u53f7\u7ebf\u91d1\u79d1\u8def\u7ad9", 
+      "url": "shanghai.html", 
+      "venue": "\u6d66\u8f6f\u5927\u53a6\u4f1a\u8bae\u5385", 
+      "video": "http://e.vhall.com/597478279"
+    }, 
+    "shenzhen": {
+      "address": "\u4e0a\u6d77\u5e02\u6d66\u4e1c\u65b0\u533a\u535a\u4e91\u8def2\u53f7", 
+      "afternoon": [
+        {
+          "time": "15:25-15:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "cancel_talks": null, 
+      "city": "shenzhen", 
+      "completed": false, 
+      "date": "2018-10-27 9:00 ~ 17:00", 
+      "lightening_talks": null, 
+      "maplink": "http://f.amap.com/0FFE0i", 
+      "morning": [
+        {
+          "time": "8:50-9:00", 
+          "topic": "\u5927\u4f1a\u5f00\u573a\u6f14\u8bb2\u548c\u65e5\u7a0b\u4ecb\u7ecd"
+        }, 
+        {
+          "time": "10:30-11:40", 
+          "topic": "\u8336\u6b47"
+        }
+      ], 
+      "name": "\u6df1\u5733", 
+      "noon": [
+        {
+          "time": "12:10-13:10", 
+          "topic": "\u5348\u9910"
+        }
+      ], 
+      "notices": "", 
+      "traffic": "\u5730\u94c12\u53f7\u7ebf\u91d1\u79d1\u8def\u7ad9", 
+      "url": "shenzhen.html", 
+      "venue": "\u6d66\u8f6f\u5927\u53a6\u4f1a\u8bae\u5385", 
+      "video": "http://e.vhall.com/597478279"
+    }
+  }, 
+  "donators": [
+    "kavin"
+  ], 
+  "lang": "cn", 
+  "lang_dir": "", 
+  "lang_suffix": "_cn", 
+  "message": {
+    "address": "\u5730\u5740", 
+    "afternoon": "\u4e0b\u5348", 
+    "beijing_booking_now": "\u62a5\u540d\u5317\u4eac\u573a", 
+    "booking_now": "\u62a5\u540d\u53c2\u52a0", 
+    "conference": "\u4f1a\u52a1\u7ec4", 
+    "date": "\u65e5\u671f", 
+    "donators": "\u880e\u4eba\u8d5e\u52a9", 
+    "donators_orderby": "(\u6309\u6350\u52a9\u8fbe\u6210\u65f6\u95f4\u6392\u5e8f)", 
+    "hangzhou_booking_now": "\u62a5\u540d\u676d\u5dde\u573a", 
+    "map": "\u5730\u56fe", 
+    "morning": "\u4e0a\u5348", 
+    "noon": "\u4e2d\u5348", 
+    "organizers": "\u7ec4\u7ec7\u8005", 
+    "page_title_beijing": "\u5317\u4eac\u65e5\u7a0b", 
+    "page_title_donators": "\u880e\u4eba\u8d5e\u52a9", 
+    "page_title_guangzhou": "\u5e7f\u5dde\u65e5\u7a0b", 
+    "page_title_hangzhou": "\u676d\u5dde\u65e5\u7a0b", 
+    "page_title_index": "\u9996\u9875", 
+    "page_title_shanghai": "\u4e0a\u6d77\u65e5\u7a0b", 
+    "page_title_shenzhen": "\u6df1\u5733\u65e5\u7a0b", 
+    "page_title_speakers": "\u8bb2\u5e08", 
+    "page_title_sponsors": "\u8d5e\u52a9", 
+    "page_title_suzhou": "\u82cf\u5dde\u65e5\u7a0b", 
+    "page_title_volunteers": "\u5fd7\u613f", 
+    "page_title_zhuhai": "\u73e0\u6d77\u65e5\u7a0b", 
+    "pycon_intro": "PyCon \u662f Python \u8bed\u8a00\u793e\u7fa4\u7684\u5168\u7403\u6027\u6280\u672f\u76db\u4f1a\uff0cPyConChina \u662f\u7531 PyCon \u5b98\u65b9\u6388\u6743 CPyUG (\u534e\u880e\u7528\u6237\u7ec4)\u4e3e\u529e\u7684 Python \u5e74\u4f1a\u3002\u8fc7\u53bb7\u5e74\u5728\u5317\u4eac\u3001\u4e0a\u6d77\u3001\u5e7f\u5dde\u3001\u73e0\u6d77\u3001\u676d\u5dde\u3001\u82cf\u5dde\u3001\u897f\u5b89\u3001\u5408\u80a5\u7b49\u5730\u6210\u529f\u4e3e\u529e20\u4f59\u6b21\u3002<br/>\u7b2c\u516b\u5c4a\u4e2d\u56fd Python \u5f00\u53d1\u8005\u5927\u4f1a PyConChina2018 \uff0c\u7531 PyChina.org \u53d1\u8d77\uff0cCPyUG/TopGeek \u7b49\u793e\u533a\u534f\u529e\uff0c\u5c06\u5728\u5317\u4eac\u3001\u4e0a\u6d77\u3001\u6df1\u5733\u3001\u676d\u5dde\u3001\u6210\u90fd\uff08\u5f85\u5b9a\uff09\u4e3e\u529e\u3002\u81f4\u529b\u4e8e\u63a8\u52a8\u5404\u7c7b Python \u76f8\u5173\u7684\u6280\u672f\u5728\u4e92\u8054\u7f51\u3001\u4f01\u4e1a\u5e94\u7528\u7b49\u9886\u57df\u7684\u7814\u53d1\u548c\u5e94\u7528\u3002", 
+    "pycon_intro_title": "PyCon China", 
+    "pycon_waiting": "\u6682\u672a\u66f4\u65b0\uff0c \u656c\u8bf7\u671f\u5f85...", 
+    "pythoneer": "<b><A NAME=\"anchor\">pythoneer</a></b> ~ <sub>\"A pioneer within the Python programming language community.\"</sub> \u5373 Pythoneer \u662f\u66f4\u52a0\u4e13\u4e1a\u7684 Pythonista. Pythoner \u662f\u6700\u57fa\u7840\u7684 Python \u7528\u6237.", 
+    "shanghai_booking_now": "\u62a5\u540d\u4e0a\u6d77\u573a", 
+    "shenzhen_booking_now": "\u62a5\u540d\u6df1\u5733\u573a", 
+    "slide": "\u5e7b\u706f", 
+    "slogan": "MAY THE PYTHONIC BE WITH YOU", 
+    "slogan_title": "PyCon China 2018", 
+    "speakers": "\u8bb2\u5e08", 
+    "speech_apple_now": "\u7533\u8bf7\u6f14\u8bb2", 
+    "technicians": "\u6280\u672f\u7ec4", 
+    "traffic": "\u4ea4\u901a", 
+    "user_evaluation_left": "\u7528\u6237\u8bc4\u4ef7left", 
+    "user_evaluation_right": "\u7528\u6237\u8bc4\u4ef7right", 
+    "venue": "\u4f1a\u573a", 
+    "video": "\u5f55\u50cf"
+  }, 
+  "nav": [
+    {
+      "title": "PyConChina2018", 
+      "url": "index.html"
+    }, 
+    {
+      "title": "\u8bb2\u5e08", 
+      "url": "speakers.html"
+    }, 
+    {
+      "children": [
+        {
+          "title": "\u5382\u5546", 
+          "url": "sponsor_com.html"
+        }, 
+        {
+          "title": "\u79c1\u4eba", 
+          "url": "donators.html"
+        }
+      ], 
+      "title": "\u8d5e\u52a9"
+    }, 
+    {
+      "children": [
+        {
+          "title": "\u5317\u4eac", 
+          "url": "beijing.html"
+        }, 
+        {
+          "title": "\u4e0a\u6d77", 
+          "url": "shanghai.html"
+        }, 
+        {
+          "title": "\u676d\u5dde", 
+          "url": "hangzhou.html"
+        }, 
+        {
+          "title": "\u6df1\u5733", 
+          "url": "shenzhen.html"
+        }
+      ], 
+      "title": "\u65e5\u7a0b", 
+      "url": "schedule.html"
+    }, 
+    {
+      "title": "\u7ec4\u59d4\u4f1a", 
+      "url": "volunteers.html"
+    }, 
+    {
+      "title": "\u7533\u8bf7\u6f14\u8bb2", 
+      "url": "https://jinshuju.net/f/fjOUqZ", 
+      "url_external": 1
+    }, 
+    {
+      "title": "\u8d44\u6599", 
+      "url": "", 
+      "url_external": 1
+    }, 
+    {
+      "children": [
+        {
+          "title": 2011, 
+          "url": "http://cn.pycon.org/2011/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2012, 
+          "url": "http://cn.pycon.org/2012/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2013, 
+          "url": "http://cn.pycon.org/2013/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2014, 
+          "url": "http://cn.pycon.org/2014/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2015, 
+          "url": "http://cn.pycon.org/2015/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2016, 
+          "url": "http://cn.pycon.org/2016/", 
+          "url_external": 1
+        }, 
+        {
+          "title": 2017, 
+          "url": "http://cn.pycon.org/2017/", 
+          "url_external": 1
+        }
+      ], 
+      "title": "\u5f80\u5c4a"
+    }, 
+    {
+      "title": "EN", 
+      "url": "en/index.html"
+    }
+  ], 
+  "site": {
+    "author": "support@PyChina.org", 
+    "base_url": ".", 
+    "beijing": {
+      "booking_url": "http://www.huodongxing.com/event/7451673665100?td=8211933664158"
+    }, 
+    "description": "Python\u4e2d\u56fd2018\u5927\u4f1a\u5b98\u65b9\u7f51\u7ad9", 
+    "hangzhou": {
+      "booking_url": "waiting.html"
+    }, 
+    "home_url": "./", 
+    "name": "PyConChina2018", 
+    "shanghai": {
+      "booking_url": "waiting.html"
+    }, 
+    "shenzhen": {
+      "booking_url": "waiting.html"
+    }, 
+    "speech_apply_url": "https://jinshuju.net/f/fjOUqZ", 
+    "title": "PyCon 2018 China", 
+    "url": "http://cn.pycon.org/2018/"
+  }, 
+  "speakers": {
+    "id_chenxiaoyou": {
+      "avatar": "./asset/images/avatar-2018//speakers/chenxiaoyou.png", 
+      "city_beijing": 1, 
+      "intro": "\u4e0a\u6d77\u97e6\u6069\u5f00\u733f\u8f6f\u4ef6\u79d1\u6280\u6709\u9650\u516c\u53f8\u521b\u59cb\u4eba\uff0c\u66fe\u5728\u5927\u578b\u91cf\u5316\u79c1\u52df\u57fa\u91d1\u62c5\u4efb\u91cf\u5316\u4ea4\u6613\u5458\u548c\u57fa\u91d1\u7ecf\u7406\uff0c\u5f00\u53d1\u4e86vn.py\u91cf\u5316\u4ea4\u6613\u6846\u67b6\uff0c\u76ee\u524d\u662f\u5168\u7403\u7528\u6237\u91cf\u6700\u5927\u7684\u5f00\u6e90\u91cf\u5316\u4ea4\u6613\u7c7b\u9879\u76ee\u4e4b\u4e00\uff08Github Star 6071\uff09\uff0c\u76ee\u524d\u7684\u5de5\u4f5c\u91cd\u5fc3\u4e3b\u8981\u96c6\u4e2d\u5728\u533a\u5757\u94fe\u548c\u6570\u5b57\u8d27\u5e01\u9886\u57df\u7684\u91cf\u5316\u4ea4\u6613\u7cfb\u7edf\u5f00\u53d1\u3002", 
+      "name": "\u9648\u6653\u4f18", 
+      "shanghai_topic": {
+        "preview": "\u533a\u5757\u94fe\u6280\u672f\u9769\u547d\u5e26\u6765\u7684\u5168\u65b0\u8d44\u4ea7\u7c7b\u578b\uff08\u6570\u5b57\u8d27\u5e01\u548c\u901a\u8bc1\uff09\uff0c\u4ee5\u53ca\u5176\u53bb\u4e2d\u5fc3\u5316\u7684\u57fa\u7840\u67b6\u6784\uff0c\u6b63\u5728\u4e3a\u5168\u7403\u8d44\u4ea7\u7ba1\u7406\u884c\u4e1a\u5e26\u6765\u7ffb\u5929\u8986\u5730\u7684\u53d8\u5316\u3002Python\u8bed\u8a00\u51ed\u501f\u6210\u719f\u7684\u5927\u89c4\u6a21\u91d1\u878d\u5e94\u7528\u80cc\u666f\u548c\u6d3b\u8dc3\u79ef\u6781\u7684\u7528\u6237\u793e\u533a\uff0c\u6210\u4e3a\u4e86\u533a\u5757\u94fe\u8d44\u4ea7\u7ba1\u7406\u4e1a\u52a1\u4e2d\u7684\u9996\u9009\u89e3\u51b3\u65b9\u6848\u3002\u672c\u6b21\u6f14\u8bb2\u65e8\u5728\u5206\u4eabPython\u5728\u533a\u5757\u94fe\u8d44\u4ea7\u7ba1\u7406\u7684\u5404\u4e2a\u751f\u6001\u73af\u8282\u4e2d\u7684\u5e94\u7528\uff0c\u4ee5\u53ca\u63a2\u8ba8\u672a\u6765\u7684\u53d1\u5c55\u65b9\u5411\u3002", 
+        "slide": null, 
+        "title": "\u533a\u5757\u94fe\u8d44\u4ea7\u7ba1\u7406\u4e2d\u7684Python"
+      }
+    }, 
+    "id_cuiyoucai": {
+      "avatar": "./asset/images/avatar-2018/speakers/cuiyoucai.png", 
+      "beijing_topic": {
+        "preview": "\u672c\u6b21\u6f14\u8bb2\u4ece\u6293\u53d6\u3001\u89e3\u6790\u3001\u5b58\u50a8\u3001\u53cd\u722c\u3001\u52a0\u901f\u4e94\u4e2a\u65b9\u9762\u4ecb\u7ecd\u5229\u7528 Python \u8fdb\u884c\u7f51\u7edc\u722c\u866b\u5f00\u53d1\u7684\u76f8\u5173\u77e5\u8bc6\u70b9\u548c\u6280\u5de7\uff0c\u4ecb\u7ecd\u4e0d\u540c\u573a\u666f\u4e0b\u5982\u4f55\u91c7\u53d6\u4e0d\u540c\u63aa\u65bd\u9ad8\u6548\u5730\u8fdb\u884c\u6570\u636e\u6293\u53d6\u7684\u65b9\u6cd5\uff0c\u5305\u62ecWeb\u6293\u53d6\u3001App\u6293\u53d6\u3001\u6570\u636e\u5b58\u50a8\u3001\u4ee3\u7406\u9009\u8d2d\u3001\u9a8c\u8bc1\u7801\u7834\u89e3\u3001\u5206\u5e03\u5f0f\u6293\u53d6\u53ca\u7ba1\u7406\u3001\u667a\u80fd\u89e3\u6790\u7b49\u591a\u65b9\u9762\u7684\u5185\u5bb9\uff0c\u53e6\u5916\u8fd8\u4f1a\u7ed3\u5408\u4e0d\u540c\u573a\u666f\u4ecb\u7ecd\u5e38\u7528\u7684\u4e00\u4e9b\u5de5\u5177\u5305\uff0c\u5168\u90e8\u5185\u5bb9\u662f\u6f14\u8bb2\u8005\u5728\u4ece\u4e8b\u7f51\u7edc\u722c\u866b\u7814\u7a76\u8fc7\u7a0b\u4ee5\u6765\u7684\u7ecf\u9a8c\u7cbe\u534e\u603b\u7ed3\u3002", 
+        "slide": null, 
+        "title": "\u5065\u58ee\u9ad8\u6548\u7684\u7f51\u7edc\u722c\u866b"
+      }, 
+      "city_beijing": 1, 
+      "intro": "\u5317\u4eac\u822a\u7a7a\u822a\u5929\u5927\u5b66\u7855\u58eb\uff0c\u300aPython3\u7f51\u7edc\u722c\u866b\u5f00\u53d1\u5b9e\u6218\u300b\u4f5c\u8005\uff0c\u9759\u89c5\u535a\u5ba2\u535a\u4e3b\uff0c\u722c\u866b\u535a\u6587\u9605\u8bfb\u91cf\u5df2\u8fc7\u767e\u4e07\uff0c\u5fae\u8f6f\u4e2d\u56fd\u5927\u6570\u636e\u5de5\u7a0b\u5e08\uff0c\u5929\u5584\u667a\u80fd\u3001\u7f51\u6613\u4e91\u8bfe\u5802\u8bb2\u5e08\uff0c\u76ee\u524d\u6b63\u5728\u4ece\u4e8b\u5bf9\u8bdd\u804a\u5929\u65b9\u5411\u7814\u7a76\u3002", 
+      "name": "\u5d14\u5e86\u624d"
+    }, 
+    "id_gashero": {
+      "avatar": "./asset/images/avatar-2018/speakers/default.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "\u89e3\u9501 GIL \u7684\u65b0\u59ff\u52bf"
+      }, 
+      "city_beijing": 1, 
+      "intro": "2005\u5e74\u5f00\u59cb\u7814\u4e60Python\uff0c\u9646\u7eed\u5206\u4eab\u4e86\u8fc7\u767e\u4e07\u5b57\u7684Python\u7b14\u8bb0\u548c\u7ffb\u8bd1\u6587\u6863\u3002\u524d\u571f\u8c46\u7f51\u52a9\u7406\u67b6\u6784\u5e08\uff0c\u524d\u679c\u58f3\u7f51\u521b\u59cb\u6280\u672f\u603b\u76d1\uff0c\u524ddeepglint\u5de5\u7a0b\u5e08\uff0c\u524dRoboTerra\u8f6f\u4ef6\u5de5\u7a0b\u603b\u76d1\u3002\u65e0\u7ebf\u7535/\u822a\u6a21/\u673a\u5668\u4eba\u7231\u597d\u8005\u3002", 
+      "name": "gashero"
+    }, 
+    "id_hongqiangning": {
+      "avatar": "./asset/images/avatar-2018/speakers/hongqiangning.png", 
+      "beijing_topic": {
+        "preview": "", 
+        "slide": null, 
+        "title": "\u6211\u7684Python\u4e4b\u8def\uff08\u6682\u5b9a\uff09"
+      }, 
+      "city_beijing": 1, 
+      "intro": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO\uff0c\u7f16\u7a0b\u4e09\u5341\u4f59\u5e74\uff0c12\u5e74\u4e92\u8054\u7f51\u4ece\u4e1a\u7ecf\u9a8c\uff0c\u5546\u7528\u5bf9\u8bdd\u673a\u5668\u4eba\u521b\u4e1a\u4e2d\u3002\u66fe\u4efb\u8c46\u74e3\u9996\u5e2d\u67b6\u6784\u5e08\u3001\u5b9c\u4fe1\u5927\u6570\u636e\u521b\u65b0\u4e2d\u5fc3\u9996\u5e2d\u67b6\u6784\u5e08\u3002\u8d44\u6df1 Python \u5f00\u53d1\u8005\uff0c\u4e3a\u4e2d\u56fdPython\u7528\u6237\u7ec4\uff08CPUG\uff09\u7684\u521b\u7acb\u8005\u4e4b\u4e00\u3002\u8c46\u74e3\u7f51\u9996\u540d\u5168\u804c\u5458\u5de5\uff0c\u8d1f\u8d23\u7cfb\u7edf\u67b6\u6784\uff0c\u7ecf\u5386\u4e86\u8c46\u74e3\u4ece\u65e5PV\u5341\u4e07\u5230\u6570\u4ebf\u7684\u8fc7\u7a0b\uff0c\u79ef\u7d2f\u4e86\u6df1\u539a\u7684\u5927\u89c4\u6a21\u7f51\u7ad9\u67b6\u6784\u7ecf\u9a8c\u3002\u66fe\u4e3b\u5bfc\u8c46\u74e3\u5185\u90e8 PaaS \u7cfb\u7edf DAE \u548c\u5b9c\u4fe1\u91d1\u878d\u5bb9\u5668\u4e91 Lain \u7684\u5efa\u8bbe\uff0c\u6709\u4e30\u5bcc\u7684\u5bb9\u5668\u4e91\u548c\u5fae\u670d\u52a1\u67b6\u6784\u7ecf\u9a8c\u3002\u76ee\u524d\u4e3b\u8981\u5173\u6ce8\u65b9\u5411\u5728\u804a\u5929\u673a\u5668\u4eba(chatbot)\u3001\u4e91\u8ba1\u7b97\u3001\u5bb9\u5668\u6280\u672f\u3001\u5fae\u670d\u52a1\u3001\u5b89\u5168\u6280\u672f\u4e0a.", 
+      "name": "\u6d2a\u5f3a\u5b81"
+    }, 
+    "id_kongtaoxun": {
+      "avatar": "./asset/images/avatar-2018/speakers/default.png", 
+      "beijing_topic": {
+        "preview": "...", 
+        "slide": null, 
+        "title": "\u5f85\u5b9a"
+      }, 
+      "city_beijing": 1, 
+      "intro": "\u5317\u4eac\u4e01\u725b\u79d1\u6280\u6709\u9650\u516c\u53f8\u9996\u5e2d\u5b89\u5168\u5b98\uff0c\u56fd\u5185\u8457\u540d\u4fe1\u606f\u5b89\u5168\u56e2\u961f--\u7834\u6653\u5b89\u5168\u56e2\u961f\u521b\u59cb\u4eba\uff0c\u4eba\u6c11\u90ae\u7535\u51fa\u7248\u793e-\u5f02\u6b65\u793e\u533a-\u4fe1\u606f\u5b89\u5168\u9886\u57df\u56fe\u4e66\u4e13\u5bb6\u987e\u95ee ", 
+      "name": "\u5b54\u97ec\u5faa"
+    }, 
+    "id_zhangjintao": {
+      "avatar": "./asset/images/avatar-2018/speakers/default.png", 
+      "beijing_topic": {
+        "preview": "\u968f\u7740\u5bb9\u5668\u5316\u53ca cloud native \u7b49\u751f\u6001\u7684\u5f62\u6210\uff0cCI/CD \u5728\u8f6f\u4ef6\u5f00\u53d1\u8fc7\u7a0b\u4e2d\u7684\u4ef7\u503c\u65e5\u76ca\u7a81\u51fa\uff0c\u8d8a\u6765\u8d8a\u591a\u7684\u516c\u53f8\u9700\u8981\u5bf9\u6b64\u8fdb\u884c\u6539\u9020\u548c\u4f18\u5316\uff0c\u4f46\u662f\u5343\u4eba\u5343\u9762\uff0c\u6539\u9020\u53ca\u5b9e\u8df5\u5f80\u5f80\u6709\u5f88\u591a\u95ee\u9898\uff0c\u65e0\u8bba\u662f\u4eba\u5458\u8fd8\u662f\u5de5\u5177\u94fe\u4e0a\u3002\u672c\u6b21\u4e3b\u8981\u662f\u5206\u4eab\u6211\u4eec\u5728\u751f\u4ea7\u4e2d\u603b\u7ed3\u7684\u6700\u4f73\u5b9e\u8df5\uff0c \u53ca\u5206\u6790\u5728\u6b64\u8fc7\u7a0b\u4e2d\u6240\u9047\u5230\u7684\u95ee\u9898\uff0c\u5e76\u4f1a\u8be6\u7ec6\u5206\u4eab\u5176\u4e2d\u7684\u6280\u672f\u7ec6\u8282\uff0c\u4ee5\u53ca\u5728\u6b64\u8fc7\u7a0b\u4e2d\u6240\u505a\u4f18\u5316\uff0c\u95ee\u9898\u5206\u6790\uff0c\u53ca\u67b6\u6784\u6f14\u5316\u548c\u6211\u4eec\u6240\u505a\u7684\u53cd\u601d\u548c\u603b\u7ed3\uff0c\u5e0c\u671b\u5927\u5bb6\u80fd\u4ece\u4e2d\u6709\u6240\u542f\u53d1\uff0c\u63a8\u8fdb\u5404\u81ea\u5728\u751f\u4ea7\u73af\u5883\u4e2d\u7684\u843d\u5730\u3002", 
+        "slide": null, 
+        "title": "\u57fa\u4e8eDocker \u7684 CI/CD \u5b9e\u8df5"
+      }, 
+      "city_beijing": 1, 
+      "intro": "\u7f51\u6613\u8d44\u6df1\u8fd0\u7ef4\u5f00\u53d1\u5de5\u7a0b\u5e08\uff0c\u8d1f\u8d23\u5bb9\u5668\u5316\u53ca\u81ea\u52a8\u5316\u8fd0\u7ef4\u4f53\u7cfb\u5efa\u8bbe\u3002", 
+      "name": "\u5f20\u664b\u6d9b"
+    }
+  }, 
+  "sponsors": {
+    "book": [
+      {
+        "intro": "", 
+        "link": "", 
+        "logo": "./asset/images/avatar-2018/sponsors/turing-logo.png"
+      }
+    ], 
+    "bronze": [
+      {
+        "intro": "", 
+        "link": "", 
+        "logo": "./asset/images/avatar-2018/sponsors/bxb-logo.jpg"
+      }
+    ], 
+    "diamond": [
+      {
+        "intro": "", 
+        "link": "http://www.getui.com/cn/index.html", 
+        "logo": "./asset/images/avatar-2018//sponsors/getui-logo.png"
+      }
+    ], 
+    "gold": null, 
+    "meta": [
+      {
+        "level": "diamond", 
+        "name": "\u94bb\u77f3\u8d5e\u52a9"
+      }, 
+      {
+        "level": "bronze", 
+        "name": "\u9752\u94dc\u8d5e\u52a9"
+      }, 
+      {
+        "level": "book", 
+        "name": "\u56fe\u4e66\u8d5e\u52a9"
+      }
+    ], 
+    "platinum": null, 
+    "silver": null
+  }, 
+  "volunteers": {
+    "conference": null, 
+    "organizers": [
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/chenshixin.png", 
+        "blog": "http://sting.topgeek.org/", 
+        "intro": "Ahaschool-CTO, PyChina\u53d1\u8d77\u4eba", 
+        "name": "StingChen(\u9648\u4e16\u6b23)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/stingchen"
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/dama.png", 
+        "blog": "http://zoomquiet.io/", 
+        "intro": "\u4f18\u52bf\u773c\u52a8-\u5408\u4f19\u4eba, PyChina\u53d1\u8d77\u4eba", 
+        "name": "Zoom.Quiet (\u5927\u5988)", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": "http://weibo.com/zoomquiet"
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/manjusaka.png", 
+        "blog": null, 
+        "intro": "\u95ea\u94f6\u5947\u5f02-\u9ad8\u7ea7 Python \u5f00\u53d1, PyCon2018 - \u5317\u4eac\u7ec4\u59d4\u8d1f\u8d23\u4eba", 
+        "name": "(Manjusaka)\u674e\u8005\u7488", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/dengliangju.png", 
+        "blog": null, 
+        "intro": "\u79d8\u5854\u79d1\u6280-\u5de5\u7a0b\u603b\u76d1, PyCon2018 - \u5317\u4eacWeb\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u9093\u826f\u9a79", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/laixintao.png", 
+        "blog": null, 
+        "intro": "\u8682\u8681\u91d1\u670d-SRE, PyCon2018 - \u5317\u4eacPython\u8bed\u8a00\u7279\u6027\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u8d56\u4fe1\u6d9b", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/hexiangyu.png", 
+        "blog": null, 
+        "intro": "TCL \u4e92\u8054\u7f51\u4e8b\u4e1a\u90e8-Python \u5de5\u7a0b\u5e08, PyCon2018 - \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u4f55\u7fd4\u5b87", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/zhumingfang.png", 
+        "blog": null, 
+        "intro": "\u4e2d\u6da6\u56fd\u76db-\u5b89\u5168\u7814\u7a76\u5458, PyCon2018 - \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u6731\u660e\u653e", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }, 
+      {
+        "avatar": "./asset/images/avatar-2018/volunteers/qianzhangnian.png", 
+        "blog": null, 
+        "intro": "\u521b\u76db\u89c6\u8054\u6570\u7801\u79d1\u6280\uff08\u5317\u4eac\uff09\u6709\u9650\u516c\u53f8-\u7814\u53d1\u7ecf\u7406, PyCon2018 - \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u94b1\u7ae0\u5e74", 
+        "role": "organizer", 
+        "role_organizer": 1, 
+        "weibo": null
+      }
+    ], 
+    "role_list": [
+      "organizers", 
+      "technicians", 
+      "conference"
+    ], 
+    "technicians": null
+  }
+}
