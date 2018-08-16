@@ -19,7 +19,7 @@ beijing:
   venue: 云南大厦新云南皇冠假日酒店
   venue_en: ""
   traffic: 地铁13号线光熙门站
-  traffic_en: ""
+  traffic_en: "Guangximen Road Station at Metro Line 13"
   maplink: 'https://www.amap.com/place/B000A87KPU'
   video: ''
   date: 2018-10-14 9:00 ~ 17:00
@@ -56,15 +56,15 @@ shanghai:
   name_en: shanghai
   completed: false
   url: "shanghai.html"
-  address: 上海市浦东新区博云路2号
-  address_en: "No.2 Boyun Road, Pudong, Shanghai"
-  venue: 浦软大厦会议厅
-  venue_en: "Meeting Hall at SPSP Building"
-  traffic: 地铁2号线金科路站
-  traffic_en: "Jinke Road Station at Metro Line 2"
-  maplink: 'http://f.amap.com/0FFE0i'
-  video: 'http://e.vhall.com/597478279'
-  date: 2018-10-21 9:00 ~ 17:00
+  address: 上海市普陀区宜昌路130号(梦清园公园内)
+  address_en: "No. 130 Yichang Road, Putuo, Shanghai"
+  venue: 上海壹号码头艺术酒店2楼
+  venue_en: ""
+  traffic: 地铁4号线内圈中潭路站
+  traffic_en: "Zhongtan Road Station at Metro Line 4"
+  maplink: 'https://www.amap.com/place/B0015731XR'
+  video: ''
+  date: 2018-10-21 8:00 ~ 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"

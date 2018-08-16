@@ -75,6 +75,7 @@ id_gashero:
 id_chenxiaoyou:
   name: 陈晓优
   city_beijing: 1
+  city_shanghai: 1
   avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
   avatar_en: ../asset/images/avatar-2018//speakers/chenxiaoyou.png
   intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
@@ -89,8 +90,65 @@ id_chenxiaoyou:
 ####################################################################
 # 魔都
 ####################################################################
+id_wangxiaolei:
+  name: 王晓雷
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2018//speakers/wangxiaolei.png
+  avatar_en: ../asset/images/avatar-2018//speakers/wangxiaolei.png
+  intro: "ThoughtWorks中国区咨询团队首席算法科学家，曾经为多个海内外项目包括银行和保险公司、金融服务机构、地产广告公司、日用消费品公司、教育服务机构、通信科技公司等提供数据和算法相关咨询服务，主要包括数学建模与优化、非结构化数据处理、自然语言处理、图像识别等，在人机交互、精准营销领域均有端到端经验，真正实现定制化挖掘数据的价值"
+  intro_en: ""
+  shanghai_topic:
+    title: "机器智能的局限，从图像识别到自然语言处理"
+    title_en: ""
+    preview: "AI is math. Though we do not have to proof something when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models.
+To python players, this talk may answer the following questions:
+1. How to know whether my problem can be solved with Artificial Intelligence today?
+2. How to design the metrics for a real-life problem?
+3. How to know if a model is 'good enough'?
+4. How much data is enough to train a model?
+5. Tips and tricks when using Python for deep learning. "
+    preview_en: ""
+    slide: #
 
+id_zhangxiaojie:
+  name: 张校捷
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2018//speakers/zhangxiaojie.png
+  avatar_en: ../asset/images/avatar-2018//speakers/zhangxiaojie.png
+  intro: "现在在英伟达担任深度学习架构工程师，主要负责基于GPU的深度学习模型的优化相关的研究。在工作中主要Python的主要应用场景是建立深度学习模型，主要使用的深度学习框架是PyTorch和TensorFlow。希望能在PyCon上给大家带来一下PyTorch的经验分享。"
+  intro_en: ""
+  shanghai_topic:
+    title: "PyTorch入门指北"
+    title_en: ""
+    preview: "1. PyTorch简介
+主要介绍PyTorch动态图的特性，以其PyTorch和其他深度学习框架的比较。
+2. PyTorch新特性介绍（主要针对0.4版本）
+介绍PyTorch 0.4（如果1.0发布的话，可能包括1.0）的新特性，帮助大家把代码迁移到新版本上
+3. 如何使用PyTorch建立一个简单的神经网络
+介绍PyTorch的简单使用方法（nn.Module的使用）
+5. PyTorch的并行训练
+介绍如何使用多GPU训练PyTorch模型（使用apex库）
+4. 使用ONNX部署PyTorch模型
+介绍如何通过ONNX格式来固化模型，并且在Caffe2上部署模型
+5. PyTorch踩坑指北
+介绍写PyTorch的时候可能会碰到的各种坑
+6. 总结"
+    preview_en: ""
+    slide: #
 
+id_jon:
+  name: Jon
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2018//speakers/jon.png
+  avatar_en: ../asset/images/avatar-2018//speakers/jon.png
+  intro: "连续创业者，10年以上Web应用架构经验，主要写Python/Rust/JavaScript/Haskell语言，以太坊早期拥趸和布道者，开源软件支持者。目前重心在区块链支付项目 Yield.IM"
+  intro_en: ""
+  shanghai_topic:
+    title: "python从头实现以太坊"
+    title_en: ""
+    preview: "《Python从头实现以太坊》的目标是将以太坊这枚“火箭”拆解，一探究竟，然后再用 Python 重新组装起来。我们重点并非为了再造一个以太坊，而是为了在这个过程中获得体验。这个系列大致可以分为四个篇章，分别是P2P网络协议、区块链结构、共识计算和智能合约。这次主题探讨的是P2P网络协议部分，我们将尝试用 Python 连上以太坊网络并顺利通讯。"
+    preview_en: ""
+    slide: #
 
 ####################################################################
 # 杭州

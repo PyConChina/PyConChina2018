@@ -111,3 +111,9 @@ book:
     link: ""
     intro: ""
     intro_en: ""
+  -
+    logo: ./asset/images/avatar-2018/sponsors/broadview-logo.jpg
+    logo_en: ../asset/images/avatar-2018/sponsors/broadview-logo.jpg
+    link: ""
+    intro: ""
+    intro_en: ""
