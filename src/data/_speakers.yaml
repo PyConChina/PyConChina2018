@@ -79,12 +79,12 @@ id_chenxiaoyou:
   avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
   avatar_en: ../asset/images/avatar-2018//speakers/chenxiaoyou.png
   intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
-  intro_en: ""
+  intro_en: "Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., a quantitative trader and fund manager in large-scale quantitative private equity funds, developed the vn.py quantitative trading framework, and is currently one of the world's largest open source quantitative trading projects ( Github Star 6071), the current focus is on the development of quantitative trading systems in the blockchain and digital currency sectors."
   shanghai_topic:
     title: "区块链资产管理中的Python"
-    title_en: ""
+    title_en: "Python in blockchain asset management"
     preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
-    preview_en: ""
+    preview_en: "The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution, as well as its decentralized infrastructure, are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active and active user community, the Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions."
     slide: #
 
 id_nightynight:
@@ -120,34 +120,42 @@ id_lijinhong:
 ####################################################################
 id_wangxiaolei:
   name: 王晓雷
+  name_en: Xiaolei Wang
   city_shanghai: 1
   avatar: ./asset/images/avatar-2018//speakers/wangxiaolei.png
   avatar_en: ../asset/images/avatar-2018//speakers/wangxiaolei.png
   intro: "ThoughtWorks中国区咨询团队首席算法科学家，曾经为多个海内外项目包括银行和保险公司、金融服务机构、地产广告公司、日用消费品公司、教育服务机构、通信科技公司等提供数据和算法相关咨询服务，主要包括数学建模与优化、非结构化数据处理、自然语言处理、图像识别等，在人机交互、精准营销领域均有端到端经验，真正实现定制化挖掘数据的价值"
-  intro_en: ""
+  intro_en: "The chief algorithmic scientist of the China Consulting Group has provided data and algorithm related consulting services for a number of domestic and overseas projects, including banks and insurance companies, financial services institutions, real estate advertising companies, consumer goods companies, educational service organizations, and communication technology companies. It mainly includes mathematical modeling and optimization, unstructured data processing, natural language processing, image recognition, etc. It has end-to-end experience in human-computer interaction and precision marketing, and truly realizes the value of customized mining data."
   shanghai_topic:
     title: "机器智能的局限，从图像识别到自然语言处理"
-    title_en: ""
-    preview: "AI is math. Though we do not have to proof something when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models.
+    title_en: "Limitations of machine intelligence, from image recognition to natural language processing"
+    preview: "AI是数学。 虽然在创建深度神经网络时我们不需要证明某些东西，但我们使用统计方法来从数据中学习模式。 不出所料，我们在模型背后做了一些看不见的假设，这种假设永远不会导致情报能够理解和概括世界。 今天我们将讨论基于一些现实世界项目的机器智能的局限性，从图像识别到自然语言处理，关于数据和模型。
+对于python玩家，本演讲可能会回答以下问题：
+1.如何知道我的问题是否可以通过人工智能解决？
+2.如何设计现实问题的指标？
+3.如何知道模型是否“足够好”？
+4.有多少数据足以训练模型？
+5.使用Python进行深度学习时的提示和技巧。"
+    preview_en: "AI is math. Though we do not have to proof something when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models.
 To python players, this talk may answer the following questions:
 1. How to know whether my problem can be solved with Artificial Intelligence today?
 2. How to design the metrics for a real-life problem?
 3. How to know if a model is 'good enough'?
 4. How much data is enough to train a model?
 5. Tips and tricks when using Python for deep learning. "
-    preview_en: ""
     slide: #
 
 id_zhangxiaojie:
   name: 张校捷
+  name_en: Jiejie Zhang
   city_shanghai: 1
   avatar: ./asset/images/avatar-2018//speakers/zhangxiaojie.png
   avatar_en: ../asset/images/avatar-2018//speakers/zhangxiaojie.png
   intro: "现在在英伟达担任深度学习架构工程师，主要负责基于GPU的深度学习模型的优化相关的研究。在工作中主要Python的主要应用场景是建立深度学习模型，主要使用的深度学习框架是PyTorch和TensorFlow。希望能在PyCon上给大家带来一下PyTorch的经验分享。"
-  intro_en: ""
+  intro_en: "Now working as a deep learning architecture engineer at NVIDIA, he is responsible for the optimization of GPU-based deep learning models. The main application scenario of the main Python at work is to build a deep learning model. The main deep learning frameworks used are PyTorch and TensorFlow. I hope to bring you PyTorch's experience sharing on PyCon."
   shanghai_topic:
     title: "PyTorch入门指北"
-    title_en: ""
+    title_en: "Getting started with PyTorch"
     preview: "1. PyTorch简介
 主要介绍PyTorch动态图的特性，以其PyTorch和其他深度学习框架的比较。
 2. PyTorch新特性介绍（主要针对0.4版本）
@@ -161,7 +169,19 @@ id_zhangxiaojie:
 5. PyTorch踩坑指北
 介绍写PyTorch的时候可能会碰到的各种坑
 6. 总结"
-    preview_en: ""
+    preview_en: "1. Introduction to PyTorch
+It mainly introduces the characteristics of PyTorch dynamic graphs, and compares them with PyTorch and other deep learning frameworks.
+2. Introduction to new features of PyTorch (mainly for version 0.4)
+Introducing the new features of PyTorch 0.4 (which may include 1.0 if 1.0 is released) to help you migrate your code to the new version.
+3. How to build a simple neural network using PyTorch
+Introduce the simple use of PyTorch (use of nn.Module)
+5. PyTorch's parallel training
+Describe how to use the multi-GPU to train the PyTorch model (using the apex library)
+4. Deploy PyTorch model with ONNX
+Describe how to solidify the model with the ONNX format and deploy the model on Caffe2
+5. PyTorch stepped on the north
+Introduce the various pits that you may encounter when writing PyTorch
+6. Summary"
     slide: #
 
 id_jon:
@@ -170,12 +190,12 @@ id_jon:
   avatar: ./asset/images/avatar-2018//speakers/jon.png
   avatar_en: ../asset/images/avatar-2018//speakers/jon.png
   intro: "连续创业者，10年以上Web应用架构经验，主要写Python/Rust/JavaScript/Haskell语言，以太坊早期拥趸和布道者，开源软件支持者。目前重心在区块链支付项目 Yield.IM"
-  intro_en: ""
+  intro_en: "Continuous entrepreneurs, more than 10 years of experience in Web application architecture, mainly writing Python/Rust/JavaScript/Haskell language, Ethereum early fans and evangelists, open source software supporters. The current focus is on blockchain payment projects. Yield.IM"
   shanghai_topic:
     title: "python从头实现以太坊"
-    title_en: ""
+    title_en: "Python realizes Ethereum from scratch"
     preview: "《Python从头实现以太坊》的目标是将以太坊这枚“火箭”拆解，一探究竟，然后再用 Python 重新组装起来。我们重点并非为了再造一个以太坊，而是为了在这个过程中获得体验。这个系列大致可以分为四个篇章，分别是P2P网络协议、区块链结构、共识计算和智能合约。这次主题探讨的是P2P网络协议部分，我们将尝试用 Python 连上以太坊网络并顺利通讯。"
-    preview_en: ""
+    preview_en: "The goal of Python to implement Ethereum from scratch is to disassemble the Ethereum 'rocket', find out, and then reassemble it with Python. Our focus is not on recreating an Ethereum, but on getting an experience in the process. This series can be roughly divided into four chapters, namely P2P network protocol, blockchain structure, consensus calculation and smart contract. This topic explores the P2P network protocol component, and we will try to connect to the Ethereum network in Python and communicate smoothly."
     slide: #
 
 ####################################################################
