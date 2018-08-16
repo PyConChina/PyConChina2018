@@ -74,6 +74,7 @@ id_gashero:
 
 id_chenxiaoyou:
   name: 陈晓优
+  name_en: Xiaoyou Chen
   city_beijing: 1
   city_shanghai: 1
   avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
