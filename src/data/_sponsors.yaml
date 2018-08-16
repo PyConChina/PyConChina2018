@@ -22,7 +22,11 @@ meta:
   -
     level: book
     name: 图书赞助
-    name_en: book
+    name_en: Book
+  -
+    level: community
+    name: 社区合作伙伴
+    name_en: Community partners
 
 #########################################
 # 钻石级
@@ -114,6 +118,20 @@ book:
   -
     logo: ./asset/images/avatar-2018/sponsors/broadview-logo.jpg
     logo_en: ../asset/images/avatar-2018/sponsors/broadview-logo.jpg
+    link: ""
+    intro: ""
+    intro_en: ""
+
+community:
+  -
+    logo: ./asset/images/avatar-2018/sponsors/CCVedio-logo.jpg
+    logo_en: ../asset/images/avatar-2018/sponsors/CCVedio-logo.jpg
+    link: ""
+    intro: ""
+    intro_en: ""
+  -
+    logo: ./asset/images/avatar-2018/sponsors/thought-logo.png
+    logo_en: ../asset/images/avatar-2018/sponsors/thought-logo.png
     link: ""
     intro: ""
     intro_en: ""

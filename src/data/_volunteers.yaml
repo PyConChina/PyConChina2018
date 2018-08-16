@@ -65,16 +65,6 @@ organizers:
   blog:
   weibo:
 -
-  name: 朱明放
-  name_en: 朱明放
-  role: organizer
-  role_organizer: 1
-  avatar: ./asset/images/avatar-2018/volunteers/zhumingfang.png
-  avatar_en: ../asset/images/avatar-2018/volunteers/zhumingfang.png
-  intro: 中润国盛-安全研究员, PyCon2018 - 北京核心组织者
-  blog:
-  weibo:
--
   name: 钱章年
   name_en: 钱章年
   role: organizer
