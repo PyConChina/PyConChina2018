@@ -33,8 +33,8 @@ id_zhangjintao:
   name: 张晋涛
   name_en: Jintao Zhang
   city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/default.png
-  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  avatar: ./asset/images/avatar-2018/speakers/zhangjintao.png
+  avatar_en: ../asset/images/avatar-2018/speakers/zhangjintao.png
   intro:  "网易资深运维开发工程师，负责容器化及自动化运维体系建设。"
   intro_en: ...
   beijing_topic:
@@ -47,22 +47,22 @@ id_zhangjintao:
 id_kongtaoxun:
   name: 孔韬循
   city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/default.png
-  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  avatar: ./asset/images/avatar-2018/speakers/kongtaoxun.png
+  avatar_en: ../asset/images/avatar-2018/speakers/kongtaoxun.png
   intro:  "北京丁牛科技有限公司首席安全官，国内著名信息安全团队--破晓安全团队创始人，人民邮电出版社-异步社区-信息安全领域图书专家顾问 "
   intro_en: ...
   beijing_topic:
-    title: "待定"
+    title: "我的Python黑客之路（暂定）"
     title_en: "..."
-    preview: "..."
+    preview: " 随着互联网攻击的日益增多，网络信息安全逐渐被人们重视，Python成为了黑客最受欢迎的编程语言，无论是网络攻防还是软件破解，Python非常简单的帮安全人员完成了很多事情，如：自动化攻击等。通过本议题可以了解到Python在信息安全领域的那些事。"
     preview_en: ...
     slide: #
 
 id_gashero:
   name: gashero
   city_beijing: 1
-  avatar: ./asset/images/avatar-2018/speakers/default.png
-  avatar_en: ../asset/images/avatar-2018/speakers/default.png
+  avatar: ./asset/images/avatar-2018/speakers/gashero.png
+  avatar_en: ../asset/images/avatar-2018/speakers/gashero.png
   intro:  "2005年开始研习Python，陆续分享了过百万字的Python笔记和翻译文档。前土豆网助理架构师，前果壳网创始技术总监，前deepglint工程师，前RoboTerra软件工程总监。无线电/航模/机器人爱好者。"
   intro_en: ...
   beijing_topic:
@@ -84,6 +84,34 @@ id_chenxiaoyou:
     title: "区块链资产管理中的Python"
     title_en: ""
     preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
+    preview_en: ""
+    slide: #
+
+id_nightynight:
+  name: nightynight
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018//speakers/nightynight.png
+  avatar_en: ../asset/images/avatar-2018//speakers/nightynight.png
+  intro: "来自 MSRA ，对于 Python 语言特性及底层有极深的研究"
+  intro_en: ""
+  shanghai_topic:
+    title: "Python JIT 的实现思路"
+    title_en: ""
+    preview: "通过元编程扩展对cpython vm的利用，提升代码复用率，抽象能力和运行时程序执行效率。以及介绍如何在兼容cpython生态的情况下引入jit和类型检查工具"
+    preview_en: ""
+    slide: #
+
+id_lijinhong:
+  name: 李金洪
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018//speakers/lijinhong.png
+  avatar_en: ../asset/images/avatar-2018//speakers/lijinhong.png
+  intro: "代码医生工作室主程序员、大蛇智能创始人。北京派网软件首席人工智能科学家。发布过两套关于CNTK深度学习框架的视频教程。著有：《深度学习之Tensorflow：入门、进阶与实战》与《python带我起飞：入门、进阶、商业实战》两本畅销书。"
+  intro_en: ""
+  shanghai_topic:
+    title: "待定"
+    title_en: ""
+    preview: ""
     preview_en: ""
     slide: #
 
