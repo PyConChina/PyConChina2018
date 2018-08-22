@@ -3,30 +3,47 @@
 ####################################################################
 id_hongqiangning:
   name: 洪强宁
+  name_en: Qiangning Hong
   city_beijing: 1
   avatar: ./asset/images/avatar-2018/speakers/hongqiangning.png
   avatar_en: ../asset/images/avatar-2018/speakers/hongqiangning.png
-  intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上."
-  intro_en: ...
+  intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
+  intro_en: "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies."
   beijing_topic:
     title: "我的Python之路（暂定）"
-    title_en: "..."
+    title_en: "My Python Road (tentative)"
     preview: ""
     preview_en: ...
     slide: #
 
+id_heshiyou:
+  name: 何世友
+  name_en: Ernest He
+  city_beijing: 1
+  avatar: ./asset/images/avatar-2018/speakers/heshiyou.png
+  avatar_en: ../asset/images/avatar-2018/speakers/heshiyou.png
+  intro:  "爱范儿 CTO、知晓云负责人，大学开始创业，先后参与过多个创新创业项目。资深移动互联网应用专家，擅长架构设计，专注云计算、机器学习及移动开发。"
+  intro_en: "CTO @ ifanr.com, in charge of cloud.minapp.com, a serverless platform designed for miniprogram apps.Art lover / addicted in creative activities."
+  beijing_topic:
+    title: "用 Python 打造 Serverless 平台，从 0 到 1"
+    title_en: "Form 0-1, create a Serverless platform by using Python"
+    preview: "近年来，应用形态逐渐朝着 PWA、小程序等范客户端形态发展；云计算则朝着 BaaS + FaaS 的 Serverless 无服务架构大步迈进。本次分享向大家介绍爱范儿团队在用 Python 打造小程序领域的 Serverless 平台知晓云的过程中遇到的挑战和收获，以及对接下来的云计算形态的展望。"
+    preview_en: "In recent years, PWA and miniprogram become more and more popular in app developments; in the mean while BaaS and FaaS also be loved by more and more developers. In this session, the speaker will introduce how ifanr team build a serverless platform which designed for miniprogram developers, using Python and Django."
+    slide: #
+
 id_cuiyoucai:
-  name: 崔庆才
+  name: 崔庆才/ 静觅
+  name_en: Qingcai Cui / Jingmi
   city_beijing: 1
   avatar: ./asset/images/avatar-2018/speakers/cuiyoucai.png
   avatar_en: ../asset/images/avatar-2018/speakers/cuiyoucai.png
   intro:  "北京航空航天大学硕士，《Python3网络爬虫开发实战》作者，静觅博客博主，爬虫博文阅读量已过百万，微软中国大数据工程师，天善智能、网易云课堂讲师，目前正在从事对话聊天方向研究。"
-  intro_en: ...
+  intro_en: "master of Beihang University, author of 《Python3网络爬虫开发实战》, Blog bloggers of Jingmi, the number of blog reading about Crawler has exceeded one million, Big Data Engineer of Microsoft China, lecturer of  Tianshan Intelligent and Netease Cloud Classroom, and currently engaged in the research of conversational chat direction."
   beijing_topic:
     title: "健壮高效的网络爬虫"
-    title_en: "..."
+    title_en: "Robust and efficient web crawler"
     preview: "本次演讲从抓取、解析、存储、反爬、加速五个方面介绍利用 Python 进行网络爬虫开发的相关知识点和技巧，介绍不同场景下如何采取不同措施高效地进行数据抓取的方法，包括Web抓取、App抓取、数据存储、代理选购、验证码破解、分布式抓取及管理、智能解析等多方面的内容，另外还会结合不同场景介绍常用的一些工具包，全部内容是演讲者在从事网络爬虫研究过程以来的经验精华总结。"
-    preview_en: ...
+    preview_en: "This presentation will introduce the knowledge and skills of using Python for web crawler development in five aspects: crawling, parsing, storing, anti-climbing, and acceleration. It introduces how to take different measures to efficiently capture data in different scenarios, including Web crawling, App crawling, data storage, agent purchasing, verification code cracking, distributed crawling and management, intelligent parsing, etc., and also introduce some commonly used toolkits in combination with different scenarios. All of the speech content are the summary of the experience of the speaker since the web crawler research process."
     slide: #
 
 id_zhangjintao:
@@ -36,38 +53,40 @@ id_zhangjintao:
   avatar: ./asset/images/avatar-2018/speakers/zhangjintao.png
   avatar_en: ../asset/images/avatar-2018/speakers/zhangjintao.png
   intro:  "网易资深运维开发工程师，负责容器化及自动化运维体系建设。"
-  intro_en: ...
+  intro_en: "senior devops developer of NetEase, responsible for construction of containerization and automated operation and maintenance system."
   beijing_topic:
     title: "基于Docker 的 CI/CD 实践"
-    title_en: "CI/CD practical base on Docker"
+    title_en: "CI/CD Practice Based on Docker"
     preview: "随着容器化及 cloud native 等生态的形成，CI/CD 在软件开发过程中的价值日益突出，越来越多的公司需要对此进行改造和优化，但是千人千面，改造及实践往往有很多问题，无论是人员还是工具链上。本次主要是分享我们在生产中总结的最佳实践， 及分析在此过程中所遇到的问题，并会详细分享其中的技术细节，以及在此过程中所做优化，问题分析，及架构演化和我们所做的反思和总结，希望大家能从中有所启发，推进各自在生产环境中的落地。"
-    preview_en: ...
+    preview_en: "With the formation of ecosystems such as containerization and cloud native, the value of CI/CD in the software development process is becoming more and more prominent. More and more companies need to transform and optimize this, but thousands of people have thousands of faces, transformations and practices often have many problems, both in the personnel and in the tool chain. This time is mainly to share the best practices we have summarized in production, and to analyze the problems encountered in this process, and to share in detail the technical details, as well as the optimization, problem analysis, and architecture in the process and the reflections and conclusions we have made, I hope that everyone can inspire them and promote their respective development in the production environment."
     slide: #
 
 id_kongtaoxun:
-  name: 孔韬循
+  name: 孔韬循/K0r4dji
+  name_en: Taoxun Kong / K0r4dji
   city_beijing: 1
   avatar: ./asset/images/avatar-2018/speakers/kongtaoxun.png
   avatar_en: ../asset/images/avatar-2018/speakers/kongtaoxun.png
-  intro:  "北京丁牛科技有限公司首席安全官，国内著名信息安全团队--破晓安全团队创始人，人民邮电出版社-异步社区-信息安全领域图书专家顾问 "
-  intro_en: ...
+  intro:  "北京丁牛科技有限公司首席安全官，国内著名信息安全团队--破晓安全团队创始人，人民邮电出版社-异步社区-信息安全领域图书专家顾问"
+  intro_en: "CSO of Beijing Ding Niu Technology Co., Ltd., founder of Breaking Security Team, which is a famous information security team in domestic, book expert consultant of People Post Press-Asynchronous Community-Information security field."
   beijing_topic:
     title: "我的Python黑客之路（暂定）"
-    title_en: "..."
-    preview: " 随着互联网攻击的日益增多，网络信息安全逐渐被人们重视，Python成为了黑客最受欢迎的编程语言，无论是网络攻防还是软件破解，Python非常简单的帮安全人员完成了很多事情，如：自动化攻击等。通过本议题可以了解到Python在信息安全领域的那些事。"
-    preview_en: ...
+    title_en: "My Python Hacker Road (tentative)"
+    preview: "随着互联网攻击的日益增多，网络信息安全逐渐被人们重视，Python成为了黑客最受欢迎的编程语言，无论是网络攻防还是软件破解，Python非常简单的帮安全人员完成了很多事情，如：自动化攻击等。通过本议题可以了解到Python在信息安全领域的那些事。"
+    preview_en: "With the increasing number of Internet attacks, network information security has gradually attracted people's attention. Python has become the most popular programming language for hackers. Whether it is network attack or defense or software cracking, Python is very simple to help security personnel accomplish many things, such as: automation Attacks, etc. Through this topic, you can learn about Python's things in the information security field."
     slide: #
 
 id_gashero:
-  name: gashero
+  name: Gashero
+  name_en: Gashero
   city_beijing: 1
   avatar: ./asset/images/avatar-2018/speakers/gashero.png
   avatar_en: ../asset/images/avatar-2018/speakers/gashero.png
   intro:  "2005年开始研习Python，陆续分享了过百万字的Python笔记和翻译文档。前土豆网助理架构师，前果壳网创始技术总监，前deepglint工程师，前RoboTerra软件工程总监。无线电/航模/机器人爱好者。"
-  intro_en: ...
+  intro_en: "He started learning Python in 2005 and have shared millions of words of Python notes and translated documents. Former Tudou Assistant Architect, former Crust Network Founding Technical Director, former deepglint engineer, former RoboTerra Software Engineering Director. Fans of Radio/model/robot."
   beijing_topic:
     title: "解锁 GIL 的新姿势"
-    title_en: "..."
+    title_en: "New Pose of Unlock GIL"
     preview: "..."
     preview_en: ...
     slide: #
@@ -80,12 +99,12 @@ id_chenxiaoyou:
   avatar: ./asset/images/avatar-2018//speakers/chenxiaoyou.png
   avatar_en: ../asset/images/avatar-2018//speakers/chenxiaoyou.png
   intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
-  intro_en: "Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., a quantitative trader and fund manager in large-scale quantitative private equity funds, developed the vn.py quantitative trading framework, and is currently one of the world's largest open source quantitative trading projects ( Github Star 6071), the current focus is on the development of quantitative trading systems in the blockchain and digital currency sectors."
-  shanghai_topic:
+  intro_en: "Xiaoyou Chen, founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., has worked as a quantitative trader and fund manager in large-scale quantitative private equity funds and developed the vn.py quantitative trading framework, which is currently one of the world's largest open source quantitative trading projects (Github Star 6071).  His current focus is mainly on development of quantitative trading systems in the blockchain and digital currency sectors."
+  beijing_topic:
     title: "区块链资产管理中的Python"
-    title_en: "Python in blockchain asset management"
+    title_en: "Python in Blockchain Asset Management"
     preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
-    preview_en: "The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution, as well as its decentralized infrastructure, are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active and active user community, the Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions."
+    preview_en: "The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution and its decentralized infrastructure are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active and active user community, the Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions."
     slide: #
 
 id_nightynight:
@@ -94,22 +113,23 @@ id_nightynight:
   avatar: ./asset/images/avatar-2018//speakers/nightynight.png
   avatar_en: ../asset/images/avatar-2018//speakers/nightynight.png
   intro: "来自 MSRA ，对于 Python 语言特性及底层有极深的研究"
-  intro_en: ""
-  shanghai_topic:
+  intro_en: "From MSRA, has very deep research on features and underlying of Python language"
+  beijing_topic:
     title: "Python JIT 的实现思路"
-    title_en: ""
+    title_en: "Implementation ideas of Python JIT"
     preview: "通过元编程扩展对cpython vm的利用，提升代码复用率，抽象能力和运行时程序执行效率。以及介绍如何在兼容cpython生态的情况下引入jit和类型检查工具"
-    preview_en: ""
+    preview_en: "Extend the use of cpython vm through metaprogramming to improve code reuse rate, abstract ability and runtime program execution efficiency. Also to introduce How to introduce JIT and type checking tools in a compatible cpython ecosystem."
     slide: #
 
 id_lijinhong:
   name: 李金洪
+  name_en: Jinhong Lee
   city_beijing: 1
   avatar: ./asset/images/avatar-2018//speakers/lijinhong.png
   avatar_en: ../asset/images/avatar-2018//speakers/lijinhong.png
   intro: "代码医生工作室主程序员、大蛇智能创始人。北京派网软件首席人工智能科学家。发布过两套关于CNTK深度学习框架的视频教程。著有：《深度学习之Tensorflow：入门、进阶与实战》与《python带我起飞：入门、进阶、商业实战》两本畅销书。"
-  intro_en: ""
-  shanghai_topic:
+  intro_en: "main engineer of Code doctor studio, founder of the big snake intelligence, chief artificial intelligence scientist of Beijing Pai Network Software, has released two video tutorials on the CNTK deep learning framework, has published two best-selling books, 《深度学习之Tensorflow：入门、进阶与实战》and《python带我起飞：入门、进阶、商业实战》."
+  beijing_topic:
     title: "待定"
     title_en: ""
     preview: ""
@@ -125,25 +145,27 @@ id_wangxiaolei:
   city_shanghai: 1
   avatar: ./asset/images/avatar-2018//speakers/wangxiaolei.png
   avatar_en: ../asset/images/avatar-2018//speakers/wangxiaolei.png
-  intro: "ThoughtWorks中国区咨询团队首席算法科学家，曾经为多个海内外项目包括银行和保险公司、金融服务机构、地产广告公司、日用消费品公司、教育服务机构、通信科技公司等提供数据和算法相关咨询服务，主要包括数学建模与优化、非结构化数据处理、自然语言处理、图像识别等，在人机交互、精准营销领域均有端到端经验，真正实现定制化挖掘数据的价值"
+  intro: "ThoughtWorks中国区咨询团队首席算法科学家，曾经为多个海内外项目包括银行和保险公司、金融服务机构、地产广告公司、日用消费品公司、教育服务机构、通信科技公司等提供数据和算法相关咨询服务，主要包括数学建模与优化、非结构化数据处理、自然语言处理、图像识别等，在人机交互、精准营销领域均有端到端经验，真正实现定制化挖掘数据的价值。"
   intro_en: "The chief algorithmic scientist of the China Consulting Group has provided data and algorithm related consulting services for a number of domestic and overseas projects, including banks and insurance companies, financial services institutions, real estate advertising companies, consumer goods companies, educational service organizations, and communication technology companies. It mainly includes mathematical modeling and optimization, unstructured data processing, natural language processing, image recognition, etc. It has end-to-end experience in human-computer interaction and precision marketing, and truly realizes the value of customized mining data."
   shanghai_topic:
     title: "机器智能的局限，从图像识别到自然语言处理"
     title_en: "Limitations of machine intelligence, from image recognition to natural language processing"
     preview: "AI是数学。 虽然在创建深度神经网络时我们不需要证明某些东西，但我们使用统计方法来从数据中学习模式。 不出所料，我们在模型背后做了一些看不见的假设，这种假设永远不会导致情报能够理解和概括世界。 今天我们将讨论基于一些现实世界项目的机器智能的局限性，从图像识别到自然语言处理，关于数据和模型。
+
 对于python玩家，本演讲可能会回答以下问题：
 1.如何知道我的问题是否可以通过人工智能解决？
 2.如何设计现实问题的指标？
 3.如何知道模型是否“足够好”？
 4.有多少数据足以训练模型？
 5.使用Python进行深度学习时的提示和技巧。"
-    preview_en: "AI is math. Though we do not have to proof something when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models.
+    preview_en: "AI is math. Though we do not have to proof something when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models. 
+
 To python players, this talk may answer the following questions:
-1. How to know whether my problem can be solved with Artificial Intelligence today?
-2. How to design the metrics for a real-life problem?
-3. How to know if a model is 'good enough'?
-4. How much data is enough to train a model?
-5. Tips and tricks when using Python for deep learning. "
+ 1. How to know whether my problem can be solved with Artificial Intelligence today? 
+2. How to design the metrics for a real-life problem? 
+3. How to know if a model is 'good enough'? 
+4. How much data is enough to train a model? 
+5. Tips and tricks when using Python for deep learning.  "
     slide: #
 
 id_zhangxiaojie:
@@ -196,13 +218,75 @@ id_jon:
     title: "python从头实现以太坊"
     title_en: "Python realizes Ethereum from scratch"
     preview: "《Python从头实现以太坊》的目标是将以太坊这枚“火箭”拆解，一探究竟，然后再用 Python 重新组装起来。我们重点并非为了再造一个以太坊，而是为了在这个过程中获得体验。这个系列大致可以分为四个篇章，分别是P2P网络协议、区块链结构、共识计算和智能合约。这次主题探讨的是P2P网络协议部分，我们将尝试用 Python 连上以太坊网络并顺利通讯。"
-    preview_en: "The goal of Python to implement Ethereum from scratch is to disassemble the Ethereum 'rocket', find out, and then reassemble it with Python. Our focus is not on recreating an Ethereum, but on getting an experience in the process. This series can be roughly divided into four chapters, namely P2P network protocol, blockchain structure, consensus calculation and smart contract. This topic explores the P2P network protocol component, and we will try to connect to the Ethereum network in Python and communicate smoothly."
+    preview_en: "The goal of Python to implement Ethereum from scratch is to disassemble the Ethereum \"rocket\", find out, and then reassemble it with Python. Our focus is not on recreating an Ethereum, but on getting an experience in the process. This series can be roughly divided into four chapters, namely P2P network protocol, blockchain structure, consensus calculation and smart contract. This topic explores the P2P network protocol component, and we will try to connect to the Ethereum network in Python and communicate smoothly."
     slide: #
 
+id_zhangjianyuan:
+  name: 张佳圆
+  name_en: Jiayuan Zhang
+  city_shanghai: 1
+  avatar: ./asset/images/avatar-2018//speakers/default.png
+  avatar_en: ../asset/images/avatar-2018//speakers/default.png
+  intro: "现在在爱奇艺担任后端开发工程师（Python 方向)，4 年 Python 使用经验，在工作中主要使用 Python 进行 Web 开发，本次 PyCon 将分享在实际项目中使用 Type HInts 的一些经验。"
+  intro_en: "Now I am a backend development engineer (Python) at iQiyi, I have 4 years of Python coding experience, and mainly use it for web development at work. At this PyCon, I will share some of the experience of using Type HInts in real projects."
+  shanghai_topic:
+    title: "Type Hints 最佳实践"
+    title_en: "Type Hints Best Practices"
+    preview: "1. 类型系统介绍，静态类型和动态类型的介绍对比
+2. 什么是 Type Hints
+3. 为什么需要使用 Type Hints
+4. 几种使用 Type Hints 的使用方法
+5. Type Hints 存在的一些问题以及在 Python 3.7 中的改进
+6. 如何在真是项目中开始实践 Type Hints
+7. 持续集成 mypy 进行类型检查
+8. Type HInts 的未来，CPython 运行时优化？JIT？"
+    preview_en: "1. Introduction to type system, comparison of static type and dynamic type
+2. What is Type Hints
+3. Why do I need to use Type Hints?
+4. How to use Type Hints
+5. Some problems with Type Hints and what's improvements in Python 3.7
+6. How to start practicing in a real project Type Hints
+7. Continuous integration mypy for type checking
+8. The future of Type HInts, CPython runtime optimization? JIT?"
+    slide: #
 ####################################################################
 # 杭州
 ####################################################################
+id_lifeng:
+  name: 李枫
+  name_en: Feng Lee
+  city_hangzhou: 1
+  avatar: ./asset/images/avatar-2018//speakers/default.png
+  avatar_en: ../asset/images/avatar-2018//speakers/default.png
+  intro: "先后就职于Motorola, Samsung, Alibaba, EMC, Citrix等IT公司，现为自由职业者。熟悉基于ARM+Linux的嵌入式软件平台架构, 在甲骨文JavaME, 高通BREW, 摩托罗拉P2K，谷歌Android，三星Tizen等移动平台上具备十余年研发经验。
 
+近几年主要从事云计算相关研发工作，在数据中心软硬件架构，软件定义存储，虚拟化，信息安全，高性能网络等技术领域积累了一定的经验。
+是《灰帽黑客 第4版：正义黑客的道德规范、渗透测试、攻击方法和漏洞分析技术 》一书中文版的主要译者：
+http://product.dangdang.com/23927890.html
+对技术创新具有浓厚的兴趣和实践能力，热心参与开源社区的各种活动，多次参加各种IT会议并做技术分享"
+  intro_en: "Had been worked in Motorola, Samsung, Alibaba, EMC, and Citrix, now I am a freelancer. 
+Familiar with the embedded software platform architecture based on ARM+Linux,
+and accumulated more than ten years of experience in mobile development on various platforms such as JavaME(Oracle), BREW(Qualcomm), P2K(Motorola), Android(Google), Tizen(Samsung).
+
+Focused on Cloud computing related R&D work during the past few years, and gained some valuable project experience on HW/SW architecture of Data Center, Software Defined Storage, Virtualization,Security, and High Performance Network.
+
+The main translator of the book «Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition» 
+(ISBN：9787302428671) :
+http://product.dangdang.com/23927890.html
+With strong interest and practical ability in technology innovation, I am keen to participate
+in various activities of the Open Source Community, e.g, IT conferences and technical sharing (please refer to the \"Previous speaking experience\" section below)."
+  hangzhou_topic:
+    title: "GraalPython--新的Python运行时"
+    title_en: "GraalPython--a new Python runtime"
+    preview: "1) GraalVM简介及Python在OpenJDK开发中的重要作用
+2) 深入分析GraalPython的实现
+3) 重新思考和设计Python运行时
+4) 在开源ARM平台（如树莓派/96Boards等）上实践GraalPython/GraalVM"
+    preview_en: "1) Introduction of GraalVM and how Python plays an important role in OpenJDK development
+2) Deep dive into the implementation of GraalVM
+3) Rethink and redesign of Python runtime
+4) GraalPython/GraalVM on ARM (Open Source Hardware Platforms like Raspberry Pi & 96boards) in action."
+    slide: #
 
 
 ####################################################################

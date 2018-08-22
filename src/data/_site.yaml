@@ -17,7 +17,7 @@ shanghai:
   booking_url: http://www.huodongxing.com/event/5453261623411
 
 hangzhou:
-  booking_url: waiting.html
+  booking_url: http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158
 
 shenzhen:
   booking_url: waiting.html

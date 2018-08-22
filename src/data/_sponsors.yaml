@@ -1,5 +1,9 @@
 meta:
   -
+    level: organizer
+    name: 主办方
+    name_en: Organizer
+  -
     level: diamond
     name: 钻石赞助
     name_en: Diamond
@@ -27,6 +31,18 @@ meta:
     level: community
     name: 社区合作伙伴
     name_en: Community partners
+
+
+#########################################
+# 主办方
+#########################################
+organizer:
+  -
+    logo: ./asset/images/avatar-2018//sponsors/pychina-logo.jpg
+    logo_en: ../asset/images/avatar-2018//sponsors/pychina-logo.jpg
+    link: http://www.getui.com/cn/index.html
+    intro: ""
+    intro_en: ""
 
 #########################################
 # 钻石级
@@ -122,6 +138,9 @@ book:
     intro: ""
     intro_en: ""
 
+#########################################
+# 社区合作伙伴
+#########################################
 community:
   -
     logo: ./asset/images/avatar-2018/sponsors/CCVedio-logo.jpg
