@@ -11,18 +11,19 @@ city_list:
 beijing:
   city: beijing
   name: 北京
-  name_en: beijing
+  name_en: Beijing
   completed: false
   url: "beijing.html"
   address: （北京东城）朝阳区东北三环七圣中街12号
-  address_en: ""
+  address_en: "(Beijing eastern city) No. 12, Qisheng Middle Street, Northeast Third Ring, Chaoyang District"
   venue: 云南大厦新云南皇冠假日酒店
-  venue_en: ""
+  venue_en: "New Yunnan Crowne Plaza Hotel, Yunan Building"
   traffic: 地铁13号线光熙门站
-  traffic_en: ""
+  traffic_en: "Guangximen Road Station at Metro Line 13"
   maplink: 'https://www.amap.com/place/B000A87KPU'
   video: ''
   date: 2018-10-14 9:00 ~ 17:00
+  date_en: October 14, 2018 9:00 to 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"
@@ -53,18 +54,19 @@ beijing:
 shanghai:
   city: shanghai
   name: 上海
-  name_en: shanghai
+  name_en: Shanghai
   completed: false
   url: "shanghai.html"
-  address: 上海市浦东新区博云路2号
-  address_en: "No.2 Boyun Road, Pudong, Shanghai"
-  venue: 浦软大厦会议厅
-  venue_en: "Meeting Hall at SPSP Building"
-  traffic: 地铁2号线金科路站
-  traffic_en: "Jinke Road Station at Metro Line 2"
-  maplink: 'http://f.amap.com/0FFE0i'
-  video: 'http://e.vhall.com/597478279'
-  date: 2018-10-21 9:00 ~ 17:00
+  address: 上海市普陀区宜昌路130号(梦清园公园内)
+  address_en: "No. 130, Yichang Road, Putuo, Shanghai (in the MengQingYuan Park)"
+  venue: 上海壹号码头艺术酒店2楼
+  venue_en: "2nd floor of No.1 Art Hotel"
+  traffic: 地铁4号线内圈中潭路站
+  traffic_en: "Zhongtan Road Station at Metro Line 4"
+  maplink: 'https://www.amap.com/place/B0015731XR'
+  video: ''
+  date: 2018-10-21 8:00 ~ 17:00
+  date_en: October 21st, 2018 8:00 to 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"
@@ -94,18 +96,19 @@ shanghai:
 hangzhou:
   city: hangzhou
   name: 杭州
-  name_en: hangzhou
+  name_en: Hangzhou
   completed: false
   url: "hangzhou.html"
-  address: 上海市浦东新区博云路2号
-  address_en: "No.2 Boyun Road, Pudong, Shanghai"
-  venue: 浦软大厦会议厅
-  venue_en: "Meeting Hall at SPSP Building"
-  traffic: 地铁2号线金科路站
-  traffic_en: "Jinke Road Station at Metro Line 2"
-  maplink: 'http://f.amap.com/0FFE0i'
-  video: 'http://e.vhall.com/597478279'
+  address: 滨江区信诚路567号
+  address_en: "567 Xincheng Road, Binjiang District."
+  venue: 诺基亚通信杭州全球研发中心B座4楼
+  venue_en: "4Th Floor, Block B, Hangzhou Global R&D Center, Nokia Communications"
+  traffic: ""
+  traffic_en: ""
+  maplink: 'https://www.amap.com/place/B0FFF2H2XA'
+  video: ''
   date: 2018-11-04 9:00 ~ 17:00
+  date_en: November 4, 2018 8:00 to 17:00
   notices: ""
   morning:
     - time: "8:50-9:00"
@@ -135,7 +138,7 @@ hangzhou:
 shenzhen:
   city: shenzhen
   name: 深圳
-  name_en: shenzhen
+  name_en: Shenzhen
   completed: false
   url: "shenzhen.html"
   address: 上海市浦东新区博云路2号

@@ -1,5 +1,9 @@
 meta:
   -
+    level: organizer
+    name: 主办方
+    name_en: Organizer
+  -
     level: diamond
     name: 钻石赞助
     name_en: Diamond
@@ -22,7 +26,23 @@ meta:
   -
     level: book
     name: 图书赞助
-    name_en: book
+    name_en: Book
+  -
+    level: community
+    name: 社区合作伙伴
+    name_en: Community partners
+
+
+#########################################
+# 主办方
+#########################################
+organizer:
+  -
+    logo: ./asset/images/avatar-2018//sponsors/pychina-logo.jpg
+    logo_en: ../asset/images/avatar-2018//sponsors/pychina-logo.jpg
+    link: http://www.getui.com/cn/index.html
+    intro: ""
+    intro_en: ""
 
 #########################################
 # 钻石级
@@ -108,6 +128,29 @@ book:
   -
     logo: ./asset/images/avatar-2018/sponsors/turing-logo.png
     logo_en: ../asset/images/avatar-2018/sponsors/turing-logo.png
+    link: ""
+    intro: ""
+    intro_en: ""
+  -
+    logo: ./asset/images/avatar-2018/sponsors/broadview-logo.jpg
+    logo_en: ../asset/images/avatar-2018/sponsors/broadview-logo.jpg
+    link: ""
+    intro: ""
+    intro_en: ""
+
+#########################################
+# 社区合作伙伴
+#########################################
+community:
+  -
+    logo: ./asset/images/avatar-2018/sponsors/CCVedio-logo.jpg
+    logo_en: ../asset/images/avatar-2018/sponsors/CCVedio-logo.jpg
+    link: ""
+    intro: ""
+    intro_en: ""
+  -
+    logo: ./asset/images/avatar-2018/sponsors/thought-logo.png
+    logo_en: ../asset/images/avatar-2018/sponsors/thought-logo.png
     link: ""
     intro: ""
     intro_en: ""
