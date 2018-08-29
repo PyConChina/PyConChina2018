@@ -11,9 +11,7 @@
     {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
     {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
 
-    {% assets "app_css" %}
-    <link rel="stylesheet" type="text/css" href="{{ site.base_url }}/{{ ASSET_URL }}" />
-    {% endassets %}
+    <link rel="stylesheet" type="text/css" href="{{ site.base_url }}/asset/css/style.min.css" />
 </head>
 <body>
     <div class="preloader-mask">
@@ -49,9 +47,8 @@
 	<!--[if (gte IE 9) | (!IE)]><!-->
 		<!-- <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script> -->
 	<!--<![endif]-->
-    {% assets "app_js" %}
-    <script type="text/javascript" src="{{ site.base_url }}/{{ ASSET_URL }}"></script>
-    {% endassets %}
+
+    <script type="text/javascript" src="{{ site.base_url }}/asset/js/main.min.js"></script>
 
     {% block js_block %}{% endblock %}
 

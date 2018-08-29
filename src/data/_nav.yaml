@@ -1,11 +1,7 @@
-- title: PyConChina2018
-  title_en: PyConChina2018
-  url: "#hero"
-  url_en: "#hero"
 - title: 讲师
   title_en: SPEECH
-  url: "#counters"
-  url_en: "#countersl"
+  url: "#speakers"
+  url_en: "#speakers"
 - title: 赞助
   title_en: SUPPORT
   url: "#sponsors"
@@ -14,23 +10,6 @@
   title_en: SCHEDULE
   url: "#schedule"
   url_en: "#schedule"
-  children:
-  - title: 北京
-    title_en: Beijing
-    url: "#"
-    url_en: "#"
-  - title: 上海
-    title_en: Shanghai
-    url: "#"
-    url_en: "#"
-  - title: 杭州
-    title_en: Hangzhou
-    url: "#"
-    url_en: "#"
-  - title: 深圳
-    title_en: Shenzhen
-    url: "#"
-    url_en: "#"
 - title: 组委会
   title_en: ORGANIZERS
   url: "#"
