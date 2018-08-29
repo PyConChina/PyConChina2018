@@ -1,34 +1,42 @@
 meta:
   -
     level: organizer
+    style: big
     name: 主办方
     name_en: Organizer
   -
     level: diamond
+    style: inline
     name: 钻石赞助
     name_en: Diamond
 #    -
 #      level: platinum
+#      style: inline
 #      name: 白金赞助
 #      name_en: Platinum
 #  -
 #    level: gold
+#    style: inline
 #    name: 黄金赞助
 #    name_en: Gold
 #  -
 #    level: silver
+#    style: inline
 #    name: 白银赞助
 #    name_en: Silver
   -
     level: bronze
+    style: inline
     name: 青铜赞助
     name_en: Bronze
   -
     level: book
+    style: inline
     name: 图书赞助
     name_en: Book
   -
     level: community
+    style: inline
     name: 社区合作伙伴
     name_en: Community partners
 

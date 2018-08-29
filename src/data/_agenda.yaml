@@ -13,7 +13,8 @@ beijing:
   name: 北京
   name_en: Beijing
   completed: false
-  url: "beijing.html"
+  url: "beijing"
+  actived: active
   address: （北京东城）朝阳区东北三环七圣中街12号
   address_en: "(Beijing eastern city) No. 12, Qisheng Middle Street, Northeast Third Ring, Chaoyang District"
   venue: 云南大厦新云南皇冠假日酒店
@@ -25,24 +26,39 @@ beijing:
   date: 2018-10-14 9:00 ~ 17:00
   date_en: October 14, 2018 9:00 to 17:00
   notices: ""
-  morning:
-    - time: "8:50-9:00"
-      topic: "大会开场演讲和日程介绍"
-      topic_en: "Check-in"
+  places:
+    - place_name: 主会场
+      url: place1_auditorium1
+      actived: active
+      speechs:
+       - time: "8:50-9:00"
+         topic: "大会开场演讲和日程介绍"
+         topic_en: "Check-in"
 
-    - time: "10:30-11:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+       - time: "10:30-11:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
-  noon:
-    - time: "12:10-13:10"
-      topic: "午餐"
-      topic_en: "Lunch"
-  afternoon:
+    - place_name: 分会场1
+      url: place1_auditorium2
+      speechs:
+       - time: "12:10-13:10"
+         topic: "午餐"
+         topic_en: "Lunch"
 
-    - time: "15:25-15:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+    - place_name: 分会场2
+      url: place1_auditorium3
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+    - place_name: 分会场3
+      url: place1_auditorium4
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
   lightening_talks:
   cancel_talks:
@@ -56,7 +72,7 @@ shanghai:
   name: 上海
   name_en: Shanghai
   completed: false
-  url: "shanghai.html"
+  url: "shanghai"
   address: 上海市普陀区宜昌路130号(梦清园公园内)
   address_en: "No. 130, Yichang Road, Putuo, Shanghai (in the MengQingYuan Park)"
   venue: 上海壹号码头艺术酒店2楼
@@ -68,24 +84,38 @@ shanghai:
   date: 2018-10-21 8:00 ~ 17:00
   date_en: October 21st, 2018 8:00 to 17:00
   notices: ""
-  morning:
-    - time: "8:50-9:00"
-      topic: "大会开场演讲和日程介绍"
-      topic_en: "Check-in"
+  places:
+    - place_name: 主会场
+      url: place2_auditorium1
+      speechs:
+       - time: "8:50-9:00"
+         topic: "大会开场演讲和日程介绍"
+         topic_en: "Check-in"
 
-    - time: "10:30-11:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+       - time: "10:30-11:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
-  noon:
-    - time: "12:10-13:10"
-      topic: "午餐"
-      topic_en: "Lunch"
-  afternoon:
+    - place_name: 分会场1
+      url: place2_auditorium2
+      speechs:
+       - time: "12:10-13:10"
+         topic: "午餐"
+         topic_en: "Lunch"
 
-    - time: "15:25-15:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+    - place_name: 分会场2
+      url: place2_auditorium3
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+    - place_name: 分会场3
+      url: place2_auditorium4
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
   lightening_talks:
   cancel_talks:
@@ -98,7 +128,7 @@ hangzhou:
   name: 杭州
   name_en: Hangzhou
   completed: false
-  url: "hangzhou.html"
+  url: "hangzhou"
   address: 滨江区信诚路567号
   address_en: "567 Xincheng Road, Binjiang District."
   venue: 诺基亚通信杭州全球研发中心B座4楼
@@ -110,24 +140,38 @@ hangzhou:
   date: 2018-11-04 9:00 ~ 17:00
   date_en: November 4, 2018 8:00 to 17:00
   notices: ""
-  morning:
-    - time: "8:50-9:00"
-      topic: "大会开场演讲和日程介绍"
-      topic_en: "Check-in"
+  places:
+    - place_name: 主会场
+      url: place3_auditorium1
+      speechs:
+       - time: "8:50-9:00"
+         topic: "大会开场演讲和日程介绍"
+         topic_en: "Check-in"
 
-    - time: "10:30-11:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+       - time: "10:30-11:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
-  noon:
-    - time: "12:10-13:10"
-      topic: "午餐"
-      topic_en: "Lunch"
-  afternoon:
+    - place_name: 分会场1
+      url: place3_auditorium2
+      speechs:
+       - time: "12:10-13:10"
+         topic: "午餐"
+         topic_en: "Lunch"
 
-    - time: "15:25-15:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+    - place_name: 分会场2
+      url: place3_auditorium3
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+    - place_name: 分会场3
+      url: place3_auditorium4
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
   lightening_talks:
   cancel_talks:
@@ -140,7 +184,7 @@ shenzhen:
   name: 深圳
   name_en: Shenzhen
   completed: false
-  url: "shenzhen.html"
+  url: "shenzhen"
   address: 上海市浦东新区博云路2号
   address_en: "No.2 Boyun Road, Pudong, Shanghai"
   venue: 浦软大厦会议厅
@@ -151,24 +195,38 @@ shenzhen:
   video: 'http://e.vhall.com/597478279'
   date: 2018-10-27 9:00 ~ 17:00
   notices: ""
-  morning:
-    - time: "8:50-9:00"
-      topic: "大会开场演讲和日程介绍"
-      topic_en: "Check-in"
+  places:
+    - place_name: 主会场
+      url: place4_auditorium1
+      speechs:
+       - time: "8:50-9:00"
+         topic: "大会开场演讲和日程介绍"
+         topic_en: "Check-in"
 
-    - time: "10:30-11:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+       - time: "10:30-11:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
-  noon:
-    - time: "12:10-13:10"
-      topic: "午餐"
-      topic_en: "Lunch"
-  afternoon:
+    - place_name: 分会场1
+      url: place4_auditorium2
+      speechs:
+       - time: "12:10-13:10"
+         topic: "午餐"
+         topic_en: "Lunch"
 
-    - time: "15:25-15:40"
-      topic: "茶歇"
-      topic_en: "Tea Break"
+    - place_name: 分会场2
+      url: place4_auditorium3
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
+
+    - place_name: 分会场3
+      url: place4_auditorium4
+      speechs:
+       - time: "15:25-15:40"
+         topic: "茶歇"
+         topic_en: "Tea Break"
 
   lightening_talks:
   cancel_talks:

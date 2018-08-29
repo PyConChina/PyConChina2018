@@ -1,47 +1,40 @@
 - title: PyConChina2018
   title_en: PyConChina2018
-  url: "index.html"
-  url_en: "en/index.html"
+  url: "#hero"
+  url_en: "#hero"
 - title: 讲师
   title_en: SPEECH
-  url: "speakers.html"
-  url_en: "en/speakers.html"
+  url: "#counters"
+  url_en: "#countersl"
 - title: 赞助
   title_en: SUPPORT
-  children:
-  - title: 厂商
-    title_en: SPONSORS
-    url: "sponsor_com.html"
-    url_en: "en/sponsor_com.html"
-  - title: 私人
-    title_en: DONATOR
-    url: "donators.html"
-    url_en: "en/donators.html"
+  url: "#sponsors"
+  url_en: "#sponsors"
 - title: 日程
   title_en: SCHEDULE
-  url: "schedule.html"
-  url_en: "en/schedule.html"
+  url: "#schedule"
+  url_en: "#schedule"
   children:
   - title: 北京
     title_en: Beijing
-    url: "beijing.html"
-    url_en: "en/beijing.html"
+    url: "#"
+    url_en: "#"
   - title: 上海
     title_en: Shanghai
-    url: "shanghai.html"
-    url_en: "en/shanghai.html"
+    url: "#"
+    url_en: "#"
   - title: 杭州
     title_en: Hangzhou
-    url: "hangzhou.html"
-    url_en: "en/hangzhou.html"
+    url: "#"
+    url_en: "#"
   - title: 深圳
     title_en: Shenzhen
-    url: "shenzhen.html"
-    url_en: "en/shenzhen.html"
+    url: "#"
+    url_en: "#"
 - title: 组委会
   title_en: ORGANIZERS
-  url: "volunteers.html"
-  url_en: "en/volunteers.html"
+  url: "#"
+  url_en: "#"
 - title: 申请演讲
   title_en: SPEECH
   url: https://jinshuju.net/f/fjOUqZ

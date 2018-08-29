@@ -171,8 +171,10 @@ def _init_webassets(debug=False, generate=False):
                              load_path=[SITE_ASSET_SRC_DIR])
     assets_env.debug = debug
 
-    js = Bundle('js/*.js', filters='uglifyjs', output='js/app.js')
-    css = Bundle('sass/*.scss', filters='scss,cssmin', output='css/app.css')
+    # js = Bundle('js/*.js', filters='uglifyjs', output='js/app_js.js')
+    # css = Bundle('sass/*.css', filters='scss,cssmin', output='css/app_css.css')
+    js = Bundle('js/*.js', filters='jsmin', output='js/app_js.js')
+    css = Bundle('sass/*.css', filters='cssmin', output='css/app_css.css')
 
     assets_env.register('app_js', js)
     assets_env.register('app_css', css)
