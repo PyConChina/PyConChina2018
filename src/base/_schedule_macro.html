@@ -53,12 +53,12 @@
 {% endmacro %}
 
 {% macro schedule_block(city) %}
-<div id="{{ city.url }}" class="tab-pane fade {{ city.active }} in">
+<div id="{{ city.url }}" class="tab-pane fade {{ city.actived }} in">
 
     <!-- Navigation by auditorium start -->
     <ul class="nav nav-schedule">
       {% for place in city.places %}
-          <li class="{{ place.active}}"><a href="#{{ place.url}}" data-toggle="tab">{{ place.place_name }}</a></li>
+          <li class="{{ place.actived }}"><a href="#{{ place.url}}" data-toggle="tab">{{ place.place_name }}</a></li>
       {% endfor %}
     </ul>
     <!-- Navigation by auditorium start -->
