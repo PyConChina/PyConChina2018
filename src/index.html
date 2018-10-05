@@ -1,291 +1,52 @@
-{% extends "base/_base.html" %}
-{% import 'base/_speaker_macro.html' as speaker_macro %}
-{% import 'base/_schedule_macro.html' as schedule_macro %}
-{% set page_title = message.page_title_index %}
+{% extends "pages/_base.html" %}
+{% import 'pages/macros/_title_macro.html' as title_macro %}
+{% import 'pages/macros/_meeting_macro.html' as meeting_macro %}
+
 {% block content %}
-
-<section id="about" class="section align-center">
-    <div class="container">
-        <span class="icon section-icon icon-multimedia-12"></span>
-        <h3>商务会议新概念</h3>
-        <p class="text-alt">还有 <span class="highlight">30 天</span> 开启你的商务会议</p>
-        <br />
-        <br />
-
-        <div class="tabs-wrapper tabs-horizontal">
-            <ul class="nav nav-tabs">
-                <li class="active"><a href="#horizontal_tab1" data-toggle="tab">
-                    <h6 class="heading-alt"><span class="fa fa-code"></span>总说明</h6>
-                </a></li>
-                <li><a href="#horizontal_tab2" data-toggle="tab">
-                    <h6 class="heading-alt"><span class="fa fa-rocket"></span>专题</h6>
-                </a></li>
-                <li><a href="#horizontal_tab3" data-toggle="tab">
-                    <h6 class="heading-alt"><span class="fa fa-external-link"></span>赞助信息</h6>
-                </a></li>
-            </ul>
-
-            <div class="tab-content">
-                <div id="horizontal_tab1" class="tab-pane fade active in">
-                    <div class="col-sm-5 img-column">
-                        <img src="{{ site.base_url }}/asset/img/imac-371x412.png" alt="" class="img-responsive" />
-                    </div>
-                    <div class="col-sm-7 align-left">
-                        <h6>{{ message.pycon_intro_title }}</h6>
-                        <p>{{ message.pycon_intro }}</p>
-                    </div>
-                </div>
-
-                <div id="horizontal_tab2" class="tab-pane fade">
-                    <div class="col-sm-7 align-right">
-                        <h6>专题</h6>
-                        <p>Faucibus sed pretium. Ridiculus <strong>consectetuer</strong> et. In arcu enim sit in libero scelerisque mauris sed. Nullam eleifend in varius arcu vitae feugiat magna id ut morbi consectetuer. In vivamus arcu. Id ut dui. Sed massa in. Scelerisque suscipit quisque maecenas aliquet in. Wisi mi ipsum. Elit et mauris. Duis in magni praesent <a href="#">content</a> massa.</p>
-                        <p>Consectetuer amet wisi felis sem <strong>tincidunt</strong>. Ultricies blandit id euismod inceptos mauris pulvinar nec nullam quisque consequat nulla eleifend elementum vivamus aliquam placerat nec. Vehicula leo praesent vitae leo mauris ullamcorper lectus sed mollis id turpis dui cras suspendisse. Porta diam <a href="#">eleifend</a>. Praesent magnis sit. Enim ligula vel justo urna.</p>
-                        <ul>
-                            <li>Nisl cras vitae wisi odio amet.</li>
-                            <li>Lacus amet vestibulum belas</li>
-                            <li>Quis nunc curabitur assumenda</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-5 img-column">
-                        <img src="{{ site.base_url }}/asset/img/imac-371x412.png" alt="" class="img-responsive" />
-                    </div>
-                </div>
-
-                <div id="horizontal_tab3" class="tab-pane fade">
-                    <div class="col-sm-5 img-column">
-                        <img src="{{ site.base_url }}/asset/img/imac-371x412.png" alt="" class="img-responsive" />
-                    </div>
-                    <div class="col-sm-7 align-left">
-                        <h6>申请成为赞助商</h6>
-                        <p>Faucibus sed pretium. Ridiculus <strong>consectetuer</strong> et. In arcu enim sit in libero scelerisque mauris sed. Nullam eleifend in varius arcu vitae feugiat magna id ut morbi consectetuer. In vivamus arcu. Id ut dui. Sed massa in. Scelerisque suscipit quisque maecenas aliquet in. Wisi mi ipsum. Elit et mauris. Duis in magni praesent <a href="#">content</a> massa.</p>
-                        <ul>
-                            <li>Nisl cras vitae wisi odio amet.</li>
-                            <li>Lacus amet vestibulum belas</li>
-                            <li>Quis nunc curabitur assumenda</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <header id="banner"></header>
+    <div class="button-wrap">
+      <button class="btn btn-yellow left-btn" onclick="javascript:window.open('{{ site.to_be_speaker_url }}')">{{ site.to_be_speaker }}</button>
+      <button class="btn btn-yellow" onclick="javascript:window.open('{{ site.to_be_volunteer_url }}')">{{ site.to_be_volunteer }}</button>
     </div>
-</section>
+    <div class="container content-wrap">
+        {{ title_macro.title(site.s1_daHuiRicheng, site) }}
 
-<section id="counters" class="section align-center overlay bg-cover bg5 light-text">
-		<div class="container">
-
-			<div class="row counters-wrapper">
-				<div class="col-sm-3">
-					<div class="counter-block counter-block-no-border">
-						<div class="counter-box">
-							<div class="counter-content">
-								<span class="count" data-from="0" data-to="136">0</span>
-
-								<p class="title">演讲者</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-3">
-					<div class="counter-block counter-block-no-border">
-						<div class="counter-box">
-							<div class="counter-content">
-								<span class="count" data-from="0" data-to="5">0</span>
-
-								<p class="title">大牛</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-3">
-					<div class="counter-block counter-block-no-border">
-						<div class="counter-box">
-							<div class="counter-content">
-								<span class="count" data-from="0" data-to="25">0</span>
-
-								<p class="title">专题</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-3">
-					<div class="counter-block counter-block-no-border">
-						<div class="counter-box">
-							<div class="counter-content">
-								<span class="count" data-from="0" data-to="200">0</span>
-
-								<p class="title">演讲</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
-
-<!-- 讲师 -->
-<!-- FIXME: DRY -->
-<section id="speakers" class="section align-center">
-    {% for city in agenda.city_list %}
-    {% set speaker_city = agenda[city].name + message.speakers %}
-    {% set extra_class = loop.cycle('pycon-even-seg','pycon-odd-seg') %}
-    {{ speaker_macro.speaker_block(speaker_city, selectspeakers(speakers, city), extra_class) }}
-    {% endfor%}
-</section>
-
-<section id="schedule" class="section schedule-section align-center">
-        {% macro agenda_link(city) %}
-            <li class="{{ city.actived }}">
-                <a href="#{{ city.url }}" data-toggle="tab">
-                    <h5 class="highlight">{{ city.name }}</h5>
-                    <p class="text-alt">{{ city.date }}</p>
-                </a>
-            </li>
-        {% endmacro %}
-
-		<div class="container">
-			<span class="icon section-icon icon-office-21"></span>
-			<h3>日程</h3>
-			<p class="text-alt">大量不同的演讲<br/> 和 <span class="highlight">活动</span></p>
-			<br />
-			<br />
-			<div class="schedule">
-				<ul class="nav nav-schedule">
-                    {% for city_name in agenda.city_list %}{{ agenda_link(agenda[city_name]) }}{% endfor %}
-				</ul>
-				<div class="tab-content">
-                    {% for city_name in agenda.city_list %}
-                        {{ schedule_macro.schedule_block(agenda[city_name]) }}
-                    {% endfor %}
-				</div>
-
-			</div>
-
-		<div class="col-sm-12 align-center">
-			<a href="elements/schedule.html" target="_blank" class="btn btn-outline-clr btn-md">日程样式</a>
-		</div>
-
-		</div>
-
-	</section>
-<!--
-<section id="prices" class="section align-center">
-		<div class="container">
-			<span class="icon section-icon icon-shopping-04"></span>
-			<h3>售票处</h3>
-			<p class="text-alt">Get yours why they are still <span class="highlight">available</span></p>
-			<br/>
-			<br/>
-
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="package-column">
-						<h6 class="package-title">早鸟票</h6>
-						<div class="package-price">
-							<span class="currency">$</span>33
-						</div>
-						<div class="package-detail">
-							<ul>
-								<li><span class="fa fa-check check-icon"></span>正式座位</li>
-								<li><span class="fa fa-check check-icon"></span>自由小吃</li>
-								<li><span class="fa fa-check check-icon"></span>定制徽章</li>
-							</ul>
-						</div>
-						<a href="#" class="btn btn-lg btn-outline-clr">立即购买</a>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="package-column special-column">
-						<span class="sale-label uppercase">火!</span>
-						<h6 class="package-title">银色通信证</h6>
-						<div class="package-price">
-							<span class="currency">$</span>99
-						</div>
-						<div class="package-detail">
-							<ul>
-								<li><span class="fa fa-check check-icon"></span>正式座位</li>
-								<li><span class="fa fa-check check-icon"></span>自由小吃</li>
-								<li><span class="fa fa-check check-icon"></span>定制徽章</li>
-							</ul>
-						</div>
-						<a href="#" class="btn btn-lg">现在购买</a>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-					<div class="package-column">
-						<h6 class="package-title">黄金通行证</h6>
-						<div class="package-price">
-							<span class="currency">$</span>150
-						</div>
-						<div class="package-detail">
-							<ul>
-								<li><span class="fa fa-check check-icon"></span>正式座位</li>
-								<li><span class="fa fa-check check-icon"></span>自由小吃</li>
-								<li><span class="fa fa-check check-icon"></span>定制徽章</li>
-							</ul>
-						</div>
-						<a href="#" class="btn btn-lg btn-outline-clr">现在购买</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
--->
-
-<section id="sponsors" class="section align-center">
-
- <div class="container">
-{% macro sponsor_block(sponsor_meta, sponsor_list) %}
-
-        <span class="icon section-icon icon-documents-bookmarks-12"></span>
-        <h3>{{ sponsor_meta.name }}</h3>
-        <p class="text-alt"><span class="highlight"></span></p>
-        <br/>
-
-        <div class="sponsors">
-            {% if sponsor_list %} {% for sponsor_info in sponsor_list %}
-                <div class="sponsor {{ sponsor_meta.style }}">
-                     <a href="{{ sponsor_info.link }}" target="_blank">
-                        <img src="{{ sponsor_info.logo }}" alt="">
-                     </a>
-                </div>
-            {% endfor %} {% endif %}
+      <div class="metting-list">
+          {{ meeting_macro.meeting_item(message.d3_schedule_single_bj, site) }}
+          {{ meeting_macro.meeting_item(message.d3_schedule_single_sh, site) }}
+          {{ meeting_macro.meeting_item(message.d3_schedule_single_sz, site) }}
+          {{ meeting_macro.meeting_item(message.d3_schedule_single_cd, site) }}
+          {{ meeting_macro.meeting_item(message.d3_schedule_single_hz, site) }}
+      </div>
+        {{ title_macro.title(site.s1_wangJieHuiGu, site) }}
+      <div class="reviewWraper">
+        <div class="reviewItem">
+          <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2016</p>
+          <p>PyConChina</p>
         </div>
-  {% endmacro %}
-
-
-    {% for sponsor_meta in sponsors.meta %}
-    {{ sponsor_block(sponsor_meta, sponsors[sponsor_meta.level]) }}
-    {% endfor %}
- </div>
-
-</section>
-
-<section id="contacts">
-    <div class="contacts-wrapper">
-        <div id="contacts-map" class="map" data-settings="map-settings.json" style="height:560px;"></div>
-
-        <div class="container contacts-on-map-container">
-            <div class="contacts-on-map">
-                <h3>联系我们</h3>
-
-                <ul class="list">
-                    <li><i class="fa fa-map-marker"></i>如果您有赞助合作意向，或对大会有任何疑问，请联系大会组织者</li>
-                    <li><i class="fa fa-envelope"></i>Cynthia Xin （辛庆）</li>
-                    <li><i class="fa fa-phone"></i>Tel：185 1609 4658</li>
-                    <li><i class="fa fa-clock-o"></i>Email：cynthiaxin1@gmail.com</li>
-                </ul>
-            </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+           <p>2015</p>
+           <p>PyConChina</p>
         </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2014</p>
+          <p>PyConChina</p>
+        </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2013</p>
+          <p>PyConChina</p>
+        </div>
+        <div class="reviewItem">
+           <img src="{{ site.base_url }}/asset/images/basic/d4_history_img01.png" alt="">
+          <p>2012</p>
+          <p>PyConChina</p>
+        </div>
+      </div>
+        {% include "pages/_support.html" %}
     </div>
-</section>
-
-
 {% endblock %}
+

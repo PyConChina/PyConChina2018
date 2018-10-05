@@ -1,0 +1,25 @@
+{% macro meeting_item(city,site) %}
+    <div class="mettingItem">
+      <div class="left">
+        <div class="leftContent {{city.diDian}}">
+          <div class="name">{{city.diDian}}</div>
+          <p>{{city.shiJian}}</p>
+          <p>{{city.diZhi}}</p>
+          <p>{{city.zhuanChang}}</p>
+        </div>
+        <!--img src="{{ site.base_url }}/asset/images/basic/{{city.rightImg}}" alt=""-->
+      </div>
+      <div class="right">
+        <a href={{city.detailUrl}}>
+          <button class="btn btn-blue">{{ site.chaKanXiangXiXinXi }}</button>
+        </a>
+        <a href={{city.buyTicketUrl}}>
+          <button class="btn btn-blue">{{ site.woYaoMaiPiao }}</button>
+        </a>
+      </div>
+      <div class="m_right">
+        <img src="{{ site.base_url }}/asset/images/basic/m_btn_enter@2x.png" />
+      </div>
+    </div>
+{% endmacro %}
+

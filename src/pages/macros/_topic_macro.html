@@ -1,0 +1,23 @@
+{% macro topic(topic, site) %}
+   <div class="topicItem">
+  <div class="left">
+    <img src="{{ site.base_url }}/asset/images/speakers/lecturer_{{topic.avatar}}.png" alt="">
+    <div class="name">{{topic.name}}</div>
+    <div class="title">{{topic.title}}</div>
+  </div>
+  <div class="right">
+    <div class="rightTitle">演讲主题</div>
+    <div class="topicName">
+      {{topic.topicName}}
+    </div>
+    <div class="rightTitle">主题简介</div>
+    <div class="summary">
+      {{topic.topicSummary}}
+    </div>
+    <div class="rightTitle">讲师简介</div>
+    <div class="summary">
+      {{topic.lecturerSummary}}
+    </div>
+  </div>
+</div>
+{% endmacro %}

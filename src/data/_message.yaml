@@ -1,105 +1,58 @@
-#########################################
-# titles for each page
-#########################################
-page_title_index: 首页
-page_title_index_en: HOME
-page_title_sponsors: 赞助
-page_title_sponsors_en: Sponsors
-page_title_speakers: 讲师
-page_title_speakers_en: Speakers
-page_title_volunteers: 志愿
-page_title_volunteers_en: Volunteers
-page_title_donators: 蠎人赞助
-page_title_donators_en: Personal Sponsorship
 
-page_title_beijing: 北京日程
-page_title_beijing_en: Schedule in Beijing
-page_title_shanghai: 上海日程
-page_title_shanghai_en: Schedule in Shanghai
-page_title_guangzhou: 广州日程
-page_title_guangzhou_en: Schedule in GuangZhou
-page_title_zhuhai: 珠海日程
-page_title_zhuhai_en: Schedule in Zhuhai
-page_title_suzhou: 苏州日程
-page_title_suzhou_en: Schedule in Suzhou
-page_title_hangzhou: 杭州日程
-page_title_hangzhou_en: Schedule in Hangzhou
-page_title_shenzhen: 深圳日程
-page_title_shenzhen_en: Schedule in Shenzhen
-#########################################
-# index
-#########################################
-pycon_intro_title: PyCon China
-pycon_intro_title_en: PyCon China
-pycon_intro: "PyCon 是 Python 语言社群的全球性技术盛会，PyConChina 是由 PyCon 官方授权 CPyUG (华蠎用户组)举办的 Python 年会。过去7年在北京、上海、广州、珠海、杭州、苏州、西安、合肥等地成功举办20余次。<br/>第八届中国 Python 开发者大会 PyConChina2018 ，由 PyChina.org 发起，CPyUG/TopGeek 等社区协办，将在北京、上海、深圳、杭州、成都（待定）举办。致力于推动各类 Python 相关的技术在互联网、企业应用等领域的研发和应用。"
-pycon_intro_en: "PyCon is a global technology event for the Python language community. PythonChina is an Annual meeting of Python, which licensed by PyCon and hosted by CPyUG(Chinese Python User Group). In the past 7 years, it has successfully held more than 20 times in Beijing, Shanghai, Guangzhou, Zhuhai, Hangzhou, Suzhou, Xi'an and Hefei. <br/>The  8th China Python Developers Conference PyConChina2018 is sponsored by PyChina.org, co-organized by CPyUG/TopGeek and other communities, and it will be held in Beijing, Shanghai, Shenzhen, hangzhou and Chengdu(to be confirmed). It will commit to  the development and application of various Python-related technologies in the fields of Internet and enterprise applications. "
-booking_now: 报名参加
-booking_now_en: Enroll
-user_evaluation_left: 用户评价left
-user_evaluation_left_en: User evaluation left
-user_evaluation_right: 用户评价right
-user_evaluation_right_en: User evaluation right
-pycon_waiting: 暂未更新， 敬请期待...
-#########################################
-# Nav
-#########################################
-slogan_title: PyCon China 2018
-slogan_title_en: PyCon China 2018
-slogan: Python与你同在
-slogan_en: MAY THE PYTHONIC BE WITH YOU
-#########################################
-# speakers
-#########################################
-speakers: 讲师
-speakers_en: ' Speakers'
-#########################################
-# schedule
-#########################################
-map: 地图
-map_en: Map
-slide: 幻灯
-slide_en: slides
-video: 录像
-video_en: video
-address: 地址
-address_en: Address
-venue: 会场
-venue_en: Venue
-traffic: 交通
-traffic_en: Traffic
-date: 日期
-date_en: Date
-morning: 上午
-morning_en: Morning
-noon: 中午
-noon_en: Noon
-afternoon: 下午
-afternoon_en: Afternoon
-donators: 蠎人赞助
-donators_en: Personal Sponsorship
-donators_orderby: (按捐助达成时间排序)
-donators_orderby_en: (sorted by time of sponsorship)
-#########################################
-# sponsor
-#########################################
-#########################################
-# volunteers
-#########################################
-pythoneer: <b><A NAME="anchor">pythoneer</a></b> ~ <sub>"A pioneer within the Python programming language community."</sub> 即 Pythoneer 是更加专业的 Pythonista. Pythoner 是最基础的 Python 用户.
-pythoneer_en: <b><A NAME="anchor">pythoneer</a></b> ~ "A pioneer within the Python programming language community." means Pythoneer COOL than Pythonista. btw Pythoner just Python beginner.
-organizers: 组织者
-organizers_en: Coordinators
-technicians: 技术组
-technicians_en: Technical Volunteers
-conference: 会务组
-conference_en: Conference Volunteers
-beijing_booking_now: 报名北京场
-beijing_booking_now_en: Sign up for Beijing
-shanghai_booking_now: 报名上海场
-shanghai_booking_now_en: Sign up for Shanghai
-hangzhou_booking_now: 报名杭州场
-hangzhou_booking_now_en: Sign up for Hangzhou
-shenzhen_booking_now: 报名深圳场
-shenzhen_booking_now_en: Sign up for Shenzhen
-speech_apple_now: 申请演讲
-speech_apple_now_en: Apply for a speech
+
+d3_schedule_single_bj:
+  diDian: 北京站
+  diDian_en: Beijing
+  shiJian: 活动时间：2018.10.14
+  shiJian_en: Time：2018.10.14
+  diZhi: 活动地址：北京市朝阳区东北三环七圣中街12号云南大厦新云南皇冠假日酒店
+  diZhi_en: Address：(Beijing, eastern city)New Yunnan Crowne Plaza Hotel, Yunan Building, No. 12, Qisheng Middle Street, Northeast Third Ring, Chaoyang District
+  zhuanChang: Python语言特性专场 | 机器学习＆大数据专场 | 机器学习＆大数据专场 | Python女性专场专场
+  zhuanChang_en: Python Language Features | Machine Learning & Big Data Session | Web Session ( Web Development / Network Security / Crawler / SDK / API Design ) | Python Session for Women
+  rightImg: 'beijingIcon.png'
+  detailUrl: 'https://www.baidu.com'
+  buyTicketUrl: 'http://www.huodongxing.com/event/7451673665100?td=8211933664158'
+  
+d3_schedule_single_sh:
+  diDian: 上海站
+  diDian_en: Shanghai
+  shiJian: 活动时间：2018.10.21
+  shiJian_en: Time：2018.10.21
+  diZhi: 活动地址：上海市普陀区宜昌路130号(梦清园公园内)上海壹号码头艺术酒店2楼
+  diZhi_en: Address：(Shanghai, Putuo)2nd Floor, Shanghai No.1 Art Hotel (in the Mengqing Park), No.130, Yichang Road, Putuo District
+  rightImg: 'beijingIcon.png'
+  detailUrl: 'https://www.baidu.com'
+  buyTicketUrl: 'http://www.huodongxing.com/event/5453261623411'
+
+d3_schedule_single_sz:
+  diDian: 深圳站
+  diDian_en: Shenzhen
+  shiJian: 活动时间：2018.10.27
+  shiJian_en: Time：2018.10.27
+  diZhi: 活动地址：广东省深圳市南山区科苑路15号深圳科兴科学园国际会议中心3楼
+  diZhi_en: Address：(Guangdong, Shenzhen)3rd Floor, Shenzhen Kexing Science Park International Conference Center, NO.15,  Keyuan Road, Nanshan District
+  rightImg: 'beijingIcon.png'
+  detailUrl: 'https://www.baidu.com'
+  buyTicketUrl: 'https://www.baidu.com'
+
+d3_schedule_single_cd:
+  diDian: 成都站
+  diDian_en: Chengdu
+  shiJian: 活动时间：2018.10.27
+  shiJian_en: Time：2018.10.27
+  diZhi: 活动地址：四川省成都市郫都区犀安路999号西南交通大学(犀浦校区)
+  diZhi_en: Address：(Sichuan, Chengdu)Southwest Jiaotong University (Xipu Campus), No. 999, Xi'an Road, Yaodu District
+  rightImg: 'beijingIcon.png'
+  detailUrl: 'https://www.baidu.com'
+  buyTicketUrl: 'https://www.baidu.com'
+
+d3_schedule_single_hz:
+  diDian: 杭州站
+  diDian_en: Hangzhou
+  shiJian: 活动时间：2018.11.04
+  shiJian_en: Time：2018.11.04
+  diZhi: 活动地址：浙江省杭州市滨江区信诚路567号诺基亚通信杭州全球研发中心B座4楼
+  diZhi_en: Address：(Zhejiang, Hangzhou)4th Floor, Block B, Nokia Global R&D Center, NO.567, Xincheng Road, Binjiang District
+  rightImg: 'beijingIcon.png'
+  detailUrl: 'https://www.baidu.com'
+  buyTicketUrl: 'http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158'

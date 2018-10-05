@@ -1,0 +1,11 @@
+{% import 'pages/macros/_sponsors_macro.html' as sponsors_macro %}
+
+{{ title_macro.title(site.s1_heZuoZhiChi, site) }}
+
+  <div class="supportWraper">
+    {% for sponsor_meta in sponsors.meta %}
+        <div class="row">
+             {{ sponsors_macro.sponsor_info_block(sponsor_meta, sponsors[sponsor_meta.level], site) }}
+        </div>
+    {% endfor %}
+  </div>

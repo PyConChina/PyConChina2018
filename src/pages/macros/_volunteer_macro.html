@@ -1,0 +1,14 @@
+{% macro volunteer(volunteer, site) %}
+   <div class="volunteerItem">
+      <img src="{{ site.base_url }}/asset/images/volunteers/{{volunteer.avatar}}.png" alt="">
+      <div class="name">
+        {{volunteer.name}}
+      </div>
+      <div class="title">
+        {{volunteer.voltitle}}
+      </div>
+      <div class="description">
+        {{volunteer.description}}
+      </div>
+    </div>
+{% endmacro %}

@@ -1,29 +1,33 @@
-- title: 讲师
-  title_en: SPEECH
-  url: "#speakers"
-  url_en: "#speakers"
-- title: 赞助
-  title_en: SUPPORT
-  url: "#sponsors"
-  url_en: "#sponsors"
-- title: 日程
-  title_en: SCHEDULE
-  url: "#schedule"
-  url_en: "#schedule"
-- title: 组委会
-  title_en: ORGANIZERS
-  url: "#"
-  url_en: "#"
-- title: 申请演讲
-  title_en: SPEECH
-  url: https://jinshuju.net/f/fjOUqZ
+- title: 首页2018
+  title_en: Home2018
+  url: "http://cn.pycon.org/2018/"
+  url_en: "http://cn.pycon.org/2018/"
   url_external: 1
-- title: 资料
-  title_en: SLIDES
-  url: ""
-  url_external: 1
-- title: 往届
-  title_en: HISTORY
+- title: 大会日程
+  title_en: Schedule
+  children:
+  - title: 北京站__10.14
+    title_en: Beijing__10.14
+    url: ""
+    url_en: ""
+  - title: 上海站__10.21
+    title_en: Shanghai__10.21
+    url: ""
+    url_en: ""
+  - title: 深圳站__10.27
+    title_en: Shenzhen__10.27
+    url: ""
+    url_en: ""
+  - title: 成都站__10.27
+    title_en: Chengdu__10.27
+    url: ""
+    url_en: ""
+  - title: 杭州站__11.04
+    title_en: Hangzhou__11.04
+    url: ""
+    url_en: ""
+- title: 往届回顾
+  title_en: History
   children:
   - title: 2011
     title_en: 2011
@@ -60,6 +64,22 @@
     url: "http://cn.pycon.org/2017/"
     url_en: "http://cn.pycon.org/2017/en/index.html"
     url_external: 1
+- title: 相关资讯
+  title_en: News
+  url: ""
+  url_en: ""
+- title: 组委&志愿者
+  title_en: Organizer
+  url: ""
+  url_en: ""
+- title: 讲师
+  title_en: Speaker
+  url: ""
+  url_en: ""
+- title: 赞助
+  title_en: Sponser
+  url: ""
+  url_en: ""
 - title: EN
   title_en: 中文
   url: "en/index.html"

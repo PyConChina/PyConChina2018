@@ -1,23 +1,25 @@
-name: PyConChina2018
-title: PyCon 2018 China
-description: Python中国2018大会官方网站
-description_en: The official site for PyCon China 2018
-author: support@PyChina.org
-url: http://cn.pycon.org/2018/
 home_url: "./"
 home_url_en: "./en/"
 base_url: "."
 base_url_en: ".."
-speech_apply_url: https://jinshuju.net/f/fjOUqZ
 
-beijing:
-  booking_url: http://www.huodongxing.com/event/7451673665100?td=8211933664158
+to_be_speaker: 申请演讲
+to_be_speaker_en: To be Speaker
+to_be_speaker_url: https://jinshuju.net/f/fjOUqZ
 
-shanghai:
-  booking_url: http://www.huodongxing.com/event/5453261623411
+to_be_volunteer: 申请志愿者
+to_be_volunteer_en: To be Volunteer
+to_be_volunteer_url: ""
 
-hangzhou:
-  booking_url: http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158
+s1_daHuiRicheng: 大会日程
+s1_daHuiRicheng_en: Schedule
+s1_wangJieHuiGu: 往届回顾
+s1_wangJieHuiGu_en: History
+s1_heZuoZhiChi: 合作支持
+s1_heZuoZhiChi_en: Sponser
 
-shenzhen:
-  booking_url: waiting.html
+chaKanXiangXiXinXi: 查看详情
+chaKanXiangXiXinXi_en: Details
+woYaoMaiPiao: 立即购票
+woYaoMaiPiao_en: Buy Now
+

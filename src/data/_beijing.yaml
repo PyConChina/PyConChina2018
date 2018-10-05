@@ -1,0 +1,111 @@
+title: beijing 
+citydescription: |
+  <p>开源编程语言Python近年在互联网、人工智能、科学计算、游戏、云计算、大数据、运维、企业软件等领域有非常出色的表现。</p>
+  <p>PyCon是Python语言社群的全球性技术盛会，PyConChina是由PyCon官方授权CPyUG(华蠎用户组)志愿，公益举办的Python年会。过去7年在北京、上海、广州、珠海、杭州、苏州、西安、合肥等地成功举办20余次。</p>
+  <p>第八届中国Python开发者大会PyConChina2018，由PyChina.org发起，由来自CPyUG/TopGeek等社区的30位组织者，近150位志愿者在北京、上海、深圳、杭州、成都等城市举办。致力于推动各类Python相关的技术在互联网、企业应用等领域的研发和应用。</p>
+  <p>随着大数据和人工智能的快速发展，Python 给开发者带来了巨大的机会。</p>
+  <p>每位Pythoneer心目中都有一个属于自己的PyCon，大会组委会也在致力于创办对Pythoneer有帮助的大会。作为由组织者，志愿者义务举办的一场全国大聚会，我们欢迎所有致力于推广Python技术的开发者们加入我们的组委会，讲师群，志愿者。集国内著名Python领域的专家们和热心的Python推广大使们，一起向全社会推广Python语言，及其最新应用。将PyCon举办成为Python开发者们一年一次的经验和成果的交流与分享的大会。</p>
+  <p>今年的PyConChina2018将主会场设在北京。北京是Pythoneer最集中的城市。我们将以上午千人峰会的主会场和下午4个分会场的形势来最大程度地去满足各领域Pythoneer们的诉求。（北京核心组织者李者璈的建议下首次开设Python女性专场）。</p>
+  <p>上海、杭州、深圳、成都作为分会场，将根据主题申报情况，大家的参与意愿，以及结合地方特色，协调安排具体分享日程。</p>
+  <p>我们欢迎其他地区的Pyhoneer在讲师和场地成熟的情况下，发起PyCon，让更多的Pyhoneer一起来交流，也让更多的人了解、认识、使用Python。</p>
+agenda:
+  -
+    name: "主会场"
+    detail:
+      - time: "09:00-09:20"
+        topic: "开场致词—致敬 Pythoneer"
+        topic_en: "Check-in"
+      - { time: "09:20-10:00", speaker: id_hongqiangning }
+      - { time: "10:00-10:40", speaker: id_hongqiangning    }
+
+  -
+    name: '分会场A：Python 语言特性专场'
+    detail:
+      - time: "10:30-11:40"
+        topic: "茶歇"
+        topic_en: "Tea Break"
+      - { time: "10:40-11:25", speaker: id_hongqiangning }
+      - { time: "11:25-12:10", speaker: id_hongqiangning }
+  -
+    name: '分会场B: 人工智能 & 大数据 & 区块链'
+    detail:
+      - time: "10:30-11:40"
+        topic: "茶歇"
+        topic_en: "Tea Break"
+      - { time: "10:40-11:25", speaker: id_hongqiangning }
+      - { time: "11:25-12:10", speaker: id_hongqiangning }
+  -
+    name: '分会场C: 架构 & Web后端 & 运维专场'
+    detail:
+      - time: "10:30-11:40"
+        topic: "茶歇"
+        topic_en: "Tea Break"
+      - { time: "10:40-11:25", speaker: id_hongqiangning }
+      - { time: "11:25-12:10", speaker: id_hongqiangning }
+  -
+    name: '分会场D: Python 女性专场'
+    detail:
+      - time: "10:30-11:40"
+        topic: "茶歇"
+        topic_en: "Tea Break"
+      - { time: "10:40-11:25", speaker: id_hongqiangning }
+      - { time: "11:25-12:10", speaker: id_hongqiangning }
+
+
+speakers:
+  id_hongqiangning:
+    name: 洪强宁
+    name_en: Qiangning Hong
+    avatar: ./asset/images/avatar-2018/speakers/hongqiangning.png
+    avatar_en: ../asset/images/avatar-2018/speakers/hongqiangning.png
+    title: "爱因互动创始人兼CTO"
+    intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
+    intro_en: "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies."
+    topic:
+      title: "这16年来我从Python学到了什么）"
+      title_en: '从2002年开始接触Python以来，一晃已经16年了，Python从一门极其冷门的小众语言发展成了流行度第三的大众语言（TIOBE Index2018年9月数据），甚至成了引领下次产业革命的人工智能领域首选语言。这期间，我本人也从一个Python 爱好者，变成以Python为主要工作语言的程序员，变成为Python程序员提供服务的架构师，变成为多语言程序员提供服务的架构师，直到变成创业者兼CTO。一路走来，Python都是我的最爱，也是当前创业的利器。本次演讲，我无意挑起语言圣战，单讲我在学习和使用Python过程中，有些什么领悟，希望能给大家一些启发。'
+      preview: ""
+      preview_en: ...
+      slide: #
+
+volunteers:
+  -
+    avatar: 'chenshixin'
+    name: '陈世欣'
+    voltitle: '北京站 | 组委'
+    description: 'PyChina发起人 / Ahaschool-CTO'
+  -
+    avatar: 'dama'
+    name: '大妈'
+    voltitle: '北京站 | 组委'
+    description: '优势眼动-合伙人 / PyChina发起人'
+  -
+    avatar: 'lizheao'
+    name: '李者璈'
+    voltitle: '北京站 | 组委'
+    description: '闪银奇异-高级Python开发 / 北京组委负责人'
+  -
+    avatar: 'dengliangju'
+    name: '邓良驹'
+    voltitle: '北京站 | 组委'
+    description: '秘塔科技-工程总监 / Python工程化应用专场负责人'
+  -
+    avatar: 'laixintao'
+    name: '赖信涛'
+    voltitle: '北京站 | 组委'
+    description: '蚂蚁金服-SRE / 北京Python语言特性专场负责人'
+  -
+    avatar: 'shiyuankun'
+    name: '石元坤'
+    voltitle: '北京站 | 组委'
+    description: '英特尔软件工程师 / Python创新应用专场负责人'
+  -
+    avatar: 'hexiangyu'
+    name: '何翔宇'
+    voltitle: '北京站 | 组委'
+    description: 'TCL互联网事业部-Python工程师 / 北京核心组织者'
+  -
+    avatar: 'qianzhangnian'
+    name: '钱章年'
+    voltitle: '北京站 | 组委'
+    description: '创盛视联数码科技（北京）有限公司-研发经理 / 北京核心组织者'
