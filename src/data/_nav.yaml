@@ -1,7 +1,7 @@
 - title: 首页2018
   title_en: Home2018
-  url: "http://cn.pycon.org/2018/"
-  url_en: "http://cn.pycon.org/2018/"
+  url: "index.html"
+  url_en: "en/index.html"
   url_external: 1
 - title: 大会日程
   title_en: Schedule

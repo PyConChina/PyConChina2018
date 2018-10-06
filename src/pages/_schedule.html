@@ -66,31 +66,38 @@
     </div>
     {{ title_macro.title('讲师与主题', site) }}
     <div class="topicWraper">
-      {% for item in schedule.speakers %}
-        {{ topic_macro.topic(schedule.speakers[item], site) }}
-      {% endfor %}
+        {% if schedule.speakers %}
+            {% for item in schedule.speakers %}
+                {{ topic_macro.topic(schedule.speakers[item], site) }}
+            {% endfor %}
+        {% endif %}
     </div>
     {{ title_macro.title('组委与志愿者', site) }}
     <div class="volunteerWraper">
       <div class="row">
-        {% for item in schedule.volunteers %}
-          <div class="col-sm-6 col-md-4 col-lg-3" >
-            {{ volunteer_macro.volunteer(item, site) }}
-          </div>
-        {% endfor %}
+          {% if schedule.volunteers %}
+            {% for item in schedule.volunteers %}
+              <div class="col-sm-6 col-md-4 col-lg-3" >
+                {{ volunteer_macro.volunteer(item, site) }}
+              </div>
+            {% endfor %}
+          {% endif %}
       </div>
     </div>
     {% include "pages/_support.html" %}
     {{ title_macro.title('蟒人赞助', site) }}
     <div class="personalWraper">
-        {% for item in schedule.donators %}
-            <div class="personalItem">
-                <img src="{{ site.base_url }}/asset/images/basic/{{item.avatar}}" alt="">
-                <div class="name">{{item.name}}</div>
-            </div>
-        {% endfor %}
-        {% set donators_len = schedule.donators | length %}
-      <div class="total">共 <span class="yellow">{{donators_len}}</span> 位蟒人小伙伴为本次活动进行赞助 感谢支持</div>
+        {% if schedule.donators %}
+            {% for item in schedule.donators %}
+                <div class="personalItem">
+                    <img src="{{ site.base_url }}/asset/images/basic/{{item.avatar}}" alt="">
+                    <div class="name">{{item.name}}</div>
+                </div>
+            {% endfor %}
+            {% set donators_len = schedule.donators | length %}
+            <div class="total">共 <span class="yellow">{{donators_len}}</span> 位蟒人小伙伴为本次活动进行赞助 感谢支持</div>
+        {% endif %}
+
     </div>
   </div>
 {% endblock %}

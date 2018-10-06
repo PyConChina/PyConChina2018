@@ -6,7 +6,7 @@ shiJian_en: <b>Time</b>：2018.10.21
 diZhi: <b>活动地址</b>：上海市普陀区宜昌路130号(梦清园公园内)上海壹号码头艺术酒店2楼
 diZhi_en: <b>Address</b>：(Shanghai, Putuo)2nd Floor, Shanghai No.1 Art Hotel (in the Mengqing Park), No.130, Yichang Road, Putuo District
 tips: <b>大会日程</b><p>2018年10月21日 （ * 因为场地限制，本次大会将不提供午餐）</p>
-rightImg: 'beijingIcon.png'
+rightImg: 'shanghaiIcon.png'
 detailUrl: "city_shanghai.html"
 detailUrl_en: "en/city_shanghai.html"
 buyTicketUrl: 'http://www.huodongxing.com/event/5453261623411'
@@ -61,7 +61,9 @@ speakers:
 
 volunteers:
   -
-    avatar: 'chenshixin'
+    avatar: 'chenshixin.png'
     name: '陈世欣'
     voltitle: '北京站 | 组委'
     description: 'PyChina发起人 / Ahaschool-CTO'
+
+donators:

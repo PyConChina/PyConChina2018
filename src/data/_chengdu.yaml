@@ -6,10 +6,10 @@ shiJian_en: <b>Time</b>：2018.10.27
 diZhi: <b>活动地址</b>：四川省成都市郫都区犀安路999号西南交通大学(犀浦校区)
 diZhi_en: <b>Address</b>：(Sichuan, Chengdu)Southwest Jiaotong University (Xipu Campus), No. 999, Xi'an Road, Yaodu District
 tips: <b>大会日程</b><p>2018年10月27日 （ * 因为场地限制，本次大会将不提供午餐）</p>
-rightImg: 'beijingIcon.png'
+rightImg: 'chengduIcon.png'
 detailUrl: "city_chengdu.html"
 detailUrl_en: "en/city_chengdu.html"
-buyTicketUrl: 'https://www.baidu.com'
+buyTicketUrl: 'http://www.huodongxing.com/go/pyconcd2018'
 description: ""
 agenda:
   -
@@ -61,7 +61,9 @@ speakers:
 
 volunteers:
   -
-    avatar: 'chenshixin'
+    avatar: 'chenshixin.png'
     name: '陈世欣'
     voltitle: '北京站 | 组委'
     description: 'PyChina发起人 / Ahaschool-CTO'
+
+donators:
