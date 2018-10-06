@@ -11,15 +11,15 @@ to_be_volunteer: 申请志愿者
 to_be_volunteer_en: To be Volunteer
 to_be_volunteer_url: ""
 
-s1_daHuiRicheng: 大会日程
-s1_daHuiRicheng_en: Schedule
-s1_wangJieHuiGu: 往届回顾
-s1_wangJieHuiGu_en: History
-s1_heZuoZhiChi: 合作支持
-s1_heZuoZhiChi_en: Sponser
+title_schedule: 大会日程
+title_schedule_en: Schedule
+title_history: 往届回顾
+title_history_en: History
+title_sponsor: 合作支持
+title_sponsor_en: Sponsor
 
-chaKanXiangXiXinXi: 查看详情
-chaKanXiangXiXinXi_en: Details
-woYaoMaiPiao: 立即购票
-woYaoMaiPiao_en: Buy Now
+button_details: 查看详情
+button_details_en: Details
+button_buy: 立即购票
+button_buy_en: Buy Now
 

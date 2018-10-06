@@ -1,15 +1,16 @@
 title: hangzhou
-diDian: 杭州站
-diDian_en: Hangzhou
-shiJian: <b>活动时间</b>：2018.11.04
-shiJian_en: <b>Time</b>：2018.11.04
-diZhi: <b>活动地址</b>：浙江省杭州市滨江区信诚路567号诺基亚通信杭州全球研发中心B座4楼
-diZhi_en: <b>Address</b>：(Zhejiang, Hangzhou)4th Floor, Block B, Nokia Global R&D Center, NO.567, Xincheng Road, Binjiang District
+city_name: 杭州站
+city_name_en: Hangzhou
+time: <b>活动时间</b>：2018.11.04
+time_en: <b>Time</b>：2018.11.04
+address: <b>活动地址</b>：浙江省杭州市滨江区信诚路567号诺基亚通信杭州全球研发中心B座4楼
+address_en: <b>Address</b>：(Zhejiang, Hangzhou)4th Floor, Block B, Nokia Global R&D Center, NO.567, Xincheng Road, Binjiang District
+intro: ""
 tips: <b>大会日程</b><p>2018年11月04日 （ * 因为场地限制，本次大会将不提供午餐）</p>
-rightImg: 'hangzhouIcon.png'
-detailUrl: "city_hangzhou.html"
-detailUrl_en: "en/city_hangzhou"
-buyTicketUrl: 'http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158'
+city_icon: 'hangzhou_icon.png'
+detail_url: "city_hangzhou.html"
+detail_url_en: "en/city_hangzhou"
+buy_ticket_url: 'http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158'
 description: ""
 agenda:
   -

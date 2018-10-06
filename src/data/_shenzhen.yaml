@@ -1,15 +1,16 @@
 title: shenzhen
-diDian: 深圳站
-diDian_en: Shenzhen
-shiJian: <b>活动时间</b>：2018.10.27
-shiJian_en: <b>Time</b>：2018.10.27
-diZhi: <b>活动地址</b>：广东省深圳市南山区科苑路15号深圳科兴科学园国际会议中心3楼
-diZhi_en: <b>Address</b>：(Guangdong, Shenzhen)3rd Floor, Shenzhen Kexing Science Park International Conference Center, NO.15,  Keyuan Road, Nanshan District
+city_name: 深圳站
+city_name_en: Shenzhen
+time: <b>活动时间</b>：2018.10.27
+time_en: <b>Time</b>：2018.10.27
+address: <b>活动地址</b>：广东省深圳市南山区科苑路15号深圳科兴科学园国际会议中心3楼
+address_en: <b>Address</b>：(Guangdong, Shenzhen)3rd Floor, Shenzhen Kexing Science Park International Conference Center, NO.15,  Keyuan Road, Nanshan District
+intro: ""
 tips: <b>大会日程</b><p>2018年10月27日 （ * 因为场地限制，本次大会将不提供午餐）</p>
-rightImg: 'shenzhenIcon.png'
-detailUrl: "city_shenzhen.html"
-detailUrl_en: "en/city_shenzhen.html"
-buyTicketUrl: 'http://www.huodongxing.com/go/pycon2018sz'
+city_icon: 'shenzhen_icon.png'
+detail_url: "city_shenzhen.html"
+detail_url_en: "en/city_shenzhen.html"
+buy_ticket_url: 'http://www.huodongxing.com/go/pycon2018sz'
 description: ""
 agenda:
   -

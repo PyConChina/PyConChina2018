@@ -1,15 +1,16 @@
 title: shanghai
-diDian: 上海站
-diDian_en: Shanghai
-shiJian: <b>活动时间</b>：2018.10.21
-shiJian_en: <b>Time</b>：2018.10.21
-diZhi: <b>活动地址</b>：上海市普陀区宜昌路130号(梦清园公园内)上海壹号码头艺术酒店2楼
-diZhi_en: <b>Address</b>：(Shanghai, Putuo)2nd Floor, Shanghai No.1 Art Hotel (in the Mengqing Park), No.130, Yichang Road, Putuo District
+city_name: 上海站
+city_name_en: Shanghai
+time: <b>活动时间</b>：2018.10.21
+time_en: <b>Time</b>：2018.10.21
+address: <b>活动地址</b>：上海市普陀区宜昌路130号(梦清园公园内)上海壹号码头艺术酒店2楼
+address_en: <b>Address</b>：(Shanghai, Putuo)2nd Floor, Shanghai No.1 Art Hotel (in the Mengqing Park), No.130, Yichang Road, Putuo District
+intro: ""
 tips: <b>大会日程</b><p>2018年10月21日 （ * 因为场地限制，本次大会将不提供午餐）</p>
-rightImg: 'shanghaiIcon.png'
-detailUrl: "city_shanghai.html"
-detailUrl_en: "en/city_shanghai.html"
-buyTicketUrl: 'http://www.huodongxing.com/event/5453261623411'
+city_icon: 'shanghai_icon.png'
+detail_url: "city_shanghai.html"
+detail_url_en: "en/city_shanghai.html"
+buy_ticket_url: 'http://www.huodongxing.com/event/5453261623411'
 description: ""
 agenda:
   -

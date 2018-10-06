@@ -18,16 +18,16 @@
       <div class="agendaItem">
         <div class="left">
           <div class="title">
-            {{schedule.diDian}}
+            {{schedule.city_name}}
           </div>
           <div class="content">
             <div class="content-section">
-              <p>{{schedule.shiJian}}</p>
-              <p>{{schedule.diZhi}}</p>
+              <p>{{schedule.time}}</p>
+              <p>{{schedule.address}}</p>
             </div>
             <div class="content-section">
               <b>
-                {{schedule.zhuanChang}}
+                {{schedule.intro}}
               </b>
             </div>
             <div class="content-section">
@@ -56,11 +56,11 @@
               </div>
             {% endfor %}
           </div>
-          <button class="btn btn-blue" onclick="javascript:window.open('{{ schedule.buyTicketUrl }}')">我要参加</button>
+          <button class="btn btn-blue" onclick="javascript:window.open('{{ schedule.buy_ticket_url }}')">我要参加</button>
         </div>
         <div class="right">
           <img class="topimg" src="{{ site.base_url }}/asset/images/basic/s2_single_schedule_right_bj.png" />
-          <button class="btn btn-blue" onclick="javascript:window.open('{{ schedule.buyTicketUrl }}')">点我买票</button>
+          <button class="btn btn-blue" onclick="javascript:window.open('{{ schedule.buy_ticket_url }}')">点我买票</button>
         </div>
       </div>
     </div>

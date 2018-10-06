@@ -2,19 +2,19 @@
     <div class="mettingItem">
       <div class="left">
         <div class="leftContent {{city.title}}">
-          <div class="name">{{city.diDian}}</div>
-          <p>{{city.shiJian}}</p>
-          <p>{{city.diZhi}}</p>
-          <p>{{city.zhuanChang}}</p>
+          <div class="name">{{city.city_name}}</div>
+          <p>{{city.time}}</p>
+          <p>{{city.address}}</p>
+          <p>{{city.intro}}</p>
         </div>
-        <!--img src="{{ site.base_url }}/asset/images/basic/{{city.rightImg}}" alt=""-->
+        <!--img src="{{ site.base_url }}/asset/images/basic/{{city.city_icon}}" alt=""-->
       </div>
       <div class="right">
-        <a href={{city.detailUrl}}>
-          <button class="btn btn-blue">{{ site.chaKanXiangXiXinXi }}</button>
+        <a href={{city.detail_url}}>
+          <button class="btn btn-blue">{{ site.button_details }}</button>
         </a>
-        <a href={{city.buyTicketUrl}}>
-          <button class="btn btn-blue">{{ site.woYaoMaiPiao }}</button>
+        <a href={{city.buy_ticket_url}}>
+          <button class="btn btn-blue">{{ site.button_buy }}</button>
         </a>
       </div>
       <div class="m_right">
