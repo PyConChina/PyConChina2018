@@ -1,5 +1,18 @@
-title: beijing 
-citydescription: |
+title: beijing
+diDian: 北京站
+diDian_en: Beijing
+shiJian: <b>活动时间</b>：2018.10.14
+shiJian_en: <b>Time</b>：2018.10.14
+diZhi: <b>活动地址</b>：北京市朝阳区东北三环七圣中街12号云南大厦新云南皇冠假日酒店
+diZhi_en: <b>Address</b>：(Beijing, eastern city)New Yunnan Crowne Plaza Hotel, Yunan Building, No. 12, Qisheng Middle Street, Northeast Third Ring, Chaoyang District
+zhuanChang: Python语言特性专场 | 机器学习＆大数据专场 | 机器学习＆大数据专场 | Python女性专场专场
+zhuanChang_en: Python Language Features | Machine Learning & Big Data Session | Web Session ( Web Development / Network Security / Crawler / SDK / API Design ) | Python Session for Women
+tips: <b>大会日程</b><p>2018年10月14日 （ * 因为场地限制，本次大会将不提供午餐）</p>
+rightImg: 'beijingIcon.png'
+detailUrl: "city_beijing.html"
+detailUrl_en: "en/city_beijing.html"
+buyTicketUrl: 'http://www.huodongxing.com/event/7451673665100?td=8211933664158'
+description: |
   <p>开源编程语言Python近年在互联网、人工智能、科学计算、游戏、云计算、大数据、运维、企业软件等领域有非常出色的表现。</p>
   <p>PyCon是Python语言社群的全球性技术盛会，PyConChina是由PyCon官方授权CPyUG(华蠎用户组)志愿，公益举办的Python年会。过去7年在北京、上海、广州、珠海、杭州、苏州、西安、合肥等地成功举办20余次。</p>
   <p>第八届中国Python开发者大会PyConChina2018，由PyChina.org发起，由来自CPyUG/TopGeek等社区的30位组织者，近150位志愿者在北京、上海、深圳、杭州、成都等城市举办。致力于推动各类Python相关的技术在互联网、企业应用等领域的研发和应用。</p>
@@ -16,7 +29,7 @@ agenda:
         topic: "开场致词—致敬 Pythoneer"
         topic_en: "Check-in"
       - { time: "09:20-10:00", speaker: id_hongqiangning }
-      - { time: "10:00-10:40", speaker: id_hongqiangning    }
+      - { time: "10:00-10:40", speaker: id_hongqiangning }
 
   -
     name: '分会场A：Python 语言特性专场'
@@ -51,18 +64,16 @@ agenda:
       - { time: "10:40-11:25", speaker: id_hongqiangning }
       - { time: "11:25-12:10", speaker: id_hongqiangning }
 
-
 speakers:
   id_hongqiangning:
     name: 洪强宁
     name_en: Qiangning Hong
-    avatar: ./asset/images/avatar-2018/speakers/hongqiangning.png
-    avatar_en: ../asset/images/avatar-2018/speakers/hongqiangning.png
+    avatar: lecturer_hongqiangning.png
     title: "爱因互动创始人兼CTO"
     intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
     intro_en: "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies."
     topic:
-      title: "这16年来我从Python学到了什么）"
+      title: "这16年来我从Python学到了什么"
       title_en: '从2002年开始接触Python以来，一晃已经16年了，Python从一门极其冷门的小众语言发展成了流行度第三的大众语言（TIOBE Index2018年9月数据），甚至成了引领下次产业革命的人工智能领域首选语言。这期间，我本人也从一个Python 爱好者，变成以Python为主要工作语言的程序员，变成为Python程序员提供服务的架构师，变成为多语言程序员提供服务的架构师，直到变成创业者兼CTO。一路走来，Python都是我的最爱，也是当前创业的利器。本次演讲，我无意挑起语言圣战，单讲我在学习和使用Python过程中，有些什么领悟，希望能给大家一些启发。'
       preview: ""
       preview_en: ...
@@ -70,42 +81,63 @@ speakers:
 
 volunteers:
   -
-    avatar: 'chenshixin'
+    avatar: 'chenshixin.png'
     name: '陈世欣'
     voltitle: '北京站 | 组委'
     description: 'PyChina发起人 / Ahaschool-CTO'
   -
-    avatar: 'dama'
+    avatar: 'dama.png'
     name: '大妈'
     voltitle: '北京站 | 组委'
     description: '优势眼动-合伙人 / PyChina发起人'
   -
-    avatar: 'lizheao'
+    avatar: 'lizheao.png'
     name: '李者璈'
     voltitle: '北京站 | 组委'
     description: '闪银奇异-高级Python开发 / 北京组委负责人'
   -
-    avatar: 'dengliangju'
+    avatar: 'dengliangju.png'
     name: '邓良驹'
     voltitle: '北京站 | 组委'
     description: '秘塔科技-工程总监 / Python工程化应用专场负责人'
   -
-    avatar: 'laixintao'
+    avatar: 'laixintao.png'
     name: '赖信涛'
     voltitle: '北京站 | 组委'
     description: '蚂蚁金服-SRE / 北京Python语言特性专场负责人'
   -
-    avatar: 'shiyuankun'
+    avatar: 'shiyuankun.png'
     name: '石元坤'
     voltitle: '北京站 | 组委'
     description: '英特尔软件工程师 / Python创新应用专场负责人'
   -
-    avatar: 'hexiangyu'
+    avatar: 'hexiangyu.png'
     name: '何翔宇'
     voltitle: '北京站 | 组委'
     description: 'TCL互联网事业部-Python工程师 / 北京核心组织者'
   -
-    avatar: 'qianzhangnian'
+    avatar: 'qianzhangnian.png'
     name: '钱章年'
     voltitle: '北京站 | 组委'
     description: '创盛视联数码科技（北京）有限公司-研发经理 / 北京核心组织者'
+
+
+donators:
+  -
+    name: "Mxuan_小错"
+    avatar: 'personal.png'
+  -
+    name: "Silence.M"
+    avatar: 'personal.png'
+  -
+    name: "Cynthia Xin"
+    avatar: 'personal.png'
+  -
+    name: "kavin"
+    avatar: 'personal.png'
+  -
+    name: "朱明放"
+    avatar: 'personal.png'
+  -
+    name: "蔡琪明"
+    avatar: 'personal.png'

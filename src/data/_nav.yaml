@@ -8,24 +8,24 @@
   children:
   - title: 北京站__10.14
     title_en: Beijing__10.14
-    url: ""
-    url_en: ""
+    url: "city_beijing.html"
+    url_en: "en/city_beijing.html"
   - title: 上海站__10.21
     title_en: Shanghai__10.21
-    url: ""
-    url_en: ""
+    url: "city_shanghai.html"
+    url_en: "en/city_shanghai.html"
   - title: 深圳站__10.27
     title_en: Shenzhen__10.27
-    url: ""
-    url_en: ""
+    url: "city_shenzhen.html"
+    url_en: "en/city_shenzhen.html"
   - title: 成都站__10.27
     title_en: Chengdu__10.27
-    url: ""
-    url_en: ""
+    url: "city_chengdu.html"
+    url_en: "en/city_chengdu.html"
   - title: 杭州站__11.04
     title_en: Hangzhou__11.04
-    url: ""
-    url_en: ""
+    url: "city_hangzhou.html"
+    url_en: "en/city_hangzhou"
 - title: 往届回顾
   title_en: History
   children:
