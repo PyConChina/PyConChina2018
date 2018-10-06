@@ -2,7 +2,6 @@
   title_en: Home2018
   url: "index.html"
   url_en: "en/index.html"
-  url_external: 1
 - title: 大会日程
   title_en: Schedule
   children:
@@ -66,20 +65,20 @@
     url_external: 1
 - title: 相关资讯
   title_en: News
-  url: ""
-  url_en: ""
+  url: "index.html"
+  url_en: "en/index.html"
 - title: 组委&志愿者
   title_en: Organizer
-  url: ""
-  url_en: ""
+  url: "index.html"
+  url_en: "en/index.html"
 - title: 讲师
   title_en: Speaker
-  url: ""
-  url_en: ""
+  url: "index.html"
+  url_en: "en/index.html"
 - title: 赞助
   title_en: Sponser
-  url: ""
-  url_en: ""
+  url: "index.html"
+  url_en: "en/index.html"
 - title: EN
   title_en: 中文
   url: "en/index.html"
