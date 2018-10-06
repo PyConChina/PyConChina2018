@@ -1,32 +1,32 @@
 - title: 首页2018
-  title_en: Home2018
+  title_en: HOME2018
   url: "index.html"
   url_en: "en/index.html"
 - title: 大会日程
-  title_en: Schedule
+  title_en: SCHEDULE
   children:
   - title: 北京站__10.14
-    title_en: Beijing__10.14
+    title_en: BEIJING__10.14
     url: "city_beijing.html"
     url_en: "en/city_beijing.html"
   - title: 上海站__10.21
-    title_en: Shanghai__10.21
+    title_en: SHANGHAI__10.21
     url: "city_shanghai.html"
     url_en: "en/city_shanghai.html"
   - title: 深圳站__10.27
-    title_en: Shenzhen__10.27
+    title_en: SHENZHEN__10.27
     url: "city_shenzhen.html"
     url_en: "en/city_shenzhen.html"
   - title: 成都站__10.27
-    title_en: Chengdu__10.27
+    title_en: CHENGDU__10.27
     url: "city_chengdu.html"
     url_en: "en/city_chengdu.html"
   - title: 杭州站__11.04
-    title_en: Hangzhou__11.04
+    title_en: HANGZHOU__11.04
     url: "city_hangzhou.html"
-    url_en: "en/city_hangzhou"
+    url_en: "en/city_hangzhou.html"
 - title: 往届回顾
-  title_en: History
+  title_en: HISTORY
   children:
   - title: 2011
     title_en: 2011
@@ -64,19 +64,19 @@
     url_en: "http://cn.pycon.org/2017/en/index.html"
     url_external: 1
 - title: 相关资讯
-  title_en: News
+  title_en: NEWS
   url: "index.html"
   url_en: "en/index.html"
 - title: 组委&志愿者
-  title_en: Organizer
+  title_en: ORGANIZER
   url: "index.html"
   url_en: "en/index.html"
 - title: 讲师
-  title_en: Speaker
+  title_en: SPEAKER
   url: "index.html"
   url_en: "en/index.html"
 - title: 赞助
-  title_en: Sponser
+  title_en: SPONSER
   url: "index.html"
   url_en: "en/index.html"
 - title: EN

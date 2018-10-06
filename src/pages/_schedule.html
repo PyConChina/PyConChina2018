@@ -13,7 +13,7 @@
     <div class="metting-description">
       {{schedule.description}}
     </div>
-    {{ title_macro.title('大会日程', site) }}
+    {{ title_macro.title(site.title_schedule, site) }}
     <div class="agendaWraper">
       <div class="agendaItem">
         <div class="left">
@@ -60,11 +60,11 @@
         </div>
         <div class="right">
           <img class="topimg" src="{{ site.base_url }}/asset/images/basic/s2_single_schedule_right_bj.png" />
-          <button class="btn btn-blue" onclick="javascript:window.open('{{ schedule.buy_ticket_url }}')">点我买票</button>
+          <button class="btn btn-blue" onclick="javascript:window.open('{{ schedule.buy_ticket_url }}')">{{site.button_buy}}</button>
         </div>
       </div>
     </div>
-    {{ title_macro.title('讲师与主题', site) }}
+    {{ title_macro.title(site.title_speaker, site) }}
     <div class="topicWraper">
         {% if schedule.speakers %}
             {% for item in schedule.speakers %}
@@ -72,7 +72,7 @@
             {% endfor %}
         {% endif %}
     </div>
-    {{ title_macro.title('组委与志愿者', site) }}
+    {{ title_macro.title(site.title_volunteer, site) }}
     <div class="volunteerWraper">
       <div class="row">
           {% if schedule.volunteers %}
@@ -85,7 +85,7 @@
       </div>
     </div>
     {% include "pages/_support.html" %}
-    {{ title_macro.title('蟒人赞助', site) }}
+    {{ title_macro.title(site.title_donator, site) }}
     <div class="personalWraper">
         {% if schedule.donators %}
             {% for item in schedule.donators %}

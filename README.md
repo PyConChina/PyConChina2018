@@ -5,7 +5,8 @@ The official website of PyCon China 2018, 基于 [https://github.com/PyConChina/
 
 ```
 npm install uglify-js -g
-sudo gem install stylus
+# sudo gem install stylus
+npm install stylus -g
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt

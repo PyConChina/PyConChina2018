@@ -3,9 +3,9 @@
 {{ title_macro.title(site.title_sponsor, site) }}
 
   <div class="supportWraper">
-    {% for sponsor_meta in sponsors.meta %}
-        <div class="row">
-             {{ sponsors_macro.sponsor_info_block(sponsor_meta, sponsors[sponsor_meta.level], site) }}
+       <div class="row">
+             {% for sponsor_meta in sponsors.meta %}
+              {{ sponsors_macro.sponsor_info_block(sponsor_meta, sponsors[sponsor_meta.level], site) }}
+            {% endfor %}
         </div>
-    {% endfor %}
   </div>

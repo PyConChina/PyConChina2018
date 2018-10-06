@@ -9,7 +9,7 @@ intro: ""
 tips: <b>大会日程</b><p>2018年10月27日 （ * 因为场地限制，本次大会将不提供午餐）</p>
 city_icon: 'chengdu_icon.png'
 detail_url: "city_chengdu.html"
-detail_url_en: "en/city_chengdu.html"
+detail_url_en: "city_chengdu.html"
 buy_ticket_url: 'http://www.huodongxing.com/go/pyconcd2018'
 description: ""
 agenda:
@@ -54,9 +54,9 @@ speakers:
     intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
     intro_en: "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies."
     topic:
-      title: "这16年来我从Python学到了什么）"
-      title_en: '从2002年开始接触Python以来，一晃已经16年了，Python从一门极其冷门的小众语言发展成了流行度第三的大众语言（TIOBE Index2018年9月数据），甚至成了引领下次产业革命的人工智能领域首选语言。这期间，我本人也从一个Python 爱好者，变成以Python为主要工作语言的程序员，变成为Python程序员提供服务的架构师，变成为多语言程序员提供服务的架构师，直到变成创业者兼CTO。一路走来，Python都是我的最爱，也是当前创业的利器。本次演讲，我无意挑起语言圣战，单讲我在学习和使用Python过程中，有些什么领悟，希望能给大家一些启发。'
-      preview: ""
+      title: "这16年来我从Python学到了什么"
+      title_en: '这16年来我从Python学到了什么'
+      preview: "从2002年开始接触Python以来，一晃已经16年了，Python从一门极其冷门的小众语言发展成了流行度第三的大众语言（TIOBE Index2018年9月数据），甚至成了引领下次产业革命的人工智能领域首选语言。这期间，我本人也从一个Python 爱好者，变成以Python为主要工作语言的程序员，变成为Python程序员提供服务的架构师，变成为多语言程序员提供服务的架构师，直到变成创业者兼CTO。一路走来，Python都是我的最爱，也是当前创业的利器。本次演讲，我无意挑起语言圣战，单讲我在学习和使用Python过程中，有些什么领悟，希望能给大家一些启发。"
       preview_en: ...
       slide: #
 
