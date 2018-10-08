@@ -8,6 +8,7 @@ address_en: <b>Address</b>：(Beijing, eastern city)New Yunnan Crowne Plaza Hote
 intro: Python语言特性专场 | 机器学习＆大数据专场 | 机器学习＆大数据专场 | Python女性专场专场
 intro_en: Python Language Features | Machine Learning & Big Data Session | Web Session ( Web Development / Network Security / Crawler / SDK / API Design ) | Python Session for Women
 tips: <b>大会日程</b><p>2018年10月14日 （ * 因为场地限制，本次大会将不提供午餐）</p>
+tips_en: <b>Conference schedule</b><p>2018.10.14 （ * Due to venue restrictions, no lunch will be offered at this conference.）</p>
 city_icon: 'beijing_icon.png'
 detail_url: "city_beijing.html"
 detail_url_en: "city_beijing.html"
@@ -21,48 +22,178 @@ description: |
   <p>今年的PyConChina2018将主会场设在北京。北京是Pythoneer最集中的城市。我们将以上午千人峰会的主会场和下午4个分会场的形势来最大程度地去满足各领域Pythoneer们的诉求。（北京核心组织者李者璈的建议下首次开设Python女性专场）。</p>
   <p>上海、杭州、深圳、成都作为分会场，将根据主题申报情况，大家的参与意愿，以及结合地方特色，协调安排具体分享日程。</p>
   <p>我们欢迎其他地区的Pyhoneer在讲师和场地成熟的情况下，发起PyCon，让更多的Pyhoneer一起来交流，也让更多的人了解、认识、使用Python。</p>
+description_en: |
+  <p>In recent years, Python has excellent performance in the fields of Internet, artificial intelligence, scientific computing, game, cloud computing, big data, devops, and enterprise software. </p>
+  <p>PyCon is a global technology conference for the Python language community. PyCon China is an Annual meeting of Python, which licensed by PyCon and hosted by CPyUG(Chinese Python User Group). In the past 7 years, it has successfully held more than 20 times in Beijing, Shanghai, Guangzhou, Zhuhai, Hangzhou, Suzhou, Xi'an and Hefei. </p>
+  <p>The  8th China Python Developers Conference PyCon China 2018 is sponsored by PyChina.org, organized by 30 organizers from CPyUG / TopGeek and nearly 150 volunteers in Beijing, Shanghai, Shenzhen, Hangzhou and Chengdu. It will commit to  the development and application of various Python-related technologies in the fields of Internet and enterprise applications. </p>
+  <p>With the rapid development of big data and artificial intelligence, Python brings huge opportunities to developers.</p>
+  <p>Each Pythoner has their own PyCon conference in mind, and the organizing committee of the conference is also working on a conference that will help Pythoner. So this year —— in the 8th year of PyCon China, we will break the past conventions and welcome all developers who are committed to promoting Python technology to join our organizing committee, lecturers, and volunteers. Together with the famous Python experts and enthusiastic Python promotion ambassadors to promote the Python language and its latest applications to the whole society. Let us work together to make the PyCon conference become an big party of gathering and sharing of experiences and achievements for pythoners once a year.</p>
+  <p>The main venue of PyCon China 2018 is located in Beijing, because Beijing is the most concentrated city of Pythoners. We will try our best to meet the demands of Pythoners in various fields with the main venue of thousand people summit in the morning and the 5-6 breakout venue in the afternoon. At the same time, the Python special session for women was opened for the first time under the advice of Beijing core organizer Zheao Lee. </p>
+  <p>Shanghai, Hangzhou, Shenzhen and Chendu are the breakout venues. We will coordinate and arrange the specific sharing schedules according to the application situation of subject, the willingness of everyone to participate, and the local characteristics.</p>
+  <p>In the case where the lecturer and the venue are mature, we welcome Pyhoners from other regions to launch the PyCon conference, in order to making more Pythoners talk and share together, and making more people understand, recognize, use Python and become experts. </p>
 agenda:
   -
     name: "主会场"
+    name_en: "The main venue"
     detail:
       - time: "09:00-09:20"
         topic: "开场致词—致敬 Pythoneer"
-        topic_en: "Check-in"
-      - { time: "09:20-10:00", speaker: id_hongqiangning }
-      - { time: "10:00-10:40", speaker: id_hongqiangning }
+        topic_en: "Opening remarks - pay tribute to pythoneer"
+      - time: "09:20-10:00"
+        topic: "我的Python之路（暂定） 【洪强宁 ，爱因互动-创始人兼CTO】"
+        topic_en: "My Python Road (tentative) 【Qiangning Hong ，Founder and CTO of einplus】"
+      - time: "10:00-10:40"
+        topic: "主题待定 【Ezio Melotti ，CPython-Core Developer】"
+        topic_en: "Subject to be determined 【Ezio Melotti ，CPython-Core Developer】"
+      - time: "10:40-11:20"
+        topic: "主题待定 【清风 ，币信】"
+        topic_en: "Subject to be determined "
+      - time: "11:20-12:00"
+        topic: "借助Python开源生态打造企业级自动化测试框架（HttpRunner）【李隆（debugtalk），大疆创新-测试开发负责人】"
+        topic_en: "Build an enterprise-level automated testing framework HttpRunner with Python open source ecosystem【Leo Lee（debugtalk），Leader of DJI test developement】"
 
   -
     name: '分会场A：Python 语言特性专场'
+    name_en: "breakout venue 1: Python Language Features"
     detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
+      -
+        time: '13:00-13:45'
+        topic: '我的Python进程怎么了【张翔，CPython-Core Developer】'
+        topic_en: "What happened to my Python process? 【Xiang Zhang，CPython-Core Developer】"
+      -
+        time: '13:45-14:30'
+        topic: 'Python JIT 的实现思路 【Nightynight ，MSRA】'
+        topic_en: "Implementation ideas of Python JIT 【Nightynight ，MSRA】"
+      -
+        time: '14:30-15:15'
+        topic: '解锁 GIL 的新姿势 【Gashero ，独立开发者】'
+        topic_en: "New Pose of Unlock GIL 【Gashero ，Independent developer】"
+      -
+        time: '15:15-15:30'
+        topic: '茶歇'
         topic_en: "Tea Break"
-      - { time: "10:40-11:25", speaker: id_hongqiangning }
-      - { time: "11:25-12:10", speaker: id_hongqiangning }
+      -
+        time: '15:30-16:15'
+        topic: '如何在Python中调用 Rust 【吕路生 ，蚂蚁金服-后端工程师】'
+        topic_en: "How to use Rust in Python 【Lusheng Lv ，Backend development of Ant Financial】"
+      -
+        time: '16:15-17:00'
+        topic: '主题待定 【姚刚强 ，知乎-社区架构技术负责人】'
+        topic_en: "Subject to be determined 【Gangqiang Yao ，Technical Leader of Community Division of Zhihu】"
+      -
+        time: '17:00-17:15'
+        topic: '理解Python MRO 
+【何翔宇/正小歪 ，TCL-互联网事业本部Python工程师】（快速演讲）'
+        topic_en: "Understand of Python MRO 
+【Xiangyu He ，Python engineer of TCL Internet Division】(Quick speech)"
+      -
+        time: '17:15-17:30'
+        topic: '活动结束，抽奖，合影留恋'
+        topic_en: "Ending, Lottery, Taking photo"
   -
     name: '分会场B: 人工智能 & 大数据 & 区块链'
+    name_en: "breakout venue 2: Machine Learning & Big Data Session"
     detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-      - { time: "10:40-11:25", speaker: id_hongqiangning }
-      - { time: "11:25-12:10", speaker: id_hongqiangning }
+      -
+        time: '13:00-13:45'
+        topic: '健壮高效的网络爬虫 【崔庆才，微软中国有限公司-大数据工程师】'
+        topic_en: 'Robust and efficient web crawler 【Qingcai Cui ，Big Data Engineer of Microsoft China】'
+      -
+        time: '13:45-14:30'
+        topic: '人工智能实战案例分享 【李金洪 ，代码医生-主程】'
+        topic_en: 'Artificial Intelligence Case Study Sharing - Image Processing and Numerical Analysis 【Jinhong Lee ，Main engineer of Code doctor】'
+      -
+        time: '14:30-15:15'
+        topic: 'Mars——基于矩阵的统一计算框架
+【秦续业 ，阿里巴巴-平台事业部专家】'
+        topic_en: 'Mars - Matrix-based unified computing framework
+【Xuye Qin ，Computing Platform Department of Alibaba】'
+      -
+        time: '15:15-15:30'
+        topic: '茶歇'
+        topic_en: 'Tea Break'
+      -
+        time: '15:30-16:15'
+        topic: 'Hands on with the Google TPUv2 【王顺 ，谷歌云-顾问】'
+        topic_en: 'Hands on with the Google TPUv2 【Shun Wang ，Cloud Advisor of Google】'
+      -
+        time: '16:15-17:00'
+        topic: '区块链资产管理中的Python 【陈晓优 ，上海韦恩开猿软件科技有限公司-创始人】'
+        topic_en: 'Python in Blockchain Asset Management 【Xiaoyou Chen ，Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd.】'
+      -
+        time: '17:00-17:15'
+        topic: '基于Python生态圈的企业级数据科学平台演化路径 【以哲 Rick Liu ，平安集团-数据科学家】（快速演讲）'
+        topic_en: 'Evolution Path of Enterprise Data Science Platform Based on Python Ecosphere 【Rick Liu ，Data scientist of PING AN】(Quick speech)'
+      -
+        time: '17:15-17:30'
+        topic: '活动结束，抽奖，合影留恋'
+        topic_en: 'Ending, Lottery, Taking photo'
   -
     name: '分会场C: 架构 & Web后端 & 运维专场'
+    name_en: 'breakout venue 3: Web Session ( Web Development / Network Security / Crawler / SDK / API Design )'
     detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-      - { time: "10:40-11:25", speaker: id_hongqiangning }
-      - { time: "11:25-12:10", speaker: id_hongqiangning }
+      -
+        time: '13:00-13:45'
+        topic: '用Python打造Serverless平台，从0到1 【何世友，爱范儿-CTO】'
+        topic_en: 'Form 0-1, create a Serverless platform by using Python 【Ernest He，ifanr - CTO】'
+      -
+        time: '13:45-14:30'
+        topic: '我的Python黑客之路 【孔韬循 ，丁牛科技-首席安全官】'
+        topic_en: 'My Python Hacker Road (tentative) 【Taoxun Kong ，Chief security officer(CSO) of digapis】'
+      -
+        time: '14:30-15:15'
+        topic: '基于Docker的CI/CD实践 【张晋涛 ，网易-资深运维开发工程师】'
+        topic_en: 'CI/CD Practice Based on Docker 【Jintao Zhang ，Senior Devops of NetEase】'
+      -
+        time: '15:15-15:30'
+        topic: '茶歇'
+        topic_en: 'Tea Break'
+      -
+        time: '15:30-16:15'
+        topic: '以史为鉴：30分钟理解Web核心技术体系
+【邓良驹 ，秘塔科技-工程总监】'
+        topic_en: 'Taking history as a guide: Understand the Web core technology system in half an hour
+【Liangju Deng ，Engineering Director of metasota】'
+      -
+        time: '16:15-17:00'
+        topic: '自由的Flask 【李辉 ，Flask开发团队（Pallets Team）-成员】'
+        topic_en: 'The Free Flask 【Grey Li ，member of Pallets Team】'
+      -
+        time: '17:00-17:15'
+        topic: 'Python在嵌入式系统开发中的应用 【周小毛 ，艾润物联-开发经理】（快速演讲）'
+        topic_en: 'Application of Python in embedded system development 【Xiaomao Zhou ，Development Manager of iRain Parking】(Quick speech)'
+      -
+        time: '17:15-17:30'
+        topic: '活动结束，抽奖，合影留恋'
+        topic_en: 'Ending, Lottery, Taking photo'
   -
     name: '分会场D: Python 女性专场'
+    name_en: 'breakout venue 4: Python Session for Women'
     detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-      - { time: "10:40-11:25", speaker: id_hongqiangning }
-      - { time: "11:25-12:10", speaker: id_hongqiangning }
+      -
+        time: '13:00-13:45'
+        topic: '用Python可以做哪些有趣的事之实现一个包含身份认证模块的网站应用 【常卉，ThoughtWorks-咨询师】'
+        topic_en: 'What can be done with Python — Implement a web application that includes an identity authentication module 【Hui Chang，Consultant of ThoughtWorks】'
+      -
+        time: '13:45-14:30'
+        topic: 'Python在密码学中的应用 【赵文天 ，丁牛科技-渗透测试工程师】'
+        topic_en: 'Python application in cryptography 【Wentian Zhao ，Penetration Test Engineer of DigApis】'
+      -
+        time: '14:30-14:45'
+        topic: '我们的养老金怎么办 - 用定投的方式为自己增加额外保障 【郭李灼 ，IT老兵-python爱好】（快速演讲）'
+        topic_en: 'What about our pension? 【Leezhuo Guo ，IT Veteran / Fan of Python】(Quick speech)'
+      -
+        time: '14:45-15:00'
+        topic: '茶歇'
+        topic_en: 'Tea Break'
+      -
+        time: '15:00-17:15'
+        topic: '【Work Shop】需自带电脑'
+        topic_en: '【Work Shop】take computer by yourself'
+      -
+        time: '17:15-17:30'
+        topic: '活动结束，抽奖，合影留恋'
+        topic_en: 'Ending, Lottery, Taking photo'
 
 speakers:
   id_hongqiangning:
@@ -70,15 +201,385 @@ speakers:
     name_en: Qiangning Hong
     avatar: lecturer_hongqiangning.png
     title: "爱因互动创始人兼CTO"
+    title_en: "Founder and CTO of einplus"
     intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
     intro_en: "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies."
     topic:
       title: "这16年来我从Python学到了什么"
-      title_en: '这16年来我从Python学到了什么'
+      title_en: 'My Python Road (tentative)'
       preview: "从2002年开始接触Python以来，一晃已经16年了，Python从一门极其冷门的小众语言发展成了流行度第三的大众语言（TIOBE Index2018年9月数据），甚至成了引领下次产业革命的人工智能领域首选语言。这期间，我本人也从一个Python 爱好者，变成以Python为主要工作语言的程序员，变成为Python程序员提供服务的架构师，变成为多语言程序员提供服务的架构师，直到变成创业者兼CTO。一路走来，Python都是我的最爱，也是当前创业的利器。本次演讲，我无意挑起语言圣战，单讲我在学习和使用Python过程中，有些什么领悟，希望能给大家一些启发。"
-      preview_en: ...
+      preview_en: "缺"
       slide: #
-
+  id_eziomelotti:
+    name: Ezio Melotti
+    name_en: Ezio Melotti
+    avatar: lecturer_eziomelotti.png
+    title: CPython 核心开发工程师
+    title_en: CPython Core Developer
+    intro: "Ezio Melotti是一名软件工程师，拥有近20年的多语种软件开发和编程经验。他出生在米兰（意大利），于2007年搬家到图尔库（芬兰）并在图尔库上了大学。大学毕业后就留在图尔库应用科学大学任教。在2009年，成为CPython的核心开发人员，多年来贡献了1000多个变更集。他还是bug追踪器和html包的维护者，并在测试套件、文档和标准库上有很大贡献。"
+    intro_en: "Ezio Melotti is a software engineer with almost 20 years of experience in software development and programming with several different languages. Born in Milan (Italy), he decided to move to Turku (Finland) in the year 2007, where he graduated and then taught at the Turku University of Applied Sciences. In 2009 he became CPython Core Developer and contributed over 1000 changesets over the years. He is also the maintainer of the bug tracker and the html package and did extensive work on the test suite, on the documentation, and on the standard library."
+    topic:
+      title: "The Development Process of CPython"
+      title_en: "The Development Process of CPython"
+      preview: "缺"
+      preview_en: "Python is an open-source language where everyone can
+contribute.  Over the years the workflow used by both contributors and
+core developers changed dramatically, from patches sent via email to
+pull requests sent on GitHub.  With this talk I want to unveil what
+currently happens ''behind the scenes'' of CPython and how you can get
+involved and be part of the open source community that allows Python
+to be one of the most popular programming languages."
+  id_lilong:
+    name: 李隆（debugtalk)
+    name_en: Leo Lee(debugtalk)
+    avatar: lecturer_lilong.png
+    title: 大疆创新测试开发负责人
+    title_en: Leader of DJI test developement
+    intro: "李隆（debugtalk），DebugTalk博主，HttpRunner作者。7年软件测试行业经历，重度 Python 爱好者，始终致力于Python在软件测试领域的应用和推广。信奉Python之禅，追求代码的简洁和优雅，于人生亦然。当前在大疆创新负责测试开发方面的工作。"
+    intro_en: "Leo Lee (debugtalk), DebugTalk Blogger, the author of HttpRunner. 7 years‘ experience in software testing industry, heavy Python enthusiasts, always committed to Python in software testing field of application and promotion. Embracing the Zen of Python, pursuiting of simplicity and elegance in code, as well as in life. Currently in DJI is responsible for testing and development work."
+    topic:
+      title: "借助Python开源生态打造企业级自动化测试框架HttpRunner"
+      title_en: "Build an enterprise-level automated testing framework HttpRunner with Python open source ecosystem"
+      preview: |
+        1、Python 在软件测试领域的生态
+        2、HttpRunner 的诞生背景
+        3、HttpRunner 的开发设计思路
+        4、基于 HttpRunner 的自动化测试方案
+        5、基于 HttpRunner 的成功实践案例"
+      preview_en: |
+        1. Python's ecology in the field of software testing<br/>
+        2. The birth background of HttpRunner<br/>
+        3. The development and design ideas of HttpRunner<br/>
+        4. Automated test program based on HttpRunner<br/>
+        5. Successful practice case based on HttpRunner
+  id_zhangxiang:
+    name: 张翔
+    name_en: Xiang Zhang
+    avatar: lecturer_zhangxiang.png
+    title: CPython 核心开发工程师 / CPython 组织者
+    title_en: CPython Core Developer / CPython Committer
+    intro: "更新中ing"
+    intro_en: "updating…"
+    topic:
+      title: "我的Python进程怎么了"
+      title_en: "What happened to my Python process?"
+      preview: "分享自己工作场景中 CPython 开发最常遇到的问题和解决问题的调试的工具；以及对未来Python调试、监控的思考。"
+      preview_en: "This speech will share the most frequently encountered problems in CPython development and the tools for debugging problems in your own work scenario; also, it will talk the thinking about Python debugging and monitoring in future."
+  id_nightynight:
+    name: nightynight
+    name_en: nightynight
+    avatar: lecturer_nightynight.png
+    title: MSRA
+    title_en: MSRA
+    intro: "来自MSRA，对于Python语言特性及底层有极深的研究"
+    intro_en: "From MSRA, has very deep research on features and underlying of Python language"
+    topic:
+      title: "Python JIT的实现思路"
+      title_en: "Implementation ideas of Python JIT"
+      preview: "通过元编程扩展对cpython vm的利用，提升代码复用率，抽象能力和运行时程序执行效率。以及介绍如何在兼容cpython生态的情况下引入jit和类型检查工具"
+      preview_en: "Extend the use of cpython vm through metaprogramming to improve code reuse rate, abstract ability and runtime program execution efficiency. Also to introduce How to introduce JIT and type checking tools in a compatible cpython ecosystem."
+  id_eziomelotti:
+    name: Gashero
+    name_en: Gashero
+    avatar: lecturer_gashero.png
+    title: 独立开发者
+    title_en: Independent developer
+    intro: "2005年开始研习Python，陆续分享了过百万字的Python笔记和翻译文档。前土豆网助理架构师，前果壳网创始技术总监，前deepglint工程师，前RoboTerra软件工程总监。无线电/航模/机器人爱好者。"
+    intro_en: "He started learning Python in 2005 and have shared millions of words of Python notes and translated documents. Former Tudou Assistant Architect, former Crust Network Founding Technical Director, former deepglint engineer, former RoboTerra Software Engineering Director. Fans of Radio/model/robot."
+    topic:
+      title: "解锁GIL的新姿势"
+      title_en: "New Pose of Unlock GIL"
+      preview: "将系统的介绍GIL的成因以及所带来的副作用。并且带来一整套合理规避GIL的解决方案，更好的提升Python在线上的性能表现。"
+      preview_en: "This speech will systematically introduce the causes of GIL and the side effects it brings. And bring a complete set of solutions to properly circumvent GIL to better improve the performance of Python online."
+  id_Lusheng:
+    name: 吕路生
+    name_en: Lusheng Lv
+    avatar: lecturer_lvlusheng.png
+    title: 蚂蚁金服后端开发
+    title_en: Ant Financial Backend development
+    intro: "Python Backend Developer at day, Rustacean at night. PyO3的作者，活跃于Python社区和Rust社区，热心而又勤劳的开源爱好者。"
+    intro_en: "Python Backend Developer at day, Rustacean at night. Author of PyO3, active in the Python community and the Rust community, also enthusiastic and hardworking in open source enthusiast."
+    topic:
+      title: "如何在Python中调用Rust"
+      title_en: "How to use Rust in Python"
+      preview: "分享在Python中调用Rust代码的现状和思路"
+      preview_en: "This topic will share the current status and ideas for useing Rust code in Python."
+  id_yaogangqiang:
+    name: 姚钢强
+    name_en: Gangqiang Yao
+    avatar: lecturer_yaogangqiang.png
+    title: 知乎社区事业部技术负责人
+    title_en: Technical Leader of Community Division of Zhihu
+    intro: "2013年加入知乎，曾担任首页feed流工程技术负责人，在负责feed流项目期间，通过构架优化使响应时间P95从1.6s 降低到700ms，通过开发规范使稳定性由99.9%提升到99.99%。2018年开始负责社区架构组，带领团队用Golang重写了知乎主要的业务模块，节省机器资源75%"
+    intro_en: "Joined Zhihu in 2013, he was the head of the home feed stream engineering technology. During the project of the feed stream, the response time P95 was reduced from 1.6s to 700ms through the optimization of the framework. The stability was improved from 99.9% to 99.99% through the development specification. 
+Responsible for the Community Architecture Group in 2018, leading the team to rewrite the main business modules with Golang, saving machine resources 75%"
+    topic:
+      title: "主题待定"
+      title_en: "Subject to be determined"
+      preview: "updating"
+      preview_en: "updating"
+  id_hexiangyu:
+    name: 何翔宇
+    name_en: Xiangyu He
+    avatar: lecturer_hexiangyu.png
+    title: TCL互联网事业部Python工程师
+    title_en: Python engineer of TCL Internet Division
+    intro: "updating"
+    intro_en: "updating"
+    topic:
+      title: "理解Python MRO"
+      title_en: "Understand of Python MRO"
+      preview: "Python作为拥有多继承能力的编程语言，在面向对象继承中，方法的调用和继承的顺序密切相关。Python使用C3线性化算法，计算出的MRO作为方法调用顺序的唯一准则，同时理解MRO可以帮我们在Python面向对象编程更加有游刃有余。"
+      preview_en: "Python is a programming language with multiple inheritance capabilities. In object-oriented inheritance, the invocation of methods is closely related to the order of inheritance. Python uses the C3 linearization algorithm to calculate the MRO as the only criterion for the method call sequence, and understanding MRO can help us in Python object-oriented programming."
+  id_cuiqingcai:
+    name: 崔庆才 / 静觅
+    name_en: Qingcai Cui / Jingmi
+    avatar: lecturer_cuiqingcai.png
+    title: 微软中国大数据工程师
+    title_en: Big Data Engineer of Microsoft China
+    intro: "崔庆才，北京航空航天大学硕士，《Python3网络爬虫开发实战》作者，静觅博客博主，爬虫博文阅读量已过百万，微软中国大数据工程师，天善智能、网易云课堂讲师，目前正在从事对话聊天方向研究。"
+    intro_en: "Qingcai Cui, master of Beihang University, author of 《Python3网络爬虫开发实战》, Blog bloggers of cuiqingcai.com, the number of blog reading about Crawler has exceeded one million, Big Data Engineer of Microsoft China, lecturer of  Tianshan Intelligent and Netease Cloud Classroom, and currently engaged in the research of conversational chat direction."
+    topic:
+      title: "健壮高效的网络爬虫"
+      title_en: "Robust and efficient web crawler"
+      preview: "本次演讲从抓取、解析、存储、反爬、加速五个方面介绍利用 Python 进行网络爬虫开发的相关知识点和技巧，介绍不同场景下如何采取不同措施高效地进行数据抓取的方法，包括Web抓取、App抓取、数据存储、代理选购、验证码破解、分布式抓取及管理、智能解析等多方面的内容，另外还会结合不同场景介绍常用的一些工具包，全部内容是演讲者在从事网络爬虫研究过程以来的经验精华总结。"
+      preview_en: "This presentation will introduce the knowledge and skills of using Python for web crawler development in five aspects: crawling, parsing, storing, anti-climbing, and acceleration. It introduces how to take different measures to efficiently capture data in different scenarios, including Web crawling, App crawling, data storage, agent purchasing, verification code cracking, distributed crawling and management, intelligent parsing, etc., and also introduce some commonly used toolkits in combination with different scenarios. All of the speech content are the summary of the experience of the speaker since the web crawler research process."
+  id_lijinhong:
+    name: 李金洪
+    name_en: Jinhong Lee
+    avatar: lecturer_lijinhong.png
+    title: 代码医生主程
+    title_en: Main engineer of Code doctor
+    intro: "代码医生工作室主程序员、大蛇智能创始人。北京派网软件首席人工智能科学家。发布过两套关于CNTK深度学习框架的视频教程。著有：《深度学习之Tensorflow：入门、进阶与实战》与《python带我起飞：入门、进阶、商业实战》两本畅销书。"
+    intro_en: "Jinhong Lee, main engineer of Code doctor studio, founder of the big snake intelligence, chief artificial intelligence scientist of Beijing Pai Network Software, has released two video tutorials on the CNTK deep learning framework, has published two best-selling books, 《深度学习之Tensorflow：入门、进阶与实战》and《python带我起飞：入门、进阶、商业实战》."
+    topic:
+      title: "人工智能实战案例分享-图像处理与数值分析"
+      title_en: "Artificial Intelligence Case Study Sharing - Image "
+      preview: |
+        1.人工智能基本知识及趋势<br/>
+        2.图片分类与微调实战案例<br/>
+        3.人脸识别方向实战案例<br/>
+        4.数值分析方向实战案例<br/>
+      preview_en: |
+        1.Basic knowledge and trends of artificial intelligence<br/>
+        2.Picture classification and fine-tuning practical case<br/>
+        3.Face recognition direction practical case<br/>
+        4.Numerical analysis direction practical case<br/>
+  id_qinxuye:
+    name: 秦续业
+    name_en: Xuye Qin
+    avatar: lecturer_qinxuye.png
+    title: 阿里巴巴计算平台事业部技术专家
+    title_en: Computing Platform Department of Alibaba
+    intro: "主要工作是将Python生态和大数据环境进行结合。过去工作包含编写了pyodps DataFrame框架，这个框架能让用户编写类似 pandas 的代码，但支持在MaxCompute大数据平台、pandas和传统数据库上执行。现在的工作主要是 Mars，这是一个基于矩阵的统一计算框架，目标把PyData的生态带到分布式执行环境，目前支持Numpy接口，能在分布式环境执行多维数组操作，它支持在GPU上运行，且支持二维稀疏矩阵。未来会将 pandas和scikit-learn分布式化。"
+    intro_en: "His main job is to combine the Python ecosystem with the big data environment. The past work involved writing the pyodps DataFrame framework, which allows users to write code similar to pandas, but supports execution on MaxCompute bi data platforms, pandas, and traditional databases. His current work is mainly Mars, which is a matrix-based unified computing framework. Its goal is to bring the PyData ecosystem to a distributed execution environment. Currently, it supports the Numpy interface and can perform multidimensional array operations in a distributed environment. It supports running on the GPU. And supports two-dimensional sparse matrices. Pandas and scikit-learn will be distributed in the future."
+    topic:
+      title: "Mars——基于矩阵的统一计算框架"
+      title_en: "Mars - Matrix-based unified computing framework"
+      preview: "基于矩阵的统一计算框架 Mars，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。目前，Mars 兼容 70% 常见 Numpy 接口。本次分享会介绍目前我们的工作，会介绍 Mars 的实现原理，并且对未来的上层建筑包括 DataFrame 和机器学习进行展望。"
+      preview_en: "Mars - Matrix-based unified computing framework, the goal to bring the ecology of PyData to a distributed execution environment, currently supports the Numpy interface, can perform multidimensional array operations in a distributed environment, it supports running on the GPU, and supports two-dimensional sparse matrices. Currently, Mars is compatible with 70% of the common Numpy interfaces. This sharing session introduces our current work, introduces Mars'' implementation principles, and looks ahead to future superstructures including DataFrame and machine learning."
+  id_wangshun:
+    name: 王顺
+    name_en: Shun Wang
+    avatar: lecturer_wangshun.png
+    title: 谷歌云 / 顾问
+    title_en: Cloud Advisor of Google
+    intro: "Python/Go/C++开发者，主要负责云计算、大数据和深度学习技术在大型企业的落地和最佳实践。曾就职人工智能独角兽Face++及AWS、Oracle等公司。淘咖啡无人便利店人脸识别系统的主要架构和开发者，AWS大数据专家EMR Subject Matter Expert。"
+    intro_en: "Python/Go/C++ developer, responsible for the landing and best practices of cloud computing, big data and deep learning technologies in large enterprises. He has worked for artificial intelligence unicorn Face++ and AWS, Oracle and other companies. The main architecture and developer of the face recognition system for the coffee-free unmanned convenience store, AWS Big Data Expert EMR Subject Matter Expert."
+    topic:
+      title: "Cooking with Google TPUv2: How to train and deploy your models on Google Cloud."
+      title_en: "Cooking with Google TPUv2: How to train and deploy your models on Google Cloud."
+      preview: |
+        1.Introduction of TPU;<br/>
+        2.A tutorial of training/inference a DL/ML model on Google TPUv2 2.1 example 1, 2.2 example 2;<br/>
+        3.Difference between TPUv2 and GPU and trouble shooting of TPUv2. 4 Benchmark of TPUv2 and GPU<br/>
+      preview_en: |
+        1.Introduction of TPU;<br/>
+        2.A tutorial of training/inference a DL/ML model on Google TPUv2 2.1 example 1, 2.2 example 2;<br/>
+        3.Difference between TPUv2 and GPU and trouble shooting of TPUv2. 4 Benchmark of TPUv2 and GPU<br/>
+  id_chenxiaoyou:
+    name: 陈晓优
+    name_en: Xiaoyou Chen
+    avatar: lecturer_chenxiaoyou.png
+    title: 韦恩开猿创始人
+    title_en: Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd.
+    intro: "上海韦恩开猿软件科技有限公司创始人，曾在大型量化私募基金担任量化交易员和基金经理，开发了vn.py量化交易框架，目前是全球用户量最大的开源量化交易类项目之一（Github Star 6071），目前的工作重心主要集中在区块链和数字货币领域的量化交易系统开发。"
+    intro_en: "Xiaoyou Chen, founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., has worked as a quantitative trader and fund manager in large-scale quantitative private equity funds and developed the vn.py quantitative trading framework, which is currently one of the world''s largest open source quantitative trading projects (Github Star 6071).  His current focus is mainly on development of quantitative trading systems in the blockchain and digital currency sectors."
+    topic:
+      title: "区块链资产管理中的Python"
+      title_en: "Python in Blockchain Asset Management"
+      preview: "区块链技术革命带来的全新资产类型（数字货币和通证），以及其去中心化的基础架构，正在为全球资产管理行业带来翻天覆地的变化。Python语言凭借成熟的大规模金融应用背景和活跃积极的用户社区，成为了区块链资产管理业务中的首选解决方案。本次演讲旨在分享Python在区块链资产管理的各个生态环节中的应用，以及探讨未来的发展方向。"
+      preview_en: "The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution and its decentralized infrastructure are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active and active user community, the Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions."
+  id_yizhe:
+    name: 以哲
+    name_en: Yizhe
+    avatar: lecturer_yizhe.png
+    title: 平安集团 / 数据科学家
+    title_en: PING AN / Data scientist
+    intro: "AI赋能计划执行人之一，工作之余在上海几所高校担任职云计算与大数据相关方向客座讲师，10年首次接触Python，于15年全面拥抱Python、深耕数据科学界。"
+    intro_en: "One of the executors of the AI Empowerment Program, working as a guest lecturer in cloud computing and big data related fields in several universities in Shanghai, first contact with Python in 10 years, and fully embraced Python and deepened the data science community in 15 years."
+    topic:
+      title: "基于Python生态圈的企业级数据科学平台演化路径"
+      title_en: "Evolution Path of Enterprise Data Science Platform Based on Python Ecosphere"
+      preview: |
+        1. 从0到1搭建数据科学平台的整体演化与架构介绍<br/>
+        2. 0.25时代 "Python+Hive+Shell" 混合编程解决繁琐的人力ETL<br/>
+        3. 0.5时代 "Django+ElasticSearch" 增加客群检索与BI分析支持<br/>
+        4. 0.75时代 "Django+PyHive+PySpark" 增加大数据集群的操作与机器学习任务流 <br/>
+        5. 1.0时代 Scheduler 调度集成与平台、集群微服务化<br/>
+        6. 从0到1演化路径中所遇到的种种外部技术阻力与陷阱<br/>
+        7. 总结与展望
+      preview_en: |
+        1. The overall evolution and architecture of the data science platform from 0 to 1<br/>
+        2. 0.25 era - "Python + Hive + Shell" mixed programming to solve the cumbersome human ETL<br/>
+        3. 0.5 era - "Django+ElasticSearch" increased customer search and BI analysis support<br/>
+        4. 0.75 era - "Django+PyHive+PySpark" increases the operation and machine learning task flow of big data clusters<br/>
+        5. 1.0 era - Scheduler scheduling integration and platform, cluster micro-service<br/>
+        6. Various external technical resistances and pitfalls encountered in the evolution path from 0 to 1<br/>
+        7. Summary and outlook'
+  id_heshiyou:
+    name: 何世友
+    name_en: Ernest He
+    avatar: lecturer_heshiyou.png
+    title: 爱范儿CTO
+    title_en: CTO of ifanr
+    intro: "爱范儿 CTO、知晓云负责人，大学开始创业，先后参与过多个创新创业项目。资深移动互联网应用专家，擅长架构设计，专注云计算、机器学习及移动开发。"
+    intro_en: "Start-up & Architect @ Guangzhou, China
+CTO @ ifanr.com, in charge of cloud.minapp.com, a serverless platform designed for miniprogram apps.Art lover / addicted in creative activities."
+    topic:
+      title: "用Python打造Serverless平台，从0到1"
+      title_en: "Form 0-1, create a Serverless platform by using Python"
+      preview: "近年来，应用形态逐渐朝着 PWA、小程序等范客户端形态发展；云计算则朝着 BaaS + FaaS 的 Serverless 无服务架构大步迈进。本次分享向大家介绍爱范儿团队在用 Python 打造小程序领域的 Serverless 平台知晓云的过程中遇到的挑战和收获，以及对接下来的云计算形态的展望。"
+      preview_en: "In recent years, PWA and miniprogram become more and more popular in app developments; in the mean while BaaS and FaaS also be loved by more and more developers. In this session, the speaker will introduce how ifanr team build a serverless platform which designed for miniprogram developers, using Python and Django."
+  id_kongtaoxun:
+    name: 孔韬循/K0r4dji
+    name_en: Taoxun Kong/K0r4dji
+    avatar: lecturer_kongtaoxun.png
+    title: 丁牛科技首席安全官
+    title_en: Chief security officer(CSO) of digapis
+    intro: "孔韬循/K0r4dji ，北京丁牛科技有限公司首席安全官，国内著名信息安全团队--破晓安全团队创始人，人民邮电出版社-异步社区-信息安全领域图书专家顾问"
+    intro_en: "Taoxun Kong / K0r4dji, CSO of Beijing Ding Niu Technology Co., Ltd., founder of Breaking Security Team, which is a famous information security team in domestic, book expert consultant of People Post Press-Asynchronous Community-Information security field."
+    topic:
+      title: "我的Python黑客之路（暂定）"
+      title_en: "Chief security officer(CSO) of digapis"
+      preview: "Python黑客之路（暂定）'
+    topicSummary: '随着互联网攻击的日益增多，网络信息安全逐渐被人们重视，Python成为了黑客最受欢迎的编程语言，无论是网络攻防还是软件破解，Python非常简单的帮安全人员完成了很多事情，如：自动化攻击等。通过本议题可以了解到Python在信息安全领域的那些事。"
+      preview_en: "With the increasing number of Internet attacks, network information security has gradually attracted people's attention. Python has become the most popular programming language for hackers. Whether it is network attack or defense or software cracking, Python is very simple to help security personnel accomplish many things, such as: automation Attacks, etc. Through this topic, you can learn about Python's things in the information security field."
+  id_zhangjintao:
+    name: 张晋涛
+    name_en: Jintao Zhang
+    avatar: lecturer_zhangjintao.png
+    title: 网易资深运维开发工程师
+    title_en: Senior Devops of NetEase
+    intro: "张晋涛，网易资深运维开发工程师，负责容器化及自动化运维体系建设。"
+    intro_en: "Jintao Zhang, senior devops developer of NetEase, responsible for construction of containerization and automated operation and maintenance system."
+    topic:
+      title: "基于Docker的CI/CD实践"
+      title_en: "CI/CD Practice Based on Docker"
+      preview: "随着容器化及 cloud native 等生态的形成，CI/CD 在软件开发过程中的价值日益突出，越来越多的公司需要对此进行改造和优化，但是千人千面，改造及实践往往有很多问题，无论是人员还是工具链上。本次主要是分享我们在生产中总结的最佳实践， 及分析在此过程中所遇到的问题，并会详细分享其中的技术细节，以及在此过程中所做优化，问题分析，及架构演化和我们所做的反思和总结，希望大家能从中有所启发，推进各自在生产环境中的落地。"
+      preview_en: "With the formation of ecosystems such as containerization and cloud native, the value of CI/CD in the software development process is becoming more and more prominent. More and more companies need to transform and optimize this, but thousands of people have thousands of faces, transformations and practices often have many problems, both in the personnel and in the tool chain. This time is mainly to share the best practices we have summarized in production, and to analyze the problems encountered in this process, and to share in detail the technical details, as well as the optimization, problem analysis, and architecture in the process and the reflections and conclusions we have made, I hope that everyone can inspire them and promote their respective development in the production environment."
+  id_dengliangju:
+    name: 邓良驹
+    name_en: Liangju Deng
+    avatar: lecturer_dengliangju.png
+    title: 秘塔科技 / 工程总监
+    title_en: metasota / Director of Engineering
+    intro: "从业5年有余，聚焦于Python技术栈服务端架构设计和框架研发。曾任乐视云计算PaaS 平台研发工程师、猎豹移动 AILab数据部门负责人，现任秘塔科技工程总监。业余时间常在技术社群与Python开发者们切磋交流和指导新人。"
+    intro_en: "He has been working for more than 5 years, focusing on the Python technology stack server architecture design and framework development. He used to be the R&D engineer of the Lea cloud computing PaaS platform and the head of the data department of Cheetah Mobile AILab. He is currently the director of engineering of the metasota. In the spare time, he often exchange ideas and guide new people in the technical community with Python developers."
+    topic:
+      title: "以史为鉴：半小时理解Web核心技术体系"
+      title_en: "Taking history as a guide: Understand the Web core technology system in half an hour"
+      preview: "Web技术发展至今已经相当繁杂，相关项目“其小无内，其大无外”，各种前后端框架和中间件更是花样繁多层出不穷。不少入门开发者，甚至工作了三五年的，局限于某一两种框架的使用，把自己看中的框架奉为圭臬，也仅仅熟练于框架封装好了之后的接口，对于框架为什么存在、为什么要那样设计、遇到棘手问题又从何着手解决与优化却力不从心。本主题从Web技术发展的历史沿革为脉络，帮助听众清楚认识Web相关的各项核心技术的作用与要点，以便在今后解决学习工作中遇到的各种问题时目标明确、思路清晰。"
+      preview_en: "The development of Web technology has been quite complicated so far. The related projects are “small and no internal, and they are nothing short”. Various front and rear end frames and middlewares are numerous and numerous. Many introductory developers have even worked for three or five years, limited to the use of a certain two frameworks, and regarded their own fancy framework as a standard. They are only skilled in the interface after the framework is packaged. Why does the framework exist and why in that design? When encountering difficult problems, and how to solve and optimize, it is not enough. This topic is based on the history of Web technology development, helping listeners to clearly understand the role and key points of Web-related core technologies, so that they can have clear goals and clear ideas when solving various problems encountered in learning work in the future. "
+  id_lihui:
+    name: 李辉
+    name_en: Grey Li
+    avatar: lecturer_lihui.png
+    title: Flask开发团队（Pallets Team） / 成员
+    title_en: member of Pallets Team
+    intro: "《Flask Web开发实战》作者，有丰富的Flask Web开发经验。"
+    intro_en: "The author of Python Web Development with Flask."
+    topic:
+      title: "自由的Flask"
+      title_en: "The Free Flask"
+      preview: "作为一个流行的Python Web框架，很多开发者都喜欢Flask的简洁和灵活，并且常常拿它和“笨重”的Django做比较。基于这些特点，我们可以说Flask是自由的，自由的Flask会让你的Web开发更加自由。具体来说，这里的自由表现在很多方面，包括程序功能的扩展、路由的定义、项目结构的组织以及程序模式的设计等。"
+      preview_en: "As a popular Python web framework, many developers like Flask''s simplicity and flexibility, and often compare it to bulky Django. Based on these characteristics, we can say that Flask is free, and free Flask will make your web development more free. Specifically, the free here is manifested in many aspects, including the extension of program functions, the definition of routes, the organization of project structures, and the design of program patterns."
+  id_zhouxiaomao:
+    name: 周小毛
+    name_en: Xiaomao Zhou
+    avatar: lecturer_zhouxiaomao.png
+    title: 艾润物联开发经理
+    title_en: Development Manager of iRain Parking
+    intro: "目前在西安艾润物联网技术服务有限责任公司线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。"
+    intro_en: "Working as development manager in iRain Parking, also worked in Hangzhou Hikvision. After working, he has been engaged in embedded software development, mainly involving camera sensor driver development, intelligent access control system development and intelligent parking lot software development."
+    topic:
+      title: "Python在嵌入式系统开发中的应用"
+      title_en: "Application of Python in embedded system development"
+      preview: |
+        主要结合本人工作经历，阐述 Python 在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：<br/>
+        1.嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。<br/>
+        2.Python 能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用 Python，具体包括后台 web 开发，即时通信开发，GUI开发等等<br/>
+        3.比较 Python 开发相对于传统嵌入式开发的优势。<br/>
+        4.简单阐述嵌入式开发使用 Python 的基本流程，主要阐述 Python 开发环境的搭建过程。<br/>
+        5.最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。
+      preview_en: |
+        This speech focuses on the work experience of speecher and illustrates the practical use of Python in the embedded software development process. The speech details will be divided into the following sections<br/>
+        1. What is included in embedded development, including development of driver layer and application layer.<br/>
+        2. What Python can do in embedded development. Python can be used in embedded development of application layer, including background web development, instant communication development, GUI development, etc.<br/>
+        3. Compare the advantages of Python development over traditional embedded development.<br/>
+        4. Briefly explain the basic process of embedded development using Python, and mainly explain the construction process of Python development environment.<br/>
+        5. Finally, showing the specific application intelligent parking system management display and PLC communication read and write operation display. 
+  id_changhui:
+    name: 常卉
+    name_en: Hui Chang
+    avatar: lecturer_changhui.png
+    title: ThoughtWorks / 咨询师
+    title_en: Consultant of ThoughtWorks
+    intro: "曾先后为国内外微服务领域、网站建设提供咨询和交付等服务。擅⻓测试驱动开发，软件架构演进。对技术有热情，热衷于敏捷实践，是持续交付的践行者。"
+    intro_en: "She has provided consulting and delivery services for microservices and website construction at home and abroad. I am good at testing drive development and software architecture evolution. Passionate about technology, passionate about agile practices, and a practitioner of continuous delivery."
+    topic:
+      title: "用Python可以做哪些有趣的事之实现一个包含身份认证模块的网站应用"
+      title_en: "What can be done with Python — Implement a web application that includes an identity authentication module"
+      preview: "搭建网站是一件很有成就感的事，在''兴趣''驱动开发的大多数人眼中，简单的是对python及其组件的使用，复杂的是将各个模块如同积木一般搭建成一整套的解决方案。在OAuth2.0和OIDC成为标准的现在，给网站集成一个身份认证模块是不是很有用呢？在开发成本，开发周期，可控性方面，AWS提供了一些不错的思路。那么，我们应该如何去用积木来一步步搭建网站应用呢？敬请期待。"
+      preview_en: "Building a website is a very fulfilling thing. In the eyes of most people who are interested in driving development, the simple use of Python and its components is complicated by the fact that each module is built into a complete set of solutions. Now that OAuth2.0 and OIDC are standard, is it useful to integrate an identity authentication module into a website? AWS provides some good ideas on development costs, development cycles, and controllability. So, how should we use building blocks to build web applications step by step? Stay tuned."
+  id_zhaowentian:
+    name: 赵文天
+    name_en: Wentian Zhao
+    avatar: lecturer_zhaowentian.png
+    title: 北京丁牛科技有限公司 / 渗透测试工程师
+    title_en: Penetration Test Engineer of DigApis
+    intro: "北京邮电大学-网络信息安全冬令营-高级讲师、广州大学-网络信息安全夏令营-高级讲师、国内著名信息安全研究团队-破晓团队核心成员、北京明园大学-网络空间先进技术学院-高级讲师、Freebuf-DigApis信息安全专栏负责人。"
+    intro_en: "Beijing University of Posts and Telecommunications - Network Information Security Winter Camp - Senior Lecturer, Guangzhou University - Network Information Security Summer Camp - Senior Lecturer, Domestic Famous Information Security Research Team - Core Member of Dawning Team, Beijing Mingyuan University - Network Space Advanced Technology College - Senior Lecturer, Freebuf-DigApis Information Security Column Leader"
+    topic:
+      title: "Python在密码学中的应用"
+      title_en: "Python application in cryptography"
+      preview: "简要介绍Python中涉及到密码学的模块和函数"
+      preview_en: "Briefly introduce modules and functions that involve cryptography in Python"
+  id_eziomelotti:
+    name: 郭李灼
+    name_en: Leezhuo Guo
+    avatar: lecturer_guolizhuo.png
+    title: IT老兵 / Python爱好者
+    title_en: IT Veteran / Fan of Python
+    intro: "2000年入行，长期从事通信/网络安全，在知名外企熬过资历，也参与过创业热潮。目前在一家信息安全公司做解决方案。业余时间致力于普及Python编程，让Python成为一门人人可以使用的工具，组织多个Python公益qq群，通过直播的方式传播入门课程。爱好量化投资，在股票，期货，加密货币等多个品种上经历过亏损，逐步聚焦基金定投，风险减少，收益稳定。"
+    intro_en: "He joined IT in 2000 and has been engaged in communication/network security for a long time. He has passed the qualifications of well-known foreign companies, also participated in the entrepreneurial boom. He is working on an information security company currently. In his spare time, he is committed to popularizing Python programming, making Python a tool that everyone can use, organizing multiple Python public interest qq groups, and spreading introductory courses through live broadcast. H e is interested in quantitative investment, and experienced losses in stocks, futures, cryptocurrencies and other varieties, and focused on fund investment, risk reduction, and stable income gradually."
+    topic:
+      title: "我们的养老金怎么办"
+      title_en: "What about our pension?"
+      preview: |
+        用定投的方式为自己增加额外保障<br/>
+        1 什么是基金定投<br/>
+        2 基金定投的优点<br/>
+        3 基金定投的缺点<br/>
+        4 程序员做基金定投的优势<br/>
+        5 如何用 Python 做定投<br/>
+      preview_en: |
+        Add extra protection to yourself by means of fixed investment<br/>
+        1.What is the automatic investment plan (AIP)?<br/>
+        2.Advantages of the automatic investment plan (AIP)<br/>
+        3.Shortcomings of the automatic investment plan (AIP)<br/>
+        4.Advantage about programmers do the automatic investment plan (AIP)<br/>
+        5.How to make automatic investment plan (AIP) with Python
 volunteers:
   -
     avatar: 'chenshixin.png'
