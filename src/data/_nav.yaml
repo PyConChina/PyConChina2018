@@ -1,56 +1,31 @@
-- title: PyConChina2018
-  title_en: PyConChina2018
+- title: 首页2018
+  title_en: HOME2018
   url: "index.html"
   url_en: "en/index.html"
-- title: 讲师
-  title_en: SPEECH
-  url: "speakers.html"
-  url_en: "en/speakers.html"
-- title: 赞助
-  title_en: SUPPORT
-  children:
-  - title: 厂商
-    title_en: SPONSORS
-    url: "sponsor_com.html"
-    url_en: "en/sponsor_com.html"
-  - title: 私人
-    title_en: DONATOR
-    url: "donators.html"
-    url_en: "en/donators.html"
-- title: 日程
+- title: 大会日程
   title_en: SCHEDULE
-  url: "schedule.html"
-  url_en: "en/schedule.html"
   children:
-  - title: 北京
-    title_en: Beijing
-    url: "beijing.html"
-    url_en: "en/beijing.html"
-  - title: 上海
-    title_en: Shanghai
-    url: "shanghai.html"
-    url_en: "en/shanghai.html"
-  - title: 杭州
-    title_en: Hangzhou
-    url: "hangzhou.html"
-    url_en: "en/hangzhou.html"
-  - title: 深圳
-    title_en: Shenzhen
-    url: "shenzhen.html"
-    url_en: "en/shenzhen.html"
-- title: 组委会
-  title_en: ORGANIZERS
-  url: "volunteers.html"
-  url_en: "en/volunteers.html"
-- title: 申请演讲
-  title_en: SPEECH
-  url: https://jinshuju.net/f/fjOUqZ
-  url_external: 1
-- title: 资料
-  title_en: SLIDES
-  url: ""
-  url_external: 1
-- title: 往届
+  - title: 北京站__10.14
+    title_en: BEIJING__10.14
+    url: "city_beijing.html"
+    url_en: "en/city_beijing.html"
+  - title: 上海站__10.21
+    title_en: SHANGHAI__10.21
+    url: "city_shanghai.html"
+    url_en: "en/city_shanghai.html"
+  - title: 深圳站__10.27
+    title_en: SHENZHEN__10.27
+    url: "city_shenzhen.html"
+    url_en: "en/city_shenzhen.html"
+  - title: 成都站__10.27
+    title_en: CHENGDU__10.27
+    url: "city_chengdu.html"
+    url_en: "en/city_chengdu.html"
+  - title: 杭州站__11.04
+    title_en: HANGZHOU__11.04
+    url: "city_hangzhou.html"
+    url_en: "en/city_hangzhou.html"
+- title: 往届回顾
   title_en: HISTORY
   children:
   - title: 2011
@@ -88,6 +63,22 @@
     url: "http://cn.pycon.org/2017/"
     url_en: "http://cn.pycon.org/2017/en/index.html"
     url_external: 1
+- title: 相关资讯
+  title_en: NEWS
+  url: "index.html"
+  url_en: "en/index.html"
+- title: 组委&志愿者
+  title_en: ORGANIZER
+  url: "index.html"
+  url_en: "en/index.html"
+- title: 讲师
+  title_en: SPEAKER
+  url: "index.html"
+  url_en: "en/index.html"
+- title: 赞助
+  title_en: SPONSER
+  url: "index.html"
+  url_en: "en/index.html"
 - title: EN
   title_en: 中文
   url: "en/index.html"
