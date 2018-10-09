@@ -1,6 +1,8 @@
 {% macro nav_a(site, nav_item, style) %}
   {% if nav_item.url_external %}
     <a href="{{ nav_item.url }}" class="{{ style }}">{{ nav_item.title }}</a>
+  {% elif nav_item.language %}
+    <a id="lang-select-wrap" data-lang="{{nav_item.language}}" class="{{ style }}">{{ nav_item.title }}</a>
   {% else %}
     <a href="{{ site.base_url }}/{{ nav_item.url }}" class="{{ style }}">{{ nav_item.title }}</a>
   {% endif %}
