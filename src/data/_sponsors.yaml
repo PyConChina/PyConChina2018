@@ -133,6 +133,18 @@ book:
     link: "https://www.epubit.com"
     intro: "异步"
     intro_en: "异步"
+  -
+    logo: support_hzbooks.png
+    logo_en: support_hzbooks.png
+    link: "http://www.hzmedia.com.cn"
+    intro: "华章"
+    intro_en: "华章"
+  -
+    logo: support_otpub.png
+    logo_en: support_otpub.png
+    link: "http://www.otpub.com"
+    intro: "OTPUB"
+    intro_en: "OTPUB"
 
 #########################################
 # 社区合作伙伴

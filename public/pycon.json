@@ -934,6 +934,16 @@
         "intro": "\u5f02\u6b65", 
         "link": "https://www.epubit.com", 
         "logo": "support_epubit.png"
+      }, 
+      {
+        "intro": "\u534e\u7ae0", 
+        "link": "http://www.hzmedia.com.cn", 
+        "logo": "support_hzbooks.png"
+      }, 
+      {
+        "intro": "OTPUB", 
+        "link": "http://www.otpub.com", 
+        "logo": "support_otpub.png"
       }
     ], 
     "bronze": [
