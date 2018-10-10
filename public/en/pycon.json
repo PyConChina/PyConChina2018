@@ -1,267 +1,838 @@
 {
-  "agenda": {
-    "beijing": {
-      "address": "(Beijing eastern city) No. 12, Qisheng Middle Street, Northeast Third Ring, Chaoyang District", 
-      "afternoon": [
-        {
-          "time": "15:25-15:40", 
-          "topic": "Tea Break"
-        }
-      ], 
-      "cancel_talks": null, 
-      "city": "beijing", 
-      "completed": false, 
-      "date": "October 14, 2018 9:00 to 17:00", 
-      "lightening_talks": null, 
-      "maplink": "https://www.amap.com/place/B000A87KPU", 
-      "morning": [
-        {
-          "time": "8:50-9:00", 
-          "topic": "Check-in"
-        }, 
-        {
-          "time": "10:30-11:40", 
-          "topic": "Tea Break"
-        }
-      ], 
-      "name": "Beijing", 
-      "noon": [
-        {
-          "time": "12:10-13:10", 
-          "topic": "Lunch"
-        }
-      ], 
-      "notices": "", 
-      "traffic": "Guangximen Road Station at Metro Line 13", 
-      "url": "beijing.html", 
-      "venue": "New Yunnan Crowne Plaza Hotel, Yunan Building", 
-      "video": ""
-    }, 
-    "city_list": [
-      "beijing", 
-      "shanghai", 
-      "hangzhou", 
-      "shenzhen"
+  "city_beijing": {
+    "address": "<b>Address</b>\uff1a(Beijing, eastern city)New Yunnan Crowne Plaza Hotel, Yunan Building, No. 12, Qisheng Middle Street, Northeast Third Ring, Chaoyang District", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "09:00-09:20", 
+            "topic": "Opening remarks - pay tribute to pythoneer"
+          }, 
+          {
+            "time": "09:20-10:00", 
+            "topic": "My Python Road (tentative) \u3010Qiangning Hong \uff0cFounder and CTO of einplus\u3011"
+          }, 
+          {
+            "time": "10:00-10:40", 
+            "topic": "Subject to be determined \u3010Ezio Melotti \uff0cCPython-Core Developer\u3011"
+          }, 
+          {
+            "time": "10:40-11:20", 
+            "topic": "Subject to be determined "
+          }, 
+          {
+            "time": "11:20-12:00", 
+            "topic": "Build an enterprise-level automated testing framework HttpRunner with Python open source ecosystem\u3010Leo Lee\uff08debugtalk\uff09\uff0cLeader of DJI test developement\u3011"
+          }
+        ], 
+        "name": "The main venue"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "13:00-13:45", 
+            "topic": "What happened to my Python process? \u3010Xiang Zhang\uff0cCPython-Core Developer\u3011"
+          }, 
+          {
+            "time": "13:45-14:30", 
+            "topic": "Implementation ideas of Python JIT \u3010Nightynight \uff0cMSRA\u3011"
+          }, 
+          {
+            "time": "14:30-15:15", 
+            "topic": "New Pose of Unlock GIL \u3010Gashero \uff0cIndependent developer\u3011"
+          }, 
+          {
+            "time": "15:15-15:30", 
+            "topic": "Tea Break"
+          }, 
+          {
+            "time": "15:30-16:15", 
+            "topic": "How to use Rust in Python \u3010Lusheng Lv \uff0cBackend development of Ant Financial\u3011"
+          }, 
+          {
+            "time": "16:15-17:00", 
+            "topic": "Subject to be determined \u3010Gangqiang Yao \uff0cTechnical Leader of Community Division of Zhihu\u3011"
+          }, 
+          {
+            "time": "17:00-17:15", 
+            "topic": "Understand of Python MRO \u3010Xiangyu He \uff0cPython engineer of TCL Internet Division\u3011(Quick speech)"
+          }, 
+          {
+            "time": "17:15-17:30", 
+            "topic": "Ending, Lottery, Taking photo"
+          }
+        ], 
+        "name": "breakout venue 1: Python Language Features"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "13:00-13:45", 
+            "topic": "Robust and efficient web crawler \u3010Qingcai Cui \uff0cBig Data Engineer of Microsoft China\u3011"
+          }, 
+          {
+            "time": "13:45-14:30", 
+            "topic": "Artificial Intelligence Case Study Sharing - Image Processing and Numerical Analysis \u3010Jinhong Lee \uff0cMain engineer of Code doctor\u3011"
+          }, 
+          {
+            "time": "14:30-15:15", 
+            "topic": "Mars - Matrix-based unified computing framework \u3010Xuye Qin \uff0cComputing Platform Department of Alibaba\u3011"
+          }, 
+          {
+            "time": "15:15-15:30", 
+            "topic": "Tea Break"
+          }, 
+          {
+            "time": "15:30-16:15", 
+            "topic": "Hands on with the Google TPUv2 \u3010Shun Wang \uff0cCloud Advisor of Google\u3011"
+          }, 
+          {
+            "time": "16:15-17:00", 
+            "topic": "Python in Blockchain Asset Management \u3010Xiaoyou Chen \uff0cFounder of Shanghai Wayne Kailuan Software Technology Co., Ltd.\u3011"
+          }, 
+          {
+            "time": "17:00-17:15", 
+            "topic": "Evolution Path of Enterprise Data Science Platform Based on Python Ecosphere \u3010Rick Liu \uff0cData scientist of PING AN\u3011(Quick speech)"
+          }, 
+          {
+            "time": "17:15-17:30", 
+            "topic": "Ending, Lottery, Taking photo"
+          }
+        ], 
+        "name": "breakout venue 2: Machine Learning & Big Data Session"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "13:00-13:45", 
+            "topic": "Form 0-1, create a Serverless platform by using Python \u3010Ernest He\uff0cifanr - CTO\u3011"
+          }, 
+          {
+            "time": "13:45-14:30", 
+            "topic": "My Python Hacker Road (tentative) \u3010Taoxun Kong \uff0cChief security officer(CSO) of digapis\u3011"
+          }, 
+          {
+            "time": "14:30-15:15", 
+            "topic": "CI/CD Practice Based on Docker \u3010Jintao Zhang \uff0cSenior Devops of NetEase\u3011"
+          }, 
+          {
+            "time": "15:15-15:30", 
+            "topic": "Tea Break"
+          }, 
+          {
+            "time": "15:30-16:15", 
+            "topic": "Taking history as a guide: Understand the Web core technology system in half an hour \u3010Liangju Deng \uff0cEngineering Director of metasota\u3011"
+          }, 
+          {
+            "time": "16:15-17:00", 
+            "topic": "The Free Flask \u3010Grey Li \uff0cmember of Pallets Team\u3011"
+          }, 
+          {
+            "time": "17:00-17:15", 
+            "topic": "Application of Python in embedded system development \u3010Xiaomao Zhou \uff0cDevelopment Manager of iRain Parking\u3011(Quick speech)"
+          }, 
+          {
+            "time": "17:15-17:30", 
+            "topic": "Ending, Lottery, Taking photo"
+          }
+        ], 
+        "name": "breakout venue 3: Web Session ( Web Development / Network Security / Crawler / SDK / API Design )"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "13:00-13:45", 
+            "topic": "What can be done with Python \u2014 Implement a web application that includes an identity authentication module \u3010Hui Chang\uff0cConsultant of ThoughtWorks\u3011"
+          }, 
+          {
+            "time": "13:45-14:30", 
+            "topic": "Python application in cryptography \u3010Wentian Zhao \uff0cPenetration Test Engineer of DigApis\u3011"
+          }, 
+          {
+            "time": "14:30-14:45", 
+            "topic": "What about our pension? \u3010Leezhuo Guo \uff0cIT Veteran / Fan of Python\u3011(Quick speech)"
+          }, 
+          {
+            "time": "14:45-15:00", 
+            "topic": "Tea Break"
+          }, 
+          {
+            "time": "15:00-17:15", 
+            "topic": "\u3010Work Shop\u3011take computer by yourself"
+          }, 
+          {
+            "time": "17:15-17:30", 
+            "topic": "Ending, Lottery, Taking photo"
+          }
+        ], 
+        "name": "breakout venue 4: Python Session for Women"
+      }
     ], 
-    "hangzhou": {
-      "address": "567 Xincheng Road, Binjiang District.", 
-      "afternoon": [
-        {
-          "time": "15:25-15:40", 
-          "topic": "Tea Break"
+    "buy_ticket_url": "http://www.huodongxing.com/event/7451673665100?td=8211933664158", 
+    "city_icon": "beijing_icon.png", 
+    "city_name": "Beijing", 
+    "description": "<p>In recent years, Python has excellent performance in the fields of Internet, artificial intelligence, scientific computing, game, cloud computing, big data, devops, and enterprise software. </p>\n<p>PyCon is a global technology conference for the Python language community. PyCon China is an Annual meeting of Python, which licensed by PyCon and hosted by CPyUG(Chinese Python User Group). In the past 7 years, it has successfully held more than 20 times in Beijing, Shanghai, Guangzhou, Zhuhai, Hangzhou, Suzhou, Xi'an and Hefei.\u00a0</p>\n<p>The  8th China Python Developers Conference PyCon China 2018 is sponsored by PyChina.org, organized by 30 organizers from CPyUG / TopGeek and nearly 150 volunteers in Beijing, Shanghai, Shenzhen, Hangzhou and Chengdu. It will commit to  the development and application of various Python-related technologies in the fields of Internet and enterprise applications. </p>\n<p>With the rapid development of big data and artificial intelligence, Python brings huge opportunities to developers.</p>\n<p>Each Pythoner has their own PyCon conference in mind, and the organizing committee of the conference is also working on a conference that will help Pythoner. So this year \u2014\u2014 in the 8th year of PyCon China, we will break the past conventions and welcome all developers who are committed to promoting Python technology to join our organizing committee, lecturers, and volunteers. Together with the famous Python experts and enthusiastic Python promotion ambassadors to promote the Python language and its latest applications to the whole society. Let us work together to make the PyCon conference become an big party of gathering and sharing of experiences and achievements for pythoners once a year.</p>\n<p>The main venue of PyCon China 2018 is located in Beijing, because Beijing is the most concentrated city of Pythoners. We will try our best to meet the demands of Pythoners in various fields with the main venue of thousand people summit in the morning and the 5-6 breakout venue in the afternoon. At the same time, the Python special session for women was opened for the first time under the advice of Beijing core organizer Zheao Lee. </p>\n<p>Shanghai, Hangzhou, Shenzhen and Chendu are the breakout venues. We will coordinate and arrange the specific sharing schedules according to the application situation of subject, the willingness of everyone to participate, and the local characteristics.</p>\n<p>In the case where the lecturer and the venue are mature, we welcome Pyhoners from other regions to launch the PyCon conference, in order to making more Pythoners talk and share together, and making more people understand, recognize, use Python and become experts. </p>\n", 
+    "detail_url": "city_beijing.html", 
+    "donators": [
+      {
+        "avatar": "personal.png", 
+        "name": "Mxuan_\u5c0f\u9519"
+      }, 
+      {
+        "avatar": "personal.png", 
+        "name": "Silence.M"
+      }, 
+      {
+        "avatar": "personal.png", 
+        "name": "Cynthia Xin"
+      }, 
+      {
+        "avatar": "personal.png", 
+        "name": "kavin"
+      }, 
+      {
+        "avatar": "personal.png", 
+        "name": "\u6731\u660e\u653e"
+      }, 
+      {
+        "avatar": "personal.png", 
+        "name": "\u8521\u742a\u660e"
+      }
+    ], 
+    "intro": "Python Language Features | Machine Learning & Big Data Session | Web Session ( Web Development / Network Security / Crawler / SDK / API Design ) | Python Session for Women", 
+    "speakers": {
+      "id_Lusheng": {
+        "avatar": "lecturer_lvlusheng.png", 
+        "intro": "Python Backend Developer at day, Rustacean at night. Author of PyO3, active in the Python community and the Rust community, also enthusiastic and hardworking in open source enthusiast.", 
+        "name": "Lusheng Lv", 
+        "title": "Ant Financial Backend development", 
+        "topic": {
+          "preview": "This topic will share the current status and ideas for useing Rust code in Python.", 
+          "title": "How to use Rust in Python"
         }
-      ], 
-      "cancel_talks": null, 
-      "city": "hangzhou", 
-      "completed": false, 
-      "date": "November 4, 2018 8:00 to 17:00", 
-      "lightening_talks": null, 
-      "maplink": "https://www.amap.com/place/B0FFF2H2XA", 
-      "morning": [
-        {
-          "time": "8:50-9:00", 
-          "topic": "Check-in"
-        }, 
-        {
-          "time": "10:30-11:40", 
-          "topic": "Tea Break"
+      }, 
+      "id_changhui": {
+        "avatar": "lecturer_changhui.png", 
+        "intro": "She has provided consulting and delivery services for microservices and website construction at home and abroad. I am good at testing drive development and software architecture evolution. Passionate about technology, passionate about agile practices, and a practitioner of continuous delivery.", 
+        "name": "Hui Chang", 
+        "title": "Consultant of ThoughtWorks", 
+        "topic": {
+          "preview": "Building a website is a very fulfilling thing. In the eyes of most people who are interested in driving development, the simple use of Python and its components is complicated by the fact that each module is built into a complete set of solutions. Now that OAuth2.0 and OIDC are standard, is it useful to integrate an identity authentication module into a website? AWS provides some good ideas on development costs, development cycles, and controllability. So, how should we use building blocks to build web applications step by step? Stay tuned.", 
+          "title": "What can be done with Python \u2014 Implement a web application that includes an identity authentication module"
         }
-      ], 
-      "name": "Hangzhou", 
-      "noon": [
-        {
-          "time": "12:10-13:10", 
-          "topic": "Lunch"
+      }, 
+      "id_chenxiaoyou": {
+        "avatar": "lecturer_chenxiaoyou.png", 
+        "intro": "Xiaoyou Chen, founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., has worked as a quantitative trader and fund manager in large-scale quantitative private equity funds and developed the vn.py quantitative trading framework, which is currently one of the world''s largest open source quantitative trading projects (Github Star 6071).  His current focus is mainly on development of quantitative trading systems in the blockchain and digital currency sectors.", 
+        "name": "Xiaoyou Chen", 
+        "title": "Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd.", 
+        "topic": {
+          "preview": "The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution and its decentralized infrastructure are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active and active user community, the Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions.", 
+          "title": "Python in Blockchain Asset Management"
         }
-      ], 
-      "notices": "", 
-      "traffic": "", 
-      "url": "hangzhou.html", 
-      "venue": "4Th Floor, Block B, Hangzhou Global R&D Center, Nokia Communications", 
-      "video": ""
+      }, 
+      "id_cuiqingcai": {
+        "avatar": "lecturer_cuiqingcai.png", 
+        "intro": "Qingcai Cui, master of Beihang University, author of \u300aPython3\u7f51\u7edc\u722c\u866b\u5f00\u53d1\u5b9e\u6218\u300b, Blog bloggers of cuiqingcai.com, the number of blog reading about Crawler has exceeded one million, Big Data Engineer of Microsoft China, lecturer of  Tianshan Intelligent and Netease Cloud Classroom, and currently engaged in the research of conversational chat direction.", 
+        "name": "Qingcai Cui / Jingmi", 
+        "title": "Big Data Engineer of Microsoft China", 
+        "topic": {
+          "preview": "This presentation will introduce the knowledge and skills of using Python for web crawler development in five aspects: crawling, parsing, storing, anti-climbing, and acceleration. It introduces how to take different measures to efficiently capture data in different scenarios, including Web crawling, App crawling, data storage, agent purchasing, verification code cracking, distributed crawling and management, intelligent parsing, etc., and also introduce some commonly used toolkits in combination with different scenarios. All of the speech content are the summary of the experience of the speaker since the web crawler research process.", 
+          "title": "Robust and efficient web crawler"
+        }
+      }, 
+      "id_dengliangju": {
+        "avatar": "lecturer_dengliangju.png", 
+        "intro": "He has been working for more than 5 years, focusing on the Python technology stack server architecture design and framework development. He used to be the R&D engineer of the Lea cloud computing PaaS platform and the head of the data department of Cheetah Mobile AILab. He is currently the director of engineering of the metasota. In the spare time, he often exchange ideas and guide new people in the technical community with Python developers.", 
+        "name": "Liangju Deng", 
+        "title": "metasota / Director of Engineering", 
+        "topic": {
+          "preview": "The development of Web technology has been quite complicated so far. The related projects are \u201csmall and no internal, and they are nothing short\u201d. Various front and rear end frames and middlewares are numerous and numerous. Many introductory developers have even worked for three or five years, limited to the use of a certain two frameworks, and regarded their own fancy framework as a standard. They are only skilled in the interface after the framework is packaged. Why does the framework exist and why in that design? When encountering difficult problems, and how to solve and optimize, it is not enough. This topic is based on the history of Web technology development, helping listeners to clearly understand the role and key points of Web-related core technologies, so that they can have clear goals and clear ideas when solving various problems encountered in learning work in the future. ", 
+          "title": "Taking history as a guide: Understand the Web core technology system in half an hour"
+        }
+      }, 
+      "id_eziomelotti": {
+        "avatar": "lecturer_guolizhuo.png", 
+        "intro": "He joined IT in 2000 and has been engaged in communication/network security for a long time. He has passed the qualifications of well-known foreign companies, also participated in the entrepreneurial boom. He is working on an information security company currently. In his spare time, he is committed to popularizing Python programming, making Python a tool that everyone can use, organizing multiple Python public interest qq groups, and spreading introductory courses through live broadcast. H e is interested in quantitative investment, and experienced losses in stocks, futures, cryptocurrencies and other varieties, and focused on fund investment, risk reduction, and stable income gradually.", 
+        "name": "Leezhuo Guo", 
+        "title": "IT Veteran / Fan of Python", 
+        "topic": {
+          "preview": "Add extra protection to yourself by means of fixed investment<br/>\n1.What is the automatic investment plan (AIP)?<br/>\n2.Advantages of the automatic investment plan (AIP)<br/>\n3.Shortcomings of the automatic investment plan (AIP)<br/>\n4.Advantage about programmers do the automatic investment plan (AIP)<br/>\n5.How to make automatic investment plan (AIP) with Python\n", 
+          "title": "What about our pension?"
+        }
+      }, 
+      "id_heshiyou": {
+        "avatar": "lecturer_heshiyou.png", 
+        "intro": "Start-up & Architect @ Guangzhou, China CTO @ ifanr.com, in charge of cloud.minapp.com, a serverless platform designed for miniprogram apps.Art lover / addicted in creative activities.", 
+        "name": "Ernest He", 
+        "title": "CTO of ifanr", 
+        "topic": {
+          "preview": "In recent years, PWA and miniprogram become more and more popular in app developments; in the mean while BaaS and FaaS also be loved by more and more developers. In this session, the speaker will introduce how ifanr team build a serverless platform which designed for miniprogram developers, using Python and Django.", 
+          "title": "Form 0-1, create a Serverless platform by using Python"
+        }
+      }, 
+      "id_hexiangyu": {
+        "avatar": "lecturer_hexiangyu.png", 
+        "intro": "updating", 
+        "name": "Xiangyu He", 
+        "title": "Python engineer of TCL Internet Division", 
+        "topic": {
+          "preview": "Python is a programming language with multiple inheritance capabilities. In object-oriented inheritance, the invocation of methods is closely related to the order of inheritance. Python uses the C3 linearization algorithm to calculate the MRO as the only criterion for the method call sequence, and understanding MRO can help us in Python object-oriented programming.", 
+          "title": "Understand of Python MRO"
+        }
+      }, 
+      "id_hongqiangning": {
+        "avatar": "lecturer_hongqiangning.png", 
+        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
+        "name": "Qiangning Hong", 
+        "title": "Founder and CTO of einplus", 
+        "topic": {
+          "preview": "\u7f3a", 
+          "slide": null, 
+          "title": "My Python Road (tentative)"
+        }
+      }, 
+      "id_kongtaoxun": {
+        "avatar": "lecturer_kongtaoxun.png", 
+        "intro": "Taoxun Kong / K0r4dji, CSO of Beijing Ding Niu Technology Co., Ltd., founder of Breaking Security Team, which is a famous information security team in domestic, book expert consultant of People Post Press-Asynchronous Community-Information security field.", 
+        "name": "Taoxun Kong/K0r4dji", 
+        "title": "Chief security officer(CSO) of digapis", 
+        "topic": {
+          "preview": "With the increasing number of Internet attacks, network information security has gradually attracted people's attention. Python has become the most popular programming language for hackers. Whether it is network attack or defense or software cracking, Python is very simple to help security personnel accomplish many things, such as: automation Attacks, etc. Through this topic, you can learn about Python's things in the information security field.", 
+          "title": "Chief security officer(CSO) of digapis"
+        }
+      }, 
+      "id_lihui": {
+        "avatar": "lecturer_lihui.png", 
+        "intro": "The author of Python Web Development with Flask.", 
+        "name": "Grey Li", 
+        "title": "member of Pallets Team", 
+        "topic": {
+          "preview": "As a popular Python web framework, many developers like Flask''s simplicity and flexibility, and often compare it to bulky Django. Based on these characteristics, we can say that Flask is free, and free Flask will make your web development more free. Specifically, the free here is manifested in many aspects, including the extension of program functions, the definition of routes, the organization of project structures, and the design of program patterns.", 
+          "title": "The Free Flask"
+        }
+      }, 
+      "id_lijinhong": {
+        "avatar": "lecturer_lijinhong.png", 
+        "intro": "Jinhong Lee, main engineer of Code doctor studio, founder of the big snake intelligence, chief artificial intelligence scientist of Beijing Pai Network Software, has released two video tutorials on the CNTK deep learning framework, has published two best-selling books, \u300a\u6df1\u5ea6\u5b66\u4e60\u4e4bTensorflow\uff1a\u5165\u95e8\u3001\u8fdb\u9636\u4e0e\u5b9e\u6218\u300band\u300apython\u5e26\u6211\u8d77\u98de\uff1a\u5165\u95e8\u3001\u8fdb\u9636\u3001\u5546\u4e1a\u5b9e\u6218\u300b.", 
+        "name": "Jinhong Lee", 
+        "title": "Main engineer of Code doctor", 
+        "topic": {
+          "preview": "1.Basic knowledge and trends of artificial intelligence<br/>\n2.Picture classification and fine-tuning practical case<br/>\n3.Face recognition direction practical case<br/>\n4.Numerical analysis direction practical case<br/>\n", 
+          "title": "Artificial Intelligence Case Study Sharing - Image "
+        }
+      }, 
+      "id_lilong": {
+        "avatar": "lecturer_lilong.png", 
+        "intro": "Leo Lee (debugtalk), DebugTalk Blogger, the author of HttpRunner. 7 years\u2018 experience in software testing industry, heavy Python enthusiasts, always committed to Python in software testing field of application and promotion. Embracing the Zen of Python, pursuiting of simplicity and elegance in code, as well as in life. Currently in DJI is responsible for testing and development work.", 
+        "name": "Leo Lee(debugtalk)", 
+        "title": "Leader of DJI test developement", 
+        "topic": {
+          "preview": "1. Python's ecology in the field of software testing<br/>\n2. The birth background of HttpRunner<br/>\n3. The development and design ideas of HttpRunner<br/>\n4. Automated test program based on HttpRunner<br/>\n5. Successful practice case based on HttpRunner\n", 
+          "title": "Build an enterprise-level automated testing framework HttpRunner with Python open source ecosystem"
+        }
+      }, 
+      "id_nightynight": {
+        "avatar": "lecturer_nightynight.png", 
+        "intro": "From MSRA, has very deep research on features and underlying of Python language", 
+        "name": "nightynight", 
+        "title": "MSRA", 
+        "topic": {
+          "preview": "Extend the use of cpython vm through metaprogramming to improve code reuse rate, abstract ability and runtime program execution efficiency. Also to introduce How to introduce JIT and type checking tools in a compatible cpython ecosystem.", 
+          "title": "Implementation ideas of Python JIT"
+        }
+      }, 
+      "id_qinxuye": {
+        "avatar": "lecturer_qinxuye.png", 
+        "intro": "His main job is to combine the Python ecosystem with the big data environment. The past work involved writing the pyodps DataFrame framework, which allows users to write code similar to pandas, but supports execution on MaxCompute bi data platforms, pandas, and traditional databases. His current work is mainly Mars, which is a matrix-based unified computing framework. Its goal is to bring the PyData ecosystem to a distributed execution environment. Currently, it supports the Numpy interface and can perform multidimensional array operations in a distributed environment. It supports running on the GPU. And supports two-dimensional sparse matrices. Pandas and scikit-learn will be distributed in the future.", 
+        "name": "Xuye Qin", 
+        "title": "Computing Platform Department of Alibaba", 
+        "topic": {
+          "preview": "Mars - Matrix-based unified computing framework, the goal to bring the ecology of PyData to a distributed execution environment, currently supports the Numpy interface, can perform multidimensional array operations in a distributed environment, it supports running on the GPU, and supports two-dimensional sparse matrices. Currently, Mars is compatible with 70% of the common Numpy interfaces. This sharing session introduces our current work, introduces Mars'' implementation principles, and looks ahead to future superstructures including DataFrame and machine learning.", 
+          "title": "Mars - Matrix-based unified computing framework"
+        }
+      }, 
+      "id_wangshun": {
+        "avatar": "lecturer_wangshun.png", 
+        "intro": "Python/Go/C++ developer, responsible for the landing and best practices of cloud computing, big data and deep learning technologies in large enterprises. He has worked for artificial intelligence unicorn Face++ and AWS, Oracle and other companies. The main architecture and developer of the face recognition system for the coffee-free unmanned convenience store, AWS Big Data Expert EMR Subject Matter Expert.", 
+        "name": "Shun Wang", 
+        "title": "Cloud Advisor of Google", 
+        "topic": {
+          "preview": "1.Introduction of TPU;<br/>\n2.A tutorial of training/inference a DL/ML model on Google TPUv2 2.1 example 1, 2.2 example 2;<br/>\n3.Difference between TPUv2 and GPU and trouble shooting of TPUv2. 4 Benchmark of TPUv2 and GPU<br/>\n", 
+          "title": "Cooking with Google TPUv2: How to train and deploy your models on Google Cloud."
+        }
+      }, 
+      "id_yaogangqiang": {
+        "avatar": "lecturer_yaogangqiang.png", 
+        "intro": "Joined Zhihu in 2013, he was the head of the home feed stream engineering technology. During the project of the feed stream, the response time P95 was reduced from 1.6s to 700ms through the optimization of the framework. The stability was improved from 99.9% to 99.99% through the development specification. Responsible for the Community Architecture Group in 2018, leading the team to rewrite the main business modules with Golang, saving machine resources 75%", 
+        "name": "Gangqiang Yao", 
+        "title": "Technical Leader of Community Division of Zhihu", 
+        "topic": {
+          "preview": "updating", 
+          "title": "Subject to be determined"
+        }
+      }, 
+      "id_yizhe": {
+        "avatar": "lecturer_yizhe.png", 
+        "intro": "One of the executors of the AI Empowerment Program, working as a guest lecturer in cloud computing and big data related fields in several universities in Shanghai, first contact with Python in 10 years, and fully embraced Python and deepened the data science community in 15 years.", 
+        "name": "Yizhe", 
+        "title": "PING AN / Data scientist", 
+        "topic": {
+          "preview": "1. The overall evolution and architecture of the data science platform from 0 to 1<br/>\n2. 0.25 era - \"Python + Hive + Shell\" mixed programming to solve the cumbersome human ETL<br/>\n3. 0.5 era - \"Django+ElasticSearch\" increased customer search and BI analysis support<br/>\n4. 0.75 era - \"Django+PyHive+PySpark\" increases the operation and machine learning task flow of big data clusters<br/>\n5. 1.0 era - Scheduler scheduling integration and platform, cluster micro-service<br/>\n6. Various external technical resistances and pitfalls encountered in the evolution path from 0 to 1<br/>\n7. Summary and outlook'\n", 
+          "title": "Evolution Path of Enterprise Data Science Platform Based on Python Ecosphere"
+        }
+      }, 
+      "id_zhangjintao": {
+        "avatar": "lecturer_zhangjintao.png", 
+        "intro": "Jintao Zhang, senior devops developer of NetEase, responsible for construction of containerization and automated operation and maintenance system.", 
+        "name": "Jintao Zhang", 
+        "title": "Senior Devops of NetEase", 
+        "topic": {
+          "preview": "With the formation of ecosystems such as containerization and cloud native, the value of CI/CD in the software development process is becoming more and more prominent. More and more companies need to transform and optimize this, but thousands of people have thousands of faces, transformations and practices often have many problems, both in the personnel and in the tool chain. This time is mainly to share the best practices we have summarized in production, and to analyze the problems encountered in this process, and to share in detail the technical details, as well as the optimization, problem analysis, and architecture in the process and the reflections and conclusions we have made, I hope that everyone can inspire them and promote their respective development in the production environment.", 
+          "title": "CI/CD Practice Based on Docker"
+        }
+      }, 
+      "id_zhangxiang": {
+        "avatar": "lecturer_zhangxiang.png", 
+        "intro": "updating\u2026", 
+        "name": "Xiang Zhang", 
+        "title": "CPython Core Developer / CPython Committer", 
+        "topic": {
+          "preview": "This speech will share the most frequently encountered problems in CPython development and the tools for debugging problems in your own work scenario; also, it will talk the thinking about Python debugging and monitoring in future.", 
+          "title": "What happened to my Python process?"
+        }
+      }, 
+      "id_zhaowentian": {
+        "avatar": "lecturer_zhaowentian.png", 
+        "intro": "Beijing University of Posts and Telecommunications - Network Information Security Winter Camp - Senior Lecturer, Guangzhou University - Network Information Security Summer Camp - Senior Lecturer, Domestic Famous Information Security Research Team - Core Member of Dawning Team, Beijing Mingyuan University - Network Space Advanced Technology College - Senior Lecturer, Freebuf-DigApis Information Security Column Leader", 
+        "name": "Wentian Zhao", 
+        "title": "Penetration Test Engineer of DigApis", 
+        "topic": {
+          "preview": "Briefly introduce modules and functions that involve cryptography in Python", 
+          "title": "Python application in cryptography"
+        }
+      }, 
+      "id_zhouxiaomao": {
+        "avatar": "lecturer_zhouxiaomao.png", 
+        "intro": "Working as development manager in iRain Parking, also worked in Hangzhou Hikvision. After working, he has been engaged in embedded software development, mainly involving camera sensor driver development, intelligent access control system development and intelligent parking lot software development.", 
+        "name": "Xiaomao Zhou", 
+        "title": "Development Manager of iRain Parking", 
+        "topic": {
+          "preview": "This speech focuses on the work experience of speecher and illustrates the practical use of Python in the embedded software development process. The speech details will be divided into the following sections<br/>\n1. What is included in embedded development, including development of driver layer and application layer.<br/>\n2. What Python can do in embedded development. Python can be used in embedded development of application layer, including background web development, instant communication development, GUI development, etc.<br/>\n3. Compare the advantages of Python development over traditional embedded development.<br/>\n4. Briefly explain the basic process of embedded development using Python, and mainly explain the construction process of Python development environment.<br/>\n5. Finally, showing the specific application intelligent parking system management display and PLC communication read and write operation display. \n", 
+          "title": "Application of Python in embedded system development"
+        }
+      }
     }, 
-    "shanghai": {
-      "address": "No. 130, Yichang Road, Putuo, Shanghai (in the MengQingYuan Park)", 
-      "afternoon": [
-        {
-          "time": "15:25-15:40", 
-          "topic": "Tea Break"
-        }
-      ], 
-      "cancel_talks": null, 
-      "city": "shanghai", 
-      "completed": false, 
-      "date": "October 21st, 2018 8:00 to 17:00", 
-      "lightening_talks": null, 
-      "maplink": "https://www.amap.com/place/B0015731XR", 
-      "morning": [
-        {
-          "time": "8:50-9:00", 
-          "topic": "Check-in"
-        }, 
-        {
-          "time": "10:30-11:40", 
-          "topic": "Tea Break"
-        }
-      ], 
-      "name": "Shanghai", 
-      "noon": [
-        {
-          "time": "12:10-13:10", 
-          "topic": "Lunch"
-        }
-      ], 
-      "notices": "", 
-      "traffic": "Zhongtan Road Station at Metro Line 4", 
-      "url": "shanghai.html", 
-      "venue": "2nd floor of No.1 Art Hotel", 
-      "video": ""
-    }, 
-    "shenzhen": {
-      "address": "No.2 Boyun Road, Pudong, Shanghai", 
-      "afternoon": [
-        {
-          "time": "15:25-15:40", 
-          "topic": "Tea Break"
-        }
-      ], 
-      "cancel_talks": null, 
-      "city": "shenzhen", 
-      "completed": false, 
-      "date": "2018-10-27 9:00 ~ 17:00", 
-      "lightening_talks": null, 
-      "maplink": "http://f.amap.com/0FFE0i", 
-      "morning": [
-        {
-          "time": "8:50-9:00", 
-          "topic": "Check-in"
-        }, 
-        {
-          "time": "10:30-11:40", 
-          "topic": "Tea Break"
-        }
-      ], 
-      "name": "Shenzhen", 
-      "noon": [
-        {
-          "time": "12:10-13:10", 
-          "topic": "Lunch"
-        }
-      ], 
-      "notices": "", 
-      "traffic": "Jinke Road Station at Metro Line 2", 
-      "url": "shenzhen.html", 
-      "venue": "Meeting Hall at SPSP Building", 
-      "video": "http://e.vhall.com/597478279"
-    }
+    "time": "<b>Time</b>\uff1a2018.10.14", 
+    "tips": "<b>Conference schedule</b><p>2018.10.14 \uff08 * Due to venue restrictions, no lunch will be offered at this conference.\uff09</p>", 
+    "title": "beijing", 
+    "volunteers": [
+      {
+        "avatar": "chenshixin.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / Ahaschool-CTO", 
+        "name": "\u9648\u4e16\u6b23", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "dama.png", 
+        "description": "\u4f18\u52bf\u773c\u52a8-\u5408\u4f19\u4eba / PyChina\u53d1\u8d77\u4eba", 
+        "name": "\u5927\u5988", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "lizheao.png", 
+        "description": "\u95ea\u94f6\u5947\u5f02-\u9ad8\u7ea7Python\u5f00\u53d1 / \u5317\u4eac\u7ec4\u59d4\u8d1f\u8d23\u4eba", 
+        "name": "\u674e\u8005\u7488", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "dengliangju.png", 
+        "description": "\u79d8\u5854\u79d1\u6280-\u5de5\u7a0b\u603b\u76d1 / Python\u5de5\u7a0b\u5316\u5e94\u7528\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u9093\u826f\u9a79", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "laixintao.png", 
+        "description": "\u8682\u8681\u91d1\u670d-SRE / \u5317\u4eacPython\u8bed\u8a00\u7279\u6027\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u8d56\u4fe1\u6d9b", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "shiyuankun.png", 
+        "description": "\u82f1\u7279\u5c14\u8f6f\u4ef6\u5de5\u7a0b\u5e08 / Python\u521b\u65b0\u5e94\u7528\u4e13\u573a\u8d1f\u8d23\u4eba", 
+        "name": "\u77f3\u5143\u5764", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "hexiangyu.png", 
+        "description": "TCL\u4e92\u8054\u7f51\u4e8b\u4e1a\u90e8-Python\u5de5\u7a0b\u5e08 / \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u4f55\u7fd4\u5b87", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }, 
+      {
+        "avatar": "qianzhangnian.png", 
+        "description": "\u521b\u76db\u89c6\u8054\u6570\u7801\u79d1\u6280\uff08\u5317\u4eac\uff09\u6709\u9650\u516c\u53f8-\u7814\u53d1\u7ecf\u7406 / \u5317\u4eac\u6838\u5fc3\u7ec4\u7ec7\u8005", 
+        "name": "\u94b1\u7ae0\u5e74", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }
+    ]
   }, 
-  "donators": [
-    "kavin"
-  ], 
+  "city_chengdu": {
+    "address": "<b>Address</b>\uff1a(Sichuan, Chengdu)Southwest Jiaotong University (Xipu Campus), No. 999, Xi'an Road, Yaodu District", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "09:00-09:20", 
+            "topic": "Check-in"
+          }
+        ], 
+        "name": "\u4e3b\u4f1a\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aA\uff1aPython \u8bed\u8a00\u7279\u6027\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aB: \u4eba\u5de5\u667a\u80fd & \u5927\u6570\u636e & \u533a\u5757\u94fe"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aC: \u67b6\u6784 & Web\u540e\u7aef & \u8fd0\u7ef4\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aD: Python \u5973\u6027\u4e13\u573a"
+      }
+    ], 
+    "buy_ticket_url": "http://www.huodongxing.com/go/pyconcd2018", 
+    "city_icon": "chengdu_icon.png", 
+    "city_name": "Chengdu", 
+    "description": "", 
+    "detail_url": "city_chengdu.html", 
+    "donators": null, 
+    "intro": "", 
+    "speakers": {
+      "id_hongqiangning": {
+        "avatar": "lecturer_hongqiangning.png", 
+        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
+        "name": "Qiangning Hong", 
+        "title": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": "\u8fd916\u5e74\u6765\u6211\u4ecePython\u5b66\u5230\u4e86\u4ec0\u4e48"
+        }
+      }
+    }, 
+    "time": "<b>Time</b>\uff1a2018.10.27", 
+    "tips": "<b>\u5927\u4f1a\u65e5\u7a0b</b><p>2018\u5e7410\u670827\u65e5 \uff08 * \u56e0\u4e3a\u573a\u5730\u9650\u5236\uff0c\u672c\u6b21\u5927\u4f1a\u5c06\u4e0d\u63d0\u4f9b\u5348\u9910\uff09</p>", 
+    "title": "chengdu", 
+    "volunteers": [
+      {
+        "avatar": "chenshixin.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / Ahaschool-CTO", 
+        "name": "\u9648\u4e16\u6b23", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }
+    ]
+  }, 
+  "city_hangzhou": {
+    "address": "<b>Address</b>\uff1a(Zhejiang, Hangzhou)4th Floor, Block B, Nokia Global R&D Center, NO.567, Xincheng Road, Binjiang District", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "09:00-09:20", 
+            "topic": "Check-in"
+          }
+        ], 
+        "name": "\u4e3b\u4f1a\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aA\uff1aPython \u8bed\u8a00\u7279\u6027\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aB: \u4eba\u5de5\u667a\u80fd & \u5927\u6570\u636e & \u533a\u5757\u94fe"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aC: \u67b6\u6784 & Web\u540e\u7aef & \u8fd0\u7ef4\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aD: Python \u5973\u6027\u4e13\u573a"
+      }
+    ], 
+    "buy_ticket_url": "http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158", 
+    "city_icon": "hangzhou_icon.png", 
+    "city_name": "Hangzhou", 
+    "description": "", 
+    "detail_url": "city_hangzhou.html", 
+    "donators": null, 
+    "intro": "", 
+    "speakers": {
+      "id_hongqiangning": {
+        "avatar": "lecturer_hongqiangning.png", 
+        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
+        "name": "Qiangning Hong", 
+        "title": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": "\u8fd916\u5e74\u6765\u6211\u4ecePython\u5b66\u5230\u4e86\u4ec0\u4e48"
+        }
+      }
+    }, 
+    "time": "<b>Time</b>\uff1a2018.11.04", 
+    "tips": "<b>\u5927\u4f1a\u65e5\u7a0b</b><p>2018\u5e7411\u670804\u65e5 \uff08 * \u56e0\u4e3a\u573a\u5730\u9650\u5236\uff0c\u672c\u6b21\u5927\u4f1a\u5c06\u4e0d\u63d0\u4f9b\u5348\u9910\uff09</p>", 
+    "title": "hangzhou", 
+    "volunteers": [
+      {
+        "avatar": "chenshixin.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / Ahaschool-CTO", 
+        "name": "\u9648\u4e16\u6b23", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }
+    ]
+  }, 
+  "city_shanghai": {
+    "address": "<b>Address</b>\uff1a(Shanghai, Putuo)2nd Floor, Shanghai No.1 Art Hotel (in the Mengqing Park), No.130, Yichang Road,\u00a0Putuo District", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "09:00-09:20", 
+            "topic": "Check-in"
+          }
+        ], 
+        "name": "\u4e3b\u4f1a\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aA\uff1aPython \u8bed\u8a00\u7279\u6027\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aB: \u4eba\u5de5\u667a\u80fd & \u5927\u6570\u636e & \u533a\u5757\u94fe"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aC: \u67b6\u6784 & Web\u540e\u7aef & \u8fd0\u7ef4\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aD: Python \u5973\u6027\u4e13\u573a"
+      }
+    ], 
+    "buy_ticket_url": "http://www.huodongxing.com/event/5453261623411", 
+    "city_icon": "shanghai_icon.png", 
+    "city_name": "Shanghai", 
+    "description": "", 
+    "detail_url": "city_shanghai.html", 
+    "donators": null, 
+    "intro": "", 
+    "speakers": {
+      "id_hongqiangning": {
+        "avatar": "lecturer_hongqiangning.png", 
+        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
+        "name": "Qiangning Hong", 
+        "title": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": "\u8fd916\u5e74\u6765\u6211\u4ecePython\u5b66\u5230\u4e86\u4ec0\u4e48"
+        }
+      }
+    }, 
+    "time": "<b>Time</b>\uff1a2018.10.21", 
+    "tips": "<b>\u5927\u4f1a\u65e5\u7a0b</b><p>2018\u5e7410\u670821\u65e5 \uff08 * \u56e0\u4e3a\u573a\u5730\u9650\u5236\uff0c\u672c\u6b21\u5927\u4f1a\u5c06\u4e0d\u63d0\u4f9b\u5348\u9910\uff09</p>", 
+    "title": "shanghai", 
+    "volunteers": [
+      {
+        "avatar": "chenshixin.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / Ahaschool-CTO", 
+        "name": "\u9648\u4e16\u6b23", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }
+    ]
+  }, 
+  "city_shenzhen": {
+    "address": "<b>Address</b>\uff1a(Guangdong, Shenzhen)3rd Floor, Shenzhen Kexing Science Park International Conference Center, NO.15,\u00a0 Keyuan Road, Nanshan District", 
+    "agenda": [
+      {
+        "detail": [
+          {
+            "time": "09:00-09:20", 
+            "topic": "Check-in"
+          }
+        ], 
+        "name": "\u4e3b\u4f1a\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aA\uff1aPython \u8bed\u8a00\u7279\u6027\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aB: \u4eba\u5de5\u667a\u80fd & \u5927\u6570\u636e & \u533a\u5757\u94fe"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aC: \u67b6\u6784 & Web\u540e\u7aef & \u8fd0\u7ef4\u4e13\u573a"
+      }, 
+      {
+        "detail": [
+          {
+            "time": "10:30-11:40", 
+            "topic": "Tea Break"
+          }
+        ], 
+        "name": "\u5206\u4f1a\u573aD: Python \u5973\u6027\u4e13\u573a"
+      }
+    ], 
+    "buy_ticket_url": "http://www.huodongxing.com/go/pycon2018sz", 
+    "city_icon": "shenzhen_icon.png", 
+    "city_name": "Shenzhen", 
+    "description": "", 
+    "detail_url": "city_shenzhen.html", 
+    "donators": null, 
+    "intro": "", 
+    "speakers": {
+      "id_hongqiangning": {
+        "avatar": "lecturer_hongqiangning.png", 
+        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
+        "name": "Qiangning Hong", 
+        "title": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": "\u8fd916\u5e74\u6765\u6211\u4ecePython\u5b66\u5230\u4e86\u4ec0\u4e48"
+        }
+      }
+    }, 
+    "time": "<b>Time</b>\uff1a2018.10.27", 
+    "tips": "<b>\u5927\u4f1a\u65e5\u7a0b</b><p>2018\u5e7410\u670827\u65e5 \uff08 * \u56e0\u4e3a\u573a\u5730\u9650\u5236\uff0c\u672c\u6b21\u5927\u4f1a\u5c06\u4e0d\u63d0\u4f9b\u5348\u9910\uff09</p>", 
+    "title": "shenzhen", 
+    "volunteers": [
+      {
+        "avatar": "chenshixin.png", 
+        "description": "PyChina\u53d1\u8d77\u4eba / Ahaschool-CTO", 
+        "name": "\u9648\u4e16\u6b23", 
+        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+      }
+    ]
+  }, 
   "lang": "en", 
   "lang_dir": "en", 
   "lang_suffix": "_en", 
-  "message": {
-    "address": "Address", 
-    "afternoon": "Afternoon", 
-    "beijing_booking_now": "Sign up for Beijing", 
-    "booking_now": "Enroll", 
-    "conference": "Conference Volunteers", 
-    "date": "Date", 
-    "donators": "Personal Sponsorship", 
-    "donators_orderby": "(sorted by time of sponsorship)", 
-    "hangzhou_booking_now": "Sign up for Hangzhou", 
-    "map": "Map", 
-    "morning": "Morning", 
-    "noon": "Noon", 
-    "organizers": "Coordinators", 
-    "page_title_beijing": "Schedule in Beijing", 
-    "page_title_donators": "Personal Sponsorship", 
-    "page_title_guangzhou": "Schedule in GuangZhou", 
-    "page_title_hangzhou": "Schedule in Hangzhou", 
-    "page_title_index": "HOME", 
-    "page_title_shanghai": "Schedule in Shanghai", 
-    "page_title_shenzhen": "Schedule in Shenzhen", 
-    "page_title_speakers": "Speakers", 
-    "page_title_sponsors": "Sponsors", 
-    "page_title_suzhou": "Schedule in Suzhou", 
-    "page_title_volunteers": "Volunteers", 
-    "page_title_zhuhai": "Schedule in Zhuhai", 
-    "pycon_intro": "PyCon is a global technology event for the Python language community. PythonChina is an Annual meeting of Python, which licensed by PyCon and hosted by CPyUG(Chinese Python User Group). In the past 7 years, it has successfully held more than 20 times in Beijing, Shanghai, Guangzhou, Zhuhai, Hangzhou, Suzhou, Xi'an and Hefei.\u00a0<br/>The  8th China Python Developers Conference PyConChina2018 is sponsored by PyChina.org, co-organized by CPyUG/TopGeek and other communities, and it will be held in Beijing, Shanghai, Shenzhen, hangzhou and Chengdu(to be confirmed). It will commit to  the development and application of various Python-related technologies in the fields of Internet and enterprise applications. ", 
-    "pycon_intro_title": "PyCon China", 
-    "pycon_waiting": "\u6682\u672a\u66f4\u65b0\uff0c \u656c\u8bf7\u671f\u5f85...", 
-    "pythoneer": "<b><A NAME=\"anchor\">pythoneer</a></b> ~ \"A pioneer within the Python programming language community.\" means Pythoneer COOL than Pythonista. btw Pythoner just Python beginner.", 
-    "shanghai_booking_now": "Sign up for Shanghai", 
-    "shenzhen_booking_now": "Sign up for Shenzhen", 
-    "slide": "slides", 
-    "slogan": "MAY THE PYTHONIC BE WITH YOU", 
-    "slogan_title": "PyCon China 2018", 
-    "speakers": " Speakers", 
-    "speech_apple_now": "Apply for a speech", 
-    "technicians": "Technical Volunteers", 
-    "traffic": "Traffic", 
-    "user_evaluation_left": "User evaluation left", 
-    "user_evaluation_right": "User evaluation right", 
-    "venue": "Venue", 
-    "video": "video"
-  }, 
   "nav": [
     {
-      "title": "PyConChina2018", 
+      "title": "HOME2018", 
       "url": "en/index.html"
     }, 
     {
-      "title": "SPEECH", 
-      "url": "en/speakers.html"
-    }, 
-    {
       "children": [
         {
-          "title": "SPONSORS", 
-          "url": "en/sponsor_com.html"
+          "title": "BEIJING__10.14", 
+          "url": "en/city_beijing.html"
         }, 
         {
-          "title": "DONATOR", 
-          "url": "en/donators.html"
+          "title": "SHANGHAI__10.21", 
+          "url": "en/city_shanghai.html"
+        }, 
+        {
+          "title": "SHENZHEN__10.27", 
+          "url": "en/city_shenzhen.html"
+        }, 
+        {
+          "title": "CHENGDU__10.27", 
+          "url": "en/city_chengdu.html"
+        }, 
+        {
+          "title": "HANGZHOU__11.04", 
+          "url": "en/city_hangzhou.html"
         }
       ], 
-      "title": "SUPPORT"
-    }, 
-    {
-      "children": [
-        {
-          "title": "Beijing", 
-          "url": "en/beijing.html"
-        }, 
-        {
-          "title": "Shanghai", 
-          "url": "en/shanghai.html"
-        }, 
-        {
-          "title": "Hangzhou", 
-          "url": "en/hangzhou.html"
-        }, 
-        {
-          "title": "Shenzhen", 
-          "url": "en/shenzhen.html"
-        }
-      ], 
-      "title": "SCHEDULE", 
-      "url": "en/schedule.html"
-    }, 
-    {
-      "title": "ORGANIZERS", 
-      "url": "en/volunteers.html"
-    }, 
-    {
-      "title": "SPEECH", 
-      "url": "https://jinshuju.net/f/fjOUqZ", 
-      "url_external": 1
-    }, 
-    {
-      "title": "SLIDES", 
-      "url": "", 
-      "url_external": 1
+      "title": "SCHEDULE"
     }, 
     {
       "children": [
@@ -304,360 +875,200 @@
       "title": "HISTORY"
     }, 
     {
+      "title": "NEWS", 
+      "url": "en/index.html"
+    }, 
+    {
+      "title": "ORGANIZER", 
+      "url": "en/index.html"
+    }, 
+    {
+      "title": "SPEAKER", 
+      "url": "en/index.html"
+    }, 
+    {
+      "title": "SPONSER", 
+      "url": "en/index.html"
+    }, 
+    {
       "title": "\u4e2d\u6587", 
       "url": "index.html"
     }
   ], 
   "site": {
-    "author": "support@PyChina.org", 
     "base_url": "..", 
-    "beijing": {
-      "booking_url": "http://www.huodongxing.com/event/7451673665100?td=8211933664158"
-    }, 
-    "description": "The official site for PyCon China 2018", 
-    "hangzhou": {
-      "booking_url": "http://www.huodongxing.com/go/pycon2018hangzhou?td=8211933664158"
-    }, 
+    "button_buy": "Buy Now", 
+    "button_details": "Details", 
     "home_url": "./en/", 
-    "name": "PyConChina2018", 
-    "shanghai": {
-      "booking_url": "http://www.huodongxing.com/event/5453261623411"
-    }, 
-    "shenzhen": {
-      "booking_url": "waiting.html"
-    }, 
-    "speech_apply_url": "https://jinshuju.net/f/fjOUqZ", 
-    "title": "PyCon 2018 China", 
-    "url": "http://cn.pycon.org/2018/"
-  }, 
-  "speakers": {
-    "id_chenxiaoyou": {
-      "avatar": "../asset/images/avatar-2018//speakers/chenxiaoyou.png", 
-      "beijing_topic": {
-        "preview": "The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution and its decentralized infrastructure are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active and active user community, the Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions.", 
-        "slide": null, 
-        "title": "Python in Blockchain Asset Management"
-      }, 
-      "city_beijing": 1, 
-      "city_shanghai": 1, 
-      "intro": "Xiaoyou Chen, founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., has worked as a quantitative trader and fund manager in large-scale quantitative private equity funds and developed the vn.py quantitative trading framework, which is currently one of the world's largest open source quantitative trading projects (Github Star 6071).  His current focus is mainly on development of quantitative trading systems in the blockchain and digital currency sectors.", 
-      "name": "Xiaoyou Chen"
-    }, 
-    "id_cuiyoucai": {
-      "avatar": "../asset/images/avatar-2018/speakers/cuiyoucai.png", 
-      "beijing_topic": {
-        "preview": "This presentation will introduce the knowledge and skills of using Python for web crawler development in five aspects: crawling, parsing, storing, anti-climbing, and acceleration.\u00a0It introduces how to take different measures to efficiently capture data in different scenarios, including Web crawling, App crawling, data storage, agent purchasing, verification code cracking, distributed crawling and management, intelligent parsing, etc., and also introduce some commonly used toolkits in combination with different scenarios. All of the speech content are the summary of the experience of the speaker since the web crawler research process.", 
-        "slide": null, 
-        "title": "Robust and efficient web crawler"
-      }, 
-      "city_beijing": 1, 
-      "intro": "master of Beihang University, author of \u300aPython3\u7f51\u7edc\u722c\u866b\u5f00\u53d1\u5b9e\u6218\u300b, Blog bloggers of Jingmi, the number of blog reading about Crawler has exceeded one million, Big Data Engineer of Microsoft China, lecturer of  Tianshan Intelligent and Netease Cloud Classroom, and currently engaged in the research of conversational chat direction.", 
-      "name": "Qingcai Cui / Jingmi"
-    }, 
-    "id_gashero": {
-      "avatar": "../asset/images/avatar-2018/speakers/gashero.png", 
-      "beijing_topic": {
-        "preview": "...", 
-        "slide": null, 
-        "title": "New Pose of Unlock GIL"
-      }, 
-      "city_beijing": 1, 
-      "intro": "He started learning Python in 2005 and have shared millions of words of Python notes and translated documents. Former Tudou Assistant Architect, former Crust Network Founding Technical Director, former deepglint engineer, former RoboTerra Software Engineering Director. Fans of Radio/model/robot.", 
-      "name": "Gashero"
-    }, 
-    "id_heshiyou": {
-      "avatar": "../asset/images/avatar-2018/speakers/heshiyou.png", 
-      "beijing_topic": {
-        "preview": "In recent years, PWA and miniprogram become more and more popular in app developments; in the mean while BaaS and FaaS also be loved by more and more developers. In this session, the speaker will introduce how ifanr team build a serverless platform which designed for miniprogram developers, using Python and Django.", 
-        "slide": null, 
-        "title": "Form 0-1, create a Serverless platform by using Python"
-      }, 
-      "city_beijing": 1, 
-      "intro": "CTO @ ifanr.com, in charge of cloud.minapp.com, a serverless platform designed for miniprogram apps.Art lover / addicted in creative activities.", 
-      "name": "Ernest He"
-    }, 
-    "id_hongqiangning": {
-      "avatar": "../asset/images/avatar-2018/speakers/hongqiangning.png", 
-      "beijing_topic": {
-        "preview": "...", 
-        "slide": null, 
-        "title": "My Python Road (tentative)"
-      }, 
-      "city_beijing": 1, 
-      "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
-      "name": "Qiangning Hong"
-    }, 
-    "id_jon": {
-      "avatar": "../asset/images/avatar-2018//speakers/jon.png", 
-      "city_shanghai": 1, 
-      "intro": "Continuous entrepreneurs, more than 10 years of experience in Web application architecture, mainly writing Python/Rust/JavaScript/Haskell language, Ethereum early fans and evangelists, open source software supporters. The current focus is on blockchain payment projects. Yield.IM", 
-      "name": "Jon", 
-      "shanghai_topic": {
-        "preview": "The goal of Python to implement Ethereum from scratch is to disassemble the Ethereum \"rocket\", find out, and then reassemble it with Python. Our focus is not on recreating an Ethereum, but on getting an experience in the process. This series can be roughly divided into four chapters, namely P2P network protocol, blockchain structure, consensus calculation and smart contract. This topic explores the P2P network protocol component, and we will try to connect to the Ethereum network in Python and communicate smoothly.", 
-        "slide": null, 
-        "title": "Python realizes Ethereum from scratch"
-      }
-    }, 
-    "id_kongtaoxun": {
-      "avatar": "../asset/images/avatar-2018/speakers/kongtaoxun.png", 
-      "beijing_topic": {
-        "preview": "With the increasing number of Internet attacks, network information security has gradually attracted people's attention. Python has become the most popular programming language for hackers. Whether it is network attack or defense or software cracking, Python is very simple to help security personnel accomplish many things, such as: automation Attacks, etc. Through this topic, you can learn about Python's things in the information security field.", 
-        "slide": null, 
-        "title": "My Python Hacker Road (tentative)"
-      }, 
-      "city_beijing": 1, 
-      "intro": "CSO of Beijing Ding Niu Technology Co., Ltd., founder of Breaking Security Team, which is a famous information security team in domestic, book expert consultant of People Post Press-Asynchronous Community-Information security field.", 
-      "name": "Taoxun Kong / K0r4dji"
-    }, 
-    "id_lifeng": {
-      "avatar": "../asset/images/avatar-2018//speakers/default.png", 
-      "city_hangzhou": 1, 
-      "hangzhou_topic": {
-        "preview": "1) Introduction of GraalVM and how Python plays an important role in OpenJDK development 2) Deep dive into the implementation of GraalVM 3) Rethink and redesign of Python runtime 4) GraalPython/GraalVM on ARM (Open Source Hardware Platforms like Raspberry Pi & 96boards)\u00a0in action.", 
-        "slide": null, 
-        "title": "GraalPython--a new Python runtime"
-      }, 
-      "intro": "Had been worked in Motorola, Samsung, Alibaba, EMC, and Citrix, now I am a freelancer.\u00a0 Familiar with the embedded software platform architecture based on ARM+Linux, and accumulated more than ten years of\u00a0experience in mobile development on various platforms\u00a0such\u00a0as JavaME(Oracle), BREW(Qualcomm), P2K(Motorola), Android(Google), Tizen(Samsung).\nFocused on Cloud computing related R&D work during the past few years, and gained some valuable\u00a0project experience on HW/SW architecture of Data Center, Software Defined Storage, Virtualization,Security, and High Performance Network.\nThe main translator of the book \u00abGray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition\u00bb\u00a0 (ISBN\uff1a9787302428671) : http://product.dangdang.com/23927890.html With strong interest and practical ability in technology innovation, I am keen to participate in various activities of the Open Source Community, e.g, IT conferences and technical sharing\u00a0(please refer to the \"Previous speaking experience\" section below).", 
-      "name": "Feng Lee"
-    }, 
-    "id_lijinhong": {
-      "avatar": "../asset/images/avatar-2018//speakers/lijinhong.png", 
-      "beijing_topic": {
-        "preview": "", 
-        "slide": null, 
-        "title": ""
-      }, 
-      "city_beijing": 1, 
-      "intro": "main engineer of Code doctor studio, founder of the big snake intelligence, chief artificial intelligence scientist of Beijing Pai Network Software, has released two video tutorials on the CNTK deep learning framework, has published two best-selling books, \u300a\u6df1\u5ea6\u5b66\u4e60\u4e4bTensorflow\uff1a\u5165\u95e8\u3001\u8fdb\u9636\u4e0e\u5b9e\u6218\u300band\u300apython\u5e26\u6211\u8d77\u98de\uff1a\u5165\u95e8\u3001\u8fdb\u9636\u3001\u5546\u4e1a\u5b9e\u6218\u300b.", 
-      "name": "Jinhong Lee"
-    }, 
-    "id_nightynight": {
-      "avatar": "../asset/images/avatar-2018//speakers/nightynight.png", 
-      "beijing_topic": {
-        "preview": "Extend the use of cpython vm through metaprogramming to improve code reuse rate, abstract ability and runtime program execution efficiency. Also to introduce How to introduce JIT and type checking tools in a compatible cpython ecosystem.", 
-        "slide": null, 
-        "title": "Implementation ideas of Python JIT"
-      }, 
-      "city_beijing": 1, 
-      "intro": "From MSRA, has very deep research on features and underlying of Python language", 
-      "name": "nightynight"
-    }, 
-    "id_wangxiaolei": {
-      "avatar": "../asset/images/avatar-2018//speakers/wangxiaolei.png", 
-      "city_shanghai": 1, 
-      "intro": "The chief algorithmic scientist of the China Consulting Group has provided data and algorithm related consulting services for a number of domestic and overseas projects, including banks and insurance companies, financial services institutions, real estate advertising companies, consumer goods companies, educational service organizations, and communication technology companies. It mainly includes mathematical modeling and optimization, unstructured data processing, natural language processing, image recognition, etc. It has end-to-end experience in human-computer interaction and precision marketing, and truly realizes the value of customized mining data.", 
-      "name": "Xiaolei Wang", 
-      "shanghai_topic": {
-        "preview": "AI is math. Though we do not have to proof something when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models.\u00a0\nTo python players, this talk may answer the following questions: \u00a01. How to know whether my problem can be solved with Artificial Intelligence today?\u00a0 2. How to design the metrics for a real-life problem?\u00a0 3. How to know if a model is 'good enough'?\u00a0 4. How much data is enough to train a model?\u00a0 5. Tips and tricks when using Python for deep learning.\u00a0 ", 
-        "slide": null, 
-        "title": "Limitations of machine intelligence, from image recognition to natural language processing"
-      }
-    }, 
-    "id_zhangjianyuan": {
-      "avatar": "../asset/images/avatar-2018//speakers/default.png", 
-      "city_shanghai": 1, 
-      "intro": "Now I am a backend development engineer (Python) at iQiyi, I have 4 years of Python coding experience, and mainly use it for web development at work. At this PyCon, I will share some of the experience of using Type HInts in real projects.", 
-      "name": "Jiayuan Zhang", 
-      "shanghai_topic": {
-        "preview": "1. Introduction to type system, comparison of static type and dynamic type 2. What is Type Hints 3. Why do I need to use Type Hints? 4. How to use Type Hints 5. Some problems with Type Hints and what's improvements in Python 3.7 6. How to start practicing in a real project Type Hints 7. Continuous integration mypy for type checking 8. The future of Type HInts, CPython runtime optimization? JIT?", 
-        "slide": null, 
-        "title": "Type Hints Best Practices"
-      }
-    }, 
-    "id_zhangjintao": {
-      "avatar": "../asset/images/avatar-2018/speakers/zhangjintao.png", 
-      "beijing_topic": {
-        "preview": "With the formation of ecosystems such as containerization and cloud native, the value of CI/CD in the software development process is becoming more and more prominent. More and more companies need to transform and optimize this, but thousands of people have thousands of faces, transformations and practices often have many problems, both in the personnel and in the tool chain. This time is mainly to share the best practices we have summarized in production, and to analyze the problems encountered in this process, and to share in detail the technical details, as well as the optimization, problem analysis, and architecture in the process and the reflections and conclusions we have made, I hope that everyone can inspire them and promote their respective development in the production environment.", 
-        "slide": null, 
-        "title": "CI/CD Practice Based on Docker"
-      }, 
-      "city_beijing": 1, 
-      "intro": "senior devops developer of NetEase, responsible for construction of containerization and automated operation and maintenance system.", 
-      "name": "Jintao Zhang"
-    }, 
-    "id_zhangxiaojie": {
-      "avatar": "../asset/images/avatar-2018//speakers/zhangxiaojie.png", 
-      "city_shanghai": 1, 
-      "intro": "Now working as a deep learning architecture engineer at NVIDIA, he is responsible for the optimization of GPU-based deep learning models. The main application scenario of the main Python at work is to build a deep learning model. The main deep learning frameworks used are PyTorch and TensorFlow. I hope to bring you PyTorch's experience sharing on PyCon.", 
-      "name": "Jiejie Zhang", 
-      "shanghai_topic": {
-        "preview": "1. Introduction to PyTorch It mainly introduces the characteristics of PyTorch dynamic graphs, and compares them with PyTorch and other deep learning frameworks. 2. Introduction to new features of PyTorch (mainly for version 0.4) Introducing the new features of PyTorch 0.4 (which may include 1.0 if 1.0 is released) to help you migrate your code to the new version. 3. How to build a simple neural network using PyTorch Introduce the simple use of PyTorch (use of nn.Module) 5. PyTorch's parallel training Describe how to use the multi-GPU to train the PyTorch model (using the apex library) 4. Deploy PyTorch model with ONNX Describe how to solidify the model with the ONNX format and deploy the model on Caffe2 5. PyTorch stepped on the north Introduce the various pits that you may encounter when writing PyTorch 6. Summary", 
-        "slide": null, 
-        "title": "Getting started with PyTorch"
-      }
-    }
+    "title_donator": "Donator", 
+    "title_history": "History", 
+    "title_schedule": "Schedule", 
+    "title_speaker": "Speaker", 
+    "title_sponsor": "Sponsor", 
+    "title_volunteer": "Volunteer", 
+    "to_be_speaker": "To be Speaker", 
+    "to_be_speaker_url": "https://jinshuju.net/f/fjOUqZ", 
+    "to_be_volunteer": "To be Volunteer", 
+    "to_be_volunteer_url": ""
   }, 
   "sponsors": {
+    "assist": [
+      {
+        "intro": "ThoughtWorks", 
+        "link": "https://www.thoughtworks.com", 
+        "logo": "support_thoughtworks.png"
+      }
+    ], 
     "book": [
       {
-        "intro": "", 
-        "link": "", 
-        "logo": "../asset/images/avatar-2018/sponsors/turing-logo.png"
+        "intro": "\u56fe\u7075", 
+        "link": "https://www.ituring.com.cn", 
+        "logo": "support_turing.png"
       }, 
       {
-        "intro": "", 
-        "link": "", 
-        "logo": "../asset/images/avatar-2018/sponsors/broadview-logo.jpg"
+        "intro": "\u535a\u6587\u89c6\u70b9", 
+        "link": "https://www.broadview.com.cn", 
+        "logo": "support_broadview.png"
+      }, 
+      {
+        "intro": "\u5f02\u6b65", 
+        "link": "https://www.epubit.com", 
+        "logo": "support_epubit.png"
+      }, 
+      {
+        "intro": "\u534e\u7ae0", 
+        "link": "http://www.hzmedia.com.cn", 
+        "logo": "support_hzbooks.png"
+      }, 
+      {
+        "intro": "OTPUB", 
+        "link": "http://www.otpub.com", 
+        "logo": "support_otpub.png"
       }
     ], 
     "bronze": [
       {
-        "intro": "", 
+        "intro": "\u7231\u56e0\u4e92\u52a8", 
+        "link": "https://www.einplus.cn", 
+        "logo": "support_einplus.png"
+      }, 
+      {
+        "intro": "BXB", 
         "link": "", 
-        "logo": "../asset/images/avatar-2018/sponsors/bxb-logo.jpg"
+        "logo": "support_bxb.png"
       }
     ], 
     "community": [
       {
-        "intro": "", 
-        "link": "", 
-        "logo": "../asset/images/avatar-2018/sponsors/CCVedio-logo.jpg"
+        "intro": "\u6398\u91d1", 
+        "link": "https://juejin.im", 
+        "logo": "support_juejin.png"
       }, 
       {
-        "intro": "", 
-        "link": "", 
-        "logo": "../asset/images/avatar-2018/sponsors/thought-logo.png"
-      }
-    ], 
-    "diamond": [
+        "intro": "CC\u89c6\u9891", 
+        "link": "https://www.bokecc.com", 
+        "logo": "support_bokecc.png"
+      }, 
       {
-        "intro": "", 
-        "link": "http://www.getui.com/cn/index.html", 
-        "logo": "../asset/images/avatar-2018//sponsors/getui-logo.png"
+        "intro": "GitChat", 
+        "link": "https://gitbook.cn", 
+        "logo": "support_gitchat.png"
+      }, 
+      {
+        "intro": "\u5f00\u6e90\u4e2d\u56fd", 
+        "link": "https://www.oschina.net", 
+        "logo": "support_oschina.png"
+      }, 
+      {
+        "intro": "DBAplus", 
+        "link": "https://dbaplus.cn", 
+        "logo": "support_dbaplus.png"
+      }, 
+      {
+        "intro": "\u5343\u950b\u6559\u80b2", 
+        "link": "https://www.mobiletrain.org", 
+        "logo": "support_mobiletrain.png"
+      }, 
+      {
+        "intro": "\u6d3b\u52a8\u884c", 
+        "link": "https://www.huodongxing.com", 
+        "logo": "support_huodongxing.png"
       }
     ], 
+    "diamond": null, 
     "gold": null, 
     "meta": [
       {
         "level": "organizer", 
-        "name": "Organizer"
+        "name": "Organizer", 
+        "style": "big"
+      }, 
+      {
+        "level": "assist", 
+        "name": "Assist", 
+        "style": "big"
       }, 
       {
         "level": "diamond", 
-        "name": "Diamond"
+        "name": "Diamond", 
+        "style": "inline"
+      }, 
+      {
+        "level": "platinum", 
+        "name": "Platinum", 
+        "style": "inline"
+      }, 
+      {
+        "level": "gold", 
+        "name": "Gold", 
+        "style": "inline"
+      }, 
+      {
+        "level": "silver", 
+        "name": "Silver", 
+        "style": "inline"
       }, 
       {
         "level": "bronze", 
-        "name": "Bronze"
+        "name": "Bronze", 
+        "style": "inline"
       }, 
       {
         "level": "book", 
-        "name": "Book"
+        "name": "Book", 
+        "style": "inline"
       }, 
       {
         "level": "community", 
-        "name": "Community partners"
-      }
-    ], 
-    "organizer": [
+        "name": "Community partners", 
+        "style": "inline"
+      }, 
       {
-        "intro": "", 
-        "link": "http://www.getui.com/cn/index.html", 
-        "logo": "../asset/images/avatar-2018//sponsors/pychina-logo.jpg"
+        "level": "strategy", 
+        "name": "Strategy partners", 
+        "style": "inline"
       }
     ], 
+    "organizer": null, 
     "platinum": null, 
-    "silver": null
-  }, 
-  "volunteers": {
-    "conference": null, 
-    "organizers": [
+    "silver": [
       {
-        "avatar": "../asset/images/avatar-2018/volunteers/chenshixin.png", 
-        "blog": "http://sting.topgeek.org/", 
-        "intro": "Ahaschool-CTO<br/>Sponsor of PyChina", 
-        "name": "StingChen(Shixin Chen)", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": "http://weibo.com/stingchen"
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/dama.png", 
-        "blog": "http://zoomquiet.io/", 
-        "intro": "Parter of \u4f18\u52bf\u773c\u52a8<br/>Sponsor of PyChina", 
-        "name": "Zoom.Quiet (Dama)", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": "http://weibo.com/zoomquiet"
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/manjusaka.png", 
-        "blog": null, 
-        "intro": "Senior Python Development Engineer of Wecash<br/>Head of Beijing Organizing Committee of PyCon2018", 
-        "name": "(Manjusaka)\u674e\u8005\u7488", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/dengliangju.png", 
-        "blog": null, 
-        "intro": "Engineering director of metasota<br/>Head of Beijing Web special conference of PyCon2018", 
-        "name": "Liangju Deng", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/laixintao.png", 
-        "blog": null, 
-        "intro": "SRE of Ant Financial Services Group<br/>Head of Beijing Python language features special conference of PyCon2018", 
-        "name": "Xintao Lai", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/hexiangyu.png", 
-        "blog": null, 
-        "intro": "Python engineer of TCL Internet Division<br/>Head of Beijing Python language features special conference of PyCon2018", 
-        "name": "Xiangyu He", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/qianzhangnian.png", 
-        "blog": null, 
-        "intro": "R&D manager of Chuangsheng Vision Digital Technology (Beijing) Co., Ltd.<br/>Beijing Core Organizer of PyCon2018", 
-        "name": "zhangnian Qian", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/yemin.png", 
-        "blog": null, 
-        "intro": "Nokia Shanghai Bell<br/>Automated Test Architect", 
-        "name": "Yemin", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/wangbinxin.png", 
-        "blog": null, 
-        "intro": "Youyun Software Co., Ltd..<br/>Senior Python Development Engineer", 
-        "name": "Eric", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
-      }, 
-      {
-        "avatar": "../asset/images/avatar-2018/volunteers/zhanghongke.png", 
-        "blog": null, 
-        "intro": "Point I da<br/>Big Data Visual Development Engineer", 
-        "name": "Zhanghongke", 
-        "role": "organizer", 
-        "role_organizer": 1, 
-        "weibo": null
+        "intro": "\u4e2a\u63a8", 
+        "link": "https://www.getui.com/", 
+        "logo": "support_getui.png"
       }
     ], 
-    "role_list": [
-      "organizers", 
-      "technicians", 
-      "conference"
-    ], 
-    "technicians": null
+    "strategy": [
+      {
+        "intro": "\u8bfa\u57fa\u4e9a\u4e0a\u6d77\u8d1d\u5c14", 
+        "link": "https://www.nokia-sbell.com", 
+        "logo": "support_nokiasbell.png"
+      }, 
+      {
+        "intro": "\u897f\u5357\u4ea4\u901a\u5927\u5b66\u4e2d\u7f8e\u9752\u5e74\u521b\u5ba2\u4ea4\u6d41\u4e2d\u5fc3", 
+        "link": "", 
+        "logo": "support_sjtu.png"
+      }
+    ]
   }
 }

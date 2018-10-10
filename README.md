@@ -16,13 +16,15 @@ pip install -r requirements.txt
 
 ```
 source venv/bin/activate
-./bin/app.py -s
+python ./bin/app.py -s
 ```
 
 ## 志愿者必读
 
+暂不支持Python3。
+
 只改动src里面的内容：
 
-- base是html结构，基本不需要改动
-- asset是静态资源，例如图片，所有的图片请放到这个文件夹通过git push到仓库
+- base是html结构，基本不需要改动。
+- asset是静态资源，例如图片，所有的图片请放到这个文件夹通过git push到仓库。
 - data是主要需要修改的内容，不同的yaml文件是不同的内容，例如日程，志愿者等。

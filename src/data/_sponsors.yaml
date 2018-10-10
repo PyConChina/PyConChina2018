@@ -61,9 +61,9 @@ organizer:
 #########################################
 assist:
   -
-    logo: support_6.png
-    logo_en: support_6.png
-    link: ""
+    logo: support_thoughtworks.png
+    logo_en: support_thoughtworks.png
+    link: "https://www.thoughtworks.com"
     intro: "ThoughtWorks"
     intro_en: "ThoughtWorks"
 
@@ -88,9 +88,9 @@ gold:
 #########################################
 silver:
   -
-    logo: support_1.png
-    logo_en: support_1.png
-    link: ""
+    logo: support_getui.png
+    logo_en: support_getui.png
+    link: "https://www.getui.com/"
     intro: "个推"
     intro_en: "个推"
 
@@ -99,14 +99,14 @@ silver:
 #########################################
 bronze:
   -
-    logo: support_2.png
-    logo_en: support_2.png
-    link: ""
+    logo: support_einplus.png
+    logo_en: support_einplus.png
+    link: "https://www.einplus.cn"
     intro: "爱因互动"
     intro_en: "爱因互动"
   -
-    logo: support_3.png
-    logo_en: support_3.png
+    logo: support_bxb.png
+    logo_en: support_bxb.png
     link: ""
     intro: "BXB"
     intro_en: "BXB"
@@ -116,68 +116,80 @@ bronze:
 #########################################
 book:
   -
-    logo: support_7.png
-    logo_en: support_7.png
-    link: ""
+    logo: support_turing.png
+    logo_en: support_turing.png
+    link: "https://www.ituring.com.cn"
     intro: "图灵"
     intro_en: "图灵"
   -
-    logo: support_8.png
-    logo_en: support_8.png
-    link: ""
+    logo: support_broadview.png
+    logo_en: support_broadview.png
+    link: "https://www.broadview.com.cn"
     intro: "博文视点"
     intro_en: "博文视点"
   -
-    logo: support_9.png
-    logo_en: support_9.png
-    link: ""
+    logo: support_epubit.png
+    logo_en: support_epubit.png
+    link: "https://www.epubit.com"
     intro: "异步"
     intro_en: "异步"
+  -
+    logo: support_hzbooks.png
+    logo_en: support_hzbooks.png
+    link: "http://www.hzmedia.com.cn"
+    intro: "华章"
+    intro_en: "华章"
+  -
+    logo: support_otpub.png
+    logo_en: support_otpub.png
+    link: "http://www.otpub.com"
+    intro: "OTPUB"
+    intro_en: "OTPUB"
 
 #########################################
 # 社区合作伙伴
 #########################################
 community:
   -
-    logo: support_10.png
-    logo_en: support_10.png
-    link: ""
+    logo: support_juejin.png
+    logo_en: support_juejin.png
+    link: "https://juejin.im"
     intro: "掘金"
     intro_en: "掘金"
   -
-    logo: support_11.png
-    logo_en: support_11.png
-    link: ""
+    logo: support_bokecc.png
+    logo_en: support_bokecc.png
+    link: "https://www.bokecc.com"
     intro: "CC视频"
     intro_en: "CC视频"
   -
-    logo: support_12.png
-    logo_en: support_12.png
-    link: ""
+    logo: support_gitchat.png
+    logo_en: support_gitchat.png
+    link: "https://gitbook.cn"
     intro: "GitChat"
     intro_en: "GitChat"
   -
-    logo: support_13.png
-    logo_en: support_13.png
-    link: ""
+    logo: support_oschina.png
+    logo_en: support_oschina.png
+    link: "https://www.oschina.net"
     intro: "开源中国"
     intro_en: "开源中国"
   -
-    logo: support_14.png
-    logo_en: support_14.png
-    link: ""
+    logo: support_dbaplus.png
+    logo_en: support_dbaplus.png
+    link: "https://dbaplus.cn"
     intro: "DBAplus"
     intro_en: "DBAplus"
   -
-    logo: support_15.png
-    logo_en: support_15.png
-    link: ""
-    intro: "千峰教育"
-    intro_en: "千峰教育"
+    logo: support_mobiletrain.png
+    logo_en: support_mobiletrain.png
+    link: "https://www.mobiletrain.org"
+    intro: "千锋教育"
+    intro_en: "千锋教育"
   -
-    logo: support_16.png
-    logo_en: support_16.png
-    link: ""
+    logo: support_huodongxing.png
+    logo_en: support_huodongxing.png
+    link: "https://www.huodongxing.com"
     intro: "活动行"
     intro_en: "活动行"
 
@@ -186,14 +198,14 @@ community:
 #########################################
 strategy:
   -
-    logo: support_4.png
-    logo_en: support_4.png
-    link: ""
+    logo: support_nokiasbell.png
+    logo_en: support_nokiasbell.png
+    link: "https://www.nokia-sbell.com"
     intro: "诺基亚上海贝尔"
     intro_en: "诺基亚上海贝尔"
   -
-    logo: support_5.png
-    logo_en: support_5.png
+    logo: support_sjtu.png
+    logo_en: support_sjtu.png
     link: ""
     intro: "西南交通大学中美青年创客交流中心"
     intro_en: "西南交通大学中美青年创客交流中心"
