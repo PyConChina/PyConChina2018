@@ -278,7 +278,7 @@ to be one of the most popular programming languages."
       title_en: "Implementation ideas of Python JIT"
       preview: "通过元编程扩展对cpython vm的利用，提升代码复用率，抽象能力和运行时程序执行效率。以及介绍如何在兼容cpython生态的情况下引入jit和类型检查工具"
       preview_en: "Extend the use of cpython vm through metaprogramming to improve code reuse rate, abstract ability and runtime program execution efficiency. Also to introduce How to introduce JIT and type checking tools in a compatible cpython ecosystem."
-  id_eziomelotti:
+  id_gashero:
     name: Gashero
     name_en: Gashero
     avatar: lecturer_gashero.png
@@ -555,7 +555,7 @@ CTO @ ifanr.com, in charge of cloud.minapp.com, a serverless platform designed f
       title_en: "Python application in cryptography"
       preview: "简要介绍Python中涉及到密码学的模块和函数"
       preview_en: "Briefly introduce modules and functions that involve cryptography in Python"
-  id_eziomelotti:
+  id_guolizhuo:
     name: 郭李灼
     name_en: Leezhuo Guo
     avatar: lecturer_guolizhuo.png
