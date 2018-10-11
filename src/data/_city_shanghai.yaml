@@ -247,6 +247,20 @@ speakers:
       title_en: "Python - Machine Learning vs Human Learning"
       preview: "我想发表演讲的主题是关于非Pythonic方式和Pythonic方式来解决业务问题之间的比较。 当我从商业领域转向技术领域时，我体验到双方在解决业务问题方面的不同之处。 我将介绍使用K-Means在FC网络分析中必须解决的实际问题以及专业Excel用户如何解决此问题。"
       preview_en: "The topic of my speech is about the comparison between a non-Pythonic way and a Pythonic way of approaching business problems. As I switched from a business side to a technical field, I have experienced how two sides differ in solving business problems. I will cover the actual problems needed to be solved on FC Network Analysis using K-Means and how pro Excel users would approach this problem."
+  id_wujiang:
+    name: 吴江
+    name_en: ""
+    avatar: lecturer_wujiang.png
+    title: "易安信资深工程师"
+    title_en: ""
+    intro: "现在Mozy组负责Web后端开发。有多年高访问量Web后端的开发优化经验。"
+    intro_en: ""
+    topic:
+      title: "使用numba优化python代码"
+      title_en: ""
+      preview: "因为动态类型的原因，python的性能一直是令人头疼的问题，python3的发布并没有带来性能的提升，pypy这种支持jit的解释器性能仍然不够好。本演讲将用一段性能测试代码，逐步进行优化，并展示调优的过程，来讲解如何用numba和cython优化python代码的性能，可以和Go一样快。"
+      preview_en: ""
+
 volunteers:
   -
     avatar: 'chenshixin.png'
