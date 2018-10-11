@@ -1,18 +1,12 @@
-(function() {
-  'use strict';
-
-  var Cookies = window.Cookies.noConflict();
-
+(function(){
+  "use strict";
+  var element = document.getElementById('lang-select-wrap');
   function changeLang() {
-    var lang = this.value;
-    var canonical = this.dataset.canonical;
-    var path = '/';
-    if (lang !== 'zh-cn') path += lang + '/';
-
-    Cookies.set('nf_lang', lang, { expires: 365 });
-    location.href = path + canonical;
+    var lang = element.dataset.lang
+    
+    var path = window.location.pathname.split('/').pop() || ''
+    if (lang !== 'zh-cn') path = lang + '/' + path
+    location.href = '/' + path
   }
-
-  document.getElementById('lang-select').addEventListener('change', changeLang);
-  document.getElementById('mobile-lang-select').addEventListener('change', changeLang);
-}());
+  element.addEventListener('click', changeLang)
+})();
