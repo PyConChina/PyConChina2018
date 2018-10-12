@@ -77,9 +77,11 @@
   url_en: "en/index.html"
 - title: 赞助
   title_en: SPONSER
-  url: "index.html"
-  url_en: "en/index.html"
+  url: "support_detail.html"
+  url_en: "en/support_detail.html"
 - title: EN
   title_en: 中文
   url: "en/index.html"
   url_en: "index.html"
+  language: en
+  language_en: zh-cn
