@@ -192,6 +192,19 @@ community:
     link: "https://www.huodongxing.com"
     intro: "活动行"
     intro_en: "活动行"
+  -
+    logo: support_zhixiaoyun.png
+    logo_en: support_zhixiaoyun.png
+    link: ""
+    intro: 知晓云
+    intro_en: 知晓云
+  -
+    logo: support_chuangkemao.png
+    logo_en: support_chuangkemao.png
+    link: ""
+    intro: 创客猫
+    intro_en: 创客猫
+
 
 #########################################
 # 战略合作伙伴

@@ -2,7 +2,6 @@
 .webassets-cache/
 src/asset/css/
 src/asset/js/
-public/*
 venv/
 .idea/
 .DS_Store
