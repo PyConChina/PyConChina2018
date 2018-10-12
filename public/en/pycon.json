@@ -252,6 +252,26 @@
         }
       }, 
       "id_eziomelotti": {
+        "avatar": "lecturer_eziomelotti.png", 
+        "intro": "Ezio Melotti is a software engineer with almost 20 years of experience in software development and programming with several different languages. Born in Milan (Italy), he decided to move to Turku (Finland) in the year 2007, where he graduated and then taught at the Turku University of Applied Sciences. In 2009 he became CPython Core Developer and contributed over 1000 changesets over the years. He is also the maintainer of the bug tracker and the html package and did extensive work on the test suite, on the documentation, and on the standard library.", 
+        "name": "Ezio Melotti", 
+        "title": "CPython Core Developer", 
+        "topic": {
+          "preview": "Python is an open-source language where everyone can contribute.\u00a0 Over the years the workflow used by both contributors and core developers changed dramatically, from patches sent via email to pull requests sent on GitHub.\u00a0 With this talk I want to unveil what currently happens ''behind the scenes'' of CPython and how you can get involved and be part of the open source community that allows Python to be one of the most popular programming languages.", 
+          "title": "The Development Process of CPython"
+        }
+      }, 
+      "id_gashero": {
+        "avatar": "lecturer_gashero.png", 
+        "intro": "He started learning Python in 2005 and have shared millions of words of Python notes and translated documents. Former Tudou Assistant Architect, former Crust Network Founding Technical Director, former deepglint engineer, former RoboTerra Software Engineering Director. Fans of Radio/model/robot.", 
+        "name": "Gashero", 
+        "title": "Independent developer", 
+        "topic": {
+          "preview": "This speech will systematically introduce the causes of GIL and the side effects it brings. And bring a complete set of solutions to properly circumvent GIL to better improve the performance of Python online.", 
+          "title": "New Pose of Unlock GIL"
+        }
+      }, 
+      "id_guolizhuo": {
         "avatar": "lecturer_guolizhuo.png", 
         "intro": "He joined IT in 2000 and has been engaged in communication/network security for a long time. He has passed the qualifications of well-known foreign companies, also participated in the entrepreneurial boom. He is working on an information security company currently. In his spare time, he is committed to popularizing Python programming, making Python a tool that everyone can use, organizing multiple Python public interest qq groups, and spreading introductory courses through live broadcast. H e is interested in quantitative investment, and experienced losses in stocks, futures, cryptocurrencies and other varieties, and focused on fund investment, risk reduction, and stable income gradually.", 
         "name": "Leezhuo Guo", 
@@ -691,20 +711,109 @@
     "buy_ticket_url": "http://www.huodongxing.com/event/5453261623411", 
     "city_icon": "shanghai_icon.png", 
     "city_name": "Shanghai", 
-    "description": "", 
+    "description": "<p>Running around in the years, experiencing the vicissitudes of life,we grew up and become more matured unwittingly.</p>\n<p>During the year, we didn't dare to idle, and the annual Python Developers Conference has been prepared to show in a new look.</p>\n<p>Last year, nearly 10 lecturers had a heated discussion with the participants around the \u00a0frontier\u00a0topic of  big data and artificial intelligence.This year, we will continue to lead the way in the cutting-edge technology and add more wonderful sharing of areas where Python can do more, such as Web development, network security, Web Crawler, operations, testing, and so on.</p>\n<p>Slow down, do you think that's all? No, Since it is a conference about Python, we will return to the essence of the language .We will talk about the industrial application of the new features in new versions of Python and  the solutions of  Python multi-version, multi-environment coexistence that plague many development and operations engineers. Inspire interest and hit the pain point.</p>\n<p>Having said that much, here comes the three major philosophical questions :when and where, how to sign up? (Who am I? Where am I from? Where will I go?)</p>\n<p>The event will be held on October 21st, 2018 (Sunday), let us meet at the 2nd floor of No.1 Art Hotel. Address: No. 130, Yichang Road, Putuo, Shanghai (in the MengQingYuan Park).</p>\n<p>You or your company are welcome to sponsor this conference, sponsors' rights and details, please contact: cynthiaxin1@gmail.com</p>\n<p>PyCon is the world's largest annual gathering of Pythoneers, supported by the PSF (Python Foundation), dedicated to creating a delightful and diverse Python technology theme conference. PyConChina is a  PyCon Annual Conference in China ,authorized by CPyUG. No matter which programming language you use, you are welcome to participate this big fun event organized by the Python Chinese community.</p>\n", 
     "detail_url": "city_shanghai.html", 
     "donators": null, 
     "intro": "", 
     "speakers": {
-      "id_hongqiangning": {
-        "avatar": "lecturer_hongqiangning.png", 
-        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
-        "name": "Qiangning Hong", 
-        "title": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO", 
+      "id_chenxiaoyou": {
+        "avatar": "lecturer_zhangxiaoyou.png", 
+        "intro": "Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd., ever served as a quantitative trader and fund manager in large-scale quantitative private equity funds, developed the vn.py quantitative trading framework, which is currently one of the world's largest open source quantitative trading projects ( Github Star 6071). The current work focus is on the development of quantitative trading systems in the blockchain and digital currency sectors.", 
+        "name": "Xiaoyou Chen", 
+        "title": "Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd.", 
         "topic": {
-          "preview": "...", 
-          "slide": null, 
-          "title": "\u8fd916\u5e74\u6765\u6211\u4ecePython\u5b66\u5230\u4e86\u4ec0\u4e48"
+          "preview": "Theme introduction:The new asset types (digital currency and vouchers) brought about by the blockchain technology revolution, as well as its decentralized infrastructure, are bringing dramatic changes to the global asset management industry. With its mature large-scale financial application background and active user community, Python language has become the preferred solution in the blockchain asset management business. This presentation aims to share the application of Python in the various ecological aspects of blockchain asset management and to explore future directions.", 
+          "title": "Python in blockchain asset management"
+        }
+      }, 
+      "id_dingjunhao": {
+        "avatar": "lecturer_dingjunhao.png", 
+        "intro": "The web name of the speechmaker is ITXiaoPang. He's the\u00a0founder of the open source sky website. He has been programming since 2003.He is familiar with many languages, but loves Python only. Currently working on Python's operation and maintenance in a well-known game company.", 
+        "name": "Junhao Ding", 
+        "title": "iwgame</br>DevOps", 
+        "topic": {
+          "preview": "- Python multi-version, multi-environment coexistence analysis</br>\n- traditional solutions</br>\n- Pyenv advantage</br>\n- Did you install Pyenv right?</br>\n- Best practices of Pyenv</br>\n", 
+          "title": "Pyenv, from entry to giving up - Python multi-version multi-environment combat"
+        }
+      }, 
+      "id_dinglaiqiang": {
+        "avatar": "lecturer_dinglaiqiang.png", 
+        "intro": "Worked as an architect in Splunk (the first purely data-listed company on NASDAQ in the US)  and being in this field for 10+ years, Mr. Ding has a wide range of technical interests. He shared 5 well received topics at the PyCon 2015/2016 conference, covering the Big data analysis and Processing visualization, Python functional programming / design pattern, Python big data scheduling engine, Pythin core injection technology and other topics, etc.", 
+        "name": "Laiqiang Ding", 
+        "title": "Alibaba Cloud's log service</br>Shanghai team leader", 
+        "topic": {
+          "preview": "Jupyter (IPython Notebook) is cool and popular. Except for All-takenism, it seems difficult to extend Jupyter? This topic is an easy-to-understand example of how to extend Jupyter to link your cloud services, optimize the output of services, and make Jupyter smarter for your projects and customers.", 
+          "title": "Extend Jupyter/IPythonNB to empower your cloud service"
+        }
+      }, 
+      "id_jiyoonlim": {
+        "avatar": "lecturer_jiyoonlim.png", 
+        "intro": "Work as a Data Analyst at an SCM Data Science team at an ecommerce company. The team analyze everything related to SCM plus some of FC related topics. Getting to use and learning about Python on a daily basis has been a great experience!", 
+        "name": "Jiyoon Lim", 
+        "title": "Coupang</br>Data Analyst", 
+        "topic": {
+          "preview": "The topic of my speech is about the comparison between a non-Pythonic way and a Pythonic way of approaching business problems. As I switched from a business side to a technical field, I have experienced how two sides differ in solving business problems. I will cover the actual problems needed to be solved on FC Network Analysis using K-Means and how pro Excel users would approach this problem.", 
+          "title": "Python - Machine Learning vs Human Learning"
+        }
+      }, 
+      "id_jon": {
+        "avatar": "lecturer_jon.png", 
+        "intro": "Continuous entrepreneurs, more than 10 years experience in Web application architecture, mainly writing Python/Rust/JavaScript/Haskell language, Ethereum early fans and evangelists, open source software supporters. The current focus is on blockchain payment projects. Yield.IM", 
+        "name": "Jon", 
+        "title": "Founder", 
+        "topic": {
+          "preview": "The goal of using Python to implement Ethereum from scratch is to disassemble the Ethereum \"rocket\", to find out, and then reassemble it with Python. Our focus is not on recreating an Ethereum, but on getting an experience in the process. This series can be roughly divided into four chapters, namely P2P network protocol, blockchain structure, consensus calculation and the smart contract. This topic explores the P2P network protocol component, and we will try to connect to the Ethereum network and communicate smoothly in python.", 
+          "title": "realizes Ethereum with Python from scratch"
+        }
+      }, 
+      "id_laixintao": {
+        "avatar": "lecturer_laixintao.png", 
+        "intro": "", 
+        "name": "Xintao Lai", 
+        "title": "Ant Financial</br>Site Reliability Engineer", 
+        "topic": {
+          "preview": "Why is the length of the object being len() instead of obj.length() ? What is the difference between an iterator and an iterable object? Why do we rarely use design patterns when writing Python code? Behind this it is the idea of \"protocol\" in the Python language. This talk will discuss how to understand the protocol in Python, what is the design idea, and how to write Python code to implement this idea.", 
+          "title": "Interfaces and protocols in the Python culture"
+        }
+      }, 
+      "id_wangxiaolei": {
+        "avatar": "lecturer_wangxiaolei.png", 
+        "intro": "Wang Xiaolei, the chief algorithmic scientist of the China Consulting team, has provided data and algorithm related consulting services in  many domestic and overseas projects for a lot of companies, including banks and insurance companies, financial services institutions, real estate advertising companies, consumer goods companies, educational service organizations, and communication technology companies. It mainly includes mathematical modeling and optimization, unstructured data processing, natural language processing, image recognition, etc. It has end-to-end experience in human-computer interaction and precision marketing, and truly realizes the value of customized mining data.", 
+        "name": "Xiaolei Wang", 
+        "title": "ThoughtWorks</br>Algorithm scientist", 
+        "topic": {
+          "preview": "AI is math. Though we do not have to prove something mathematically when creating a deep neuro network, we are using statistical methods to learn the patterns from the data. Unsurprisingly, we've done some unseen assumption behind the model that will never lead to the result that an intelligence could understand and generalize about the world. Today we are going to discuss about the limitations of machine intelligence based on some real world projects, from image recognition to natural language processing, about both data and models.\u00a0</br>\n</br>\nTo python players, this talk may answer the following questions:</br>\n1. How to know whether my problem can be solved by Artificial Intelligence today?\u00a0</br>\n2. How to design the indictors for a real-life problem?\u00a0</br>\n3. How to know if a model is 'good enough'?\u00a0</br>\n4. How much data is enough to train a model?\u00a0</br>\n5. Tips and tricks when using Python for deep learning.\u00a0</br>\n", 
+          "title": "Speech topic: Limitations of machine intelligence, from image recognition to natural language processing"
+        }
+      }, 
+      "id_wujiang": {
+        "avatar": "lecturer_wujiang.png", 
+        "intro": "", 
+        "name": "", 
+        "title": "", 
+        "topic": {
+          "preview": "", 
+          "title": ""
+        }
+      }, 
+      "id_zhangjiayuan": {
+        "avatar": "lecturer_zhangjiayuan.png", 
+        "intro": "Now working as a backend development engineer (Python) at iQiyi, 4 years of Python coding experience, and mainly use Python for web development at work. In this PyCon, Mr. Zhang will share some experience of using Type HInts in real projects.", 
+        "name": "Jiayuan Zhang", 
+        "title": "IQIYI</br>Backend development engineer", 
+        "topic": {
+          "preview": "1. Introduction to type system, comparison of static type and dynamic type</br>\n2. What is Type Hints</br>\n3. Why do I need to use Type Hints?</br>\n4.Some ways to use Type Hints</br>\n5. Some problems with Type Hints and the improvements in Python 3.7</br>\n6. How to start with Type Hints in a real project</br>\n7. Continuous integration of mypy for type checking</br>\n8. The future of Type HInts, CPython runtime optimization? JIT?</br>\n", 
+          "title": "Type Hints Best Practices"
+        }
+      }, 
+      "id_zhangxiaojie": {
+        "avatar": "lecturer_zhangxiaojie.png", 
+        "intro": "Now working as a deep learning architecture engineer at NVIDIA, he is responsible for the optimization of GPU-based deep learning models. The main application scenario of the  Python at work is to build the deep learning model. The main deep learning frameworks used are PyTorch and TensorFlow. Hope to share  the experience on PyTorch's with everyone in PyCon.", 
+        "name": "Xiaojie Zhang", 
+        "title": "Nvidia</br>Deep learning architecture engineer", 
+        "topic": {
+          "preview": "1. Introduction to PyTorch</br>\nIntroducing the characteristics of PyTorch dynamic graphs, and comparing PyTorch with other deep learning frameworks.</br>\n2. Introduction to new features of PyTorch (mainly for version 0.4)</br>\nIntroducing the new features of PyTorch 0.4 (which may include 1.0 if 1.0 is released) to help the programmers migrate the code to the new version.</br>\n3. How to build a simple neural network using PyTorch</br>\nIntroducing the simple use of PyTorch (use of nn.Module)</br>\n4. PyTorch's parallel training</br>\nDescribing how to use the multi-GPU to train the PyTorch model (using the apex library)</br>\n5. Deploy PyTorch model with ONNX</br>\nDescribing how to solidify the model with the ONNX format and deploy the model on Caffe2</br>\n6.Tips on PyTorch</br>\nIntroducing the various pits that you may encounter when writing PyTorch</br>\n7. Summary</br>\n", 
+          "title": "Getting started with PyTorch"
         }
       }
     }, 
@@ -888,9 +997,10 @@
     }, 
     {
       "title": "SPONSER", 
-      "url": "en/index.html"
+      "url": "en/support_detail.html"
     }, 
     {
+      "language": "zh-cn", 
       "title": "\u4e2d\u6587", 
       "url": "index.html"
     }
@@ -905,6 +1015,7 @@
     "title_schedule": "Schedule", 
     "title_speaker": "Speaker", 
     "title_sponsor": "Sponsor", 
+    "title_support": "sponser", 
     "title_volunteer": "Volunteer", 
     "to_be_speaker": "To be Speaker", 
     "to_be_speaker_url": "https://jinshuju.net/f/fjOUqZ", 
@@ -993,6 +1104,16 @@
         "intro": "\u6d3b\u52a8\u884c", 
         "link": "https://www.huodongxing.com", 
         "logo": "support_huodongxing.png"
+      }, 
+      {
+        "intro": "\u77e5\u6653\u4e91", 
+        "link": "", 
+        "logo": "support_zhixiaoyun.png"
+      }, 
+      {
+        "intro": "\u521b\u5ba2\u732b", 
+        "link": "", 
+        "logo": "support_chuangkemao.png"
       }
     ], 
     "diamond": null, 
@@ -1068,6 +1189,35 @@
         "intro": "\u897f\u5357\u4ea4\u901a\u5927\u5b66\u4e2d\u7f8e\u9752\u5e74\u521b\u5ba2\u4ea4\u6d41\u4e2d\u5fc3", 
         "link": "", 
         "logo": "support_sjtu.png"
+      }
+    ]
+  }, 
+  "support_detail": {
+    "supports": [
+      {
+        "description": "Beijing Turing Culture Development Co., Ltd. has always been planning and publishing high-quality science and technology books as its core business. Since its establishment, it has accumulated more than 10 million books, affecting millions of readers. Its Turing education brand is one of the high-end brands in the domestic computer book field. The Turing Community is a comprehensive service platform created by Turing, which combines the production of book content, the service of translators, the sales of e-books, and the exchange of technical people.", 
+        "logo": "support_7.png", 
+        "name": "\u56fe\u7075"
+      }, 
+      {
+        "description": "GeTui (Zhejiang Merit Interactive Network Technology Co., Ltd.) is an independent provider of big data technology and artificial intelligence services, and is committed to driving industries forward through data intelligence. GeTui focuses on providing developer services, targeted mobile marketing, and big data applications in industries such as financial industry, smart tourism and public services.", 
+        "logo": "support_1.png", 
+        "name": "\u4e2a\u63a8"
+      }, 
+      {
+        "description": "The 15-year-old Chinese-language IT book flagship brand is known as the miracle of Internet speed development in the traditional paper media publishing industry! Publishing philosophy deep cultivation of professional publishing, technology leading innovation. Over the years, it has continued to maintain strong growth, and the compound growth rate is considered to be the industry leader. The annual direct impact on the technical career of 10 million + professionals.", 
+        "logo": "support_8.png", 
+        "name": "\u535a\u6587"
+      }, 
+      {
+        "description": "Qianfeng Education belongs to Beijing Qianfeng Interconnection Technology Co., Ltd. It was founded in January 2011. Its headquarters is located in Beijing. At present, it has established branches in 15 cities, such as Shanghai, Shenzhen, Guangzhou and Hangzhou. Since its inception, Qianfeng has trained tens of thousands of technical personnel in Python, artificial intelligence, big data, Java, HTML5 and other fields, and has established cooperation with 10,000 IT-related enterprises in talent delivery, and is committed to building a talent service platform in the IT education industry chain.", 
+        "logo": "support_15.png", 
+        "name": "\u5343\u950b\u6559\u80b2"
+      }, 
+      {
+        "description": "Southwest Jiaotong University Makerspace (SWTJU Makerspace) was founded in December 2013 to create a making space for college students to provide support for innovation and entrepreneurship. Now the space is a sub-center of SWJTU, linked to the Engineering Training Center, is China''s first three makerspace founded by university.", 
+        "logo": "support_5.png", 
+        "name": "Innovation Center for China-U.S. Youth Exchange of Southwest Jiaotong University"
       }
     ]
   }
