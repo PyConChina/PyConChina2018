@@ -5,3 +5,4 @@ jsmin
 colorama
 click
 fabric
+oyaml

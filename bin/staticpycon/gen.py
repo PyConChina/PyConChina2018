@@ -11,7 +11,7 @@ from os import listdir, system
 import pipes
 import re
 import shutil
-#import yaml
+# import yaml
 import oyaml as yaml
 from staticjinja import make_site, Reloader
 from webassets import Environment, Bundle
