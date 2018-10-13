@@ -42,7 +42,7 @@
                         {% set a_speaker = schedule.speakers[detail.speaker] %}
                       <div>
                         <div class="time">{{detail.time}}</div>
-                        <div>{{a_speaker.topic.title}}--{{a_speaker.name}}</div>
+                        <div>{{a_speaker.topic.title}}【{{a_speaker.name}}, {{a_speaker.title}}】</div>
                       </div>
                     {% else %}
                        <div>

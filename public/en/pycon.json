@@ -9,20 +9,20 @@
             "topic": "Opening remarks - pay tribute to pythoneer"
           }, 
           {
-            "time": "09:20-10:00", 
-            "topic": "My Python Road (tentative) \u3010Qiangning Hong \uff0cFounder and CTO of einplus\u3011"
+            "speaker": "id_hongqiangning", 
+            "time": "09:20-10:00"
           }, 
           {
-            "time": "10:00-10:40", 
-            "topic": "Subject to be determined \u3010Ezio Melotti \uff0cCPython-Core Developer\u3011"
+            "speaker": "id_eziomelotti", 
+            "time": "10:00-10:40"
           }, 
           {
             "time": "10:40-11:20", 
-            "topic": "Subject to be determined "
+            "topic": "\u4e3b\u9898\u5f85\u5b9a \u3010\u6e05\u98ce \uff0c\u5e01\u4fe1\u3011"
           }, 
           {
-            "time": "11:20-12:00", 
-            "topic": "Build an enterprise-level automated testing framework HttpRunner with Python open source ecosystem\u3010Leo Lee\uff08debugtalk\uff09\uff0cLeader of DJI test developement\u3011"
+            "speaker": "id_lilong", 
+            "time": "11:20-12:00"
           }
         ], 
         "name": "The main venue"
@@ -30,32 +30,32 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "What happened to my Python process? \u3010Xiang Zhang\uff0cCPython-Core Developer\u3011"
+            "speaker": "id_zhangxiang", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "Implementation ideas of Python JIT \u3010Nightynight \uff0cMSRA\u3011"
+            "speaker": "id_nightynight", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-15:15", 
-            "topic": "New Pose of Unlock GIL \u3010Gashero \uff0cIndependent developer\u3011"
+            "speaker": "id_gashero", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "15:15-15:30", 
             "topic": "Tea Break"
           }, 
           {
-            "time": "15:30-16:15", 
-            "topic": "How to use Rust in Python \u3010Lusheng Lv \uff0cBackend development of Ant Financial\u3011"
+            "speaker": "id_Lusheng", 
+            "time": "15:30-16:15"
           }, 
           {
-            "time": "16:15-17:00", 
-            "topic": "Subject to be determined \u3010Gangqiang Yao \uff0cTechnical Leader of Community Division of Zhihu\u3011"
+            "speaker": "id_yaogangqiang", 
+            "time": "16:15-17:00"
           }, 
           {
-            "time": "17:00-17:15", 
-            "topic": "Understand of Python MRO \u3010Xiangyu He \uff0cPython engineer of TCL Internet Division\u3011(Quick speech)"
+            "speaker": "id_hexiangyu", 
+            "time": "17:00-17:15"
           }, 
           {
             "time": "17:15-17:30", 
@@ -67,32 +67,32 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "Robust and efficient web crawler \u3010Qingcai Cui \uff0cBig Data Engineer of Microsoft China\u3011"
+            "speaker": "id_cuiqingcai", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "Artificial Intelligence Case Study Sharing - Image Processing and Numerical Analysis \u3010Jinhong Lee \uff0cMain engineer of Code doctor\u3011"
+            "speaker": "id_lijinhong", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-15:15", 
-            "topic": "Mars - Matrix-based unified computing framework \u3010Xuye Qin \uff0cComputing Platform Department of Alibaba\u3011"
+            "speaker": "id_qinxuye", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "15:15-15:30", 
             "topic": "Tea Break"
           }, 
           {
-            "time": "15:30-16:15", 
-            "topic": "Hands on with the Google TPUv2 \u3010Shun Wang \uff0cCloud Advisor of Google\u3011"
+            "speaker": "id_wangshun", 
+            "time": "15:30-16:15"
           }, 
           {
-            "time": "16:15-17:00", 
-            "topic": "Python in Blockchain Asset Management \u3010Xiaoyou Chen \uff0cFounder of Shanghai Wayne Kailuan Software Technology Co., Ltd.\u3011"
+            "speaker": "id_chenxiaoyou", 
+            "time": "16:15-17:00"
           }, 
           {
-            "time": "17:00-17:15", 
-            "topic": "Evolution Path of Enterprise Data Science Platform Based on Python Ecosphere \u3010Rick Liu \uff0cData scientist of PING AN\u3011(Quick speech)"
+            "speaker": "id_yizhe", 
+            "time": "17:00-17:15"
           }, 
           {
             "time": "17:15-17:30", 
@@ -104,32 +104,32 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "Form 0-1, create a Serverless platform by using Python \u3010Ernest He\uff0cifanr - CTO\u3011"
+            "speaker": "id_heshiyou", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "My Python Hacker Road (tentative) \u3010Taoxun Kong \uff0cChief security officer(CSO) of digapis\u3011"
+            "speaker": "id_kongtaoxun", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-15:15", 
-            "topic": "CI/CD Practice Based on Docker \u3010Jintao Zhang \uff0cSenior Devops of NetEase\u3011"
+            "speaker": "id_zhangjintao", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "15:15-15:30", 
             "topic": "Tea Break"
           }, 
           {
-            "time": "15:30-16:15", 
-            "topic": "Taking history as a guide: Understand the Web core technology system in half an hour \u3010Liangju Deng \uff0cEngineering Director of metasota\u3011"
+            "speaker": "id_dengliangju", 
+            "time": "15:30-16:15"
           }, 
           {
-            "time": "16:15-17:00", 
-            "topic": "The Free Flask \u3010Grey Li \uff0cmember of Pallets Team\u3011"
+            "speaker": "id_lihui", 
+            "time": "16:15-17:00"
           }, 
           {
-            "time": "17:00-17:15", 
-            "topic": "Application of Python in embedded system development \u3010Xiaomao Zhou \uff0cDevelopment Manager of iRain Parking\u3011(Quick speech)"
+            "speaker": "id_zhouxiaomao", 
+            "time": "17:00-17:15"
           }, 
           {
             "time": "17:15-17:30", 
@@ -141,16 +141,16 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "What can be done with Python \u2014 Implement a web application that includes an identity authentication module \u3010Hui Chang\uff0cConsultant of ThoughtWorks\u3011"
+            "speaker": "id_changhui", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "Python application in cryptography \u3010Wentian Zhao \uff0cPenetration Test Engineer of DigApis\u3011"
+            "speaker": "id_zhaowentian", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-14:45", 
-            "topic": "What about our pension? \u3010Leezhuo Guo \uff0cIT Veteran / Fan of Python\u3011(Quick speech)"
+            "speaker": "id_guolizhuo", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "14:45-15:00", 
@@ -989,11 +989,11 @@
     }, 
     {
       "title": "ORGANIZER", 
-      "url": "en/index.html"
+      "url": "en/organizer_detail.html"
     }, 
     {
       "title": "SPEAKER", 
-      "url": "en/index.html"
+      "url": "en/speaker_detail.html"
     }, 
     {
       "title": "SPONSER", 
