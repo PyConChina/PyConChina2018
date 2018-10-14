@@ -95,6 +95,12 @@ support:
     intro: "诺基亚上海贝尔"
     intro_en: "诺基亚上海贝尔"
   -
+    logo: support_sistswjtu.png
+    logo_en: support_sistswjtu.png
+    link: ""
+    intro: "西南交通大学信息科学与技术学院"
+    intro_en: "西南交通大学信息科学与技术学院"
+  -
     logo: support_swjtu.png
     logo_en: support_swjtu.png
     link: ""
