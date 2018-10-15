@@ -69,12 +69,12 @@
   url_en: "en/index.html"
 - title: 组委&志愿者
   title_en: ORGANIZER
-  url: "index.html"
-  url_en: "en/index.html"
-- title: 讲师
+  url: "organizer_detail.html"
+  url_en: "en/organizer_detail.html"
+- title: 讲师&主题
   title_en: SPEAKER
-  url: "index.html"
-  url_en: "en/index.html"
+  url: "speaker_detail.html"
+  url_en: "en/speaker_detail.html"
 - title: 赞助
   title_en: SPONSER
   url: "support_detail.html"

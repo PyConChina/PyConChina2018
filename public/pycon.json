@@ -9,20 +9,20 @@
             "topic": "\u5f00\u573a\u81f4\u8bcd\u2014\u81f4\u656c Pythoneer"
           }, 
           {
-            "time": "09:20-10:00", 
-            "topic": "\u6211\u7684Python\u4e4b\u8def\uff08\u6682\u5b9a\uff09 \u3010\u6d2a\u5f3a\u5b81 \uff0c\u7231\u56e0\u4e92\u52a8-\u521b\u59cb\u4eba\u517cCTO\u3011"
+            "speaker": "id_hongqiangning", 
+            "time": "09:20-10:00"
           }, 
           {
-            "time": "10:00-10:40", 
-            "topic": "\u4e3b\u9898\u5f85\u5b9a \u3010Ezio Melotti \uff0cCPython-Core Developer\u3011"
+            "speaker": "id_eziomelotti", 
+            "time": "10:00-10:40"
           }, 
           {
             "time": "10:40-11:20", 
             "topic": "\u4e3b\u9898\u5f85\u5b9a \u3010\u6e05\u98ce \uff0c\u5e01\u4fe1\u3011"
           }, 
           {
-            "time": "11:20-12:00", 
-            "topic": "\u501f\u52a9Python\u5f00\u6e90\u751f\u6001\u6253\u9020\u4f01\u4e1a\u7ea7\u81ea\u52a8\u5316\u6d4b\u8bd5\u6846\u67b6\uff08HttpRunner\uff09\u3010\u674e\u9686\uff08debugtalk\uff09\uff0c\u5927\u7586\u521b\u65b0-\u6d4b\u8bd5\u5f00\u53d1\u8d1f\u8d23\u4eba\u3011"
+            "speaker": "id_lilong", 
+            "time": "11:20-12:00"
           }
         ], 
         "name": "\u4e3b\u4f1a\u573a"
@@ -30,32 +30,32 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "\u6211\u7684Python\u8fdb\u7a0b\u600e\u4e48\u4e86\u3010\u5f20\u7fd4\uff0cCPython-Core Developer\u3011"
+            "speaker": "id_zhangxiang", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "Python JIT \u7684\u5b9e\u73b0\u601d\u8def \u3010Nightynight \uff0cMSRA\u3011"
+            "speaker": "id_nightynight", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-15:15", 
-            "topic": "\u89e3\u9501 GIL \u7684\u65b0\u59ff\u52bf \u3010Gashero \uff0c\u72ec\u7acb\u5f00\u53d1\u8005\u3011"
+            "speaker": "id_gashero", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "15:15-15:30", 
             "topic": "\u8336\u6b47"
           }, 
           {
-            "time": "15:30-16:15", 
-            "topic": "\u5982\u4f55\u5728Python\u4e2d\u8c03\u7528 Rust \u3010\u5415\u8def\u751f \uff0c\u8682\u8681\u91d1\u670d-\u540e\u7aef\u5de5\u7a0b\u5e08\u3011"
+            "speaker": "id_Lusheng", 
+            "time": "15:30-16:15"
           }, 
           {
-            "time": "16:15-17:00", 
-            "topic": "\u4e3b\u9898\u5f85\u5b9a \u3010\u59da\u521a\u5f3a \uff0c\u77e5\u4e4e-\u793e\u533a\u67b6\u6784\u6280\u672f\u8d1f\u8d23\u4eba\u3011"
+            "speaker": "id_yaogangqiang", 
+            "time": "16:15-17:00"
           }, 
           {
-            "time": "17:00-17:15", 
-            "topic": "\u7406\u89e3Python MRO \u3010\u4f55\u7fd4\u5b87/\u6b63\u5c0f\u6b6a \uff0cTCL-\u4e92\u8054\u7f51\u4e8b\u4e1a\u672c\u90e8Python\u5de5\u7a0b\u5e08\u3011\uff08\u5feb\u901f\u6f14\u8bb2\uff09"
+            "speaker": "id_hexiangyu", 
+            "time": "17:00-17:15"
           }, 
           {
             "time": "17:15-17:30", 
@@ -67,32 +67,32 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "\u5065\u58ee\u9ad8\u6548\u7684\u7f51\u7edc\u722c\u866b \u3010\u5d14\u5e86\u624d\uff0c\u5fae\u8f6f\u4e2d\u56fd\u6709\u9650\u516c\u53f8-\u5927\u6570\u636e\u5de5\u7a0b\u5e08\u3011"
+            "speaker": "id_cuiqingcai", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "\u4eba\u5de5\u667a\u80fd\u5b9e\u6218\u6848\u4f8b\u5206\u4eab \u3010\u674e\u91d1\u6d2a \uff0c\u4ee3\u7801\u533b\u751f-\u4e3b\u7a0b\u3011"
+            "speaker": "id_lijinhong", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-15:15", 
-            "topic": "Mars\u2014\u2014\u57fa\u4e8e\u77e9\u9635\u7684\u7edf\u4e00\u8ba1\u7b97\u6846\u67b6 \u3010\u79e6\u7eed\u4e1a \uff0c\u963f\u91cc\u5df4\u5df4-\u5e73\u53f0\u4e8b\u4e1a\u90e8\u4e13\u5bb6\u3011"
+            "speaker": "id_qinxuye", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "15:15-15:30", 
             "topic": "\u8336\u6b47"
           }, 
           {
-            "time": "15:30-16:15", 
-            "topic": "Hands on with the Google TPUv2 \u3010\u738b\u987a \uff0c\u8c37\u6b4c\u4e91-\u987e\u95ee\u3011"
+            "speaker": "id_wangshun", 
+            "time": "15:30-16:15"
           }, 
           {
-            "time": "16:15-17:00", 
-            "topic": "\u533a\u5757\u94fe\u8d44\u4ea7\u7ba1\u7406\u4e2d\u7684Python \u3010\u9648\u6653\u4f18 \uff0c\u4e0a\u6d77\u97e6\u6069\u5f00\u733f\u8f6f\u4ef6\u79d1\u6280\u6709\u9650\u516c\u53f8-\u521b\u59cb\u4eba\u3011"
+            "speaker": "id_chenxiaoyou", 
+            "time": "16:15-17:00"
           }, 
           {
-            "time": "17:00-17:15", 
-            "topic": "\u57fa\u4e8ePython\u751f\u6001\u5708\u7684\u4f01\u4e1a\u7ea7\u6570\u636e\u79d1\u5b66\u5e73\u53f0\u6f14\u5316\u8def\u5f84 \u3010\u4ee5\u54f2 Rick Liu \uff0c\u5e73\u5b89\u96c6\u56e2-\u6570\u636e\u79d1\u5b66\u5bb6\u3011\uff08\u5feb\u901f\u6f14\u8bb2\uff09"
+            "speaker": "id_yizhe", 
+            "time": "17:00-17:15"
           }, 
           {
             "time": "17:15-17:30", 
@@ -104,32 +104,32 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "\u7528Python\u6253\u9020Serverless\u5e73\u53f0\uff0c\u4ece0\u52301 \u3010\u4f55\u4e16\u53cb\uff0c\u7231\u8303\u513f-CTO\u3011"
+            "speaker": "id_heshiyou", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "\u6211\u7684Python\u9ed1\u5ba2\u4e4b\u8def \u3010\u5b54\u97ec\u5faa \uff0c\u4e01\u725b\u79d1\u6280-\u9996\u5e2d\u5b89\u5168\u5b98\u3011"
+            "speaker": "id_kongtaoxun", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-15:15", 
-            "topic": "\u57fa\u4e8eDocker\u7684CI/CD\u5b9e\u8df5 \u3010\u5f20\u664b\u6d9b \uff0c\u7f51\u6613-\u8d44\u6df1\u8fd0\u7ef4\u5f00\u53d1\u5de5\u7a0b\u5e08\u3011"
+            "speaker": "id_zhangjintao", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "15:15-15:30", 
             "topic": "\u8336\u6b47"
           }, 
           {
-            "time": "15:30-16:15", 
-            "topic": "\u4ee5\u53f2\u4e3a\u9274\uff1a30\u5206\u949f\u7406\u89e3Web\u6838\u5fc3\u6280\u672f\u4f53\u7cfb \u3010\u9093\u826f\u9a79 \uff0c\u79d8\u5854\u79d1\u6280-\u5de5\u7a0b\u603b\u76d1\u3011"
+            "speaker": "id_dengliangju", 
+            "time": "15:30-16:15"
           }, 
           {
-            "time": "16:15-17:00", 
-            "topic": "\u81ea\u7531\u7684Flask \u3010\u674e\u8f89 \uff0cFlask\u5f00\u53d1\u56e2\u961f\uff08Pallets Team\uff09-\u6210\u5458\u3011"
+            "speaker": "id_lihui", 
+            "time": "16:15-17:00"
           }, 
           {
-            "time": "17:00-17:15", 
-            "topic": "Python\u5728\u5d4c\u5165\u5f0f\u7cfb\u7edf\u5f00\u53d1\u4e2d\u7684\u5e94\u7528 \u3010\u5468\u5c0f\u6bdb \uff0c\u827e\u6da6\u7269\u8054-\u5f00\u53d1\u7ecf\u7406\u3011\uff08\u5feb\u901f\u6f14\u8bb2\uff09"
+            "speaker": "id_zhouxiaomao", 
+            "time": "17:00-17:15"
           }, 
           {
             "time": "17:15-17:30", 
@@ -141,16 +141,16 @@
       {
         "detail": [
           {
-            "time": "13:00-13:45", 
-            "topic": "\u7528Python\u53ef\u4ee5\u505a\u54ea\u4e9b\u6709\u8da3\u7684\u4e8b\u4e4b\u5b9e\u73b0\u4e00\u4e2a\u5305\u542b\u8eab\u4efd\u8ba4\u8bc1\u6a21\u5757\u7684\u7f51\u7ad9\u5e94\u7528 \u3010\u5e38\u5349\uff0cThoughtWorks-\u54a8\u8be2\u5e08\u3011"
+            "speaker": "id_changhui", 
+            "time": "13:00-13:45"
           }, 
           {
-            "time": "13:45-14:30", 
-            "topic": "Python\u5728\u5bc6\u7801\u5b66\u4e2d\u7684\u5e94\u7528 \u3010\u8d75\u6587\u5929 \uff0c\u4e01\u725b\u79d1\u6280-\u6e17\u900f\u6d4b\u8bd5\u5de5\u7a0b\u5e08\u3011"
+            "speaker": "id_zhaowentian", 
+            "time": "13:45-14:30"
           }, 
           {
-            "time": "14:30-14:45", 
-            "topic": "\u6211\u4eec\u7684\u517b\u8001\u91d1\u600e\u4e48\u529e - \u7528\u5b9a\u6295\u7684\u65b9\u5f0f\u4e3a\u81ea\u5df1\u589e\u52a0\u989d\u5916\u4fdd\u969c \u3010\u90ed\u674e\u707c \uff0cIT\u8001\u5175-python\u7231\u597d\u3011\uff08\u5feb\u901f\u6f14\u8bb2\uff09"
+            "speaker": "id_guolizhuo", 
+            "time": "14:30-15:15"
           }, 
           {
             "time": "14:45-15:00", 
@@ -498,7 +498,7 @@
     ]
   }, 
   "city_chengdu": {
-    "address": "<b>\u6d3b\u52a8\u5730\u5740</b>\uff1a\u56db\u5ddd\u7701\u6210\u90fd\u5e02\u90eb\u90fd\u533a\u7280\u5b89\u8def999\u53f7\u897f\u5357\u4ea4\u901a\u5927\u5b66(\u7280\u6d66\u6821\u533a)", 
+    "address": "<b>\u6d3b\u52a8\u5730\u5740</b>\uff1a\uff08\u56db\u5ddd\u6210\u90fd\uff09\u90eb\u90fd\u533a\u7280\u5b89\u8def999\u53f7\u897f\u5357\u4ea4\u901a\u5927\u5b66(\u7280\u6d66\u6821\u533a)\u4fe1\u606f\u79d1\u5b66\u4e0e\u6280\u672f\u5b66\u96629219\u4f1a\u8bae\u5385", 
     "agenda": [
       {
         "detail": [
@@ -989,11 +989,11 @@
     }, 
     {
       "title": "\u7ec4\u59d4&\u5fd7\u613f\u8005", 
-      "url": "index.html"
+      "url": "organizer_detail.html"
     }, 
     {
-      "title": "\u8bb2\u5e08", 
-      "url": "index.html"
+      "title": "\u8bb2\u5e08&\u4e3b\u9898", 
+      "url": "speaker_detail.html"
     }, 
     {
       "title": "\u8d5e\u52a9", 

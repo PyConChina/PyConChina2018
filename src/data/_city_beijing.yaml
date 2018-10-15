@@ -39,91 +39,45 @@ agenda:
       - time: "09:00-09:20"
         topic: "开场致词—致敬 Pythoneer"
         topic_en: "Opening remarks - pay tribute to pythoneer"
-      - time: "09:20-10:00"
-        topic: "我的Python之路（暂定） 【洪强宁 ，爱因互动-创始人兼CTO】"
-        topic_en: "My Python Road (tentative) 【Qiangning Hong ，Founder and CTO of einplus】"
-      - time: "10:00-10:40"
-        topic: "主题待定 【Ezio Melotti ，CPython-Core Developer】"
-        topic_en: "Subject to be determined 【Ezio Melotti ，CPython-Core Developer】"
-      - time: "10:40-11:20"
-        topic: "主题待定 【清风 ，币信】"
-        topic_en: "Subject to be determined "
-      - time: "11:20-12:00"
-        topic: "借助Python开源生态打造企业级自动化测试框架（HttpRunner）【李隆（debugtalk），大疆创新-测试开发负责人】"
-        topic_en: "Build an enterprise-level automated testing framework HttpRunner with Python open source ecosystem【Leo Lee（debugtalk），Leader of DJI test developement】"
-
+      - { time: "09:20-10:00", speaker: id_hongqiangning }
+      - { time: "10:00-10:40", speaker: id_eziomelotti }
+      - { time: "10:40-11:20", topic: "主题待定 【清风 ，币信】" }
+      - { time: "11:20-12:00", speaker: id_lilong }
   -
     name: '分会场A：Python 语言特性专场'
     name_en: "breakout venue 1: Python Language Features"
     detail:
-      -
-        time: '13:00-13:45'
-        topic: '我的Python进程怎么了【张翔，CPython-Core Developer】'
-        topic_en: "What happened to my Python process? 【Xiang Zhang，CPython-Core Developer】"
-      -
-        time: '13:45-14:30'
-        topic: 'Python JIT 的实现思路 【Nightynight ，MSRA】'
-        topic_en: "Implementation ideas of Python JIT 【Nightynight ，MSRA】"
-      -
-        time: '14:30-15:15'
-        topic: '解锁 GIL 的新姿势 【Gashero ，独立开发者】'
-        topic_en: "New Pose of Unlock GIL 【Gashero ，Independent developer】"
+      - { time: "13:00-13:45", speaker: id_zhangxiang }
+      - { time: "13:45-14:30", speaker: id_nightynight }
+      - { time: "14:30-15:15", speaker: id_gashero }
       -
         time: '15:15-15:30'
         topic: '茶歇'
         topic_en: "Tea Break"
-      -
-        time: '15:30-16:15'
-        topic: '如何在Python中调用 Rust 【吕路生 ，蚂蚁金服-后端工程师】'
-        topic_en: "How to use Rust in Python 【Lusheng Lv ，Backend development of Ant Financial】"
-      -
-        time: '16:15-17:00'
-        topic: '主题待定 【姚刚强 ，知乎-社区架构技术负责人】'
-        topic_en: "Subject to be determined 【Gangqiang Yao ，Technical Leader of Community Division of Zhihu】"
-      -
-        time: '17:00-17:15'
-        topic: '理解Python MRO 
-【何翔宇/正小歪 ，TCL-互联网事业本部Python工程师】（快速演讲）'
-        topic_en: "Understand of Python MRO 
-【Xiangyu He ，Python engineer of TCL Internet Division】(Quick speech)"
+
+      - { time: "15:30-16:15", speaker: id_Lusheng }
+      - { time: "16:15-17:00", speaker: id_yaogangqiang }
+      - { time: "17:00-17:15", speaker: id_hexiangyu }
       -
         time: '17:15-17:30'
         topic: '活动结束，抽奖，合影留恋'
         topic_en: "Ending, Lottery, Taking photo"
+
   -
     name: '分会场B: 人工智能 & 大数据 & 区块链'
     name_en: "breakout venue 2: Machine Learning & Big Data Session"
     detail:
-      -
-        time: '13:00-13:45'
-        topic: '健壮高效的网络爬虫 【崔庆才，微软中国有限公司-大数据工程师】'
-        topic_en: 'Robust and efficient web crawler 【Qingcai Cui ，Big Data Engineer of Microsoft China】'
-      -
-        time: '13:45-14:30'
-        topic: '人工智能实战案例分享 【李金洪 ，代码医生-主程】'
-        topic_en: 'Artificial Intelligence Case Study Sharing - Image Processing and Numerical Analysis 【Jinhong Lee ，Main engineer of Code doctor】'
-      -
-        time: '14:30-15:15'
-        topic: 'Mars——基于矩阵的统一计算框架
-【秦续业 ，阿里巴巴-平台事业部专家】'
-        topic_en: 'Mars - Matrix-based unified computing framework
-【Xuye Qin ，Computing Platform Department of Alibaba】'
+      - { time: "13:00-13:45", speaker: id_cuiqingcai }
+      - { time: "13:45-14:30", speaker: id_lijinhong }
+      - { time: "14:30-15:15", speaker: id_qinxuye }
       -
         time: '15:15-15:30'
         topic: '茶歇'
         topic_en: 'Tea Break'
-      -
-        time: '15:30-16:15'
-        topic: 'Hands on with the Google TPUv2 【王顺 ，谷歌云-顾问】'
-        topic_en: 'Hands on with the Google TPUv2 【Shun Wang ，Cloud Advisor of Google】'
-      -
-        time: '16:15-17:00'
-        topic: '区块链资产管理中的Python 【陈晓优 ，上海韦恩开猿软件科技有限公司-创始人】'
-        topic_en: 'Python in Blockchain Asset Management 【Xiaoyou Chen ，Founder of Shanghai Wayne Kailuan Software Technology Co., Ltd.】'
-      -
-        time: '17:00-17:15'
-        topic: '基于Python生态圈的企业级数据科学平台演化路径 【以哲 Rick Liu ，平安集团-数据科学家】（快速演讲）'
-        topic_en: 'Evolution Path of Enterprise Data Science Platform Based on Python Ecosphere 【Rick Liu ，Data scientist of PING AN】(Quick speech)'
+
+      - { time: "15:30-16:15", speaker: id_wangshun }
+      - { time: "16:15-17:00", speaker: id_chenxiaoyou }
+      - { time: "17:00-17:15", speaker: id_yizhe }
       -
         time: '17:15-17:30'
         topic: '活动结束，抽奖，合影留恋'
@@ -132,36 +86,16 @@ agenda:
     name: '分会场C: 架构 & Web后端 & 运维专场'
     name_en: 'breakout venue 3: Web Session ( Web Development / Network Security / Crawler / SDK / API Design )'
     detail:
-      -
-        time: '13:00-13:45'
-        topic: '用Python打造Serverless平台，从0到1 【何世友，爱范儿-CTO】'
-        topic_en: 'Form 0-1, create a Serverless platform by using Python 【Ernest He，ifanr - CTO】'
-      -
-        time: '13:45-14:30'
-        topic: '我的Python黑客之路 【孔韬循 ，丁牛科技-首席安全官】'
-        topic_en: 'My Python Hacker Road (tentative) 【Taoxun Kong ，Chief security officer(CSO) of digapis】'
-      -
-        time: '14:30-15:15'
-        topic: '基于Docker的CI/CD实践 【张晋涛 ，网易-资深运维开发工程师】'
-        topic_en: 'CI/CD Practice Based on Docker 【Jintao Zhang ，Senior Devops of NetEase】'
+      - { time: "13:00-13:45", speaker: id_heshiyou }
+      - { time: "13:45-14:30", speaker: id_kongtaoxun }
+      - { time: "14:30-15:15", speaker: id_zhangjintao }
       -
         time: '15:15-15:30'
         topic: '茶歇'
         topic_en: 'Tea Break'
-      -
-        time: '15:30-16:15'
-        topic: '以史为鉴：30分钟理解Web核心技术体系
-【邓良驹 ，秘塔科技-工程总监】'
-        topic_en: 'Taking history as a guide: Understand the Web core technology system in half an hour
-【Liangju Deng ，Engineering Director of metasota】'
-      -
-        time: '16:15-17:00'
-        topic: '自由的Flask 【李辉 ，Flask开发团队（Pallets Team）-成员】'
-        topic_en: 'The Free Flask 【Grey Li ，member of Pallets Team】'
-      -
-        time: '17:00-17:15'
-        topic: 'Python在嵌入式系统开发中的应用 【周小毛 ，艾润物联-开发经理】（快速演讲）'
-        topic_en: 'Application of Python in embedded system development 【Xiaomao Zhou ，Development Manager of iRain Parking】(Quick speech)'
+      - { time: "15:30-16:15", speaker: id_dengliangju }
+      - { time: "16:15-17:00", speaker: id_lihui }
+      - { time: "17:00-17:15", speaker: id_zhouxiaomao }
       -
         time: '17:15-17:30'
         topic: '活动结束，抽奖，合影留恋'
@@ -170,18 +104,9 @@ agenda:
     name: '分会场D: Python 女性专场'
     name_en: 'breakout venue 4: Python Session for Women'
     detail:
-      -
-        time: '13:00-13:45'
-        topic: '用Python可以做哪些有趣的事之实现一个包含身份认证模块的网站应用 【常卉，ThoughtWorks-咨询师】'
-        topic_en: 'What can be done with Python — Implement a web application that includes an identity authentication module 【Hui Chang，Consultant of ThoughtWorks】'
-      -
-        time: '13:45-14:30'
-        topic: 'Python在密码学中的应用 【赵文天 ，丁牛科技-渗透测试工程师】'
-        topic_en: 'Python application in cryptography 【Wentian Zhao ，Penetration Test Engineer of DigApis】'
-      -
-        time: '14:30-14:45'
-        topic: '我们的养老金怎么办 - 用定投的方式为自己增加额外保障 【郭李灼 ，IT老兵-python爱好】（快速演讲）'
-        topic_en: 'What about our pension? 【Leezhuo Guo ，IT Veteran / Fan of Python】(Quick speech)'
+      - { time: "13:00-13:45", speaker: id_changhui }
+      - { time: "13:45-14:30", speaker: id_zhaowentian }
+      - { time: "14:30-15:15", speaker: id_guolizhuo }
       -
         time: '14:45-15:00'
         topic: '茶歇'
