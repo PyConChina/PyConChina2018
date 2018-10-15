@@ -5,26 +5,6 @@ meta:
     name: 主办方
     name_en: Organizer
   -
-    level: assist
-    style: big
-    name: 协办方
-    name_en: Assist
-  -
-    level: diamond
-    style: inline
-    name: 钻石赞助
-    name_en: Diamond
-  -
-    level: platinum
-    style: inline
-    name: 白金赞助
-    name_en: Platinum
-  -
-    level: gold
-    style: inline
-    name: 黄金赞助
-    name_en: Gold
-  -
     level: silver
     style: inline
     name: 白银赞助
@@ -34,54 +14,48 @@ meta:
     style: inline
     name: 青铜赞助
     name_en: Bronze
+  - 
+    level: support
+    style: inline
+    name: 特别支持
+    name_en: Special
+  -
+    level: assist
+    style: big
+    name: 协办方
+    name_en: Assist
   -
     level: book
     style: inline
     name: 图书赞助
     name_en: Book
   -
+    level: video
+    style: inline
+    name: 视频支持
+    name_en: Video
+  -
+    level: signup
+    style: inline
+    name: 报名平台
+    name_en: Registration platform
+  -
     level: community
     style: inline
     name: 社区合作伙伴
     name_en: Community partners
-  -
-    level: strategy
-    style: inline
-    name: 战略合作伙伴
-    name_en: Strategy partners
 
 
 #########################################
 # 主办方
 #########################################
 organizer:
-
-#########################################
-# 协办方
-#########################################
-assist:
   -
-    logo: support_thoughtworks.png
-    logo_en: support_thoughtworks.png
-    link: "https://www.thoughtworks.com"
-    intro: "ThoughtWorks"
-    intro_en: "ThoughtWorks"
-
-#########################################
-# 钻石级
-#########################################
-diamond:
-
-#########################################
-# 白金级
-#########################################
-platinum:
-
-#########################################
-# 黄金级
-#########################################
-gold:
-
+    logo: support_pychina.png
+    logo_en: support_pychina.png
+    link: "https://pychina.org"
+    intro: "PyChina 社区"
+    intro_en: "PyChina"
 
 #########################################
 # 白银级赞助
@@ -110,6 +84,39 @@ bronze:
     link: ""
     intro: "BXB"
     intro_en: "BXB"
+#########################################
+# 特别支持
+#########################################
+support:
+  -
+    logo: support_nokiasbell.png
+    logo_en: support_nokiasbell.png
+    link: "https://www.nokia-sbell.com"
+    intro: "诺基亚上海贝尔"
+    intro_en: "诺基亚上海贝尔"
+  -
+    logo: support_sistswjtu.png
+    logo_en: support_sistswjtu.png
+    link: ""
+    intro: "西南交通大学信息科学与技术学院"
+    intro_en: "西南交通大学信息科学与技术学院"
+  -
+    logo: support_swjtu.png
+    logo_en: support_swjtu.png
+    link: ""
+    intro: "西南交通大学中美青年创客交流中心"
+    intro_en: "西南交通大学中美青年创客交流中心"
+
+#########################################
+# 协办方
+#########################################
+assist:
+  -
+    logo: support_thoughtworks.png
+    logo_en: support_thoughtworks.png
+    link: "https://www.thoughtworks.com"
+    intro: "ThoughtWorks"
+    intro_en: "ThoughtWorks"
 
 #########################################
 # 图书赞助
@@ -119,8 +126,8 @@ book:
     logo: support_turing.png
     logo_en: support_turing.png
     link: "https://www.ituring.com.cn"
-    intro: "图灵"
-    intro_en: "图灵"
+    intro: "图灵教育"
+    intro_en: "图灵教育"
   -
     logo: support_broadview.png
     logo_en: support_broadview.png
@@ -131,20 +138,41 @@ book:
     logo: support_epubit.png
     logo_en: support_epubit.png
     link: "https://www.epubit.com"
-    intro: "异步"
-    intro_en: "异步"
+    intro: "异步社区"
+    intro_en: "异步社区"
   -
     logo: support_hzbooks.png
     logo_en: support_hzbooks.png
     link: "http://www.hzmedia.com.cn"
-    intro: "华章"
-    intro_en: "华章"
+    intro: "华章科技"
+    intro_en: "华章科技"
+  
+#########################################
+# 视频支持
+#########################################
+video:
+  -
+    logo: support_bokecc.png
+    logo_en: support_bokecc.png
+    link: "https://www.bokecc.com"
+    intro: "CC视频"
+    intro_en: "CC视频"
   -
     logo: support_otpub.png
     logo_en: support_otpub.png
     link: "http://www.otpub.com"
     intro: "OTPUB"
     intro_en: "OTPUB"
+#########################################
+# 报名平台
+#########################################
+signup:
+  -
+    logo: support_huodongxing.png
+    logo_en: support_huodongxing.png
+    link: "https://www.huodongxing.com"
+    intro: "活动行"
+    intro_en: "活动行"
 
 #########################################
 # 社区合作伙伴
@@ -156,12 +184,6 @@ community:
     link: "https://juejin.im"
     intro: "掘金"
     intro_en: "掘金"
-  -
-    logo: support_bokecc.png
-    logo_en: support_bokecc.png
-    link: "https://www.bokecc.com"
-    intro: "CC视频"
-    intro_en: "CC视频"
   -
     logo: support_gitchat.png
     logo_en: support_gitchat.png
@@ -187,38 +209,14 @@ community:
     intro: "千锋教育"
     intro_en: "千锋教育"
   -
-    logo: support_huodongxing.png
-    logo_en: support_huodongxing.png
-    link: "https://www.huodongxing.com"
-    intro: "活动行"
-    intro_en: "活动行"
-  -
     logo: support_zhixiaoyun.png
     logo_en: support_zhixiaoyun.png
-    link: ""
-    intro: 知晓云
-    intro_en: 知晓云
+    link: "https://cloud.minapp.com"
+    intro: "知晓云"
+    intro_en: "知晓云"
   -
     logo: support_chuangkemao.png
     logo_en: support_chuangkemao.png
-    link: ""
-    intro: 创客猫
-    intro_en: 创客猫
-
-
-#########################################
-# 战略合作伙伴
-#########################################
-strategy:
-  -
-    logo: support_nokiasbell.png
-    logo_en: support_nokiasbell.png
-    link: "https://www.nokia-sbell.com"
-    intro: "诺基亚上海贝尔"
-    intro_en: "诺基亚上海贝尔"
-  -
-    logo: support_sjtu.png
-    logo_en: support_sjtu.png
-    link: ""
-    intro: "西南交通大学中美青年创客交流中心"
-    intro_en: "西南交通大学中美青年创客交流中心"
+    link: "https://www.chuangkem.com"
+    intro: "创客猫"
+    intro_en: "创客猫"

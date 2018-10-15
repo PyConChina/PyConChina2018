@@ -1,32 +1,168 @@
 supports:
-  -
-    name: 图灵
-    name_en: 图灵
-    logo: support_7.png
-    description: 北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务，自成立以来累计销售图书已达1000多万册，影响了数百万读者。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。
-    description_en: Beijing Turing Culture Development Co., Ltd. has always been planning and publishing high-quality science and technology books as its core business. Since its establishment, it has accumulated more than 10 million books, affecting millions of readers. Its Turing education brand is one of the high-end brands in the domestic computer book field. The Turing Community is a comprehensive service platform created by Turing, which combines the production of book content, the service of translators, the sales of e-books, and the exchange of technical people.
+#########################################
+# 主办方
+#########################################
+  - 
+    name: PyChina 社区
+    name_en: PyChina
+    logo: support_pychina.png
+    description: PyChina创立于2014年，是由CpyUG(华蟒用户组)获得授权举办的中国PyCon年会，以推动各地Python线下活动和在线活动等为宗旨。
+    description_en: PyChina创立于2014年，是由CpyUG(华蟒用户组)获得授权举办的中国PyCon年会，以推动各地Python线下活动和在线活动等为宗旨。
+#########################################
+# 白银赞助
+#########################################
   -
     name: 个推
     name_en: 个推
-    logo: support_1.png
+    logo: support_getui.png
     description: 个推（浙江每日互动网络科技股份有限公司）是独立的智能大数据服务商，致力于用数据驱动产业新未来。主要业务包括开发者服务、精准营销服务，以及智慧旅游、金融和公共服务等各垂直领域的大数据服务。
     description_en: GeTui (Zhejiang Merit Interactive Network Technology Co., Ltd.) is an independent provider of big data technology and artificial intelligence services, and is committed to driving industries forward through data intelligence. GeTui focuses on providing developer services, targeted mobile marketing, and big data applications in industries such as financial industry, smart tourism and public services.
+  
+#########################################
+# 青铜赞助
+#########################################
+  - 
+    name: 爱因互动
+    name_en: 爱因互动
+    logo: support_einplus.png
+    description: 爱因互动专注于为企业提供售前领域的商用对话机器人，用友好、自然的人机沟通方式提升用户体验，促进销售转化。以 NLP、知识工程和个性化推荐技术为依托，我们深度结合行业相关知识和领域模型，为重点客户定制专属解决方案，提供高价值服务、降低销售和客服成本，提升达到销售转化率和用户满意度的目标。
+    description_en: 爱因互动专注于为企业提供售前领域的商用对话机器人，用友好、自然的人机沟通方式提升用户体验，促进销售转化。以 NLP、知识工程和个性化推荐技术为依托，我们深度结合行业相关知识和领域模型，为重点客户定制专属解决方案，提供高价值服务、降低销售和客服成本，提升达到销售转化率和用户满意度的目标。
+  - 
+    name: BXB
+    name_en: BXB
+    logo: support_bxb.png
+    description: vn.py社区是目前国内成员数量最大的Python和量化交易社区之一，社区主要成员来自于金融行业（证券、基金、投行等）和IT行业（数据分析、Python开发等），围绕vn.py开源量化交易框架，社区在量化投资、算法交易、金融数据分析等方向贡献了大量优质的内容以及成熟的开源代码
+    description_en: The vn.py open source community is one of the largest open source communities which focus on Python and Quantitative Trading in China. The community members mainly come from Financial and IT sectors including investment banks, hedge funds, financial brokers, data analysis firm and also other technology firms. Based on the vn.py open source quant trading framework, the community has contributed many ready-to-use open source projects for quantitative investment, algo trading and financial data analysis.
+#########################################
+# 特别支持
+#########################################
+  - 
+    name: 诺基亚上海贝尔
+    name_en: 诺基亚上海贝尔
+    logo: support_nokiasbell.png
+    description: 上海诺基亚贝尔股份有限公司（以下简称“诺基亚贝尔”）是国务院国资委直接监管的央企中的唯一一家合资企业，也是诺基亚在华的独家运营平台。诺基亚贝尔目前拥有员工约16,000人，国内销售服务网络覆盖31个省市，国际业务遍及50多个国家和地区。公司拥有强大的研发能力和深厚的专业积淀，为运营商和非运营商客户提供端到端的信息通信解决方案和高质量的服务，并在IP网络、光网络、固网以及下一代5G网络等诸多领域领军发展。
+    description_en: 诺基亚上海贝尔
   -
-    name: 博文
-    name_en: 博文
-    logo: support_8.png
-    description: 拥有15年历史的华语世界IT图书旗舰品牌，被誉为传统纸介质出版业当中以互联网速度发展的奇迹！出版理念：深耕专业出版，技术引领创新。多年来持续保持强力增长，复合增长率堪称业界翘楚。年度直接影响1000万+专业人士的技术生涯。
-    description_en: The 15-year-old Chinese-language IT book flagship brand is known as the miracle of Internet speed development in the traditional paper media publishing industry! Publishing philosophy deep cultivation of professional publishing, technology leading innovation. Over the years, it has continued to maintain strong growth, and the compound growth rate is considered to be the industry leader. The annual direct impact on the technical career of 10 million + professionals.
-  -
-    name: 千锋教育
-    name_en: 千锋教育
-    logo: support_15.png
-    description: 千锋教育隶属于北京千锋互联科技有限公司，2011年1月成立，总部位于北京，目前已在上海、深圳、广州、杭州等15地市成立分公司。自成立以来千锋培养了数万名Python、人工智能、大数据、Java、HTML5等领域的技术人才，并与10000家IT相关企业建立人才输送合作，坚持致力于打造IT教育全产业链人才服务平台。
-    description_en: Qianfeng Education belongs to Beijing Qianfeng Interconnection Technology Co., Ltd. It was founded in January 2011. Its headquarters is located in Beijing. At present, it has established branches in 15 cities, such as Shanghai, Shenzhen, Guangzhou and Hangzhou. Since its inception, Qianfeng has trained tens of thousands of technical personnel in Python, artificial intelligence, big data, Java, HTML5 and other fields, and has established cooperation with 10,000 IT-related enterprises in talent delivery, and is committed to building a talent service platform in the IT education industry chain.
+    name: 西南交通大学信息科学与技术学院
+    name_en: The school of Information Science & Technology (SIST) at Southwest Jiaotong University (SWJTU)
+    logo: support_sistswjtu.png
+    description: 西南交通大学信息科学与技术学院是随着时代和国家战略需求发展起来的学院，上世纪六十年代初创办了计算技术、自动化和无线电技术3个专业，是国内较早开设电子与信息类专业的学校，1981年计算机及应用专业获得首批硕士学位授予权，1985年成立计算机科学与工程系，1993年成立计算机与信息工程学院，1994年更名为计算机与通信工程学院，2005年更名为信息科学与技术学院。历经六十余载形成了以计算机、通信、控制和电子为主干学科的覆盖电子信息整个领域的学科体系，成为具有轨道交通特色的信息技术人才培养和科学研究的基地。
+    description_en: The school of Information Science & Technology (SIST) at Southwest Jiaotong University (SWJTU) has a history that was originated in 1960s, with the aim of meeting the trend of the times and the strategic demand of our country. At that time, SWJTU established three disciplines, i.e. computing technology, automation, and radio technology, becoming one of the earliest institutions in China which had electronics and information disciplines. In 1981, the discipline Computer and Its Applications was authorized as one of the first disciplines in China being able to award master degree, when there was only two in Sichuan Province. The department Computer Science and Engineering was founded in 1981, which was followed by the establishment of the School of Computer and Communications Engineering (SCCE) in 1993 (the predecessor of SIST). In 2005, the school was renamed SIST. With the solid construction and rapid development over 50 years, SIST has built a balanced and well developed disciplinary system, covering the whole area of Electronics and Information. With primary disciplines including Computer, Communications, Control and Electronics, SIST has become a base for producing IT talents and carrying out outstanding scientific research.
   -
     name: 西南交通大学中美青年创客交流中心
     name_en: Innovation Center for China-U.S. Youth Exchange of Southwest Jiaotong University
-    logo: support_5.png
+    logo: support_swjtu.png
     description: 西南交通大学中美青年创客交流中心秉承开放、分享、协作、创造的理念，融合交通特色和创客底色，致力于跨界融合，探索未来交通、未来教育和未来社会三大创新领域，与社会各界携手以教育促进创新发展，共同创造可持续发展的美好明天。
     description_en: Southwest Jiaotong University Makerspace (SWTJU Makerspace) was founded in December 2013 to create a making space for college students to provide support for innovation and entrepreneurship. Now the space is a sub-center of SWJTU, linked to the Engineering Training Center, is China''s first three makerspace founded by university.
-    
+  
+#########################################
+# 协办方
+#########################################
+  - 
+    name: ThoughtWorks
+    name_en: ThoughtWorks
+    logo: support_thoughtworks.png
+    description: ThoughtWorks是一家全球信息技术服务公司，追求卓越软件质量，致力于科技驱动商业变革。通过为客户提供：专业组织转型咨询、创新软件交付、用户体验设计、产品及解决方案等服务，帮助客户快速将想法实现为价值。目前我们在全球共拥有4500名员工分布在14个国家41个办公室。在中国有北京、西安、成都、武汉、上海以及深圳6个分公司。
+    description_en: ThoughtWorks was founded in 1993 in Chicago. There are 41 offices and more than 5,000 outstanding talents in 14 countries. A community of passionate individuals whose purpose is to revolutionize software design, creation and delivery, while advocating for positive social change.
+#########################################
+# 图书赞助
+#########################################
+  -
+    name: 图灵教育
+    name_en: 图灵教育
+    logo: support_turing.png
+    description: 北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务，自成立以来累计销售图书已达1000多万册，影响了数百万读者。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。
+    description_en: Beijing Turing Culture Development Co., Ltd. has always been planning and publishing high-quality science and technology books as its core business. Since its establishment, it has accumulated more than 10 million books, affecting millions of readers. Its Turing education brand is one of the high-end brands in the domestic computer book field. The Turing Community is a comprehensive service platform created by Turing, which combines the production of book content, the service of translators, the sales of e-books, and the exchange of technical people.
+  -
+    name: 博文视点
+    name_en: 博文视点
+    logo: support_broadview.png
+    description: 拥有15年历史的华语世界IT图书旗舰品牌，被誉为传统纸介质出版业当中以互联网速度发展的奇迹！出版理念：深耕专业出版，技术引领创新。多年来持续保持强力增长，复合增长率堪称业界翘楚。年度直接影响1000万+专业人士的技术生涯。
+    description_en: The 15-year-old Chinese-language IT book flagship brand is known as the miracle of Internet speed development in the traditional paper media publishing industry! Publishing philosophy deep cultivation of professional publishing, technology leading innovation. Over the years, it has continued to maintain strong growth, and the compound growth rate is considered to be the industry leader. The annual direct impact on the technical career of 10 million + professionals.
+  - 
+    name: 异步社区
+    name_en: 异步社区
+    logo: support_epubit.png
+    description: 异步社区（ www.epubit.com  ）是国内领先的IT专业图书社区，由人民邮电出版社主办，致力于优质学习内容的出版和分享，为读者提供优质学习内容，为读者和作者提供在线交流的平台。
+    description_en: The Asynchronous Community (www.epubit.com) is a leading IT professional book community in China. It is hosted by the People's Posts and Telecommunications Publishing House and is dedicated to the publication and sharing of quality learning content, providing readers with quality learning content and online communication for readers and authors. 
+  - 
+    name: 华章科技
+    name_en: 华章科技
+    logo: support_hzbooks.png
+    description: 北京华章图文信息有限公司（机械工业出版社华章公司）成立于1995年，是国内第一家中外合资的出版公司。20多年来出版了《算法导论》、《编译原理》、《Java编程思想》、《深入理解计算机系统》、《点石成金：访客至上的网页设计秘笈》、等知名畅销书，累计出版图书3000多种，图书销售册数超过2000万册。
+    description_en: 北京华章图文信息有限公司（机械工业出版社华章公司）成立于1995年，是国内第一家中外合资的出版公司。20多年来出版了《算法导论》、《编译原理》、《Java编程思想》、《深入理解计算机系统》、《点石成金：访客至上的网页设计秘笈》、等知名畅销书，累计出版图书3000多种，图书销售册数超过2000万册。
+#########################################
+# 视频支持
+#########################################
+  - 
+    name: CC视频
+    name_en: CC视频
+    logo: support_bokecc.png
+    description: CC视频成立于2005年4月，是面向垂直行业用户打造的一站式场景化视频解决方案的服务品牌。CC视频提供基于云计算的视频云直播、云点播、云互动和云加速的整体解决方案，满足教育、金融、IT互联网、医疗、政府企业等行业用户的在线视频应用需求。CC视频连续7年在在线教育领域占有率达72%，续签服务的用户占比达84.6%。
+    description_en: CC视频成立于2005年4月，是面向垂直行业用户打造的一站式场景化视频解决方案的服务品牌。CC视频提供基于云计算的视频云直播、云点播、云互动和云加速的整体解决方案，满足教育、金融、IT互联网、医疗、政府企业等行业用户的在线视频应用需求。CC视频连续7年在在线教育领域占有率达72%，续签服务的用户占比达84.6%。
+  - 
+    name: OTPUB
+    name_en: OTPUB
+    logo: support_otpub.png
+    description: OTPUB领先IT技术在线学习&直播平台，元鼎旗下全资子公司（北京奥泰帕博科技有限公司），是国内首家与厂商直接合作的技术企业，从而获得最先进、最实用的技术资源，成为最权威的IT技术在线学习&直播平台。平台汇集各厂商及高级工程师共同制作的IT技术视频课程，与互联网最前沿与热门直播活动，以满足企业及个人在产品知识、技术应用、案例分析、产品超融合等领域的技能提升。
+    description_en: OTPUB领先IT技术在线学习&直播平台，元鼎旗下全资子公司（北京奥泰帕博科技有限公司），是国内首家与厂商直接合作的技术企业，从而获得最先进、最实用的技术资源，成为最权威的IT技术在线学习&直播平台。平台汇集各厂商及高级工程师共同制作的IT技术视频课程，与互联网最前沿与热门直播活动，以满足企业及个人在产品知识、技术应用、案例分析、产品超融合等领域的技能提升。
+#########################################
+# 官方报名平台
+#########################################
+  - 
+    name: 活动行
+    name_en: 活动行
+    logo: support_huodongxing.png
+    description: 活动行，是深受主办方信赖和城市白领喜爱的活动平台，同时也是业内领先的活动科技服务商；提供包含活动场地预定、活动发布、报名推广、签到验票、活动数据分析、定制大会APP/小程序、活动服务商对接，等等一站式综合活动服务。
+    description_en: Accuvally is an activity platform that is trusted by the organizers and loved by urban white-collar workers. It is also the industry's leading event technology service provider; it provides event venue reservations, event release, One-stop comprehensive event service, such as registration promotion, check-in ticket inspection, activity data analysis, custom assembly APP/small program, event service provider docking, etc.
+#########################################
+# 社区合作伙伴
+#########################################
+  - 
+    name: 掘金
+    name_en: 掘金
+    logo: support_juejin.png
+    description: 掘金 juejin.im —— 一个帮助开发者成长的社区。掘金社区内容涵盖各大热门技术品类，基于数据挖掘技术为用户推荐定制化的优质内容。我们加速新技术的出现、发展和普及。目前，掘金已经成为国内最活跃的开发者社区，包含网页端、移动端和浏览器插件三个产品终端。现有掘金小册、掘金翻译计划等拳头产品。
+    description_en: Juejin.im – Becoming a better developer by sharing and learning. We provide premium and customized content covering all technical categories to our users through data mining. We boost the adoption of new technology. Juejin has already become the most popular online community for developers in China. You can visit our website or download our mobile app. Juejin is also available as a browser extension. Our key products include Juejin Book, Juejin Translation Project, etc.
+  - 
+    name: 异步社区
+    name_en: 异步社区
+    logo: support_epubit.png
+    description: 异步社区（ www.epubit.com  ）是国内领先的IT专业图书社区，由人民邮电出版社主办，致力于优质学习内容的出版和分享，为读者提供优质学习内容，为读者和作者提供在线交流的平台。
+    description_en: The Asynchronous Community (www.epubit.com) is a leading IT professional book community in China. It is hosted by the People's Posts and Telecommunications Publishing House and is dedicated to the publication and sharing of quality learning content, providing readers with quality learning content and online communication for readers and authors. 
+  - 
+    name: GitChat
+    name_en: GitChat
+    logo: support_gitchat.png
+    description: GitChat聚合业界顶级技术专家，是技术菁英知识付费分享社区与学习平台，打造“阅读+交流=知识+社交”新理念，满足IT从业者日新月异的知识学习需求，改变知识学习方式。
+    description_en: GitChat brings together the industry's top technology experts, is the technology elite knowledge sharing community and learning platform, to create a new concept of "reading + communication = knowledge + social" to meet the changing needs of IT practitioners in knowledge learning, change the way of knowledge learning.
+  - 
+    name: 开源中国
+    name_en: 开源中国
+    logo: support_oschina.png
+    description:
+    description_en:
+  - 
+    name: DBAPlus
+    name_en: DBAPlus
+    logo: support_dbaplus.png
+    description: dbaplus：数据连接未来！围绕Data、Blockchain、AiOps的企业级专业社群。行业大咖、技术干货，每天精品原创文章推送，每周线上技术分享，每月线下技术沙龙，受众20W+。
+    description_en: dbaplus：数据连接未来！围绕Data、Blockchain、AiOps的企业级专业社群。行业大咖、技术干货，每天精品原创文章推送，每周线上技术分享，每月线下技术沙龙，受众20W+。
+  -
+    name: 千锋教育
+    name_en: 千锋教育
+    logo: support_mobiletrain.png
+    description: 千锋教育隶属于北京千锋互联科技有限公司，2011年1月成立，总部位于北京，目前已在上海、深圳、广州、杭州等15地市成立分公司。自成立以来千锋培养了数万名Python、人工智能、大数据、Java、HTML5等领域的技术人才，并与10000家IT相关企业建立人才输送合作，坚持致力于打造IT教育全产业链人才服务平台。
+    description_en: Qianfeng Education belongs to Beijing Qianfeng Interconnection Technology Co., Ltd. It was founded in January 2011. Its headquarters is located in Beijing. At present, it has established branches in 15 cities, such as Shanghai, Shenzhen, Guangzhou and Hangzhou. Since its inception, Qianfeng has trained tens of thousands of technical personnel in Python, artificial intelligence, big data, Java, HTML5 and other fields, and has established cooperation with 10,000 IT-related enterprises in talent delivery, and is committed to building a talent service platform in the IT education industry chain.
+  - 
+    name: 知晓云
+    name_en: 知晓云
+    logo: support_zhixiaoyun.png
+    description: 知晓云是国内首家专注于微信小程序开发的后端云服务，为小程序开发者提供最低门槛的 Serverless 无服务架构接入体验。它免去了小程序开发中服务器搭建、域名备案、数据接口开发、线aoxig上运维等繁琐流程，通过 BaaS（Backend As A Service）、FaaS（Function As A Service）组合而成的服务矩阵，让开发者专注于业务逻辑的实现，快速上线小程序。
+    description_en: 知晓云是国内首家专注于微信小程序开发的后端云服务，为小程序开发者提供最低门槛的 Serverless 无服务架构接入体验。它免去了小程序开发中服务器搭建、域名备案、数据接口开发、线aoxig上运维等繁琐流程，通过 BaaS（Backend As A Service）、FaaS（Function As A Service）组合而成的服务矩阵，让开发者专注于业务逻辑的实现，快速上线小程序。
+  - 
+    name: 创客猫
+    name_en: 创客猫
+    logo: support_chuangkemao.png
+    description: 创客猫是活跃在创新创业第一现场的新媒体。专注为全国范围内的创新创业活动提供图文直播、现场报道、专访等服务，为创业者和产业创新者提供各行业最前沿的资讯动态。截止目前，每月邀请创客猫进行图文直播和报道的峰会已近百场，创客猫也累计专访报道了数百名创业者和知名投资人。
+    description_en: 创客猫是活跃在创新创业第一现场的新媒体。专注为全国范围内的创新创业活动提供图文直播、现场报道、专访等服务，为创业者和产业创新者提供各行业最前沿的资讯动态。截止目前，每月邀请创客猫进行图文直播和报道的峰会已近百场，创客猫也累计专访报道了数百名创业者和知名投资人。
