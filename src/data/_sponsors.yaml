@@ -66,7 +66,7 @@ silver:
     logo_en: support_getui.png
     link: "https://www.getui.com/"
     intro: "个推"
-    intro_en: "个推"
+    intro_en: "GeTui"
 
 #########################################
 # 青铜级赞助
@@ -77,7 +77,7 @@ bronze:
     logo_en: support_einplus.png
     link: "https://www.einplus.cn"
     intro: "爱因互动"
-    intro_en: "爱因互动"
+    intro_en: "Einplus"
   -
     logo: support_bxb.png
     logo_en: support_bxb.png
@@ -93,7 +93,7 @@ support:
     logo_en: support_nokiasbell.png
     link: "https://www.nokia-sbell.com"
     intro: "诺基亚上海贝尔"
-    intro_en: "诺基亚上海贝尔"
+    intro_en: "Nokia上海贝尔"
   -
     logo: support_sistswjtu.png
     logo_en: support_sistswjtu.png
@@ -127,19 +127,19 @@ book:
     logo_en: support_turing.png
     link: "https://www.ituring.com.cn"
     intro: "图灵教育"
-    intro_en: "图灵教育"
+    intro_en: "Turing Education"
   -
     logo: support_broadview.png
     logo_en: support_broadview.png
     link: "https://www.broadview.com.cn"
     intro: "博文视点"
-    intro_en: "博文视点"
+    intro_en: "BroadView"
   -
     logo: support_epubit.png
     logo_en: support_epubit.png
     link: "https://www.epubit.com"
     intro: "异步社区"
-    intro_en: "异步社区"
+    intro_en: "Asynchronous Community"
   -
     logo: support_hzbooks.png
     logo_en: support_hzbooks.png
@@ -172,7 +172,7 @@ signup:
     logo_en: support_huodongxing.png
     link: "https://www.huodongxing.com"
     intro: "活动行"
-    intro_en: "活动行"
+    intro_en: "Accuvally"
 
 #########################################
 # 社区合作伙伴
@@ -183,7 +183,7 @@ community:
     logo_en: support_juejin.png
     link: "https://juejin.im"
     intro: "掘金"
-    intro_en: "掘金"
+    intro_en: "Juejin"
   -
     logo: support_gitchat.png
     logo_en: support_gitchat.png
@@ -195,7 +195,7 @@ community:
     logo_en: support_oschina.png
     link: "https://www.oschina.net"
     intro: "开源中国"
-    intro_en: "开源中国"
+    intro_en: "Open Source China"
   -
     logo: support_dbaplus.png
     logo_en: support_dbaplus.png
@@ -207,7 +207,7 @@ community:
     logo_en: support_mobiletrain.png
     link: "https://www.mobiletrain.org"
     intro: "千锋教育"
-    intro_en: "千锋教育"
+    intro_en: "Qianfeng Education"
   -
     logo: support_zhixiaoyun.png
     logo_en: support_zhixiaoyun.png

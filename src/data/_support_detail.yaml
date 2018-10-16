@@ -13,7 +13,7 @@ supports:
 #########################################
   -
     name: 个推
-    name_en: 个推
+    name_en: GeTui
     logo: support_getui.png
     description: 个推（浙江每日互动网络科技股份有限公司）是独立的智能大数据服务商，致力于用数据驱动产业新未来。主要业务包括开发者服务、精准营销服务，以及智慧旅游、金融和公共服务等各垂直领域的大数据服务。
     description_en: GeTui (Zhejiang Merit Interactive Network Technology Co., Ltd.) is an independent provider of big data technology and artificial intelligence services, and is committed to driving industries forward through data intelligence. GeTui focuses on providing developer services, targeted mobile marketing, and big data applications in industries such as financial industry, smart tourism and public services.
@@ -23,7 +23,7 @@ supports:
 #########################################
   - 
     name: 爱因互动
-    name_en: 爱因互动
+    name_en: Einplus
     logo: support_einplus.png
     description: 爱因互动专注于为企业提供售前领域的商用对话机器人，用友好、自然的人机沟通方式提升用户体验，促进销售转化。以 NLP、知识工程和个性化推荐技术为依托，我们深度结合行业相关知识和领域模型，为重点客户定制专属解决方案，提供高价值服务、降低销售和客服成本，提升达到销售转化率和用户满意度的目标。
     description_en: 爱因互动专注于为企业提供售前领域的商用对话机器人，用友好、自然的人机沟通方式提升用户体验，促进销售转化。以 NLP、知识工程和个性化推荐技术为依托，我们深度结合行业相关知识和领域模型，为重点客户定制专属解决方案，提供高价值服务、降低销售和客服成本，提升达到销售转化率和用户满意度的目标。
@@ -38,7 +38,7 @@ supports:
 #########################################
   - 
     name: 诺基亚上海贝尔
-    name_en: 诺基亚上海贝尔
+    name_en: Nokia上海贝尔
     logo: support_nokiasbell.png
     description: 上海诺基亚贝尔股份有限公司（以下简称“诺基亚贝尔”）是国务院国资委直接监管的央企中的唯一一家合资企业，也是诺基亚在华的独家运营平台。诺基亚贝尔目前拥有员工约16,000人，国内销售服务网络覆盖31个省市，国际业务遍及50多个国家和地区。公司拥有强大的研发能力和深厚的专业积淀，为运营商和非运营商客户提供端到端的信息通信解决方案和高质量的服务，并在IP网络、光网络、固网以及下一代5G网络等诸多领域领军发展。
     description_en: 诺基亚上海贝尔
@@ -69,19 +69,19 @@ supports:
 #########################################
   -
     name: 图灵教育
-    name_en: 图灵教育
+    name_en: Turing Education
     logo: support_turing.png
     description: 北京图灵文化发展有限公司，始终以策划出版高质量的科技图书为核心业务，自成立以来累计销售图书已达1000多万册，影响了数百万读者。旗下图灵教育品牌是国内计算机图书领域的高端品牌之一。图灵社区是图灵公司打造的综合性服务平台，集图书内容生产、作译者服务、电子书销售、技术人士交流于一体。
     description_en: Beijing Turing Culture Development Co., Ltd. has always been planning and publishing high-quality science and technology books as its core business. Since its establishment, it has accumulated more than 10 million books, affecting millions of readers. Its Turing education brand is one of the high-end brands in the domestic computer book field. The Turing Community is a comprehensive service platform created by Turing, which combines the production of book content, the service of translators, the sales of e-books, and the exchange of technical people.
   -
     name: 博文视点
-    name_en: 博文视点
+    name_en: BroadView
     logo: support_broadview.png
     description: 拥有15年历史的华语世界IT图书旗舰品牌，被誉为传统纸介质出版业当中以互联网速度发展的奇迹！出版理念：深耕专业出版，技术引领创新。多年来持续保持强力增长，复合增长率堪称业界翘楚。年度直接影响1000万+专业人士的技术生涯。
     description_en: The 15-year-old Chinese-language IT book flagship brand is known as the miracle of Internet speed development in the traditional paper media publishing industry! Publishing philosophy deep cultivation of professional publishing, technology leading innovation. Over the years, it has continued to maintain strong growth, and the compound growth rate is considered to be the industry leader. The annual direct impact on the technical career of 10 million + professionals.
   - 
     name: 异步社区
-    name_en: 异步社区
+    name_en: Asynchronous Community
     logo: support_epubit.png
     description: 异步社区（ www.epubit.com  ）是国内领先的IT专业图书社区，由人民邮电出版社主办，致力于优质学习内容的出版和分享，为读者提供优质学习内容，为读者和作者提供在线交流的平台。
     description_en: The Asynchronous Community (www.epubit.com) is a leading IT professional book community in China. It is hosted by the People's Posts and Telecommunications Publishing House and is dedicated to the publication and sharing of quality learning content, providing readers with quality learning content and online communication for readers and authors. 
@@ -111,7 +111,7 @@ supports:
 #########################################
   - 
     name: 活动行
-    name_en: 活动行
+    name_en: Accuvally
     logo: support_huodongxing.png
     description: 活动行，是深受主办方信赖和城市白领喜爱的活动平台，同时也是业内领先的活动科技服务商；提供包含活动场地预定、活动发布、报名推广、签到验票、活动数据分析、定制大会APP/小程序、活动服务商对接，等等一站式综合活动服务。
     description_en: Accuvally is an activity platform that is trusted by the organizers and loved by urban white-collar workers. It is also the industry's leading event technology service provider; it provides event venue reservations, event release, One-stop comprehensive event service, such as registration promotion, check-in ticket inspection, activity data analysis, custom assembly APP/small program, event service provider docking, etc.
@@ -120,13 +120,13 @@ supports:
 #########################################
   - 
     name: 掘金
-    name_en: 掘金
+    name_en: Juejin
     logo: support_juejin.png
     description: 掘金 juejin.im —— 一个帮助开发者成长的社区。掘金社区内容涵盖各大热门技术品类，基于数据挖掘技术为用户推荐定制化的优质内容。我们加速新技术的出现、发展和普及。目前，掘金已经成为国内最活跃的开发者社区，包含网页端、移动端和浏览器插件三个产品终端。现有掘金小册、掘金翻译计划等拳头产品。
     description_en: Juejin.im – Becoming a better developer by sharing and learning. We provide premium and customized content covering all technical categories to our users through data mining. We boost the adoption of new technology. Juejin has already become the most popular online community for developers in China. You can visit our website or download our mobile app. Juejin is also available as a browser extension. Our key products include Juejin Book, Juejin Translation Project, etc.
   - 
     name: 异步社区
-    name_en: 异步社区
+    name_en: Asynchronous Community
     logo: support_epubit.png
     description: 异步社区（ www.epubit.com  ）是国内领先的IT专业图书社区，由人民邮电出版社主办，致力于优质学习内容的出版和分享，为读者提供优质学习内容，为读者和作者提供在线交流的平台。
     description_en: The Asynchronous Community (www.epubit.com) is a leading IT professional book community in China. It is hosted by the People's Posts and Telecommunications Publishing House and is dedicated to the publication and sharing of quality learning content, providing readers with quality learning content and online communication for readers and authors. 
@@ -138,7 +138,7 @@ supports:
     description_en: GitChat brings together the industry's top technology experts, is the technology elite knowledge sharing community and learning platform, to create a new concept of "reading + communication = knowledge + social" to meet the changing needs of IT practitioners in knowledge learning, change the way of knowledge learning.
   - 
     name: 开源中国
-    name_en: 开源中国
+    name_en: Open Source China
     logo: support_oschina.png
     description: 开源中国 成立于2008年8月，是目前国内最大的开源技术社区，拥有超过200万会员，形成了由开源软件库、代码分享、资讯、协作翻译、讨论区和博客等几大频道内容，为IT开发者提供了一个发现、使用、并交流开源技术的平台。2013年，开源中国建立大型综合性的云开发平台-码云，为中国广大开发者提供团队协作、源码托管、代码质量分析、代码评审、测试、代码演示平台等功能。
     description_en: Open Source China (OSC) founded in August 2008 is the largest open source community in China. It has more than 2.3 million registered members and Alexa ranking 1400 in the world. OSC provides multiple channels including news, forum, code sharing, blogs, and translation, etc to help local developers study and utilize open soure technology.
@@ -150,7 +150,7 @@ supports:
     description_en: dbaplus：数据连接未来！围绕Data、Blockchain、AiOps的企业级专业社群。行业大咖、技术干货，每天精品原创文章推送，每周线上技术分享，每月线下技术沙龙，受众20W+。
   -
     name: 千锋教育
-    name_en: 千锋教育
+    name_en: Qianfeng Education
     logo: support_mobiletrain.png
     description: 千锋教育隶属于北京千锋互联科技有限公司，2011年1月成立，总部位于北京，目前已在上海、深圳、广州、杭州等15地市成立分公司。自成立以来千锋培养了数万名Python、人工智能、大数据、Java、HTML5等领域的技术人才，并与10000家IT相关企业建立人才输送合作，坚持致力于打造IT教育全产业链人才服务平台。
     description_en: Qianfeng Education belongs to Beijing Qianfeng Interconnection Technology Co., Ltd. It was founded in January 2011. Its headquarters is located in Beijing. At present, it has established branches in 15 cities, such as Shanghai, Shenzhen, Guangzhou and Hangzhou. Since its inception, Qianfeng has trained tens of thousands of technical personnel in Python, artificial intelligence, big data, Java, HTML5 and other fields, and has established cooperation with 10,000 IT-related enterprises in talent delivery, and is committed to building a talent service platform in the IT education industry chain.
