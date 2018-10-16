@@ -166,3 +166,9 @@ supports:
     logo: support_chuangkemao.png
     description: 创客猫是活跃在创新创业第一现场的新媒体。专注为全国范围内的创新创业活动提供图文直播、现场报道、专访等服务，为创业者和产业创新者提供各行业最前沿的资讯动态。截止目前，每月邀请创客猫进行图文直播和报道的峰会已近百场，创客猫也累计专访报道了数百名创业者和知名投资人。
     description_en: 创客猫是活跃在创新创业第一现场的新媒体。专注为全国范围内的创新创业活动提供图文直播、现场报道、专访等服务，为创业者和产业创新者提供各行业最前沿的资讯动态。截止目前，每月邀请创客猫进行图文直播和报道的峰会已近百场，创客猫也累计专访报道了数百名创业者和知名投资人。
+  - 
+    name: 摹客
+    name_en: Mockplus
+    logo: support_mockplus.png
+    description: 摹客从原型设计工具Mockplus出发，逐步演进为产品设计协作平台，为产品团队提供更快更简单的设计解决方案。摹客产品主要包括：Mockplus，原型设计工具，让产品经理5分钟即可创建交互原型；摹客DS（Design System），设计规范管理神器，让设计师一键管理设计资源；摹客iDoc，设计团队交付协同文档，支持自动标注和切图。
+    description_en: Mockplus is an all-in-one tool for designers and developers to prototype mobile, web and desktop apps quickly and easily. It's developed and well-maintained by Jongde Software LLC, a fast-growing start-up on a mission to improve the user experience of prototyping magic.
