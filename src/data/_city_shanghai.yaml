@@ -30,36 +30,58 @@ description_en: |
   <p>PyCon is the world's largest annual gathering of Pythoneers, supported by the PSF (Python Foundation), dedicated to creating a delightful and diverse Python technology theme conference. PyConChina is a  PyCon Annual Conference in China ,authorized by CPyUG. No matter which programming language you use, you are welcome to participate this big fun event organized by the Python Chinese community.</p>
 agenda:
   -
-    name: "主会场"
+    name: "2018年10月21日"
     detail:
-      - time: "09:00-09:20"
-        topic: "开场致词—致敬 Pythoneer"
+      - time: "08:00～08:50"
+        topic: "签到"
         topic_en: "Check-in"
+      - time: "08:50～09:00"
+        topic: "开场介绍"
+        topic_en: ""
+      - time: "09:00～09:45"
+        topic: "【机器智能的局限，从图像识别到自然语言处理】王晓雷 - ThoughtWorks - 算法科学家"
+        topic_en: ""
+      - time: "09:45～10:30"
+        topic: "【PyTorch入门指北】张校捷 - 英伟达 - 深度学习架构工程师"
+        topic_en: ""
+      - time: "10:30～10:45"
+        topic: "茶歇"
+        topic_en: ""
+      - time: "10:45～11:30"
+        topic: "【扩展Jupyter/IPythonNB，赋能你的云服务】丁来强 - 阿里云日志服务 - 上海团队负责人"
+        topic_en: ""
+      - time: "11:30～11:45"
+        topic: "【Python - Machine Learning vs Human Learning】（快速演讲）Jiyoon Lim - Coupang Data Analyst"
+        topic_en: ""
 
-  -
-    name: '分会场A：Python 语言特性专场'
-    detail:
-      - time: "10:30-11:40"
+      - time: "11:45 ～ 13:00"
+        topic: "午餐（大会提供工作快餐）"
+        topic_en: ""
+
+      - time: "13:00 ～ 13:45"
+        topic: "【Python从头实现以太坊】 - Jon - Yield.IM 创始人"
+        topic_en: ""
+      - time: "13:45 ～ 14:30"
+        topic: "【 区块链资产管理中的Python】陈晓优 - 上海韦恩开猿软件科技有限公司创始人"
+        topic_en: ""
+      - time: "14:30 ～ 14:45"
         topic: "茶歇"
-        topic_en: "Tea Break"
-  -
-    name: '分会场B: 人工智能 & 大数据 & 区块链'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-  -
-    name: '分会场C: 架构 & Web后端 & 运维专场'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-  -
-    name: '分会场D: Python 女性专场'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
+        topic_en: ""
+      - time: "14:45 ～ 15:30"
+        topic: "【Type Hints 最佳实践】张佳圆 - 爱奇艺 - 后端开发工程师"
+        topic_en: ""
+      - time: "15:30 ～ 16: 45"
+        topic: "【 Python 文化中的接口和协议】- 赖信涛 - 蚂蚁金服 - SRE"
+        topic_en: ""
+      - time: "16:45 ～ 17:00"
+        topic: "【使用numba优化python代码】-吴江-易安信 - 资深工程师"
+        topic_en: ""
+      - time: "17:00 ～ 17:15"
+        topic: "【Pyenv 从入门到放弃——Python 多版本多环境实战】丁俊豪 - 上海绿岸网络科技 - DevOps"
+        topic_en: ""
+      - time: "17:15 ～ 17:30"
+        topic: "抽奖，拍照，留念"
+        topic_en: ""
 
 speakers:
   id_wangxiaolei:
@@ -249,17 +271,17 @@ speakers:
       preview_en: "The topic of my speech is about the comparison between a non-Pythonic way and a Pythonic way of approaching business problems. As I switched from a business side to a technical field, I have experienced how two sides differ in solving business problems. I will cover the actual problems needed to be solved on FC Network Analysis using K-Means and how pro Excel users would approach this problem."
   id_wujiang:
     name: 吴江
-    name_en: ""
+    name_en: "Jiang Wu"
     avatar: lecturer_wujiang.png
     title: "易安信资深工程师"
-    title_en: ""
+    title_en: "EMC Senior Engineer"
     intro: "现在Mozy组负责Web后端开发。有多年高访问量Web后端的开发优化经验。"
-    intro_en: ""
+    intro_en: "Responsible for web backend development in the Mozy group, Mr. Jiang has many Experience in the development and optimization of high-traffic Web backends for many years."
     topic:
       title: "使用numba优化python代码"
-      title_en: ""
+      title_en: "Optimize the python code with numba"
       preview: "因为动态类型的原因，python的性能一直是令人头疼的问题，python3的发布并没有带来性能的提升，pypy这种支持jit的解释器性能仍然不够好。本演讲将用一段性能测试代码，逐步进行优化，并展示调优的过程，来讲解如何用numba和cython优化python代码的性能，可以和Go一样快。"
-      preview_en: ""
+      preview_en: "Because of the dynamic type, Python's performance has always been a headache. The release of Python3 did not bring performance improvements. The performance of pypy's interpreter that supports jit is still not good enough. This presentation will use a performance test code  to show the optimization step by step and show the tuning process, explaining how to optimize the performance of Python code with numba and cython, as fast as Go."
 
 volunteers:
   -
