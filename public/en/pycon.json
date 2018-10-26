@@ -416,7 +416,7 @@
         "avatar": "lecturer_zhangxiang.png", 
         "intro": "updating\u2026", 
         "name": "Xiang Zhang", 
-        "title": "CPython Core Developer / CPython Committer", 
+        "title": "CPython Core Developer", 
         "topic": {
           "preview": "This speech will share the most frequently encountered problems in CPython development and the tools for debugging problems in your own work scenario; also, it will talk the thinking about Python debugging and monitoring in future.", 
           "title": "What happened to my Python process?"
@@ -503,66 +503,102 @@
       {
         "detail": [
           {
-            "time": "09:00-09:20", 
-            "topic": "Check-in"
-          }
-        ], 
-        "name": "\u4e3b\u4f1a\u573a"
-      }, 
-      {
-        "detail": [
+            "time": "13:00-13:30", 
+            "topic": "\u7b7e\u5230 / \u6696\u573a\u4ecb\u7ecd"
+          }, 
           {
-            "time": "10:30-11:40", 
-            "topic": "Tea Break"
-          }
-        ], 
-        "name": "\u5206\u4f1a\u573aA\uff1aPython \u8bed\u8a00\u7279\u6027\u4e13\u573a"
-      }, 
-      {
-        "detail": [
+            "speaker": "id_luoqihan", 
+            "time": "13:30-14:15"
+          }, 
           {
-            "time": "10:30-11:40", 
-            "topic": "Tea Break"
-          }
-        ], 
-        "name": "\u5206\u4f1a\u573aB: \u4eba\u5de5\u667a\u80fd & \u5927\u6570\u636e & \u533a\u5757\u94fe"
-      }, 
-      {
-        "detail": [
+            "speaker": "id_zhouxiaomao", 
+            "time": "14:15-15:00"
+          }, 
           {
-            "time": "10:30-11:40", 
-            "topic": "Tea Break"
-          }
-        ], 
-        "name": "\u5206\u4f1a\u573aC: \u67b6\u6784 & Web\u540e\u7aef & \u8fd0\u7ef4\u4e13\u573a"
-      }, 
-      {
-        "detail": [
+            "time": "15:00-15:15", 
+            "topic": "\u8336\u6b47"
+          }, 
           {
-            "time": "10:30-11:40", 
-            "topic": "Tea Break"
+            "speaker": "id_qinxuye", 
+            "time": "15:15-16:00"
+          }, 
+          {
+            "speaker": "id_lizheao", 
+            "time": "16:00-16:45"
+          }, 
+          {
+            "speaker": "id_liguojian", 
+            "time": "16:45-17:00"
+          }, 
+          {
+            "time": "17:00-17:15", 
+            "topic": "\u62bd\u5956\uff0c\u5408\u5f71\uff0c\u4ea4\u6d41"
           }
         ], 
-        "name": "\u5206\u4f1a\u573aD: Python \u5973\u6027\u4e13\u573a"
+        "name": "The main venue"
       }
     ], 
     "buy_ticket_url": "http://www.huodongxing.com/go/pyconcd2018", 
     "city_icon": "chengdu_icon.png", 
     "city_name": "Chengdu", 
-    "description": "", 
+    "description": "<p>\u300c\u548c\u6211\u5728\u6210\u90fd\u7684\u8857\u5934\u8d70\u4e00\u8d70\uff0c\u8d70\u5230\u706f\u90fd\u7184\u706d\u4e86\u4e5f\u4e0d\u505c\u7559\u300d\u8d75\u96f7\u6765\u4e86\u53c8\u8d70\u4e86\uff0c\u300a\u4eba\u95f4\u6210\u90fd\u300b\u5728\u670b\u53cb\u5708\u706b\u4e86\u53c8\u6de1\u4e0b\u53bb\u4e86\u3002\u552f\u72ec PyCon China \u4f3c\u4e4e\u9057\u5fd8\u4e86\u6210\u90fd\u3002</p> <p>\u4f46\u662f\u8fd9\u4e00\u6b21\uff0c\u6211\u4eec\u6765\u4e86\u3002PyCon China 2018 ChengDu \u5c06\u572810\u670827\u65e5\u5728\u84c9\u4e3e\u529e\u3002\u8fd9\u4e00\u6b21\uff0cPyCon China \u4f1a\u5e26\u4e0a\u4e00\u4e1d\u6765\u81ea\u897f\u5357\u7684\u706b\u9505\u6c14\u3002</p> <p>\u6240\u4ee5\uff0c\u6709\u5174\u8da3\u5417\uff1f\u6765\u804a\u804a\u5927\u5bb6\u611f\u5174\u8da3\u7684\u8bdd\u9898\uff0c\u4e0d\u7ba1\u662f\u4f60\u662f\u60f3\u5206\u4eab\u81ea\u5df1\u5728\u5404\u79cd\u9886\u57df\u5e94\u7528 Python \u7684\u6700\u4f73\u5b9e\u8df5\uff0c\u4ea6\u6216\u8005\u662f\u60f3\u5b89\u5b89\u9759\u9759\u7684\u5f53\u4e00\u4e2a\u542c\u4f17\uff0c\u6211\u4eec\u6210\u90fd\u7684\u5f00\u53d1\u8005\u90fd\u4f1a\u7ed9\u4f60\u624e\u8d77\u573a\u5b50\uff08\u6b64\u5904\u8bf7\u7528\u56db\u5ddd\u8bdd\uff09</p> <p>\u62dc\u6c34\u90fd\u6c5f\u5830\uff0c\u95ee\u9053\u9752\u57ce\u5c71\uff0c\u79d1\u534e\u5317\u8def\u5403\u665a\u996d\uff0c\u4e5f\u8bb8\u8fd9\u6b21\u8fd8\u53ef\u4ee5\u6765\u7280\u6d66\u4ea4\u5927\u53c2\u4e2a\u4f1a\uff1f\u597d\u4e86\uff0c10.27 \u6211\u4eec\u4e0d\u89c1\u4e0d\u6563\u3002</p> <p>\u8bf6\uff0c\u5bf9\u4e86\uff0c\u8981\u662f\u60a8\u516c\u53f8\u6709\u5174\u8da3\u6765\u8d5e\u52a9\u6211\u4eec\uff0c\u6216\u8005\u8bf7\u5927\u5bb6\u5403\u4e2a\u706b\u9505\uff0c\u559d\u4e2a\u8336\uff0c\u8336\u9986\u91cc\u6413\u4e2a\u9ebb\u5c06\u7684\u8bdd\uff0c\u53ef\u4ee5\u8054\u7cfb\u6211\u4eec\u5e02\u573a\u8d1f\u8d23\u4eba Cynthia Xin \uff08\u8f9b\u5e86\uff09\uff1a\u5fae\u4fe1\u53f7\uff1a18516094658</p> <p>PyCon \u662f\u5168\u7403Pythonista\u6700\u76db\u5927\u7684\u5e74\u5ea6\u805a\u4f1a\uff0c\u7531 PSF(Python \u57fa\u91d1\u4f1a)\u652f\u6301\uff0c\u81f4\u529b\u4e8e\u8425\u9020\u6109\u5feb\u7684\u3001\u591a\u5143\u5316\u7684Python\u6280\u672f\u4e3b\u9898\u5927\u4f1a\u3002PyCon China\u662f\u7531 CPyUG (\u534e\u880e\u7528\u6237\u7ec4)\u83b7\u5f97\u6388\u6743\u4e3e\u529e\u7684\u4e2d\u56fd PyCon \u5e74\u4f1a\u3002\u65e0\u8bba\u60a8\u4f7f\u7528\u54ea\u79cd\u7f16\u7a0b\u8bed\u8a00, \u90fd\u6b22\u8fce\u6765\u53c2\u52a0\u8fd9\u573a\u5b8c\u5168\u7531 Python \u4e2d\u56fd\u793e\u533a\u7ec4\u7ec7\u7684\u6b22\u4e50\u96c6\u4f1a;-)</p> <p>\u73b0\u5728\uff0cPyCon 2018 \u6210\u90fd\u7ad9 \u6d3b\u52a8\u5c06\u4e8e2018\u5e7410\u670827\u65e5\uff08\u661f\u671f\u516d\u4e0b\u5348\uff09\u4e3e\u884c\u3002</p>", 
     "detail_url": "city_chengdu.html", 
     "donators": null, 
     "intro": "", 
     "speakers": {
-      "id_hongqiangning": {
-        "avatar": "lecturer_hongqiangning.png", 
-        "intro": "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies.", 
-        "name": "Qiangning Hong", 
-        "title": "\u7231\u56e0\u4e92\u52a8\u521b\u59cb\u4eba\u517cCTO", 
+      "id_liguojian": {
+        "avatar": "lecturer_liguojian.png", 
+        "intro": "", 
+        "name": "Guojian Li", 
+        "title": "\u8d1d\u58f3\u91d1\u670d\u623f\u4ea7\u91d1\u878d\u6570\u636e\u90e8\u7814\u53d1\u8d1f\u8d23\u4eba", 
         "topic": {
           "preview": "...", 
           "slide": null, 
-          "title": "\u8fd916\u5e74\u6765\u6211\u4ecePython\u5b66\u5230\u4e86\u4ec0\u4e48"
+          "title": ""
+        }
+      }, 
+      "id_lizheao": {
+        "avatar": "lecturer_lizheao.png", 
+        "intro": "", 
+        "name": "Zheao Li", 
+        "title": "Manjusaka/\u95ea\u94f6\u5947\u5f02\u9ad8\u7ea7 Python \u5f00\u53d1", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": ""
+        }
+      }, 
+      "id_luoqihan": {
+        "avatar": "lecturer_luoqihan.png", 
+        "intro": "", 
+        "name": "Qihan Luo", 
+        "title": "ThoughtWorks\u8f6f\u4ef6\u5f00\u53d1\u5de5\u7a0b\u5e08", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": ""
+        }
+      }, 
+      "id_qinxuye": {
+        "avatar": "lecturer_qinxuye.png", 
+        "intro": "", 
+        "name": "Xuye Qin", 
+        "title": "\u963f\u91cc\u5df4\u5df4\u8ba1\u7b97\u5e73\u53f0\u4e8b\u4e1a\u90e8\u6280\u672f\u4e13\u5bb6", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": ""
+        }
+      }, 
+      "id_zhouxiaomao": {
+        "avatar": "lecturer_zhouxiaomao.png", 
+        "intro": "", 
+        "name": "Xiaomao Zhou", 
+        "title": "\u897f\u5b89\u827e\u6da6\u7269\u8054\u5f00\u53d1\u7ecf\u7406", 
+        "topic": {
+          "preview": "...", 
+          "slide": null, 
+          "title": ""
         }
       }
     }, 
@@ -571,10 +607,16 @@
     "title": "chengdu", 
     "volunteers": [
       {
-        "avatar": "chenshixin.png", 
-        "description": "PyChina\u53d1\u8d77\u4eba / Ahaschool-CTO", 
-        "name": "\u9648\u4e16\u6b23", 
-        "voltitle": "\u5317\u4eac\u7ad9 | \u7ec4\u59d4"
+        "avatar": "liuliu.png", 
+        "description": "\u9ad8\u7ea7\u5de5\u7a0b\u5e08", 
+        "name": "\u5218\u67f3", 
+        "voltitle": "\u5f00\u6e90\u7231\u597d\u8005"
+      }, 
+      {
+        "avatar": "lizheao.png", 
+        "description": "\u95ea\u94f6\u5947\u5f02-\u9ad8\u7ea7 Python \u5f00\u53d1", 
+        "name": "\u674e\u8005\u7488", 
+        "voltitle": "Manjusaka"
       }
     ]
   }, 
