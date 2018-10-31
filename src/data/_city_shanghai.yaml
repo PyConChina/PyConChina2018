@@ -37,51 +37,36 @@ agenda:
         topic_en: "Check-in"
       - time: "08:50～09:00"
         topic: "开场介绍"
-        topic_en: ""
       - time: "09:00～09:45"
         topic: "【机器智能的局限，从图像识别到自然语言处理】王晓雷 - ThoughtWorks - 算法科学家"
-        topic_en: ""
       - time: "09:45～10:30"
         topic: "【PyTorch入门指北】张校捷 - 英伟达 - 深度学习架构工程师"
-        topic_en: ""
       - time: "10:30～10:45"
         topic: "茶歇"
-        topic_en: ""
       - time: "10:45～11:30"
         topic: "【扩展Jupyter/IPythonNB，赋能你的云服务】丁来强 - 阿里云日志服务 - 上海团队负责人"
-        topic_en: ""
       - time: "11:30～11:45"
         topic: "【Python - Machine Learning vs Human Learning】（快速演讲）Jiyoon Lim - Coupang Data Analyst"
-        topic_en: ""
 
       - time: "11:45 ～ 13:00"
         topic: "午餐（大会提供工作快餐）"
-        topic_en: ""
 
       - time: "13:00 ～ 13:45"
         topic: "【Python从头实现以太坊】 - Jon - Yield.IM 创始人"
-        topic_en: ""
       - time: "13:45 ～ 14:30"
         topic: "【 区块链资产管理中的Python】陈晓优 - 上海韦恩开猿软件科技有限公司创始人"
-        topic_en: ""
       - time: "14:30 ～ 14:45"
         topic: "茶歇"
-        topic_en: ""
       - time: "14:45 ～ 15:30"
         topic: "【Type Hints 最佳实践】张佳圆 - 爱奇艺 - 后端开发工程师"
-        topic_en: ""
       - time: "15:30 ～ 16: 45"
         topic: "【 Python 文化中的接口和协议】- 赖信涛 - 蚂蚁金服 - SRE"
-        topic_en: ""
       - time: "16:45 ～ 17:00"
         topic: "【使用numba优化python代码】-吴江-易安信 - 资深工程师"
-        topic_en: ""
       - time: "17:00 ～ 17:15"
         topic: "【Pyenv 从入门到放弃——Python 多版本多环境实战】丁俊豪 - 上海绿岸网络科技 - DevOps"
-        topic_en: ""
       - time: "17:15 ～ 17:30"
         topic: "抽奖，拍照，留念"
-        topic_en: ""
 
 speakers:
   id_wangxiaolei:
@@ -285,9 +270,29 @@ speakers:
 
 volunteers:
   -
-    avatar: 'chenshixin.png'
-    name: '陈世欣'
-    voltitle: '北京站 | 组委'
-    description: 'PyChina发起人 / Ahaschool-CTO'
+    avatar: 'zhangxiaojie.png'
+    name: '张校捷'
+    voltitle: 'NVIDIA'
+    description: '深度学习架构工程师'
+  -
+    avatar: 'shiyuankun.png'
+    name: '石元坤'
+    voltitle: '英特尔'
+    description: '软件工程师'
+  -
+    avatar: 'dinjunhao.png'
+    name: '丁俊豪/挨踢小胖'
+    voltitle: '赛可出行'
+    description: 'DevOps'
+  -
+    avatar: 'huzhiqiang.png'
+    name: '胡志强'
+    voltitle: '西部期货邮箱公司'
+    description: '工程师'
+  -
+    avatar: 'zhangzhijun.png'
+    name: '张志军/water'
+    voltitle: '复星有叻信息科技公司'
+    description: '技术总监'
 
 donators:

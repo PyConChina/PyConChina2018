@@ -11,79 +11,110 @@ city_icon: 'chengdu_icon.png'
 detail_url: "city_chengdu.html"
 detail_url_en: "city_chengdu.html"
 buy_ticket_url: 'http://www.huodongxing.com/go/pyconcd2018'
-description: ""
+description: "<p>「和我在成都的街头走一走，走到灯都熄灭了也不停留」赵雷来了又走了，《人间成都》在朋友圈火了又淡下去了。唯独 PyCon China 似乎遗忘了成都。</p>
+<p>但是这一次，我们来了。PyCon China 2018 ChengDu 将在10月27日在蓉举办。这一次，PyCon China 会带上一丝来自西南的火锅气。</p>
+<p>所以，有兴趣吗？来聊聊大家感兴趣的话题，不管是你是想分享自己在各种领域应用 Python 的最佳实践，亦或者是想安安静静的当一个听众，我们成都的开发者都会给你扎起场子（此处请用四川话）</p>
+<p>拜水都江堰，问道青城山，科华北路吃晚饭，也许这次还可以来犀浦交大参个会？好了，10.27 我们不见不散。</p>
+<p>诶，对了，要是您公司有兴趣来赞助我们，或者请大家吃个火锅，喝个茶，茶馆里搓个麻将的话，可以联系我们市场负责人 Cynthia Xin （辛庆）：微信号：18516094658</p>
+<p>PyCon 是全球Pythonista最盛大的年度聚会，由 PSF(Python 基金会)支持，致力于营造愉快的、多元化的Python技术主题大会。PyCon China是由 CPyUG (华蠎用户组)获得授权举办的中国 PyCon 年会。无论您使用哪种编程语言, 都欢迎来参加这场完全由 Python 中国社区组织的欢乐集会;-)</p>
+<p>现在，PyCon 2018 成都站 活动将于2018年10月27日（星期六下午）举行。</p>"
 agenda:
   -
-    name: '主会场'
+    name: "主会场"
+    name_en: "The main venue"
     detail:
-      -        
-        time: '13:00～13:30'
-        topic: '签到 / 暖场介绍'
-      -
-        time: '13:30～14:15'
-        topic: 'Python在工程实践中的应用 - 罗启涵 - ThoughtWorks 软件开发工程师'
-      -
-        time: '14:15～15:00'
-        topic: 'Python在嵌入式系统开发中的应用 -  周小毛 - 西安艾润物联开发经理'
-      -
-        time: '15:00～15:15'
-        topic: ' 茶歇'
-      -
-        time: '15:15～16:00'
-        topic: 'Mars——基于矩阵的统一计算框架 - 秦续业 - 阿里巴巴计算平台事业部 技术专家'
-      -
-        time: '16:00～16:45'
-        topic: '去 async/await 之路 - 李者璈 / Manjusaka - 闪银奇异 高级 Python 开发'
-      -
-        time: '16:45～17:00'
-        topic: 'Databot:数据驱动开发框架介绍 - 李国建 - 贝壳金服房产金融数据部研发负责人'
-      -
-        time: '17:00～17:15'
-        topic: '抽奖，合影，交流'
+      - time: "13:00-13:30"
+        topic: "签到 / 暖场介绍"
+      - { time: "13:30-14:15", speaker: id_luoqihan }
+      - { time: "14:15-15:00", speaker: id_zhouxiaomao }
+      - { time: "15:00-15:15", topic: "茶歇" }
+      - { time: "15:15-16:00", speaker: id_qinxuye }
+      - { time: "16:00-16:45", speaker: id_lizheao }
+      - { time: "16:45-17:00", speaker: id_liguojian }
+      - { time: "17:00-17:15", topic: "抽奖，合影，交流" }
 
 speakers:
-  -
-    id_luoqihan:
-      name: '罗启涵'
-      avatar: 'lecturer_luoqihan.png'
-      title: 'ThoughtWorks软件开发工程师'
-      intro: '目前供职于某海外银行项目， 负责后台数据系统开发工作。曾就职于华为，赛门铁克/Veritas。'
-      topic:
-        title: 'Python类型检查机制在工程实践中的应用'
-        preview: '演讲主要侧重于python类型检查，在工程实践中的应用。利用Pytho的类型注解，帮助我们在真实生产环境开发出更高质量的代码，避免动态语言在大型工程项目中的代码坏味道（code smell）以及高效的重构。本次演讲会介绍采用类型注解带来的好处，以及在Python中它是如何运作的。深入理解Python的类型检查机制。'
-  -
-    id_qinxvye:
-      name: '秦续业'
-      avatar: 'lecturer_qinxvye.png'
-      title: '阿里巴巴计算平台事业部 技术专家'
-      intro: '主要工作是将 Python 生态和大数据环境进行结合。过去工作包含编写了 pyodps DataFrame 框架，这个框架能让用户编写类似 pandas 的代码，但支持在 MaxCompute 大数据平台、pandas 和传统数据库上执行。现在的工作主要是 Mars，这是一个基于矩阵的统一计算框架，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。未来会将 pandas 和 scikit-learn 分布式化。'
-      topic:
-        title: 'Mars——基于矩阵的统一计算框架'
-        preview: '基于矩阵的统一计算框架 Mars，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。目前，Mars 兼容 70% 常见 Numpy 接口。本次分享会介绍目前我们的工作，会介绍 Mars 的实现原理，并且对未来的上层建筑包括 DataFrame 和机器学习进行展望。'
-  -
-    id_zhouxiaomao:
-      name: '周小毛'     
-      avatar: 'lecturer_zhouxiaomao.png'
-      title: '艾润物联开发经理'
-      intro: '目前在西安艾润物联网技术服务有限责任公司线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。'
-      topic:
-        title: 'Python 在嵌入式系统开发中的应用'
-        preview: '主要结合本人工作经历，阐述 Python 在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：1.嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。 2.Python 能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用 Python，具体包括后台 web 开发，即时通信开发，GUI开发等等 3.比较 Python 开发相对于传统嵌入式开发的优势。 4.简单阐述嵌入式开发使用 Python 的基本流程，主要阐述 Python 开发环境的搭建过程。 5.最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。'
-  -
-    id_liguojian:
-      name: '李国建'
-      avatar: 'lecturer_liguojian.png'
-      title: '贝壳金服 房产金融数据部 研发负责人'
-      intro: '目前就职贝壳金服，负责房产金融数据研发部门。曾就职于亚信，点融网，在企业应用，金融大数据研发方面有丰富经验'
-      topic:
-        title: 'Databot:数据驱动开发框架介绍'
-        preview: '开源项目Databot(https://github.com/kkyon/databot)是基于asyncio和queue封装，数据驱动开发框架。能够满足数据工程师快速构造数据脚本，并且保证模块化，灵活性，和高性能。演讲中会介绍项目基本情况，和框架实现原理。并会举例如何基于databo如何快速实现框架在爬虫，ETL,等数据处理场景中的使用案例。以及未来开源项目的发展方向。'
+  id_luoqihan:
+    name: 罗启涵
+    name_en: Qihan Luo
+    avatar: lecturer_luoqihan.png
+    title: "ThoughtWorks软件开发工程师"
+    intro:  "目前供职于某海外银行项目， 负责后台数据系统开发工作。曾就职于华为，赛门铁克/Veritas。"
+    intro_en: ""
+    topic:
+      title: "Python类型检查机制在工程实践中的应用"
+      title_en: ''
+      preview: "演讲主要侧重于python类型检查，在工程实践中的应用。利用Pytho的类型注解，帮助我们在真实生产环境开发出更高质量的代码，避免动态语言在大型工程项目中的代码坏味道（code smell）以及高效的重构。本次演讲会介绍采用类型注解带来的好处，以及在Python中它是如何运作的。深入理解Python的类型检查机制。"
+      preview_en: ...
+      slide: #
+  id_qinxuye:
+    name: 秦续业
+    name_en: Xuye Qin
+    avatar: lecturer_qinxuye.png
+    title: "阿里巴巴计算平台事业部技术专家"
+    intro:  "主要工作是将 Python 生态和大数据环境进行结合。过去工作包含编写了 pyodps DataFrame 框架，这个框架能让用户编写类似 pandas 的代码，但支持在 MaxCompute 大数据平台、pandas 和传统数据库上执行。现在的工作主要是 Mars，这是一个基于矩阵的统一计算框架，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。未来会将 pandas 和 scikit-learn 分布式化。"
+    intro_en: ""
+    topic:
+      title: "Mars——基于矩阵的统一计算框架"
+      title_en: ''
+      preview: "基于矩阵的统一计算框架 Mars，目标把 PyData 的生态带到分布式执行环境，目前支持 Numpy 接口，能在分布式环境执行多维数组操作，它支持在 GPU 上运行，且支持二维稀疏矩阵。目前，Mars 兼容 70% 常见 Numpy 接口。本次分享会介绍目前我们的工作，会介绍 Mars 的实现原理，并且对未来的上层建筑包括 DataFrame 和机器学习进行展望。"
+      preview_en: ...
+      slide: #
+  id_zhouxiaomao:
+    name: 周小毛
+    name_en: Xiaomao Zhou
+    avatar: lecturer_zhouxiaomao.png
+    title: "西安艾润物联开发经理"
+    intro: "目前在艾润物联线下产品担任开发经理，曾就职于杭州海康威视，工作后一直从事嵌入式软件开发，主要涉及摄像机sensor驱动开发、智能门禁系统开发和智能停车场软件开发。"
+    intro_en: ""
+    topic:
+      title: "Python在嵌入式系统开发中的应用"
+      title_en: ''
+      preview: "演讲主要结合本人工作经历，阐述python在嵌入式软件开发过程中的实际运用。具体会分为以下几个部分：
+1.嵌入式开发包含哪些内容，主要包括驱动层和应用层开发。
+2.Python能做嵌入式开发中的哪些东西，嵌入式开发的应用层开发都可使用python，具体包括后台web开发，即时通信开发，GUI开发等等
+3.比较python开发相对于传统嵌入式开发的优势。
+4.简单阐述嵌入式开发使用python的基本流程，主要阐述python开发环境的搭建过程。
+5.最后展示具体应用，智能车场系统管理展示，PLC通信读写操作展示。"
+      preview_en: ...
+      slide: #
+  id_lizheao:
+    name: 李者璈
+    name_en: Zheao Li
+    avatar: lecturer_lizheao.png
+    title: "Manjusaka/闪银奇异高级 Python 开发"
+    intro: ""
+    intro_en: ""
+    topic:
+      title: "去 async/await 之路"
+      title_en: ''
+      preview: "从15年到现 async/await 也诞生3个年头了，闪银也在 async/await 上探索1年多了。这次分享我将向大家讲诉 async/await 的前世今生，同时分享我们这一年多以来所遇到的各类意想不到的坑点。"
+      preview_en: ...
+      slide: #
+  id_liguojian:
+    name: 李国建
+    name_en: Guojian Li
+    avatar: lecturer_liguojian.png
+    title: "贝壳金服房产金融数据部研发负责人"
+    intro: "目前就职贝壳金服，负责房产金融数据研发部门。曾就职于亚信，点融网，在企业应用，金融大数据研发方面有丰富经验"
+    intro_en: ""
+    topic:
+      title: "Databot:数据驱动开发框架介绍"
+      title_en: ''
+      preview: "开源项目Databot(https://github.com/kkyon/databot)是基于asyncio和queue封装，数据驱动开发框架。能够满足数据工程师快速构造数据脚本，并且保证模块化，灵活性，和高性能。演讲中会介绍项目基本情况，和框架实现原理。并会举例如何基于databo如何快速实现框架在爬虫，ETL,等数据处理场景中的使用案例。以及未来开源项目的发展方向"
+      preview_en: ...
+      slide: #
 
 volunteers:
   -
-    avatar: 'chenshixin.png'
-    name: '陈世欣'
-    voltitle: '北京站 | 组委'
-    description: 'PyChina发起人 / Ahaschool-CTO'
+    avatar: 'liuliu.png'
+    name: '刘柳'
+    voltitle: '开源爱好者'
+    description: '高级工程师'
+  -
+    avatar: 'lizheao.png'
+    name: '李者璈'
+    voltitle: 'Manjusaka'
+    description: '闪银奇异-高级 Python 开发'
 
 donators:

@@ -6,65 +6,170 @@ time_en: <b>Time</b>：2018.10.27
 address: <b>活动地址</b>：广东省深圳市南山区科苑路15号深圳科兴科学园国际会议中心3楼
 address_en: <b>Address</b>：(Guangdong, Shenzhen)3rd Floor, Shenzhen Kexing Science Park International Conference Center, NO.15,  Keyuan Road, Nanshan District
 intro: ""
-tips: <b>大会日程</b><p>2018年10月27日 （ * 因为场地限制，本次大会将不提供午餐）</p>
+tips: <b>大会日程</b><p>2018年10月27日 （ * 女性 Pythoneer 注意啦，本次大会将会为女同胞准备特别惊喜，不要忘记向志愿者索取哦。）</p>
 city_icon: 'shenzhen_icon.png'
 detail_url: "city_shenzhen.html"
 detail_url_en: "city_shenzhen.html"
 buy_ticket_url: 'http://www.huodongxing.com/go/pycon2018sz'
-description: ""
+description: "<p>来了就是深圳人，来了就是Pythoneer！ PyCon又要在深圳与大家见面了. 近年来随着大数据，AI等技术的发展，一向低调的python已经逐渐坐上了编程语言的第一把交椅．在这座诞生了华为，腾讯等一线互联网公司的城市里，或许下一个风口就诞生于Python,诞生于PyCon的交流中．希望与你相约于PyCon深圳，不管是以讲师的睿智，还是听众的热情，让我们认识那个卓尔不凡的你．</p>
+<p>PyCon 是全球Pythonista最盛大的年度聚会，致力于营造愉快的、多元化的Python技术主题大会。PyCon China是由 CPyUG(华蠎用户组)获得授权举办的中国PyCon年会。无论您使用哪种编程语言, 都欢迎来参加这场完全由Python中国社区组织的欢乐集会;-)</p>
+<p>现在，PyCon 2018 深圳站 活动将于2018年10月27日（星期六全天）举行。</p>"
 agenda:
   -
     name: "主会场"
+    name_en: "The main venue"
     detail:
-      - time: "09:00-09:20"
-        topic: "开场致词—致敬 Pythoneer"
-        topic_en: "Check-in"
-
-  -
-    name: '分会场A：Python 语言特性专场'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-  -
-    name: '分会场B: 人工智能 & 大数据 & 区块链'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-  -
-    name: '分会场C: 架构 & Web后端 & 运维专场'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
-  -
-    name: '分会场D: Python 女性专场'
-    detail:
-      - time: "10:30-11:40"
-        topic: "茶歇"
-        topic_en: "Tea Break"
+      - time: "08:30～08:50"
+        topic: "签到"
+      - time: "08:50～09:00"
+        topic: "暖场介绍"
+      - { time: "09:00～09:45", speaker: id_lilong }
+      - { time: "09:45～10:30", speaker: id_heshiyou }
+      - { time: "10:30～11:15", speaker: id_hejian }
+      - { time: "11:15～12:00", speaker: id_river4 }
+      - { time: "12:00～13:00", topic: "午间休息" }
+      - { time: "13:00～13:45", speaker: id_dama }
+      - { time: "13:45～14:30", speaker: id_chenshaoshen }
+      - { time: "14:30～14:45", topic: "休息 - 武术表演" }
+      - { time: "14:45～15:30", speaker: id_huangyi }
+      - { time: "15:30～16:15", speaker: id_zhuyehua }
+      - { time: "16:15～17:00", speaker: id_anqur }
+      - { time: "17:00 - 17:10", topic: "会议结束，抽奖，合影" }
 
 speakers:
-  id_hongqiangning:
-    name: 洪强宁
-    name_en: Qiangning Hong
-    avatar: lecturer_hongqiangning.png
-    title: "爱因互动创始人兼CTO"
-    intro:  "爱因互动创始人兼CTO，编程三十余年，12年互联网从业经验，商用对话机器人创业中。曾任豆瓣首席架构师、宜信大数据创新中心首席架构师。资深 Python 开发者，为中国Python用户组（CPUG）的创立者之一。豆瓣网首名全职员工，负责系统架构，经历了豆瓣从日PV十万到数亿的过程，积累了深厚的大规模网站架构经验。曾主导豆瓣内部 PaaS 系统 DAE 和宜信金融容器云 Lain 的建设，有丰富的容器云和微服务架构经验。目前主要关注方向在聊天机器人(chatbot)、云计算、容器技术、微服务、安全技术上。 "
-    intro_en: "founder and CTO of einplus, has been programming for more than 30 years, 12 years of experience in the Internet industry, and currently in the commercial dialogue robot entrepreneurship. Former Chief Architect of Douban and Chief Architect of CreditEase Big Data Innovation Center. A veteran Python developer who is one of the founders of the Chinese Python User Group (CPUG). He is the first full-time employee of Douban, and responsible for the system architecture. He has experienced the process of watercress from 100,000 to hundreds of millions of PVs, and has accumulated a profound experience in large-scale website architecture. He has led the construction of Douban internal PaaS system DAE and Credit Suisse financial container cloud Lain, with rich experience in container cloud and microservice architecture. His current focus is on chatbot, cloud computing, container technology, microservices, and security technologies."
+  id_dama:
+    name: Zoom.Quiet (大妈)
+    name_en: Zoom.Quiet
+    avatar: lecturer_dama.png
+    title: "北京优视眼动科技 CTO"
+    intro:  '<p>江湖人称大妈的大妈 Pythoneer ;-)</p>
+<p>Python 中文社区创始人 / 管理员,热心于python社区的公益事业,大家熟知的社区"大妈";OBP及蟒营工程设计者 /主持人;参与并主持各种线上 / 线下活动,主持编撰了 "可爱的Python";坚持用 Pythonic 感化国人进入 FLOSS世界进行学习 / 分享 / 创造!</p>'
     topic:
-      title: "这16年来我从Python学到了什么"
-      title_en: '这16年来我从Python学到了什么'
-      preview: "从2002年开始接触Python以来，一晃已经16年了，Python从一门极其冷门的小众语言发展成了流行度第三的大众语言（TIOBE Index2018年9月数据），甚至成了引领下次产业革命的人工智能领域首选语言。这期间，我本人也从一个Python 爱好者，变成以Python为主要工作语言的程序员，变成为Python程序员提供服务的架构师，变成为多语言程序员提供服务的架构师，直到变成创业者兼CTO。一路走来，Python都是我的最爱，也是当前创业的利器。本次演讲，我无意挑起语言圣战，单讲我在学习和使用Python过程中，有些什么领悟，希望能给大家一些启发。"
-      preview_en: ...
+      title: "但行好事 莫问前程"
+      preview: ""
       slide: #
+
+  id_lilong:
+    name: 李隆
+    name_en: Long Li
+    avatar: lecturer_lilong.png
+    title: "(debugtalk） 大疆创新测试 开发负责人"
+    intro:  "李隆（debugtalk），DebugTalk 博主，HttpRunner 作者。7年软件测试行业经历，重度 Python 爱好者，始终致力于 Python 在软件测试领域的应用和推广。信奉 Python 之禅，追求代码的简洁和优雅，于人生亦然。当前在大疆创新负责测试开发方面的工作。"
+    topic:
+      title: "借助 Python 开源生态打造企业级自动化测试框架（HttpRunner）"
+      preview: "- Python 在软件测试领域的生态
+- HttpRunner 的诞生背景
+- HttpRunner 的开发设计思路
+- 基于 HttpRunner 的自动化测试方案
+- 基于 HttpRunner 的成功实践案例"
+      slide: #
+
+  id_heshiyou:
+    name: 何世友
+    name_en: Shiyou He
+    avatar: lecturer_heshiyou.png
+    title: "爱范儿 CTO"
+    intro:  "爱范儿 CTO、知晓云负责人，大学开始创业，先后参与过多个创新创业项目。资深移动互联网应用专家，擅长架构设计，专注云计算、机器学习及移动开发。"
+    topic:
+      title: "用 Python 打造 Serverless 平台，从 0 到 1"
+      preview: "近年来，应用形态逐渐朝着 PWA、小程序等范客户端形态发展；云计算则朝着 BaaS + FaaS 的 Serverless 无服务架构大步迈进。本次分享向大家介绍爱范儿团队在用 Python 打造小程序领域的 Serverless 平台知晓云的过程中遇到的挑战和收获，以及对接下来的云计算形态的展望。"
+      slide: #
+
+  id_hejian:
+    name: 和坚
+    name_en: Jian He
+    avatar: lecturer_hejian.png
+    title: "ThoughtWorks 咨询师 前互联网金融公司CTO"
+    intro:  "十多年IT从业经验，从技术到金融，从金融到风控，从风控到互联网，从互联网到咨询。不断走出舒适区，体验多维的人生。"
+    topic:
+      title: "只能用 Java 做微服务？Python 也可以"
+      preview: "由于种种原因，很多时候说到微服务貌似使用的语言只有 Java，其实微服务的初衷是希望不同的服务能够根选择自己擅长或者喜欢的语言来开发。这个话题就想聊聊用 Python 怎么微服务，主要内容有为什么要使用 Python 来做微服务，使用 Python 如何设计一个微服务架构，有了架构在实现的时候如何编写 Python 微服务，最后简单介绍一下在部署微服务的时候应该注意些什么。希望通过这个话题能够让大家能够建立一个 Python 微服务的体系，在某些场景下能够利用 Python 的优势快速实现基于微服务架构的应用。"
+      slide: #
+
+  id_river4:
+    name: river4
+    name_en: river4
+    avatar: lecturer_river4.png
+    title: "优趣天下 创始人"
+    intro:  "优趣天下创始人，全球最流行的安卓 Python 应用 QPython 作者，前Zynga高级开发工程师、前绿盟科技产品经理、前新浪邮件高级开发工程师。"
+    topic:
+      title: "安卓上编译 Python 实践笔记"
+      preview: "通过分享在安卓上移植编译 Python 的实践经验与大家一起深入 Python 这个软件工程的结构设计，以及如何阅读 Python 源码，甚至扩展 Python 代码。
+涵盖的内容包括
+- 在安卓平台运行 Python 的意义
+- 安卓平台与标准 Linux 平台的一些共同点和差异
+- 编译工具链的方案及一些问题
+- Python 代码结构
+- 怎么运营一个基于编程工具的社区"
+      slide: #
+
+  id_chenshaoshen:
+    name: 陈绍琛
+    name_en: Shaoshen Chen
+    avatar: lecturer_chenshaoshen.png
+    title: "深圳花果山科技有限公司技术总监"
+    intro:  "2009年毕业于哈尔滨工程大学硕士学位。曾就职于诺基亚，华为等公司，2013年初加入深圳花果山科技有限公司工作至今。爱好编程，中医，传统武术等。"
+    topic:
+      title: "Python 在中小电商的应用与实践"
+      preview: "以一个 Pythoneer 的角度见证一个电商5年的沉浮发展，分享在此过程中如何利用各种开源方案解决性能优化，如何在不断变化的业务与不断调整的商业模型中为公司提供高效的工具让其处于有利的竞争地位。探讨80后程序员在不断发展的形势面前如何保持自己的竞争力，如何组建自己的团队，如何健康的生活。"
+      slide: #
+
+  id_huangyi:
+    name: 黄毅
+    name_en: Huangyi
+    avatar: lecturer_huangyi.png
+    title: "风雷互动 CTO"
+    intro:  "10多年的老 Pythoneer，从事过 Web 前后端，手游前后端，游戏引擎开发，杂七杂八的编程语言，从码农到 CTO。近年来深入研究区块链相关技术。"
+    topic:
+      title: "Python 和公链开发"
+      preview: "- 使用 Python 开发并实现Cardano（区块链）项目。
+- 对比 Python 和 Haskell 语言在区块链项目方面的特点。
+- 介绍 Cardano 项目本身的开发细节。"
+      slide: #
+
+  id_zhuyehua:
+    name: 朱烨华（Ed Zhu）
+    name_en: Ed Zhu
+    avatar: lecturer_zhuyehua.png
+    title: "深圳领脉科技 CEO"
+    intro:  "斯坦福大学计算机科学专业，虚拟化和云计算专家，拥有多项云计算研发专利。曾任职全球数据存储行业龙头企业EMC技术总监等"
+    topic:
+      title: "用 Python 和深度学习构建下一代聊天机器人"
+      preview: "深度学习框架下维护聊天助手个性一致的技术框架，很明显还可以衍生出很多种其他方案，但是技术思路应该是类似的，核心思想是把聊天助手的个性信息在Decoder 阶段能够体现出来，以达到维护个性一致的目的。"
+      slide: #
+
+  id_anqur:
+    name: Anqur
+    name_en: Anqur
+    avatar: lecturer_anqur.png
+    title: "华为 网络产品开发工程师"
+    intro:  "Python 爱好者, 关注系统编程领域. 14 年蟒营接触 Python 至今, 本科毕业第一个月的新工程狮一枚, 珠海 GDG 活跃分子. "
+    topic:
+      title: "浅谈 Python 事件循环与协程"
+      preview: "在异步编程领域 Python 有着十几年的经验和积累, 从 asyncore, futures 到 tasks, coroutines, Python 3.x 的异步能力围绕着 asnycio 在近几年内迅猛提升. 本演讲主题从一个极小的疑问发起, 浅谈协程与事件循环在 Python 中的联系与实践。"
+      slide: #
+
 
 volunteers:
   -
-    avatar: 'chenshixin.png'
-    name: '陈世欣'
-    voltitle: '北京站 | 组委'
-    description: 'PyChina发起人 / Ahaschool-CTO'
+    avatar: 'spawnris.png'
+    name: 'Spawnris'
+    voltitle: '深圳站 | 组委'
+    description: 'PyChina 发起人'
+  -
+    avatar: 'liuzhijun.png'
+    name: '刘志军'
+    voltitle: '有宝科技有限公司'
+    description: '高级Python开发工程师'
+  -
+    avatar: 'shenshaoshen.png'
+    name: '陈绍琛'
+    voltitle: '深圳花果山科技有限公司'
+    description: '技术总监'
+  -
+    avatar: 'daishaofei.png'
+    name: '代少飞'
+    voltitle: '小橙奔跑'
+    description: '高级 Python 开发工程师'
 
 donators:
