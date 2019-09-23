@@ -1193,7 +1193,7 @@
   "lang_suffix": "_en", 
   "nav": [
     {
-      "title": "HOME2018", 
+      "title": "HOME", 
       "url": "en/index.html"
     }, 
     {
@@ -1262,8 +1262,34 @@
       "title": "HISTORY"
     }, 
     {
-      "title": "NEWS", 
-      "url": "en/index.html"
+      "children": [
+        {
+          "title": "Beijing", 
+          "url": "https://shimo.im/docs/QgPUss7mLQYTOjWe/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "Shanghai", 
+          "url": "https://shimo.im/docs/snRnlx0NWCA2zuG7/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "Shenzhen", 
+          "url": "https://shimo.im/docs/Y0483j9UztooVYaQ/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "Chengdu", 
+          "url": "https://shimo.im/docs/qkxFxjQgLzMyjl7W/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "Hangzhou", 
+          "url": "https://shimo.im/docs/M0m31oLndqYdoXMc/read", 
+          "url_external": 1
+        }
+      ], 
+      "title": "Conference"
     }, 
     {
       "title": "ORGANIZER", 

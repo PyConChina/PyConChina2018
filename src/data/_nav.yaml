@@ -1,5 +1,5 @@
-- title: 首页2018
-  title_en: HOME2018
+- title: 首页
+  title_en: HOME
   url: "index.html"
   url_en: "en/index.html"
 - title: 大会日程
@@ -63,10 +63,34 @@
     url: "http://cn.pycon.org/2017/"
     url_en: "http://cn.pycon.org/2017/en/index.html"
     url_external: 1
-- title: 相关资讯
-  title_en: NEWS
-  url: "index.html"
-  url_en: "en/index.html"
+- title: 会议资料
+  title_en: Conference
+  children:
+  - title: 北京
+    title_en: Beijing
+    url: "https://shimo.im/docs/QgPUss7mLQYTOjWe/read"
+    url_en: "https://shimo.im/docs/QgPUss7mLQYTOjWe/read"
+    url_external: 1
+  - title: 上海
+    title_en: Shanghai
+    url: "https://shimo.im/docs/snRnlx0NWCA2zuG7/read"
+    url_en: "https://shimo.im/docs/snRnlx0NWCA2zuG7/read"
+    url_external: 1
+  - title: 深圳
+    title_en: Shenzhen
+    url: "https://shimo.im/docs/Y0483j9UztooVYaQ/read"
+    url_en: "https://shimo.im/docs/Y0483j9UztooVYaQ/read"
+    url_external: 1
+  - title: 成都
+    title_en: Chengdu
+    url: "https://shimo.im/docs/qkxFxjQgLzMyjl7W/read"
+    url_en: "https://shimo.im/docs/qkxFxjQgLzMyjl7W/read"
+    url_external: 1
+  - title: 杭州
+    title_en: Hangzhou
+    url: "https://shimo.im/docs/M0m31oLndqYdoXMc/read"
+    url_en: "https://shimo.im/docs/M0m31oLndqYdoXMc/read"
+    url_external: 1
 - title: 组委&志愿者
   title_en: ORGANIZER
   url: "organizer_detail.html"

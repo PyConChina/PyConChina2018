@@ -1193,7 +1193,7 @@
   "lang_suffix": "_cn", 
   "nav": [
     {
-      "title": "\u9996\u98752018", 
+      "title": "\u9996\u9875", 
       "url": "index.html"
     }, 
     {
@@ -1262,8 +1262,34 @@
       "title": "\u5f80\u5c4a\u56de\u987e"
     }, 
     {
-      "title": "\u76f8\u5173\u8d44\u8baf", 
-      "url": "index.html"
+      "children": [
+        {
+          "title": "\u5317\u4eac", 
+          "url": "https://shimo.im/docs/QgPUss7mLQYTOjWe/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "\u4e0a\u6d77", 
+          "url": "https://shimo.im/docs/snRnlx0NWCA2zuG7/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "\u6df1\u5733", 
+          "url": "https://shimo.im/docs/Y0483j9UztooVYaQ/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "\u6210\u90fd", 
+          "url": "https://shimo.im/docs/qkxFxjQgLzMyjl7W/read", 
+          "url_external": 1
+        }, 
+        {
+          "title": "\u676d\u5dde", 
+          "url": "https://shimo.im/docs/M0m31oLndqYdoXMc/read", 
+          "url_external": 1
+        }
+      ], 
+      "title": "\u4f1a\u8bae\u8d44\u6599"
     }, 
     {
       "title": "\u7ec4\u59d4&\u5fd7\u613f\u8005", 
